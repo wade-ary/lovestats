@@ -1,0 +1,3 @@
+scenario,zero_variation_pct,expected_cell_below_5_pct
+Plentiful counts,0.0,0.0
+Sparse counts,9.06,100.0

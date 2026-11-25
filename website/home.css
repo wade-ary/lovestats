@@ -1,0 +1,9 @@
+/* Homepage-only composition; experiment pages keep their existing layouts. */
+.home-masthead{max-width:1280px;margin:auto;padding:38px 48px 32px}
+.home-masthead h1{margin:0;line-height:1}
+.home-masthead .brand{font-size:34px}
+.home-masthead .brand i{font-size:36px}
+.gallery .card-copy{display:flex;flex-direction:column;justify-content:center;align-items:flex-start}
+.gallery .card-copy h2{margin-top:0}
+.gallery .experiment-list{padding-bottom:65px}
+@media(max-width:600px){.home-masthead{padding:28px 22px 25px}.home-masthead .brand{font-size:30px}.home-masthead .brand i{font-size:32px}.gallery .experiment-list{padding-bottom:40px}}

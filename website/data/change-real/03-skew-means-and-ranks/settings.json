@@ -1,0 +1,16 @@
+{
+  "seed": 20261127,
+  "repetitions": 20000,
+  "n_per_group": 100,
+  "alpha": 0.05,
+  "median": 30,
+  "log_sd": 1,
+  "broad_factor": 1.4,
+  "tail_probability": 0.05,
+  "tail_factor": 9,
+  "shared_draws_across_scenarios": true,
+  "mw_method": "asymptotic with continuity correction",
+  "python": "3.11.3",
+  "numpy": "1.26.4",
+  "scipy": "1.14.1"
+}

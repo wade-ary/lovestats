@@ -20,6 +20,16 @@
   "assumptions": "Fixed strengths, independent W/L matches, neutral venues, random standings ties.",
   "swiss_pairing": "Minimum total absolute wins difference, random tie weights, no rematches; no backtracking.",
   "paired_comparison": "League and league-plus-playoffs share each simulated league season.",
+  "objective": "Match championship shares to normalised rating-based strengths; minimise total variation distance.",
+  "target_formula": "q_i = 10**((R_i - max(R))/scale) / sum_j(10**((R_j - max(R))/scale))",
+  "benchmark_status": "Chosen fairness preference; not a FIFA title forecast.",
+  "primary_metric": "0.5 * sum_i(abs(observed_share_i - target_share_i))",
+  "secondary_metric": "Average champion rating gap (legacy objective).",
+  "noise_reference": {
+    "seed": 20261125,
+    "batches": 2000,
+    "meaning": "TV under multinomial samples from exact target; not a format confidence interval."
+  },
   "versions": {
     "numpy": "2.2.5",
     "pandas": "2.2.3",

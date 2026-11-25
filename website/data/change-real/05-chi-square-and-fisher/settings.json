@@ -1,0 +1,26 @@
+{
+  "seed": 20261129,
+  "repetitions": 20000,
+  "alpha": 0.05,
+  "scenarios": [
+    {
+      "scenario": "Plentiful counts",
+      "n_a": 500,
+      "n_b": 500,
+      "probability": 0.3
+    },
+    {
+      "scenario": "Sparse counts",
+      "n_a": 20,
+      "n_b": 100,
+      "probability": 0.02
+    }
+  ],
+  "pearson_correction": false,
+  "yates_correction": true,
+  "fisher_alternative": "two-sided",
+  "degenerate_policy": "Chi-square undefined, no rejection; retained in denominator",
+  "python": "3.11.3",
+  "numpy": "1.26.4",
+  "scipy": "1.14.1"
+}

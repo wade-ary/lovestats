@@ -1,0 +1,3724 @@
+{
+  "schema_version": 1,
+  "experiment": "is-the-change-real",
+  "parts": [
+    {
+      "id": "01-student-vs-welch",
+      "settings": {
+        "seed": 20261125,
+        "simulation_seed": 20261126,
+        "repetitions": 20000,
+        "alpha": 0.05,
+        "population_means": [
+          60,
+          60
+        ],
+        "distribution": "normal",
+        "scenarios": [
+          {
+            "scenario": "1 · Equal variability",
+            "n_a": 50,
+            "n_b": 50,
+            "sd_a": 5,
+            "sd_b": 5
+          },
+          {
+            "scenario": "2 · Unequal variability",
+            "n_a": 20,
+            "n_b": 100,
+            "sd_a": 15,
+            "sd_b": 5
+          }
+        ],
+        "python": "3.11.3",
+        "numpy": "1.26.4",
+        "scipy": "1.14.1",
+        "pandas": "2.3.1"
+      },
+      "metrics": [
+        {
+          "scenario": "1 · Equal variability",
+          "test": "Student",
+          "repetitions": 20000.0,
+          "false_positives": 1041.0,
+          "false_positive_pct": 5.205,
+          "mc_low_pct": 4.905663754190329,
+          "mc_high_pct": 5.521540756076084,
+          "mean_estimated_se": 0.9971745482679264,
+          "true_se": 1.0,
+          "coverage_pct": 94.795
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "test": "Welch",
+          "repetitions": 20000.0,
+          "false_positives": 1041.0,
+          "false_positive_pct": 5.205,
+          "mc_low_pct": 4.905663754190329,
+          "mc_high_pct": 5.521540756076084,
+          "mean_estimated_se": 0.9971745482679262,
+          "true_se": 1.0,
+          "coverage_pct": 94.795
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "test": "Student",
+          "repetitions": 20000.0,
+          "false_positives": 5614.0,
+          "false_positive_pct": 28.07,
+          "mc_low_pct": 27.451513225887552,
+          "mc_high_pct": 28.6969094755332,
+          "mean_estimated_se": 1.8423341759760228,
+          "true_se": 3.391164991562634,
+          "coverage_pct": 71.93
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "test": "Welch",
+          "repetitions": 20000.0,
+          "false_positives": 977.0,
+          "false_positive_pct": 4.885,
+          "mc_low_pct": 4.594829181213581,
+          "mc_high_pct": 5.192498232128739,
+          "mean_estimated_se": 3.348128679302737,
+          "true_se": 3.391164991562634,
+          "coverage_pct": 95.11500000000001
+        }
+      ],
+      "example_samples": [
+        {
+          "scenario": "1 · Equal variability",
+          "group": "A",
+          "minutes": 50.402266240892786
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "A",
+          "minutes": 58.157407512378846
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "A",
+          "minutes": 65.63066912723399
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "A",
+          "minutes": 65.080441723572
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "A",
+          "minutes": 53.25558499633288
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "A",
+          "minutes": 59.76166046932087
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "A",
+          "minutes": 59.98021291849973
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "A",
+          "minutes": 60.77506899696908
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "A",
+          "minutes": 62.38426070054924
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "A",
+          "minutes": 56.342065689561565
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "A",
+          "minutes": 61.53262983145373
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "A",
+          "minutes": 58.359571896509095
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "A",
+          "minutes": 59.70307081473696
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "A",
+          "minutes": 58.347611823422035
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "A",
+          "minutes": 59.5207112505055
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "A",
+          "minutes": 60.11811597042581
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "A",
+          "minutes": 63.188998844605756
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "A",
+          "minutes": 62.52512360484943
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "A",
+          "minutes": 62.3591044595112
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "A",
+          "minutes": 63.83495854287812
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "A",
+          "minutes": 64.95978996823274
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "A",
+          "minutes": 54.68195225776189
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "A",
+          "minutes": 53.291565234528505
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "A",
+          "minutes": 60.85732930172258
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "A",
+          "minutes": 61.239752445201034
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "A",
+          "minutes": 63.0766568443158
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "A",
+          "minutes": 63.89546216143009
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "A",
+          "minutes": 57.143850485237934
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "A",
+          "minutes": 54.76498777121964
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "A",
+          "minutes": 56.19732185626139
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "A",
+          "minutes": 64.05652688881193
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "A",
+          "minutes": 56.95851056840277
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "A",
+          "minutes": 59.53288875920931
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "A",
+          "minutes": 63.26003208304793
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "A",
+          "minutes": 52.7009409715971
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "A",
+          "minutes": 62.76800452266861
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "A",
+          "minutes": 64.65534725240117
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "A",
+          "minutes": 68.4089583783356
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "A",
+          "minutes": 56.72484286892338
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "A",
+          "minutes": 62.147032669018536
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "A",
+          "minutes": 67.82477964596092
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "A",
+          "minutes": 68.44769807655668
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "A",
+          "minutes": 67.28227875093158
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "A",
+          "minutes": 67.63262665629709
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "A",
+          "minutes": 57.95828014615179
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "A",
+          "minutes": 59.14666488589026
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "A",
+          "minutes": 73.69551868947711
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "A",
+          "minutes": 66.39655975286861
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "A",
+          "minutes": 59.62049706975552
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "A",
+          "minutes": 56.93753598181018
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "B",
+          "minutes": 66.56124582851929
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "B",
+          "minutes": 55.40922918919212
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "B",
+          "minutes": 59.320540976382084
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "B",
+          "minutes": 62.53098321846831
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "B",
+          "minutes": 57.7842258097819
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "B",
+          "minutes": 58.933741588868955
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "B",
+          "minutes": 57.894582566423594
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "B",
+          "minutes": 61.6513572578323
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "B",
+          "minutes": 65.61185801809619
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "B",
+          "minutes": 62.46937837286465
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "B",
+          "minutes": 46.5586390186434
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "B",
+          "minutes": 65.34712818013527
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "B",
+          "minutes": 68.80453567394007
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "B",
+          "minutes": 63.67279642998306
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "B",
+          "minutes": 60.26731156153967
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "B",
+          "minutes": 52.73799060914081
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "B",
+          "minutes": 57.346884827009944
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "B",
+          "minutes": 69.71207905337465
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "B",
+          "minutes": 57.12512536200781
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "B",
+          "minutes": 65.6244415539153
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "B",
+          "minutes": 61.38578013426729
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "B",
+          "minutes": 63.91052838594169
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "B",
+          "minutes": 56.875682563161796
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "B",
+          "minutes": 61.520775388134204
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "B",
+          "minutes": 55.19041446392126
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "B",
+          "minutes": 53.07857109274172
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "B",
+          "minutes": 57.09302496469609
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "B",
+          "minutes": 57.91540659568727
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "B",
+          "minutes": 51.23345762042152
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "B",
+          "minutes": 47.92260800194134
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "B",
+          "minutes": 66.87464787382987
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "B",
+          "minutes": 62.28577229779165
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "B",
+          "minutes": 54.93985468369252
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "B",
+          "minutes": 62.44398384406979
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "B",
+          "minutes": 59.7510284730743
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "B",
+          "minutes": 60.694793717700385
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "B",
+          "minutes": 62.85270542123118
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "B",
+          "minutes": 59.17557202986532
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "B",
+          "minutes": 60.73050768597237
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "B",
+          "minutes": 57.60618895327226
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "B",
+          "minutes": 56.89451444164449
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "B",
+          "minutes": 68.38281905315412
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "B",
+          "minutes": 64.53903166615504
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "B",
+          "minutes": 62.91085110080662
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "B",
+          "minutes": 57.07776272446216
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "B",
+          "minutes": 63.749619141014
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "B",
+          "minutes": 53.54936238267057
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "B",
+          "minutes": 56.80696243496855
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "B",
+          "minutes": 62.52018487301378
+        },
+        {
+          "scenario": "1 · Equal variability",
+          "group": "B",
+          "minutes": 52.23433216983849
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "A",
+          "minutes": 80.93589326023589
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "A",
+          "minutes": 65.8633247343893
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "A",
+          "minutes": 47.945301590598575
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "A",
+          "minutes": 33.83102663224359
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "A",
+          "minutes": 61.75762220068483
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "A",
+          "minutes": 79.70546745995108
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "A",
+          "minutes": 67.38264094568065
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "A",
+          "minutes": 35.81582095110203
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "A",
+          "minutes": 48.598421413594224
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "A",
+          "minutes": 62.86302210883759
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "A",
+          "minutes": 68.74441208901125
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "A",
+          "minutes": 68.15568305644936
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "A",
+          "minutes": 52.6937863138679
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "A",
+          "minutes": 65.17396094340978
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "A",
+          "minutes": 75.34093122152879
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "A",
+          "minutes": 57.559030278930514
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "A",
+          "minutes": 84.05071259559548
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "A",
+          "minutes": 72.27973349283666
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "A",
+          "minutes": 40.98138775131697
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "A",
+          "minutes": 65.91790648258295
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 58.39526645402591
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 74.03659251614644
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 62.37659698797339
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 57.90997637573162
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 56.81138383496327
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 65.210710091556
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 58.89734662581877
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 71.72592490068837
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 58.32422507258167
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 61.00130845927533
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 66.24583789690713
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 64.2624706451358
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 52.69162272965921
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 63.31457605313755
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 56.82490072545035
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 60.13922766522574
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 51.06413860688367
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 60.21885908731992
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 67.09138871790853
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 56.78476609533576
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 61.68423716958229
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 65.37529323886478
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 60.0698699385438
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 58.70233926701799
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 64.70158907618664
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 60.95681678959354
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 61.48575887582214
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 45.5634147789896
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 63.25271394976921
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 60.39086745335516
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 59.500518638870396
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 67.16227045007518
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 58.78066098648223
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 59.11822710887466
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 62.90100749007648
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 63.86468316236116
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 51.825651385113986
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 55.516377119839156
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 55.01542101053299
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 61.958855266744834
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 67.33912919509703
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 56.74729514407687
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 65.25630622585241
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 68.15337584733085
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 52.22329046670566
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 52.305966868085754
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 71.03263228958798
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 63.843936886702764
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 62.699582844289765
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 58.59788462261314
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 59.37591223260638
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 62.49348277831123
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 65.04883612342263
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 55.73470716444772
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 51.057446657708695
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 68.41645482430064
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 63.27576485218554
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 56.52734823006781
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 61.90115883755599
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 60.97911582900657
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 64.8590058236961
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 62.53217055800911
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 57.90942804652962
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 68.72299512205035
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 52.512098435215535
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 66.19974983566767
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 58.911123392943345
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 63.705940663860765
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 69.61362600878991
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 58.84641679143105
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 49.9323676016227
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 59.041577005098546
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 54.70949428917133
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 65.95919092417076
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 65.96741372219164
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 55.504879231742514
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 64.50005729575095
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 63.56847975543921
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 53.239096823411586
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 54.520352355179355
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 64.84044855498809
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 63.24969268657327
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 59.307445229992645
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 63.877276378484474
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 63.93163188878867
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 51.613362609649855
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 59.21285636606564
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 65.61321907599914
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 63.13336072716617
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 54.42305597604959
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 59.36917825302699
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 62.48638887447583
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 53.92924889922364
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 58.702365870012855
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 53.16707500910657
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 58.19799479210756
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 53.56654384672951
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 67.77021204590876
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 53.81685016857272
+        },
+        {
+          "scenario": "2 · Unequal variability",
+          "group": "B",
+          "minutes": 55.30018128195563
+        }
+      ]
+    },
+    {
+      "id": "02-paired-before-after",
+      "settings": {
+        "seed": 20261126,
+        "simulation_seed": 20261127,
+        "repetitions": 20000,
+        "n_pairs": 30,
+        "alpha": 0.05,
+        "baseline_mean": 60,
+        "noise_sd": 5,
+        "changes": [
+          -3,
+          0
+        ],
+        "scenarios": [
+          [
+            "Similar starting levels",
+            2
+          ],
+          [
+            "Different starting levels",
+            15
+          ]
+        ],
+        "common_random_numbers": true,
+        "python": "3.11.3",
+        "numpy": "1.26.4",
+        "scipy": "1.14.1"
+      },
+      "metrics": [
+        {
+          "scenario": "Similar starting levels",
+          "test": "Paired",
+          "true_change": -3.0,
+          "metric": "Power",
+          "repetitions": 20000.0,
+          "rejections": 12287.0,
+          "rejection_pct": 61.434999999999995,
+          "mc_low_pct": 60.758278696409896,
+          "mc_high_pct": 62.107329438986966,
+          "mean_estimated_change": -3.00705742217537,
+          "mean_estimated_se": 1.2795921453549326,
+          "true_se": 1.2909944487358056
+        },
+        {
+          "scenario": "Similar starting levels",
+          "test": "Ignoring pairs (Welch)",
+          "true_change": -3.0,
+          "metric": "Power",
+          "repetitions": 20000.0,
+          "rejections": 11375.0,
+          "rejection_pct": 56.875,
+          "mc_low_pct": 56.18737429599309,
+          "mc_high_pct": 57.559985208235474,
+          "mean_estimated_change": -3.00705742217537,
+          "mean_estimated_se": 1.3846846836933269,
+          "true_se": 1.2909944487358056
+        },
+        {
+          "scenario": "Similar starting levels",
+          "test": "Paired",
+          "true_change": 0.0,
+          "metric": "False positives",
+          "repetitions": 20000.0,
+          "rejections": 999.0,
+          "rejection_pct": 4.995,
+          "mc_low_pct": 4.701640265065932,
+          "mc_high_pct": 5.305644900344044,
+          "mean_estimated_change": -0.0070574221753699614,
+          "mean_estimated_se": 1.2795921453549326,
+          "true_se": 1.2909944487358056
+        },
+        {
+          "scenario": "Similar starting levels",
+          "test": "Ignoring pairs (Welch)",
+          "true_change": 0.0,
+          "metric": "False positives",
+          "repetitions": 20000.0,
+          "rejections": 666.0,
+          "rejection_pct": 3.3300000000000005,
+          "mc_low_pct": 3.0901675050890614,
+          "mc_high_pct": 3.5877571403877444,
+          "mean_estimated_change": -0.0070574221753699614,
+          "mean_estimated_se": 1.3846846836933269,
+          "true_se": 1.2909944487358056
+        },
+        {
+          "scenario": "Different starting levels",
+          "test": "Paired",
+          "true_change": -3.0,
+          "metric": "Power",
+          "repetitions": 20000.0,
+          "rejections": 12287.0,
+          "rejection_pct": 61.434999999999995,
+          "mc_low_pct": 60.758278696409896,
+          "mc_high_pct": 62.107329438986966,
+          "mean_estimated_change": -3.00705742217537,
+          "mean_estimated_se": 1.2795921453549326,
+          "true_se": 1.2909944487358056
+        },
+        {
+          "scenario": "Different starting levels",
+          "test": "Ignoring pairs (Welch)",
+          "true_change": -3.0,
+          "metric": "Power",
+          "repetitions": 20000.0,
+          "rejections": 12.0,
+          "rejection_pct": 0.06,
+          "mc_low_pct": 0.034327006692676625,
+          "mc_high_pct": 0.10485355459105336,
+          "mean_estimated_change": -3.00705742217537,
+          "mean_estimated_se": 4.048416500983178,
+          "true_se": 1.2909944487358056
+        },
+        {
+          "scenario": "Different starting levels",
+          "test": "Paired",
+          "true_change": 0.0,
+          "metric": "False positives",
+          "repetitions": 20000.0,
+          "rejections": 999.0,
+          "rejection_pct": 4.995,
+          "mc_low_pct": 4.701640265065932,
+          "mc_high_pct": 5.305644900344044,
+          "mean_estimated_change": -0.007057422175369961,
+          "mean_estimated_se": 1.2795921453549326,
+          "true_se": 1.2909944487358056
+        },
+        {
+          "scenario": "Different starting levels",
+          "test": "Ignoring pairs (Welch)",
+          "true_change": 0.0,
+          "metric": "False positives",
+          "repetitions": 20000.0,
+          "rejections": 0.0,
+          "rejection_pct": 0.0,
+          "mc_low_pct": 0.0,
+          "mc_high_pct": 0.019203605610462554,
+          "mean_estimated_change": -0.007057422175369961,
+          "mean_estimated_se": 4.048416500983178,
+          "true_se": 1.2909944487358056
+        }
+      ],
+      "example_pairs": [
+        {
+          "scenario": "Similar starting levels",
+          "person": 1.0,
+          "before": 54.96224300489515,
+          "after": 60.00533312891299,
+          "difference": 5.043090124017837
+        },
+        {
+          "scenario": "Similar starting levels",
+          "person": 2.0,
+          "before": 55.18834020214603,
+          "after": 53.70533470771958,
+          "difference": -1.4830054944264504
+        },
+        {
+          "scenario": "Similar starting levels",
+          "person": 3.0,
+          "before": 58.620417919295214,
+          "after": 64.0951796936664,
+          "difference": 5.474761774371181
+        },
+        {
+          "scenario": "Similar starting levels",
+          "person": 4.0,
+          "before": 60.29251973695561,
+          "after": 53.756965925232734,
+          "difference": -6.5355538117228775
+        },
+        {
+          "scenario": "Similar starting levels",
+          "person": 5.0,
+          "before": 52.11336968066221,
+          "after": 59.48783234871895,
+          "difference": 7.3744626680567436
+        },
+        {
+          "scenario": "Similar starting levels",
+          "person": 6.0,
+          "before": 57.294041397453945,
+          "after": 64.47794459843922,
+          "difference": 7.183903200985277
+        },
+        {
+          "scenario": "Similar starting levels",
+          "person": 7.0,
+          "before": 67.79520842759669,
+          "after": 62.59566242853508,
+          "difference": -5.199545999061613
+        },
+        {
+          "scenario": "Similar starting levels",
+          "person": 8.0,
+          "before": 69.76150917812518,
+          "after": 61.578275557110686,
+          "difference": -8.183233621014494
+        },
+        {
+          "scenario": "Similar starting levels",
+          "person": 9.0,
+          "before": 51.88455822903435,
+          "after": 63.184943453252814,
+          "difference": 11.300385224218466
+        },
+        {
+          "scenario": "Similar starting levels",
+          "person": 10.0,
+          "before": 66.46748166776786,
+          "after": 59.97284602439214,
+          "difference": -6.494635643375716
+        },
+        {
+          "scenario": "Similar starting levels",
+          "person": 11.0,
+          "before": 58.72140369079922,
+          "after": 62.27384770944715,
+          "difference": 3.5524440186479325
+        },
+        {
+          "scenario": "Similar starting levels",
+          "person": 12.0,
+          "before": 59.25146037463519,
+          "after": 48.50667907734294,
+          "difference": -10.74478129729225
+        },
+        {
+          "scenario": "Similar starting levels",
+          "person": 13.0,
+          "before": 59.99859744187196,
+          "after": 52.00892586977643,
+          "difference": -7.989671572095531
+        },
+        {
+          "scenario": "Similar starting levels",
+          "person": 14.0,
+          "before": 54.30537175736211,
+          "after": 58.714627390683766,
+          "difference": 4.409255633321656
+        },
+        {
+          "scenario": "Similar starting levels",
+          "person": 15.0,
+          "before": 59.804322324459925,
+          "after": 69.72729349953559,
+          "difference": 9.922971175075666
+        },
+        {
+          "scenario": "Similar starting levels",
+          "person": 16.0,
+          "before": 61.96154038525694,
+          "after": 54.80134326320015,
+          "difference": -7.160197122056786
+        },
+        {
+          "scenario": "Similar starting levels",
+          "person": 17.0,
+          "before": 61.46667924092931,
+          "after": 59.08226054446958,
+          "difference": -2.3844186964597327
+        },
+        {
+          "scenario": "Similar starting levels",
+          "person": 18.0,
+          "before": 53.414138749702886,
+          "after": 62.120603221019635,
+          "difference": 8.70646447131675
+        },
+        {
+          "scenario": "Similar starting levels",
+          "person": 19.0,
+          "before": 59.09885746237415,
+          "after": 57.478772317810936,
+          "difference": -1.6200851445632125
+        },
+        {
+          "scenario": "Similar starting levels",
+          "person": 20.0,
+          "before": 55.33632859710853,
+          "after": 55.99435268722943,
+          "difference": 0.6580240901208967
+        },
+        {
+          "scenario": "Similar starting levels",
+          "person": 21.0,
+          "before": 56.77265554653087,
+          "after": 51.87532126228944,
+          "difference": -4.897334284241431
+        },
+        {
+          "scenario": "Similar starting levels",
+          "person": 22.0,
+          "before": 50.70169355965004,
+          "after": 58.60224456197609,
+          "difference": 7.900551002326054
+        },
+        {
+          "scenario": "Similar starting levels",
+          "person": 23.0,
+          "before": 56.61698021267834,
+          "after": 69.86801209551197,
+          "difference": 13.25103188283363
+        },
+        {
+          "scenario": "Similar starting levels",
+          "person": 24.0,
+          "before": 60.23679119582689,
+          "after": 57.45569088404465,
+          "difference": -2.7811003117822395
+        },
+        {
+          "scenario": "Similar starting levels",
+          "person": 25.0,
+          "before": 64.04068450877944,
+          "after": 53.680843328617385,
+          "difference": -10.35984118016205
+        },
+        {
+          "scenario": "Similar starting levels",
+          "person": 26.0,
+          "before": 58.564857053487835,
+          "after": 50.1620223218645,
+          "difference": -8.402834731623336
+        },
+        {
+          "scenario": "Similar starting levels",
+          "person": 27.0,
+          "before": 64.07921848834097,
+          "after": 54.13122727844677,
+          "difference": -9.947991209894198
+        },
+        {
+          "scenario": "Similar starting levels",
+          "person": 28.0,
+          "before": 68.13170492155004,
+          "after": 52.6628882126289,
+          "difference": -15.468816708921139
+        },
+        {
+          "scenario": "Similar starting levels",
+          "person": 29.0,
+          "before": 60.574686274598605,
+          "after": 62.974178802346174,
+          "difference": 2.3994925277475687
+        },
+        {
+          "scenario": "Similar starting levels",
+          "person": 30.0,
+          "before": 56.61665530986369,
+          "after": 43.81442904906399,
+          "difference": -12.8022262607997
+        },
+        {
+          "scenario": "Different starting levels",
+          "person": 1.0,
+          "before": 50.09906523892812,
+          "after": 55.14215536294596,
+          "difference": 5.043090124017837
+        },
+        {
+          "scenario": "Different starting levels",
+          "person": 2.0,
+          "before": 51.86509814348037,
+          "after": 50.38209264905392,
+          "difference": -1.4830054944264504
+        },
+        {
+          "scenario": "Different starting levels",
+          "person": 3.0,
+          "before": 70.81985773110753,
+          "after": 76.29461950547872,
+          "difference": 5.4747617743711885
+        },
+        {
+          "scenario": "Different starting levels",
+          "person": 4.0,
+          "before": 78.38996694486826,
+          "after": 71.85441313314539,
+          "difference": -6.5355538117228775
+        },
+        {
+          "scenario": "Different starting levels",
+          "person": 5.0,
+          "before": 33.69968652565903,
+          "after": 41.074149193715776,
+          "difference": 7.3744626680567436
+        },
+        {
+          "scenario": "Different starting levels",
+          "person": 6.0,
+          "before": 58.23635197217957,
+          "after": 65.42025517316485,
+          "difference": 7.183903200985277
+        },
+        {
+          "scenario": "Different starting levels",
+          "person": 7.0,
+          "before": 92.22497189706195,
+          "after": 87.02542589800034,
+          "difference": -5.199545999061613
+        },
+        {
+          "scenario": "Different starting levels",
+          "person": 8.0,
+          "before": 81.2404924262138,
+          "after": 73.05725880519931,
+          "difference": -8.183233621014494
+        },
+        {
+          "scenario": "Different starting levels",
+          "person": 9.0,
+          "before": 29.664239840742717,
+          "after": 40.96462506496118,
+          "difference": 11.300385224218466
+        },
+        {
+          "scenario": "Different starting levels",
+          "person": 10.0,
+          "before": 80.92820076120537,
+          "after": 74.43356511782966,
+          "difference": -6.494635643375716
+        },
+        {
+          "scenario": "Different starting levels",
+          "person": 11.0,
+          "before": 50.72319058590795,
+          "after": 54.27563460455588,
+          "difference": 3.5524440186479325
+        },
+        {
+          "scenario": "Different starting levels",
+          "person": 12.0,
+          "before": 46.98314338846673,
+          "after": 36.23836209117448,
+          "difference": -10.74478129729225
+        },
+        {
+          "scenario": "Different starting levels",
+          "person": 13.0,
+          "before": 65.1705305346467,
+          "after": 57.18085896255117,
+          "difference": -7.989671572095531
+        },
+        {
+          "scenario": "Different starting levels",
+          "person": 14.0,
+          "before": 55.41656121971908,
+          "after": 59.825816853040735,
+          "difference": 4.409255633321656
+        },
+        {
+          "scenario": "Different starting levels",
+          "person": 15.0,
+          "before": 55.39251622475862,
+          "after": 65.31548739983428,
+          "difference": 9.92297117507566
+        },
+        {
+          "scenario": "Different starting levels",
+          "person": 16.0,
+          "before": 80.1764848367491,
+          "after": 73.01628771469233,
+          "difference": -7.160197122056772
+        },
+        {
+          "scenario": "Different starting levels",
+          "person": 17.0,
+          "before": 70.02849606014023,
+          "after": 67.6440773636805,
+          "difference": -2.3844186964597327
+        },
+        {
+          "scenario": "Different starting levels",
+          "person": 18.0,
+          "before": 50.66576249904404,
+          "after": 59.372226970360785,
+          "difference": 8.706464471316743
+        },
+        {
+          "scenario": "Different starting levels",
+          "person": 19.0,
+          "before": 61.58856513586989,
+          "after": 59.96847999130668,
+          "difference": -1.6200851445632125
+        },
+        {
+          "scenario": "Different starting levels",
+          "person": 20.0,
+          "before": 43.198877723628506,
+          "after": 43.8569018137494,
+          "difference": 0.6580240901208967
+        },
+        {
+          "scenario": "Different starting levels",
+          "person": 21.0,
+          "before": 53.70706146232645,
+          "after": 48.80972717808502,
+          "difference": -4.897334284241431
+        },
+        {
+          "scenario": "Different starting levels",
+          "person": 22.0,
+          "before": 59.44077133078793,
+          "after": 67.34132233311398,
+          "difference": 7.900551002326047
+        },
+        {
+          "scenario": "Different starting levels",
+          "person": 23.0,
+          "before": 65.91992362892945,
+          "after": 79.17095551176308,
+          "difference": 13.25103188283363
+        },
+        {
+          "scenario": "Different starting levels",
+          "person": 24.0,
+          "before": 68.90086824383629,
+          "after": 66.11976793205405,
+          "difference": -2.7811003117822395
+        },
+        {
+          "scenario": "Different starting levels",
+          "person": 25.0,
+          "before": 79.66064586926794,
+          "after": 69.3008046891059,
+          "difference": -10.359841180162036
+        },
+        {
+          "scenario": "Different starting levels",
+          "person": 26.0,
+          "before": 57.265470217327355,
+          "after": 48.86263548570402,
+          "difference": -8.402834731623336
+        },
+        {
+          "scenario": "Different starting levels",
+          "person": 27.0,
+          "before": 49.124451039459544,
+          "after": 39.17645982956534,
+          "difference": -9.947991209894205
+        },
+        {
+          "scenario": "Different starting levels",
+          "person": 28.0,
+          "before": 88.00483966639865,
+          "after": 72.5360229574775,
+          "difference": -15.468816708921153
+        },
+        {
+          "scenario": "Different starting levels",
+          "person": 29.0,
+          "before": 81.57166450061106,
+          "after": 83.97115702835863,
+          "difference": 2.3994925277475687
+        },
+        {
+          "scenario": "Different starting levels",
+          "person": 30.0,
+          "before": 36.89044258808234,
+          "after": 24.088216327282638,
+          "difference": -12.8022262607997
+        }
+      ]
+    },
+    {
+      "id": "03-skew-means-and-ranks",
+      "settings": {
+        "seed": 20261127,
+        "repetitions": 20000,
+        "n_per_group": 100,
+        "alpha": 0.05,
+        "median": 30,
+        "log_sd": 1,
+        "broad_factor": 1.4,
+        "tail_probability": 0.05,
+        "tail_factor": 9,
+        "shared_draws_across_scenarios": true,
+        "mw_method": "asymptotic with continuity correction",
+        "python": "3.11.3",
+        "numpy": "1.26.4",
+        "scipy": "1.14.1"
+      },
+      "metrics": [
+        {
+          "scenario": "Identical distributions",
+          "test": "Welch (means)",
+          "repetitions": 20000.0,
+          "rejections": 862.0,
+          "rejection_pct": 4.31,
+          "mc_low_pct": 4.037211977051176,
+          "mc_high_pct": 4.600336277755664
+        },
+        {
+          "scenario": "Identical distributions",
+          "test": "Mann–Whitney (ranks)",
+          "repetitions": 20000.0,
+          "rejections": 1014.0,
+          "rejection_pct": 5.07,
+          "mc_low_pct": 4.774489300018942,
+          "mc_high_pct": 5.382767059982619
+        },
+        {
+          "scenario": "Broad shift",
+          "test": "Welch (means)",
+          "repetitions": 20000.0,
+          "rejections": 9403.0,
+          "rejection_pct": 47.015,
+          "mc_low_pct": 46.32392347205499,
+          "mc_high_pct": 47.707222983199955
+        },
+        {
+          "scenario": "Broad shift",
+          "test": "Mann–Whitney (ranks)",
+          "repetitions": 20000.0,
+          "rejections": 12763.0,
+          "rejection_pct": 63.815,
+          "mc_low_pct": 63.14642939492604,
+          "mc_high_pct": 64.47826464884379
+        },
+        {
+          "scenario": "Rare big spenders",
+          "test": "Welch (means)",
+          "repetitions": 20000.0,
+          "rejections": 3146.0,
+          "rejection_pct": 15.73,
+          "mc_low_pct": 15.232002054534355,
+          "mc_high_pct": 16.241160096751056
+        },
+        {
+          "scenario": "Rare big spenders",
+          "test": "Mann–Whitney (ranks)",
+          "repetitions": 20000.0,
+          "rejections": 1662.0,
+          "rejection_pct": 8.309999999999999,
+          "mc_low_pct": 7.935403320752771,
+          "mc_high_pct": 8.700608645605232
+        }
+      ],
+      "population_truth": [
+        {
+          "scenario": "Identical distributions",
+          "mean_a": 49.461638121003844,
+          "mean_b": 49.461638121003844,
+          "probability_b_beats_a": 0.5,
+          "mean_lift_pct": 0.0
+        },
+        {
+          "scenario": "Broad shift",
+          "mean_a": 49.461638121003844,
+          "mean_b": 69.24629336940538,
+          "probability_b_beats_a": 0.5940291265808642,
+          "mean_lift_pct": 39.99999999999999
+        },
+        {
+          "scenario": "Rare big spenders",
+          "mean_a": 49.461638121003844,
+          "mean_b": 69.24629336940538,
+          "probability_b_beats_a": 0.5219934354956832,
+          "mean_lift_pct": 39.99999999999999
+        }
+      ],
+      "density": [
+        {
+          "dollars": 0.5,
+          "a": 0.00018270822987702853,
+          "broad": 4.3538711106943426e-05,
+          "rare": 0.00017357291963152318
+        },
+        {
+          "dollars": 0.5237128674599966,
+          "a": 0.00021064935756569318,
+          "broad": 5.098571438951078e-05,
+          "rare": 0.00020011701892987702
+        },
+        {
+          "dollars": 0.5485503350863438,
+          "a": 0.00024234259165356232,
+          "broad": 5.957842655827885e-05,
+          "rare": 0.00023022562669373998
+        },
+        {
+          "dollars": 0.574565737868422,
+          "a": 0.00027820628513315203,
+          "broad": 6.946997303629391e-05,
+          "rare": 0.0002642961801154764
+        },
+        {
+          "dollars": 0.6018149402466799,
+          "a": 0.00031869239981141735,
+          "broad": 8.083004326870723e-05,
+          "rare": 0.0003027580451974587
+        },
+        {
+          "dollars": 0.6303564560737105,
+          "a": 0.00036428732108933164,
+          "broad": 9.384606612079693e-05,
+          "rare": 0.0003460732908886701
+        },
+        {
+          "dollars": 0.6602515742645685,
+          "a": 0.00041551239697346483,
+          "broad": 0.00010872437346260876,
+          "rare": 0.00039473720126112776
+        },
+        {
+          "dollars": 0.691564490406148,
+          "a": 0.00047292415381486774,
+          "broad": 0.00012569133386582102,
+          "rare": 0.0004492784806001978
+        },
+        {
+          "dollars": 0.72436244460823,
+          "a": 0.0005371141396116766,
+          "broad": 0.00014499443589269787,
+          "rare": 0.0005102591047074783
+        },
+        {
+          "dollars": 0.7587158658922181,
+          "a": 0.00060870834471662,
+          "broad": 0.0001669032979969712,
+          "rare": 0.0005782737707700776
+        },
+        {
+          "dollars": 0.7946985234276153,
+          "a": 0.0006883661495735544,
+          "broad": 0.00019171057963092523,
+          "rare": 0.0006539488979446041
+        },
+        {
+          "dollars": 0.8323876849410032,
+          "a": 0.0007767787497809863,
+          "broad": 0.00021973276581758826,
+          "rare": 0.0007379411314450918
+        },
+        {
+          "dollars": 0.8718642826376819,
+          "a": 0.0008746670104531869,
+          "broad": 0.00025131079526400697,
+          "rare": 0.0008309353045139525
+        },
+        {
+          "dollars": 0.9132130869922664,
+          "a": 0.0009827787046208943,
+          "broad": 0.00028681050012953634,
+          "rare": 0.0009336418152887902
+        },
+        {
+          "dollars": 0.9565228887814301,
+          "a": 0.0011018850943715632,
+          "broad": 0.00032662282389537195,
+          "rare": 0.0010467933793389926
+        },
+        {
+          "dollars": 1.001886689749684,
+          "a": 0.0012327768186464311,
+          "broad": 0.00037116378248604643,
+          "rare": 0.001171141123603546
+        },
+        {
+          "dollars": 1.0494019023176222,
+          "a": 0.0013762590581413465,
+          "broad": 0.0004208741329508085,
+          "rare": 0.0013074499936658816
+        },
+        {
+          "dollars": 1.099170558761474,
+          "a": 0.0015331459556306092,
+          "broad": 0.00047621871370442535,
+          "rare": 0.0014564934537814828
+        },
+        {
+          "dollars": 1.1512995303131563,
+          "a": 0.001704254279251206,
+          "broad": 0.0005376854206341583,
+          "rare": 0.001619047467832503
+        },
+        {
+          "dollars": 1.2059007566513005,
+          "a": 0.0018903963268221853,
+          "broad": 0.0006057837843805548,
+          "rare": 0.0017958837593954897
+        },
+        {
+          "dollars": 1.2630914862760638,
+          "a": 0.002092372081070762,
+          "broad": 0.0006810431158674312,
+          "rare": 0.0019877623603166677
+        },
+        {
+          "dollars": 1.3229945282838926,
+          "a": 0.0023109606385977493,
+          "broad": 0.0007640101897563172,
+          "rare": 0.0021954234695035794
+        },
+        {
+          "dollars": 1.3857385160828857,
+          "a": 0.0025469109494079775,
+          "broad": 0.0008552464389875726,
+          "rare": 0.0024195786569366474
+        },
+        {
+          "dollars": 1.451458183615057,
+          "a": 0.0028009319186860096,
+          "broad": 0.0009553246379864213,
+          "rare": 0.002660901462017418
+        },
+        {
+          "dollars": 1.5202946546786391,
+          "a": 0.0030736819380056237,
+          "broad": 0.0010648250574832113,
+          "rare": 0.0029200174501042312
+        },
+        {
+          "dollars": 1.5923957459717106,
+          "a": 0.003365757929077627,
+          "broad": 0.0011843310802309838,
+          "rare": 0.003197493806207381
+        },
+        {
+          "dollars": 1.6679162845078896,
+          "a": 0.003677683999185046,
+          "broad": 0.0013144242741867334,
+          "rare": 0.0034938285600589598
+        },
+        {
+          "dollars": 1.7470184400857005,
+          "a": 0.004009899823316017,
+          "broad": 0.0014556789279191265,
+          "rare": 0.0038094395518413924
+        },
+        {
+          "dollars": 1.8298720735255443,
+          "a": 0.004362748883344303,
+          "broad": 0.0016086560620537842,
+          "rare": 0.004144653262431565
+        },
+        {
+          "dollars": 1.9166551014220647,
+          "a": 0.004736466709066544,
+          "broad": 0.0017738969403800669,
+          "rare": 0.004499693645753523
+        },
+        {
+          "dollars": 2.0075538781951594,
+          "a": 0.005131169279109279,
+          "broad": 0.0019519161147059606,
+          "rare": 0.004874671113375845
+        },
+        {
+          "dollars": 2.102763596260048,
+          "a": 0.00554684175128809,
+          "broad": 0.002143194048518682,
+          "rare": 0.005269571832479461
+        },
+        {
+          "dollars": 2.2024887051756883,
+          "a": 0.00598332770155711,
+          "broad": 0.002348169375819328,
+          "rare": 0.005684247507397862
+        },
+        {
+          "dollars": 2.3069433506716286,
+          "a": 0.006440319057863762,
+          "broad": 0.0025672308629569743,
+          "rare": 0.0061184058217468975
+        },
+        {
+          "dollars": 2.4163518344960218,
+          "a": 0.006917346919675479,
+          "broad": 0.0028007091526737627,
+          "rare": 0.006571601722387067
+        },
+        {
+          "dollars": 2.5309490960722685,
+          "a": 0.0074137734553608985,
+          "broad": 0.003048868380651398,
+          "rare": 0.007043229727801803
+        },
+        {
+          "dollars": 2.6509812169985882,
+          "a": 0.007928785067715693,
+          "broad": 0.0033118977653672755,
+          "rare": 0.00753251744167196
+        },
+        {
+          "dollars": 2.7767059494738433,
+          "a": 0.008461387012505862,
+          "broad": 0.0035899032817606757,
+          "rare": 0.00803852044727365
+        },
+        {
+          "dollars": 2.9083932697843577,
+          "a": 0.00901039964580176,
+          "broad": 0.003882899537805112,
+          "rare": 0.008560118749674156
+        },
+        {
+          "dollars": 3.046325958040242,
+          "a": 0.009574456463007924,
+          "broad": 0.004190801980310414,
+          "rare": 0.009096014920466626
+        },
+        {
+          "dollars": 3.190800205406152,
+          "a": 0.0101520040758481,
+          "broad": 0.004513419561873685,
+          "rare": 0.00964473408396058
+        },
+        {
+          "dollars": 3.342126250130404,
+          "a": 0.010741304253214533,
+          "broad": 0.004850448004609958,
+          "rare": 0.010204625864400461
+        },
+        {
+          "dollars": 3.5006290437382384,
+          "a": 0.011340438127897406,
+          "broad": 0.0052014637978921386,
+          "rare": 0.010773868391072907
+        },
+        {
+          "dollars": 3.6666489488197973,
+          "a": 0.01194731264402204,
+          "broad": 0.005565919066613098,
+          "rare": 0.011350474432320092
+        },
+        {
+          "dollars": 3.8405424699111954,
+          "a": 0.0125596692898762,
+          "broad": 0.005943137443284696,
+          "rare": 0.011932299700822789
+        },
+        {
+          "dollars": 4.022683019038179,
+          "a": 0.013175095128130521,
+          "broad": 0.006332311071485318,
+          "rare": 0.012517053341454637
+        },
+        {
+          "dollars": 4.213461717566242,
+          "a": 0.01379103610074387,
+          "broad": 0.006732498859683004,
+          "rare": 0.013102310580015781
+        },
+        {
+          "dollars": 4.413288236079076,
+          "a": 0.014404812549679031,
+          "broad": 0.007142626093274979,
+          "rare": 0.013685527476777327
+        },
+        {
+          "dollars": 4.622591674088884,
+          "a": 0.015013636857570251,
+          "broad": 0.007561485498832448,
+          "rare": 0.014264057693614558
+        },
+        {
+          "dollars": 4.84182148146759,
+          "a": 0.015614633075371967,
+          "broad": 0.007987739838120232,
+          "rare": 0.014835171148231038
+        },
+        {
+          "dollars": 5.071448423577601,
+          "a": 0.016204858367503305,
+          "broad": 0.008419926090635792,
+          "rare": 0.015396074394267803
+        },
+        {
+          "dollars": 5.311965592174608,
+          "a": 0.016781326069831317,
+          "broad": 0.008856461262406076,
+          "rare": 0.015943932532660503
+        },
+        {
+          "dollars": 5.563889464253206,
+          "a": 0.01734103012275844,
+          "broad": 0.009295649835878923,
+          "rare": 0.016475892428166567
+        },
+        {
+          "dollars": 5.827761011109022,
+          "a": 0.017880970611430982,
+          "broad": 0.009735692851294364,
+          "rare": 0.016989106976232612
+        },
+        {
+          "dollars": 6.104146859998948,
+          "a": 0.01839818011837066,
+          "broad": 0.01017469858431766,
+          "rare": 0.017480760139979925
+        },
+        {
+          "dollars": 6.393640510893964,
+          "a": 0.018889750571302596,
+          "broad": 0.010610694758405037,
+          "rare": 0.017948092455673095
+        },
+        {
+          "dollars": 6.696863610937349,
+          "a": 0.019352860251196126,
+          "broad": 0.011041642203839677,
+          "rare": 0.018388426688160493
+        },
+        {
+          "dollars": 7.014467289345013,
+          "a": 0.019784800613050973,
+          "broad": 0.011465449849130381,
+          "rare": 0.018799193305912586
+        },
+        {
+          "dollars": 7.34713355561445,
+          "a": 0.020183002565151886,
+          "broad": 0.011879990905040062,
+          "rare": 0.0191779554388167
+        },
+        {
+          "dollars": 7.695576764044805,
+          "a": 0.02054506185167139,
+          "broad": 0.012283120077441603,
+          "rare": 0.019522432981092498
+        },
+        {
+          "dollars": 8.060545147712851,
+          "a": 0.020868763188790527,
+          "broad": 0.012672691623013994,
+          "rare": 0.019830525506730784
+        },
+        {
+          "dollars": 8.442822425198917,
+          "a": 0.0211521028159735,
+          "broad": 0.0130465780420024,
+          "rare": 0.02010033367577034
+        },
+        {
+          "dollars": 8.843229483512976,
+          "a": 0.021393309141579615,
+          "broad": 0.013402689185349089,
+          "rare": 0.02033017882642346
+        },
+        {
+          "dollars": 9.262626140834728,
+          "a": 0.021590861185401208,
+          "broad": 0.013738991539889446,
+          "rare": 0.020518620470329135
+        },
+        {
+          "dollars": 9.701912992852957,
+          "a": 0.021743504549621973,
+          "broad": 0.01405352744537403,
+          "rare": 0.020664471435713837
+        },
+        {
+          "dollars": 10.162033346668835,
+          "a": 0.021850264683616883,
+          "broad": 0.014344433991129727,
+          "rare": 0.020766810435518424
+        },
+        {
+          "dollars": 10.64397524641608,
+          "a": 0.021910457246367584,
+          "broad": 0.014609961338440294,
+          "rare": 0.020824991874040154
+        },
+        {
+          "dollars": 11.148773594947574,
+          "a": 0.021923695412349137,
+          "broad": 0.014848490217352463,
+          "rare": 0.02083865274567943
+        },
+        {
+          "dollars": 11.677512376144577,
+          "a": 0.021889894011771813,
+          "broad": 0.015058548353651821,
+          "rare": 0.02080771652222663
+        },
+        {
+          "dollars": 12.231326982620546,
+          "a": 0.021809270443183273,
+          "broad": 0.015238825593161991,
+          "rare": 0.020732393969965384
+        },
+        {
+          "dollars": 12.811406653818063,
+          "a": 0.02168234234475092,
+          "broad": 0.015388187506164538,
+          "rare": 0.020613180883848076
+        },
+        {
+          "dollars": 13.418997029734276,
+          "a": 0.021509922059121875,
+          "broad": 0.015505687274385616,
+          "rare": 0.02045085277223288
+        },
+        {
+          "dollars": 14.055402825758632,
+          "a": 0.02129310797466414,
+          "broad": 0.015590575686328337,
+          "rare": 0.020246456571269996
+        },
+        {
+          "dollars": 14.72199063436678,
+          "a": 0.021033272872206653,
+          "broad": 0.015642309093342573,
+          "rare": 0.0200012995121125
+        },
+        {
+          "dollars": 15.420191859686875,
+          "a": 0.02073204945023698,
+          "broad": 0.01566055520823738,
+          "rare": 0.01971693530586463
+        },
+        {
+          "dollars": 16.151505791239824,
+          "a": 0.020391313242057816,
+          "broad": 0.01564519665991019,
+          "rare": 0.019395147849782607
+        },
+        {
+          "dollars": 16.91750282345389,
+          "a": 0.020013163174900716,
+          "broad": 0.015596332250795292,
+          "rare": 0.019037932692997896
+        },
+        {
+          "dollars": 17.719827827867245,
+          "a": 0.019599900052792968,
+          "broad": 0.01551427589828468,
+          "rare": 0.018647476530317075
+        },
+        {
+          "dollars": 18.56020368525959,
+          "a": 0.01915400327152576,
+          "broad": 0.015399553275988423,
+          "rare": 0.018226135017945507
+        },
+        {
+          "dollars": 19.440434985297795,
+          "a": 0.018678106094951304,
+          "broad": 0.015252896205109842,
+          "rare": 0.01777640922487538
+        },
+        {
+          "dollars": 20.36241190163988,
+          "a": 0.018174969836744503,
+          "broad": 0.015075234879652262,
+          "rare": 0.01730092104788709
+        },
+        {
+          "dollars": 21.32811425081877,
+          "a": 0.01764745730053313,
+          "broad": 0.014867688041009965,
+          "rare": 0.01680238792647412
+        },
+        {
+          "dollars": 22.339615743621426,
+          "a": 0.01709850583389594,
+          "broad": 0.014631551247125535,
+          "rare": 0.01628359719648236
+        },
+        {
+          "dollars": 23.399088438092924,
+          "a": 0.016531100348246806,
+          "broad": 0.01436828340826918,
+          "rare": 0.01574738041794497
+        },
+        {
+          "dollars": 24.50880740372739,
+          "a": 0.015948246647290006,
+          "broad": 0.014079491785127598,
+          "rare": 0.01519658800370587
+        },
+        {
+          "dollars": 25.67115560686172,
+          "a": 0.01535294539188542,
+          "broad": 0.013766915664868977,
+          "rare": 0.014634064461278865
+        },
+        {
+          "dollars": 26.888629027762644,
+          "a": 0.01474816700925237,
+          "broad": 0.01343240894684954,
+          "rare": 0.014062624541412386
+        },
+        {
+          "dollars": 28.163842020395325,
+          "a": 0.014136827830004398,
+          "broad": 0.0130779218814069,
+          "rare": 0.013485030563531437
+        },
+        {
+          "dollars": 29.499532926383175,
+          "a": 0.013521767708163539,
+          "broad": 0.012705482212602343,
+          "rare": 0.012903971161197271
+        },
+        {
+          "dollars": 30.898569955213425,
+          "a": 0.01290572934772804,
+          "broad": 0.012317175978778802,
+          "rare": 0.012322041660604912
+        },
+        {
+          "dollars": 32.36395734331623,
+          "a": 0.012291339525281874,
+          "broad": 0.011915128223438473,
+          "rare": 0.011741726272613693
+        },
+        {
+          "dollars": 33.8988418052423,
+          "a": 0.011681092362283554,
+          "broad": 0.011501483863351113,
+          "rare": 0.011165382244586845
+        },
+        {
+          "dollars": 35.506519290792525,
+          "a": 0.01107733476380416,
+          "broad": 0.011078388951201983,
+          "rare": 0.010595226083116055
+        },
+        {
+          "dollars": 37.19044206260923,
+          "a": 0.010482254103341446,
+          "broad": 0.010647972556778665,
+          "rare": 0.010033321923232476
+        },
+        {
+          "dollars": 38.95422610942792,
+          "a": 0.009897868196627845,
+          "broad": 0.010212329474046518,
+          "rare": 0.00948157208463421
+        },
+        {
+          "dollars": 40.80165891090715,
+          "a": 0.009326017571745993,
+          "broad": 0.009773503941902746,
+          "rare": 0.008941709821432234
+        },
+        {
+          "dollars": 42.73670757071176,
+          "a": 0.008768360008974995,
+          "broad": 0.009333474544399962,
+          "rare": 0.0084152942395145
+        },
+        {
+          "dollars": 44.763527335313626,
+          "a": 0.00822636729216294,
+          "broad": 0.008894140432302527,
+          "rare": 0.007903707325376907
+        },
+        {
+          "dollars": 46.88647051680202,
+          "a": 0.007701324084522146,
+          "broad": 0.008457308982508979,
+          "rare": 0.007408153002616658
+        },
+        {
+          "dollars": 49.11009583886597,
+          "a": 0.007194328815959252,
+          "broad": 0.008024684985677977,
+          "rare": 0.006929658107599276
+        },
+        {
+          "dollars": 51.43917822601547,
+          "a": 0.0067062964466842465,
+          "broad": 0.00759786142586665,
+          "rare": 0.006469075154385757
+        },
+        {
+          "dollars": 53.87871905706475,
+          "a": 0.006237962953096659,
+          "broad": 0.0071783118896399925,
+          "rare": 0.00602708674104065
+        },
+        {
+          "dollars": 56.43395690489387,
+          "a": 0.005789891366950405,
+          "broad": 0.006767384616428381,
+          "rare": 0.005604211435059626
+        },
+        {
+          "dollars": 59.11037878555172,
+          "a": 0.005362479187583917,
+          "broad": 0.006366298177342684,
+          "rare": 0.005200810964890816
+        },
+        {
+          "dollars": 61.91373194085566,
+          "a": 0.004955966979528339,
+          "broad": 0.005976138746607807,
+          "rare": 0.004817098537342089
+        },
+        {
+          "dollars": 64.85003617979017,
+          "a": 0.004570447963953673,
+          "broad": 0.005597858908593872,
+          "rare": 0.004453148096954875
+        },
+        {
+          "dollars": 67.9255968052049,
+          "a": 0.004205878411997663,
+          "broad": 0.00523227792440222,
+          "rare": 0.004108904343012058
+        },
+        {
+          "dollars": 71.1470181535708,
+          "a": 0.003862088650801414,
+          "broad": 0.004880083365329981,
+          "rare": 0.0037841933225026933
+        },
+        {
+          "dollars": 74.52121777687003,
+          "a": 0.003538794498759959,
+          "broad": 0.004541834006459462,
+          "rare": 0.00347873342281567
+        },
+        {
+          "dollars": 78.05544129707086,
+          "a": 0.003235608954757397,
+          "broad": 0.004217963862201141,
+          "rare": 0.0031921465958661176
+        },
+        {
+          "dollars": 81.75727796508887,
+          "a": 0.002952053976637985,
+          "broad": 0.003908787236901795,
+          "rare": 0.0029239696554326676
+        },
+        {
+          "dollars": 85.63467695764135,
+          "a": 0.0026875721964964116,
+          "broad": 0.003614504657598497,
+          "rare": 0.0026736655013469115
+        },
+        {
+          "dollars": 89.69596444699367,
+          "a": 0.0024415384341692687,
+          "broad": 0.0033352095525805933,
+          "rare": 0.0024406341374624283
+        },
+        {
+          "dollars": 93.9498614802499,
+          "a": 0.0022132708851998195,
+          "broad": 0.0030708955384984647,
+          "rare": 0.0022242233646794806
+        },
+        {
+          "dollars": 98.40550270658235,
+          "a": 0.0020020418751586925,
+          "broad": 0.002821464180164414,
+          "rare": 0.002023739045357109
+        },
+        {
+          "dollars": 103.07245599261337,
+          "a": 0.0018070880881848658,
+          "broad": 0.0025867330907301863,
+          "rare": 0.0018384548508708102
+        },
+        {
+          "dollars": 107.96074296807167,
+          "a": 0.0016276201936360473,
+          "broad": 0.0023664442453684748,
+          "rare": 0.001667621419555022
+        },
+        {
+          "dollars": 113.08086054584102,
+          "a": 0.0014628318105078773,
+          "broad": 0.0021602723886835476,
+          "rare": 0.0015104748675176618
+        },
+        {
+          "dollars": 118.44380346261265,
+          "a": 0.001311907764531621,
+          "broad": 0.001967833424564515,
+          "rare": 0.0013662446095716154
+        },
+        {
+          "dollars": 124.06108788854635,
+          "a": 0.0011740316073612746,
+          "broad": 0.001788692686803416,
+          "rare": 0.0012341604615725952
+        },
+        {
+          "dollars": 129.94477615663436,
+          "a": 0.0010483923808215798,
+          "broad": 0.0016223729992579147,
+          "rare": 0.0011134590085969587
+        },
+        {
+          "dollars": 136.10750266487685,
+          "a": 0.0009341906216541095,
+          "broad": 0.0014683624453787091,
+          "rare": 0.0010033892354853764
+        },
+        {
+          "dollars": 142.5625010068835,
+          "a": 0.0008306436134544795,
+          "broad": 0.0013261217782916054,
+          "rare": 0.0009032174272047904
+        },
+        {
+          "dollars": 149.32363238916716,
+          "a": 0.0007369899024592109,
+          "broad": 0.001195091414083503,
+          "rare": 0.000812231356160986
+        },
+        {
+          "dollars": 156.4054153961464,
+          "a": 0.0006524931024720142,
+          "broad": 0.0010746979622731933,
+          "rare": 0.0007297437819817967
+        },
+        {
+          "dollars": 163.8230571667754,
+          "a": 0.0005764450215021548,
+          "broad": 0.0009643602584548134,
+          "rare": 0.0006550952963697893
+        },
+        {
+          "dollars": 171.59248604974974,
+          "a": 0.0005081681486381813,
+          "broad": 0.0008634948746142242,
+          "rare": 0.0005876565514058392
+        },
+        {
+          "dollars": 179.7303858074077,
+          "a": 0.0004470175443391108,
+          "broad": 0.0007715210924921991,
+          "rare": 0.000526829914207789
+        },
+        {
+          "dollars": 188.25423144177805,
+          "a": 0.00039238218075421963,
+          "broad": 0.0006878653344861033,
+          "rare": 0.00047205059416908715
+        },
+        {
+          "dollars": 197.18232671970262,
+          "a": 0.0003436857809618747,
+          "broad": 0.0006119650548542304,
+          "rare": 0.0004227872911964179
+        },
+        {
+          "dollars": 206.53384347761883,
+          "a": 0.0003003872072408021,
+          "broad": 0.0005432721013504507,
+          "rare": 0.0003785424145218768
+        },
+        {
+          "dollars": 216.32886279039548,
+          "a": 0.0002619804487578208,
+          "broad": 0.00048125556383317187,
+          "rare": 0.0003388519218839501
+        },
+        {
+          "dollars": 226.5884180926365,
+          "a": 0.00022799425848455372,
+          "broad": 0.0004254041318463065,
+          "rare": 0.0003032848282587264
+        },
+        {
+          "dollars": 237.33454034503856,
+          "a": 0.0001979914878561761,
+          "broad": 0.00037522798766741514,
+          "rare": 0.0002714424319891618
+        },
+        {
+          "dollars": 248.5903053428005,
+          "a": 0.00017156816577182824,
+          "broad": 0.00033026026488347233,
+          "rare": 0.00024295730421685426
+        },
+        {
+          "dollars": 260.37988326766845,
+          "a": 0.00014835236612148464,
+          "broad": 0.0002900581052289444,
+          "rare": 0.00021749208507790824
+        },
+        {
+          "dollars": 272.72859059001956,
+          "a": 0.00012800290521556998,
+          "broad": 0.00025420334825767464,
+          "rare": 0.00019473812728803685
+        },
+        {
+          "dollars": 285.6629444324451,
+          "a": 0.00011020790739331516,
+          "broad": 0.00022230288948409677,
+          "rare": 0.00017441402461275987
+        },
+        {
+          "dollars": 299.2107195115629,
+          "a": 9.468327378811291e-05,
+          "broad": 0.0001939887429931656,
+          "rare": 0.00015626405939015215
+        },
+        {
+          "dollars": 313.4010077803389,
+          "a": 8.117108581846365e-05,
+          "broad": 0.00016891784425974998,
+          "rare": 0.0001400565998314541
+        },
+        {
+          "dollars": 328.2642808989875,
+          "a": 6.943797152792388e-05,
+          "broad": 0.00014677162811818417,
+          "rare": 0.00012558247434573788
+        },
+        {
+          "dollars": 343.8324556686053,
+          "a": 5.927345948326561e-05,
+          "broad": 0.00012725541556286003,
+          "rare": 0.00011265334668590925
+        },
+        {
+          "dollars": 360.13896256803474,
+          "a": 5.048834161358705e-05,
+          "broad": 0.0001100976414219872,
+          "rare": 0.00010110011235236971
+        },
+        {
+          "dollars": 377.2188175411476,
+          "a": 4.291306318131307e-05,
+          "broad": 9.504895300688605e-05,
+          "rare": 9.077133346577767e-05
+        },
+        {
+          "dollars": 395.10869718868753,
+          "a": 3.6396155056588055e-05,
+          "broad": 8.18812076725278e-05,
+          "rare": 8.153172627055898e-05
+        },
+        {
+          "dollars": 413.84701752614154,
+          "a": 3.080272064820574e-05,
+          "broad": 7.038639490020477e-05,
+          "rare": 7.326071258616671e-05
+        },
+        {
+          "dollars": 433.4740164767664,
+          "a": 2.601298724758503e-05,
+          "broad": 6.0375506093125555e-05,
+          "rare": 6.585104390554613e-05
+        },
+        {
+          "dollars": 454.0318402768981,
+          "a": 2.19209291805423e-05,
+          "broad": 5.167737281665523e-05,
+          "rare": 5.9207504464183985e-05
+        },
+        {
+          "dollars": 475.56463397910676,
+          "a": 1.843296804126991e-05,
+          "broad": 4.4137491766199805e-05,
+          "rare": 5.3245697476088504e-05
+        },
+        {
+          "dollars": 498.1186362475233,
+          "a": 1.5466753404843535e-05,
+          "broad": 3.7616852349780634e-05,
+          "rare": 4.78909168567553e-05
+        },
+        {
+          "dollars": 521.7422786489071,
+          "a": 1.2950025774618235e-05,
+          "broad": 3.199078046444991e-05,
+          "rare": 4.3077105124083566e-05
+        },
+        {
+          "dollars": 546.4862896526632,
+          "a": 1.0819562110914758e-05,
+          "broad": 2.7147809854508615e-05,
+          "rare": 3.874589677855587e-05
+        },
+        {
+          "dollars": 572.4038035631409,
+          "a": 9.02020309604062e-06,
+          "broad": 2.298859038714467e-05,
+          "rare": 3.484574530245787e-05
+        },
+        {
+          "dollars": 599.550474618122,
+          "a": 7.5039603040701535e-06,
+          "broad": 1.9424840683820676e-05,
+          "rare": 3.133113097044578e-05
+        },
+        {
+          "dollars": 627.984596498517,
+          "a": 6.229200646255538e-06,
+          "broad": 1.6378350814231446e-05,
+          "rare": 2.8161845914264177e-05
+        },
+        {
+          "dollars": 657.7672275058949,
+          "a": 5.159904837639973e-06,
+          "broad": 1.3780039199797507e-05,
+          "rare": 2.5302352315395173e-05
+        },
+        {
+          "dollars": 688.9623216766474,
+          "a": 4.264996159958275e-06,
+          "broad": 1.1569066487041047e-05,
+          "rare": 2.272120919257461e-05
+        },
+        {
+          "dollars": 721.6368661143476,
+          "a": 3.517735462673091e-06,
+          "broad": 9.692007935739232e-06,
+          "rare": 2.0390562987836054e-05
+        },
+        {
+          "dollars": 755.861024835181,
+          "a": 2.8951781307090283e-06,
+          "broad": 8.102084817353854e-06,
+          "rare": 1.8285697016573103e-05
+        },
+        {
+          "dollars": 791.7082894353684,
+          "a": 2.3776886374002263e-06,
+          "broad": 6.7584544283015e-06,
+          "rare": 1.6384634816059272e-05
+        },
+        {
+          "dollars": 829.2556369040911,
+          "a": 1.9485082785077147e-06,
+          "broad": 5.6255575806754205e-06,
+          "rare": 1.4667792485771398e-05
+        },
+        {
+          "dollars": 868.5836949208151,
+          "a": 1.5933717330724134e-06,
+          "broad": 4.672521829146246e-06,
+          "rare": 1.311767524556281e-05
+        },
+        {
+          "dollars": 909.7769149919577,
+          "a": 1.3001682057168643e-06,
+          "broad": 3.872618215124758e-06,
+          "rare": 1.1718613629289903e-05
+        },
+        {
+          "dollars": 952.9237537986951,
+          "a": 1.0586430604209646e-06,
+          "broad": 3.2027689454868364e-06,
+          "rare": 1.0456534968274084e-05
+        },
+        {
+          "dollars": 998.1168631453165,
+          "a": 8.60136046707186e-07,
+          "broad": 2.6431031606899077e-06,
+          "rare": 9.318766088743162e-06
+        },
+        {
+          "dollars": 1045.453288916021,
+          "a": 6.973524358166954e-07,
+          "broad": 2.1765577735170413e-06,
+          "rare": 8.293863439313114e-06
+        },
+        {
+          "dollars": 1095.0346794673878,
+          "a": 5.641636183559512e-07,
+          "broad": 1.7885202629075297e-06,
+          "rare": 7.371467169226691e-06
+        },
+        {
+          "dollars": 1146.9675039040064,
+          "a": 4.554339587838842e-07,
+          "broad": 1.4665102758690187e-06,
+          "rare": 6.54217598740807e-06
+        },
+        {
+          "dollars": 1201.3632807060048,
+          "a": 3.668709498864896e-07,
+          "broad": 1.1998969135294278e-06,
+          "rare": 5.797439939679191e-06
+        },
+        {
+          "dollars": 1258.3388171993809,
+          "a": 2.948959570106381e-07,
+          "broad": 9.796486450109831e-07,
+          "rare": 5.129468541197874e-06
+        },
+        {
+          "dollars": 1318.016460383416,
+          "a": 2.365330832375979e-07,
+          "broad": 7.981128959156699e-07,
+          "rare": 4.531151988930337e-06
+        },
+        {
+          "dollars": 1380.5243596537482,
+          "a": 1.8931391968135457e-07,
+          "broad": 6.488224886531154e-07,
+          "rare": 3.995993451409007e-06
+        },
+        {
+          "dollars": 1445.9967419852796,
+          "a": 1.5119616728354766e-07,
+          "broad": 5.263262624006969e-07,
+          "rare": 3.5180506877074087e-06
+        },
+        {
+          "dollars": 1514.5742001658482,
+          "a": 1.204943261096317e-07,
+          "broad": 4.260413648670869e-07,
+          "rare": 3.0918854828625646e-06
+        },
+        {
+          "dollars": 1586.403994699571,
+          "a": 9.582084407447575e-08,
+          "broad": 3.4412488082426455e-07,
+          "rare": 2.7125196019632295e-06
+        },
+        {
+          "dollars": 1661.6403700282135,
+          "a": 7.60362985762978e-08,
+          "broad": 2.7736263900740427e-07,
+          "rare": 2.375396159465293e-06
+        },
+        {
+          "dollars": 1740.4448857495304,
+          "a": 6.020735144006164e-08,
+          "broad": 2.2307321566562873e-07,
+          "rare": 2.076345474158253e-06
+        },
+        {
+          "dollars": 1822.9867635439448,
+          "a": 4.75713699409314e-08,
+          "broad": 1.790253267002338e-07,
+          "rare": 1.811554634147736e-06
+        },
+        {
+          "dollars": 1909.4432505544355,
+          "a": 3.750674483444853e-08,
+          "broad": 1.4336696851748716e-07,
+          "rare": 1.577540131120427e-06
+        },
+        {
+          "dollars": 1999.9999999999998,
+          "a": 2.950806080402262e-08,
+          "broad": 1.145648285877934e-07,
+          "rare": 1.3711230401301227e-06
+        }
+      ]
+    },
+    {
+      "id": "04-anova-and-multiple-comparisons",
+      "settings": {
+        "seed": 20261128,
+        "illustration_seed": 20261129,
+        "power_seed": 20261130,
+        "repetitions": 20000,
+        "n_per_group": 30,
+        "alpha": 0.05,
+        "group_counts": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "null_mean": 60,
+        "null_sd": 5,
+        "alternative_means": [
+          60,
+          60,
+          63
+        ],
+        "alternative_sds": [
+          3,
+          10
+        ],
+        "shared_draws_across_settings": true,
+        "python": "3.11.3",
+        "numpy": "1.26.4",
+        "scipy": "1.14.1"
+      },
+      "null_metrics": [
+        {
+          "groups": 2.0,
+          "comparisons": 1.0,
+          "method": "Uncorrected pairs",
+          "repetitions": 20000.0,
+          "rejections": 971.0,
+          "rate_pct": 4.855,
+          "mc_low_pct": 4.565706083709486,
+          "mc_high_pct": 5.161632851796202
+        },
+        {
+          "groups": 2.0,
+          "comparisons": 1.0,
+          "method": "Bonferroni pairs",
+          "repetitions": 20000.0,
+          "rejections": 971.0,
+          "rate_pct": 4.855,
+          "mc_low_pct": 4.565706083709486,
+          "mc_high_pct": 5.161632851796202
+        },
+        {
+          "groups": 2.0,
+          "comparisons": 1.0,
+          "method": "One ANOVA",
+          "repetitions": 20000.0,
+          "rejections": 971.0,
+          "rate_pct": 4.855,
+          "mc_low_pct": 4.565706083709486,
+          "mc_high_pct": 5.161632851796202
+        },
+        {
+          "groups": 3.0,
+          "comparisons": 3.0,
+          "method": "Uncorrected pairs",
+          "repetitions": 20000.0,
+          "rejections": 2395.0,
+          "rate_pct": 11.975,
+          "mc_low_pct": 11.5323261623183,
+          "mc_high_pct": 12.432278179748456
+        },
+        {
+          "groups": 3.0,
+          "comparisons": 3.0,
+          "method": "Bonferroni pairs",
+          "repetitions": 20000.0,
+          "rejections": 856.0,
+          "rate_pct": 4.279999999999999,
+          "mc_low_pct": 4.008154292424367,
+          "mc_high_pct": 4.56940548454584
+        },
+        {
+          "groups": 3.0,
+          "comparisons": 3.0,
+          "method": "One ANOVA",
+          "repetitions": 20000.0,
+          "rejections": 970.0,
+          "rate_pct": 4.8500000000000005,
+          "mc_low_pct": 4.560852538273073,
+          "mc_high_pct": 5.1564883175931735
+        },
+        {
+          "groups": 4.0,
+          "comparisons": 6.0,
+          "method": "Uncorrected pairs",
+          "repetitions": 20000.0,
+          "rejections": 4015.0,
+          "rate_pct": 20.075000000000003,
+          "mc_low_pct": 19.52563065855046,
+          "mc_high_pct": 20.635862699407404
+        },
+        {
+          "groups": 4.0,
+          "comparisons": 6.0,
+          "method": "Bonferroni pairs",
+          "repetitions": 20000.0,
+          "rejections": 794.0,
+          "rate_pct": 3.9699999999999998,
+          "mc_low_pct": 3.7081185513555868,
+          "mc_high_pct": 4.2495602879694045
+        },
+        {
+          "groups": 4.0,
+          "comparisons": 6.0,
+          "method": "One ANOVA",
+          "repetitions": 20000.0,
+          "rejections": 948.0,
+          "rate_pct": 4.74,
+          "mc_low_pct": 4.454096839839023,
+          "mc_high_pct": 5.043286263959567
+        },
+        {
+          "groups": 5.0,
+          "comparisons": 10.0,
+          "method": "Uncorrected pairs",
+          "repetitions": 20000.0,
+          "rejections": 5636.0,
+          "rate_pct": 28.18,
+          "mc_low_pct": 27.560750614028407,
+          "mc_high_pct": 28.807629839460002
+        },
+        {
+          "groups": 5.0,
+          "comparisons": 10.0,
+          "method": "Bonferroni pairs",
+          "repetitions": 20000.0,
+          "rejections": 767.0,
+          "rate_pct": 3.8350000000000004,
+          "mc_low_pct": 3.5775946094416686,
+          "mc_high_pct": 4.110136079618471
+        },
+        {
+          "groups": 5.0,
+          "comparisons": 10.0,
+          "method": "One ANOVA",
+          "repetitions": 20000.0,
+          "rejections": 966.0,
+          "rate_pct": 4.83,
+          "mc_low_pct": 4.54143923019821,
+          "mc_high_pct": 5.135909307110281
+        },
+        {
+          "groups": 6.0,
+          "comparisons": 15.0,
+          "method": "Uncorrected pairs",
+          "repetitions": 20000.0,
+          "rejections": 7339.0,
+          "rate_pct": 36.695,
+          "mc_low_pct": 36.02964646444924,
+          "mc_high_pct": 37.3654636150037
+        },
+        {
+          "groups": 6.0,
+          "comparisons": 15.0,
+          "method": "Bonferroni pairs",
+          "repetitions": 20000.0,
+          "rejections": 767.0,
+          "rate_pct": 3.8350000000000004,
+          "mc_low_pct": 3.5775946094416686,
+          "mc_high_pct": 4.110136079618471
+        },
+        {
+          "groups": 6.0,
+          "comparisons": 15.0,
+          "method": "One ANOVA",
+          "repetitions": 20000.0,
+          "rejections": 933.0,
+          "rate_pct": 4.665,
+          "mc_low_pct": 4.381333791158853,
+          "mc_high_pct": 4.966078118048151
+        },
+        {
+          "groups": 7.0,
+          "comparisons": 21.0,
+          "method": "Uncorrected pairs",
+          "repetitions": 20000.0,
+          "rejections": 8809.0,
+          "rate_pct": 44.045,
+          "mc_low_pct": 43.3581890263592,
+          "mc_high_pct": 44.73409812306901
+        },
+        {
+          "groups": 7.0,
+          "comparisons": 21.0,
+          "method": "Bonferroni pairs",
+          "repetitions": 20000.0,
+          "rejections": 769.0,
+          "rate_pct": 3.8449999999999998,
+          "mc_low_pct": 3.587260052086774,
+          "mc_high_pct": 4.120466796252244
+        },
+        {
+          "groups": 7.0,
+          "comparisons": 21.0,
+          "method": "One ANOVA",
+          "repetitions": 20000.0,
+          "rejections": 988.0,
+          "rate_pct": 4.9399999999999995,
+          "mc_low_pct": 4.648229581148323,
+          "mc_high_pct": 5.249076708227825
+        },
+        {
+          "groups": 8.0,
+          "comparisons": 28.0,
+          "method": "Uncorrected pairs",
+          "repetitions": 20000.0,
+          "rejections": 10172.0,
+          "rate_pct": 50.86000000000001,
+          "mc_low_pct": 50.16705195538849,
+          "mc_high_pct": 51.55261774259503
+        },
+        {
+          "groups": 8.0,
+          "comparisons": 28.0,
+          "method": "Bonferroni pairs",
+          "repetitions": 20000.0,
+          "rejections": 774.0,
+          "rate_pct": 3.8699999999999997,
+          "mc_low_pct": 3.611425782895008,
+          "mc_high_pct": 4.146291463641204
+        },
+        {
+          "groups": 8.0,
+          "comparisons": 28.0,
+          "method": "One ANOVA",
+          "repetitions": 20000.0,
+          "rejections": 996.0,
+          "rate_pct": 4.9799999999999995,
+          "mc_low_pct": 4.687072704248897,
+          "mc_high_pct": 5.290218222242761
+        },
+        {
+          "groups": 9.0,
+          "comparisons": 36.0,
+          "method": "Uncorrected pairs",
+          "repetitions": 20000.0,
+          "rejections": 11501.0,
+          "rate_pct": 57.504999999999995,
+          "mc_low_pct": 56.818521703433724,
+          "mc_high_pct": 58.18859583536412
+        },
+        {
+          "groups": 9.0,
+          "comparisons": 36.0,
+          "method": "Bonferroni pairs",
+          "repetitions": 20000.0,
+          "rejections": 764.0,
+          "rate_pct": 3.82,
+          "mc_low_pct": 3.5630973615384796,
+          "mc_high_pct": 4.094639088603342
+        },
+        {
+          "groups": 9.0,
+          "comparisons": 36.0,
+          "method": "One ANOVA",
+          "repetitions": 20000.0,
+          "rejections": 992.0,
+          "rate_pct": 4.96,
+          "mc_low_pct": 4.667650466678262,
+          "mc_high_pct": 5.269648141255642
+        },
+        {
+          "groups": 10.0,
+          "comparisons": 45.0,
+          "method": "Uncorrected pairs",
+          "repetitions": 20000.0,
+          "rejections": 12624.0,
+          "rate_pct": 63.12,
+          "mc_low_pct": 62.44886963083128,
+          "mc_high_pct": 63.78609134305654
+        },
+        {
+          "groups": 10.0,
+          "comparisons": 45.0,
+          "method": "Bonferroni pairs",
+          "repetitions": 20000.0,
+          "rejections": 747.0,
+          "rate_pct": 3.7350000000000003,
+          "mc_low_pct": 3.4809673445146903,
+          "mc_high_pct": 4.00680175175667
+        },
+        {
+          "groups": 10.0,
+          "comparisons": 45.0,
+          "method": "One ANOVA",
+          "repetitions": 20000.0,
+          "rejections": 1004.0,
+          "rate_pct": 5.0200000000000005,
+          "mc_low_pct": 4.7259212047703,
+          "mc_high_pct": 5.3313543588368715
+        }
+      ],
+      "power_metrics": [
+        {
+          "within_group_sd": 3.0,
+          "method": "One ANOVA",
+          "repetitions": 20000.0,
+          "rejections": 19622.0,
+          "rate_pct": 98.11,
+          "mc_low_pct": 97.91183206064716,
+          "mc_high_pct": 98.28969023003445,
+          "mean_f": 11.280390215569959,
+          "average_between_ms": 99.10923338191822,
+          "average_within_ms": 8.995558802213338
+        },
+        {
+          "within_group_sd": 10.0,
+          "method": "One ANOVA",
+          "repetitions": 20000.0,
+          "rejections": 4075.0,
+          "rate_pct": 20.375,
+          "mc_low_pct": 19.822492094454862,
+          "mc_high_pct": 20.938886041869335,
+          "mean_f": 1.9514943975745163,
+          "average_between_ms": 190.49427530577844,
+          "average_within_ms": 99.95065335792596
+        }
+      ],
+      "slider_all_pairs": [
+        {
+          "groups": 2,
+          "comparisons": 1,
+          "method": "Uncorrected pairs",
+          "repetitions": 20000,
+          "rejections": 971,
+          "rate_pct": 4.855,
+          "mc_low_pct": 4.5657060837,
+          "mc_high_pct": 5.1616328518
+        },
+        {
+          "groups": 2,
+          "comparisons": 1,
+          "method": "Bonferroni pairs",
+          "repetitions": 20000,
+          "rejections": 971,
+          "rate_pct": 4.855,
+          "mc_low_pct": 4.5657060837,
+          "mc_high_pct": 5.1616328518
+        },
+        {
+          "groups": 2,
+          "comparisons": 1,
+          "method": "One ANOVA",
+          "repetitions": 20000,
+          "rejections": 971,
+          "rate_pct": 4.855,
+          "mc_low_pct": 4.5657060837,
+          "mc_high_pct": 5.1616328518
+        },
+        {
+          "groups": 3,
+          "comparisons": 3,
+          "method": "Uncorrected pairs",
+          "repetitions": 20000,
+          "rejections": 2395,
+          "rate_pct": 11.975,
+          "mc_low_pct": 11.5323261623,
+          "mc_high_pct": 12.4322781797
+        },
+        {
+          "groups": 3,
+          "comparisons": 3,
+          "method": "Bonferroni pairs",
+          "repetitions": 20000,
+          "rejections": 856,
+          "rate_pct": 4.28,
+          "mc_low_pct": 4.0081542924,
+          "mc_high_pct": 4.5694054845
+        },
+        {
+          "groups": 3,
+          "comparisons": 3,
+          "method": "One ANOVA",
+          "repetitions": 20000,
+          "rejections": 970,
+          "rate_pct": 4.85,
+          "mc_low_pct": 4.5608525383,
+          "mc_high_pct": 5.1564883176
+        },
+        {
+          "groups": 4,
+          "comparisons": 6,
+          "method": "Uncorrected pairs",
+          "repetitions": 20000,
+          "rejections": 4015,
+          "rate_pct": 20.075,
+          "mc_low_pct": 19.5256306586,
+          "mc_high_pct": 20.6358626994
+        },
+        {
+          "groups": 4,
+          "comparisons": 6,
+          "method": "Bonferroni pairs",
+          "repetitions": 20000,
+          "rejections": 794,
+          "rate_pct": 3.97,
+          "mc_low_pct": 3.7081185514,
+          "mc_high_pct": 4.249560288
+        },
+        {
+          "groups": 4,
+          "comparisons": 6,
+          "method": "One ANOVA",
+          "repetitions": 20000,
+          "rejections": 948,
+          "rate_pct": 4.74,
+          "mc_low_pct": 4.4540968398,
+          "mc_high_pct": 5.043286264
+        },
+        {
+          "groups": 5,
+          "comparisons": 10,
+          "method": "Uncorrected pairs",
+          "repetitions": 20000,
+          "rejections": 5636,
+          "rate_pct": 28.18,
+          "mc_low_pct": 27.560750614,
+          "mc_high_pct": 28.8076298395
+        },
+        {
+          "groups": 5,
+          "comparisons": 10,
+          "method": "Bonferroni pairs",
+          "repetitions": 20000,
+          "rejections": 767,
+          "rate_pct": 3.835,
+          "mc_low_pct": 3.5775946094,
+          "mc_high_pct": 4.1101360796
+        },
+        {
+          "groups": 5,
+          "comparisons": 10,
+          "method": "One ANOVA",
+          "repetitions": 20000,
+          "rejections": 966,
+          "rate_pct": 4.83,
+          "mc_low_pct": 4.5414392302,
+          "mc_high_pct": 5.1359093071
+        },
+        {
+          "groups": 6,
+          "comparisons": 15,
+          "method": "Uncorrected pairs",
+          "repetitions": 20000,
+          "rejections": 7339,
+          "rate_pct": 36.695,
+          "mc_low_pct": 36.0296464644,
+          "mc_high_pct": 37.365463615
+        },
+        {
+          "groups": 6,
+          "comparisons": 15,
+          "method": "Bonferroni pairs",
+          "repetitions": 20000,
+          "rejections": 767,
+          "rate_pct": 3.835,
+          "mc_low_pct": 3.5775946094,
+          "mc_high_pct": 4.1101360796
+        },
+        {
+          "groups": 6,
+          "comparisons": 15,
+          "method": "One ANOVA",
+          "repetitions": 20000,
+          "rejections": 933,
+          "rate_pct": 4.665,
+          "mc_low_pct": 4.3813337912,
+          "mc_high_pct": 4.966078118
+        },
+        {
+          "groups": 7,
+          "comparisons": 21,
+          "method": "Uncorrected pairs",
+          "repetitions": 20000,
+          "rejections": 8809,
+          "rate_pct": 44.045,
+          "mc_low_pct": 43.3581890264,
+          "mc_high_pct": 44.7340981231
+        },
+        {
+          "groups": 7,
+          "comparisons": 21,
+          "method": "Bonferroni pairs",
+          "repetitions": 20000,
+          "rejections": 769,
+          "rate_pct": 3.845,
+          "mc_low_pct": 3.5872600521,
+          "mc_high_pct": 4.1204667963
+        },
+        {
+          "groups": 7,
+          "comparisons": 21,
+          "method": "One ANOVA",
+          "repetitions": 20000,
+          "rejections": 988,
+          "rate_pct": 4.94,
+          "mc_low_pct": 4.6482295811,
+          "mc_high_pct": 5.2490767082
+        },
+        {
+          "groups": 8,
+          "comparisons": 28,
+          "method": "Uncorrected pairs",
+          "repetitions": 20000,
+          "rejections": 10172,
+          "rate_pct": 50.86,
+          "mc_low_pct": 50.1670519554,
+          "mc_high_pct": 51.5526177426
+        },
+        {
+          "groups": 8,
+          "comparisons": 28,
+          "method": "Bonferroni pairs",
+          "repetitions": 20000,
+          "rejections": 774,
+          "rate_pct": 3.87,
+          "mc_low_pct": 3.6114257829,
+          "mc_high_pct": 4.1462914636
+        },
+        {
+          "groups": 8,
+          "comparisons": 28,
+          "method": "One ANOVA",
+          "repetitions": 20000,
+          "rejections": 996,
+          "rate_pct": 4.98,
+          "mc_low_pct": 4.6870727042,
+          "mc_high_pct": 5.2902182222
+        },
+        {
+          "groups": 9,
+          "comparisons": 36,
+          "method": "Uncorrected pairs",
+          "repetitions": 20000,
+          "rejections": 11501,
+          "rate_pct": 57.505,
+          "mc_low_pct": 56.8185217034,
+          "mc_high_pct": 58.1885958354
+        },
+        {
+          "groups": 9,
+          "comparisons": 36,
+          "method": "Bonferroni pairs",
+          "repetitions": 20000,
+          "rejections": 764,
+          "rate_pct": 3.82,
+          "mc_low_pct": 3.5630973615,
+          "mc_high_pct": 4.0946390886
+        },
+        {
+          "groups": 9,
+          "comparisons": 36,
+          "method": "One ANOVA",
+          "repetitions": 20000,
+          "rejections": 992,
+          "rate_pct": 4.96,
+          "mc_low_pct": 4.6676504667,
+          "mc_high_pct": 5.2696481413
+        },
+        {
+          "groups": 10,
+          "comparisons": 45,
+          "method": "Uncorrected pairs",
+          "repetitions": 20000,
+          "rejections": 12624,
+          "rate_pct": 63.12,
+          "mc_low_pct": 62.4488696308,
+          "mc_high_pct": 63.7860913431
+        },
+        {
+          "groups": 10,
+          "comparisons": 45,
+          "method": "Bonferroni pairs",
+          "repetitions": 20000,
+          "rejections": 747,
+          "rate_pct": 3.735,
+          "mc_low_pct": 3.4809673445,
+          "mc_high_pct": 4.0068017518
+        },
+        {
+          "groups": 10,
+          "comparisons": 45,
+          "method": "One ANOVA",
+          "repetitions": 20000,
+          "rejections": 1004,
+          "rate_pct": 5.02,
+          "mc_low_pct": 4.7259212048,
+          "mc_high_pct": 5.3313543588
+        }
+      ]
+    },
+    {
+      "id": "05-chi-square-and-fisher",
+      "settings": {
+        "seed": 20261129,
+        "repetitions": 20000,
+        "alpha": 0.05,
+        "scenarios": [
+          {
+            "scenario": "Plentiful counts",
+            "n_a": 500,
+            "n_b": 500,
+            "probability": 0.3
+          },
+          {
+            "scenario": "Sparse counts",
+            "n_a": 20,
+            "n_b": 100,
+            "probability": 0.02
+          }
+        ],
+        "pearson_correction": false,
+        "yates_correction": true,
+        "fisher_alternative": "two-sided",
+        "degenerate_policy": "Chi-square undefined, no rejection; retained in denominator",
+        "python": "3.11.3",
+        "numpy": "1.26.4",
+        "scipy": "1.14.1"
+      },
+      "metrics": [
+        {
+          "scenario": "Plentiful counts",
+          "test": "Pearson chi-square",
+          "repetitions": 20000.0,
+          "false_positives": 989.0,
+          "false_positive_pct": 4.945,
+          "mc_low_pct": 4.653084675352751,
+          "mc_high_pct": 5.2542196936628365,
+          "undefined_test_pct": 0.0
+        },
+        {
+          "scenario": "Plentiful counts",
+          "test": "Yates chi-square",
+          "repetitions": 20000.0,
+          "false_positives": 837.0,
+          "false_positive_pct": 4.185,
+          "mc_low_pct": 3.9161632387320537,
+          "mc_high_pct": 4.471433025088813,
+          "undefined_test_pct": 0.0
+        },
+        {
+          "scenario": "Plentiful counts",
+          "test": "Fisher exact",
+          "repetitions": 20000.0,
+          "false_positives": 838.0,
+          "false_positive_pct": 4.19,
+          "mc_low_pct": 3.921003914911868,
+          "mc_high_pct": 4.476590428548437,
+          "undefined_test_pct": 0.0
+        },
+        {
+          "scenario": "Sparse counts",
+          "test": "Pearson chi-square",
+          "repetitions": 20000.0,
+          "false_positives": 1236.0,
+          "false_positive_pct": 6.18,
+          "mc_low_pct": 5.85462649805972,
+          "mc_high_pct": 6.52220354189729,
+          "undefined_test_pct": 9.06
+        },
+        {
+          "scenario": "Sparse counts",
+          "test": "Yates chi-square",
+          "repetitions": 20000.0,
+          "false_positives": 249.0,
+          "false_positive_pct": 1.2449999999999999,
+          "mc_low_pct": 1.1004195830118544,
+          "mc_high_pct": 1.4083058528189072,
+          "undefined_test_pct": 9.06
+        },
+        {
+          "scenario": "Sparse counts",
+          "test": "Fisher exact",
+          "repetitions": 20000.0,
+          "false_positives": 249.0,
+          "false_positive_pct": 1.2449999999999999,
+          "mc_low_pct": 1.1004195830118544,
+          "mc_high_pct": 1.4083058528189072,
+          "undefined_test_pct": 0.0
+        }
+      ],
+      "diagnostics": [
+        {
+          "scenario": "Plentiful counts",
+          "zero_variation_pct": 0.0,
+          "expected_cell_below_5_pct": 0.0
+        },
+        {
+          "scenario": "Sparse counts",
+          "zero_variation_pct": 9.06,
+          "expected_cell_below_5_pct": 100.0
+        }
+      ],
+      "illustrative_tables": [
+        {
+          "scenario": "Plentiful counts",
+          "group": "A",
+          "outcome": 0.0,
+          "observed": 152.0,
+          "expected": 148.0
+        },
+        {
+          "scenario": "Plentiful counts",
+          "group": "A",
+          "outcome": 1.0,
+          "observed": 348.0,
+          "expected": 352.0
+        },
+        {
+          "scenario": "Plentiful counts",
+          "group": "B",
+          "outcome": 0.0,
+          "observed": 144.0,
+          "expected": 148.0
+        },
+        {
+          "scenario": "Plentiful counts",
+          "group": "B",
+          "outcome": 1.0,
+          "observed": 356.0,
+          "expected": 352.0
+        },
+        {
+          "scenario": "Sparse counts",
+          "group": "A",
+          "outcome": 0.0,
+          "observed": 1.0,
+          "expected": 0.3333333333333333
+        },
+        {
+          "scenario": "Sparse counts",
+          "group": "A",
+          "outcome": 1.0,
+          "observed": 19.0,
+          "expected": 19.666666666666668
+        },
+        {
+          "scenario": "Sparse counts",
+          "group": "B",
+          "outcome": 0.0,
+          "observed": 1.0,
+          "expected": 1.6666666666666667
+        },
+        {
+          "scenario": "Sparse counts",
+          "group": "B",
+          "outcome": 1.0,
+          "observed": 99.0,
+          "expected": 98.33333333333333
+        }
+      ],
+      "scenario_settings": [
+        {
+          "scenario": "Plentiful counts",
+          "n_a": 500.0,
+          "n_b": 500.0,
+          "probability": 0.3,
+          "expected_conversions_a_under_model": 150.0,
+          "expected_conversions_b_under_model": 150.0
+        },
+        {
+          "scenario": "Sparse counts",
+          "n_a": 20.0,
+          "n_b": 100.0,
+          "probability": 0.02,
+          "expected_conversions_a_under_model": 0.4,
+          "expected_conversions_b_under_model": 2.0
+        }
+      ]
+    }
+  ]
+}

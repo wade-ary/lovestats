@@ -1,0 +1,4012 @@
+{
+  "source": "https://norvig.com/mayzner.html",
+  "letters": {
+    "A": {
+      "total": 265558007702,
+      "strongest": "N",
+      "outgoing": [
+        {
+          "letter": "N",
+          "count": 55974567611,
+          "probability": 0.21078094422900145
+        },
+        {
+          "letter": "T",
+          "count": 41920838452,
+          "probability": 0.15785944025849943
+        },
+        {
+          "letter": "L",
+          "count": 30662410438,
+          "probability": 0.11546407771069098
+        },
+        {
+          "letter": "R",
+          "count": 30308513014,
+          "probability": 0.11413142189261777
+        },
+        {
+          "letter": "S",
+          "count": 24561944198,
+          "probability": 0.09249182282449778
+        },
+        {
+          "letter": "C",
+          "count": 12625666388,
+          "probability": 0.04754391139343117
+        },
+        {
+          "letter": "D",
+          "count": 10375130449,
+          "probability": 0.03906916812180114
+        },
+        {
+          "letter": "I",
+          "count": 8922759715,
+          "probability": 0.033600040127627455
+        },
+        {
+          "letter": "M",
+          "count": 8032259916,
+          "probability": 0.030246724568793737
+        },
+        {
+          "letter": "B",
+          "count": 6479202253,
+          "probability": 0.024398444276139984
+        },
+        {
+          "letter": "Y",
+          "count": 6128842727,
+          "probability": 0.023079110963498323
+        },
+        {
+          "letter": "V",
+          "count": 5778409728,
+          "probability": 0.021759500976842434
+        },
+        {
+          "letter": "G",
+          "count": 5772552144,
+          "probability": 0.02173744333282451
+        },
+        {
+          "letter": "P",
+          "count": 5719570727,
+          "probability": 0.021537933562968677
+        },
+        {
+          "letter": "U",
+          "count": 3356322923,
+          "probability": 0.012638756225217465
+        },
+        {
+          "letter": "K",
+          "count": 2952167845,
+          "probability": 0.011116847390694467
+        },
+        {
+          "letter": "F",
+          "count": 2092395523,
+          "probability": 0.007879240927835299
+        },
+        {
+          "letter": "W",
+          "count": 1689436638,
+          "probability": 0.006361836544186712
+        },
+        {
+          "letter": "X",
+          "count": 531206960,
+          "probability": 0.0020003424660276184
+        },
+        {
+          "letter": "H",
+          "count": 384694919,
+          "probability": 0.0014486285777218638
+        },
+        {
+          "letter": "E",
+          "count": 349540062,
+          "probability": 0.001316247493437448
+        },
+        {
+          "letter": "Z",
+          "count": 334669428,
+          "probability": 0.0012602498071741615
+        },
+        {
+          "letter": "J",
+          "count": 331384552,
+          "probability": 0.0012478800954549571
+        },
+        {
+          "letter": "O",
+          "count": 130442323,
+          "probability": 0.0004912008646577055
+        },
+        {
+          "letter": "A",
+          "count": 79794787,
+          "probability": 0.0003004796868695556
+        },
+        {
+          "letter": "Q",
+          "count": 63283982,
+          "probability": 0.00023830568148792218
+        }
+      ],
+      "path": [
+        "A",
+        "N",
+        "D",
+        "E",
+        "R",
+        "E"
+      ],
+      "cycle": [
+        "E",
+        "R"
+      ],
+      "entry_step": 3
+    },
+    "B": {
+      "total": 51990721637,
+      "strongest": "E",
+      "outgoing": [
+        {
+          "letter": "E",
+          "count": 16249257887,
+          "probability": 0.3125414953932081
+        },
+        {
+          "letter": "L",
+          "count": 6581097936,
+          "probability": 0.12658216175473241
+        },
+        {
+          "letter": "O",
+          "count": 5509918152,
+          "probability": 0.10597887427819008
+        },
+        {
+          "letter": "U",
+          "count": 5214802738,
+          "probability": 0.10030256503092669
+        },
+        {
+          "letter": "Y",
+          "count": 4975814759,
+          "probability": 0.09570582216075425
+        },
+        {
+          "letter": "A",
+          "count": 4122472992,
+          "probability": 0.07929247493010712
+        },
+        {
+          "letter": "R",
+          "count": 3145611704,
+          "probability": 0.06050332838160447
+        },
+        {
+          "letter": "I",
+          "count": 3005679357,
+          "probability": 0.057811841466361986
+        },
+        {
+          "letter": "S",
+          "count": 1292319275,
+          "probability": 0.024856728937578374
+        },
+        {
+          "letter": "J",
+          "count": 654853039,
+          "probability": 0.012595575102269089
+        },
+        {
+          "letter": "T",
+          "count": 482272940,
+          "probability": 0.009276134756644405
+        },
+        {
+          "letter": "B",
+          "count": 308276690,
+          "probability": 0.005929455877769739
+        },
+        {
+          "letter": "V",
+          "count": 108385069,
+          "probability": 0.0020847002231810935
+        },
+        {
+          "letter": "M",
+          "count": 88228719,
+          "probability": 0.0016970089320170287
+        },
+        {
+          "letter": "D",
+          "count": 69761165,
+          "probability": 0.0013418002828865024
+        },
+        {
+          "letter": "N",
+          "count": 59062122,
+          "probability": 0.0011360127372797904
+        },
+        {
+          "letter": "C",
+          "count": 53278096,
+          "probability": 0.0010247616175053016
+        },
+        {
+          "letter": "H",
+          "count": 29797934,
+          "probability": 0.0005731394576141801
+        },
+        {
+          "letter": "P",
+          "count": 15427250,
+          "probability": 0.00029673083031455673
+        },
+        {
+          "letter": "W",
+          "count": 8319869,
+          "probability": 0.00016002603422374958
+        },
+        {
+          "letter": "G",
+          "count": 7203255,
+          "probability": 0.00013854885589573528
+        },
+        {
+          "letter": "F",
+          "count": 4108696,
+          "probability": 7.902748549418062e-05
+        },
+        {
+          "letter": "K",
+          "count": 2639491,
+          "probability": 5.076850093424296e-05
+        },
+        {
+          "letter": "Z",
+          "count": 1007374,
+          "probability": 1.937603418997529e-05
+        },
+        {
+          "letter": "X",
+          "count": 778622,
+          "probability": 1.4976172199269526e-05
+        },
+        {
+          "letter": "Q",
+          "count": 346506,
+          "probability": 6.6647661176798065e-06
+        }
+      ],
+      "path": [
+        "B",
+        "E",
+        "R",
+        "E"
+      ],
+      "cycle": [
+        "E",
+        "R"
+      ],
+      "entry_step": 1
+    },
+    "C": {
+      "total": 114668162543,
+      "strongest": "O",
+      "outgoing": [
+        {
+          "letter": "O",
+          "count": 22384167777,
+          "probability": 0.1952082189213248
+        },
+        {
+          "letter": "E",
+          "count": 18367773425,
+          "probability": 0.16018198092353816
+        },
+        {
+          "letter": "H",
+          "count": 16854985236,
+          "probability": 0.14698923277574508
+        },
+        {
+          "letter": "A",
+          "count": 15174413181,
+          "probability": 0.13233327232665534
+        },
+        {
+          "letter": "T",
+          "count": 12997849406,
+          "probability": 0.11335185911892388
+        },
+        {
+          "letter": "I",
+          "count": 7936922442,
+          "probability": 0.06921644391941567
+        },
+        {
+          "letter": "U",
+          "count": 4585165906,
+          "probability": 0.039986390331148675
+        },
+        {
+          "letter": "R",
+          "count": 4214150542,
+          "probability": 0.036750833435738664
+        },
+        {
+          "letter": "L",
+          "count": 4201617719,
+          "probability": 0.036641536986558185
+        },
+        {
+          "letter": "K",
+          "count": 3316660134,
+          "probability": 0.028923984307817514
+        },
+        {
+          "letter": "C",
+          "count": 2344219345,
+          "probability": 0.020443506663158827
+        },
+        {
+          "letter": "Y",
+          "count": 1176324279,
+          "probability": 0.010258508141341187
+        },
+        {
+          "letter": "S",
+          "count": 643530723,
+          "probability": 0.00561211332534154
+        },
+        {
+          "letter": "Q",
+          "count": 154363546,
+          "probability": 0.0013461761536652725
+        },
+        {
+          "letter": "M",
+          "count": 75144874,
+          "probability": 0.0006553246544944072
+        },
+        {
+          "letter": "D",
+          "count": 62905910,
+          "probability": 0.0005485908957197303
+        },
+        {
+          "letter": "F",
+          "count": 39704311,
+          "probability": 0.0003462540091292653
+        },
+        {
+          "letter": "P",
+          "count": 37067423,
+          "probability": 0.00032325819284057943
+        },
+        {
+          "letter": "G",
+          "count": 24975673,
+          "probability": 0.00021780826034108853
+        },
+        {
+          "letter": "N",
+          "count": 24249641,
+          "probability": 0.00021147666852084162
+        },
+        {
+          "letter": "Z",
+          "count": 20601701,
+          "probability": 0.0001796636533028465
+        },
+        {
+          "letter": "B",
+          "count": 17751935,
+          "probability": 0.00015481136704656893
+        },
+        {
+          "letter": "V",
+          "count": 5869407,
+          "probability": 5.1186021209671004e-05
+        },
+        {
+          "letter": "W",
+          "count": 3909223,
+          "probability": 3.409161630661048e-05
+        },
+        {
+          "letter": "J",
+          "count": 2962048,
+          "probability": 2.5831476970682657e-05
+        },
+        {
+          "letter": "X",
+          "count": 876736,
+          "probability": 7.645853744898269e-06
+        }
+      ],
+      "path": [
+        "C",
+        "O",
+        "N",
+        "D",
+        "E",
+        "R",
+        "E"
+      ],
+      "cycle": [
+        "E",
+        "R"
+      ],
+      "entry_step": 4
+    },
+    "D": {
+      "total": 61773859589,
+      "strongest": "E",
+      "outgoing": [
+        {
+          "letter": "E",
+          "count": 21565300071,
+          "probability": 0.34910073960863713
+        },
+        {
+          "letter": "I",
+          "count": 13899990598,
+          "probability": 0.22501411908662988
+        },
+        {
+          "letter": "O",
+          "count": 5307591560,
+          "probability": 0.08591970123468078
+        },
+        {
+          "letter": "A",
+          "count": 4259590348,
+          "probability": 0.06895457684432106
+        },
+        {
+          "letter": "U",
+          "count": 4186093215,
+          "probability": 0.06776479959081937
+        },
+        {
+          "letter": "S",
+          "count": 3560125353,
+          "probability": 0.0576315835967929
+        },
+        {
+          "letter": "R",
+          "count": 2409399231,
+          "probability": 0.03900354044624142
+        },
+        {
+          "letter": "Y",
+          "count": 1421751251,
+          "probability": 0.023015418826981788
+        },
+        {
+          "letter": "D",
+          "count": 1205446875,
+          "probability": 0.01951386691749875
+        },
+        {
+          "letter": "L",
+          "count": 911886482,
+          "probability": 0.014761688650621056
+        },
+        {
+          "letter": "G",
+          "count": 874188188,
+          "probability": 0.014151425761903756
+        },
+        {
+          "letter": "V",
+          "count": 537221821,
+          "probability": 0.008696588242572146
+        },
+        {
+          "letter": "M",
+          "count": 512522701,
+          "probability": 0.008296756984426215
+        },
+        {
+          "letter": "W",
+          "count": 230152384,
+          "probability": 0.0037257245302668926
+        },
+        {
+          "letter": "N",
+          "count": 213431654,
+          "probability": 0.003455048064343474
+        },
+        {
+          "letter": "H",
+          "count": 153344431,
+          "probability": 0.0024823514674369783
+        },
+        {
+          "letter": "J",
+          "count": 134832736,
+          "probability": 0.0021826827220620924
+        },
+        {
+          "letter": "T",
+          "count": 81648332,
+          "probability": 0.0013217294911347748
+        },
+        {
+          "letter": "F",
+          "count": 78347492,
+          "probability": 0.0012682952388157278
+        },
+        {
+          "letter": "B",
+          "count": 78190243,
+          "probability": 0.00126574967988439
+        },
+        {
+          "letter": "C",
+          "count": 71030077,
+          "probability": 0.0011498403608352205
+        },
+        {
+          "letter": "P",
+          "count": 48855638,
+          "probability": 0.0007908788332969836
+        },
+        {
+          "letter": "Q",
+          "count": 19927900,
+          "probability": 0.00032259438106322464
+        },
+        {
+          "letter": "K",
+          "count": 9494027,
+          "probability": 0.00015369004079017576
+        },
+        {
+          "letter": "Z",
+          "count": 2200704,
+          "probability": 3.562516596246281e-05
+        },
+        {
+          "letter": "X",
+          "count": 1296277,
+          "probability": 2.0984231981367514e-05
+        }
+      ],
+      "path": [
+        "D",
+        "E",
+        "R",
+        "E"
+      ],
+      "cycle": [
+        "E",
+        "R"
+      ],
+      "entry_step": 1
+    },
+    "E": {
+      "total": 295389985133,
+      "strongest": "R",
+      "outgoing": [
+        {
+          "letter": "R",
+          "count": 57754162106,
+          "probability": 0.19551834866708856
+        },
+        {
+          "letter": "N",
+          "count": 41004903554,
+          "probability": 0.13881616039060177
+        },
+        {
+          "letter": "S",
+          "count": 37766388079,
+          "probability": 0.12785263543039754
+        },
+        {
+          "letter": "D",
+          "count": 32937140633,
+          "probability": 0.11150391783990232
+        },
+        {
+          "letter": "A",
+          "count": 19403941063,
+          "probability": 0.06568923131995599
+        },
+        {
+          "letter": "L",
+          "count": 14952716079,
+          "probability": 0.050620254008501696
+        },
+        {
+          "letter": "C",
+          "count": 13457763533,
+          "probability": 0.045559308745489836
+        },
+        {
+          "letter": "T",
+          "count": 11634161334,
+          "probability": 0.03938576769541355
+        },
+        {
+          "letter": "E",
+          "count": 10647199443,
+          "probability": 0.03604455119968294
+        },
+        {
+          "letter": "M",
+          "count": 10536054813,
+          "probability": 0.03566828715691264
+        },
+        {
+          "letter": "V",
+          "count": 7184041787,
+          "probability": 0.0243205326807724
+        },
+        {
+          "letter": "X",
+          "count": 6035335807,
+          "probability": 0.020431755004431097
+        },
+        {
+          "letter": "I",
+          "count": 5169898489,
+          "probability": 0.017501942344701503
+        },
+        {
+          "letter": "P",
+          "count": 4837800987,
+          "probability": 0.016377674364355208
+        },
+        {
+          "letter": "F",
+          "count": 4588497002,
+          "probability": 0.015533691841089397
+        },
+        {
+          "letter": "Y",
+          "count": 4053144855,
+          "probability": 0.013721334706642347
+        },
+        {
+          "letter": "G",
+          "count": 3370515965,
+          "probability": 0.011410393495508717
+        },
+        {
+          "letter": "W",
+          "count": 3293529190,
+          "probability": 0.011149765922216628
+        },
+        {
+          "letter": "O",
+          "count": 2044268477,
+          "probability": 0.006920574765185636
+        },
+        {
+          "letter": "Q",
+          "count": 1614312175,
+          "probability": 0.00546501999474746
+        },
+        {
+          "letter": "U",
+          "count": 878402090,
+          "probability": 0.0029737030170623336
+        },
+        {
+          "letter": "B",
+          "count": 763383542,
+          "probability": 0.0025843243861374816
+        },
+        {
+          "letter": "H",
+          "count": 742240059,
+          "probability": 0.002512746187606207
+        },
+        {
+          "letter": "K",
+          "count": 464449289,
+          "probability": 0.0015723257807500842
+        },
+        {
+          "letter": "J",
+          "count": 128194584,
+          "probability": 0.00043398419192268857
+        },
+        {
+          "letter": "Z",
+          "count": 127540198,
+          "probability": 0.0004317688629239571
+        }
+      ],
+      "path": [
+        "E",
+        "R",
+        "E"
+      ],
+      "cycle": [
+        "E",
+        "R"
+      ],
+      "entry_step": 0
+    },
+    "F": {
+      "total": 50568628169,
+      "strongest": "O",
+      "outgoing": [
+        {
+          "letter": "O",
+          "count": 13753006196,
+          "probability": 0.2719671601538715
+        },
+        {
+          "letter": "I",
+          "count": 8024355222,
+          "probability": 0.15868247790275547
+        },
+        {
+          "letter": "E",
+          "count": 6670566518,
+          "probability": 0.13191116230614391
+        },
+        {
+          "letter": "R",
+          "count": 6011200185,
+          "probability": 0.11887212294766256
+        },
+        {
+          "letter": "A",
+          "count": 4624241031,
+          "probability": 0.09144485817463387
+        },
+        {
+          "letter": "F",
+          "count": 4125634219,
+          "probability": 0.08158485544065304
+        },
+        {
+          "letter": "U",
+          "count": 2706168901,
+          "probability": 0.05351477781750382
+        },
+        {
+          "letter": "T",
+          "count": 2302659749,
+          "probability": 0.04553534142362983
+        },
+        {
+          "letter": "L",
+          "count": 1830098844,
+          "probability": 0.036190399270548186
+        },
+        {
+          "letter": "Y",
+          "count": 256535008,
+          "probability": 0.00507300706561906
+        },
+        {
+          "letter": "S",
+          "count": 155349948,
+          "probability": 0.0030720617431191045
+        },
+        {
+          "letter": "M",
+          "count": 19340776,
+          "probability": 0.0003824659022855685
+        },
+        {
+          "letter": "C",
+          "count": 16254390,
+          "probability": 0.00032143229089936836
+        },
+        {
+          "letter": "G",
+          "count": 14424524,
+          "probability": 0.00028524649614368306
+        },
+        {
+          "letter": "D",
+          "count": 13966832,
+          "probability": 0.00027619558816827984
+        },
+        {
+          "letter": "N",
+          "count": 11823066,
+          "probability": 0.00023380238752942627
+        },
+        {
+          "letter": "B",
+          "count": 7730842,
+          "probability": 0.00015287822272266473
+        },
+        {
+          "letter": "W",
+          "count": 6451511,
+          "probability": 0.00012757931614120708
+        },
+        {
+          "letter": "P",
+          "count": 6262895,
+          "probability": 0.00012384941468195358
+        },
+        {
+          "letter": "H",
+          "count": 5166165,
+          "probability": 0.000102161462295056
+        },
+        {
+          "letter": "K",
+          "count": 3293208,
+          "probability": 6.512353843165612e-05
+        },
+        {
+          "letter": "J",
+          "count": 2065436,
+          "probability": 4.084421655848222e-05
+        },
+        {
+          "letter": "X",
+          "count": 812116,
+          "probability": 1.6059680268286376e-05
+        },
+        {
+          "letter": "V",
+          "count": 807297,
+          "probability": 1.5964384030787214e-05
+        },
+        {
+          "letter": "Z",
+          "count": 263860,
+          "probability": 5.217859561429701e-06
+        },
+        {
+          "letter": "Q",
+          "count": 149430,
+          "probability": 2.954994141834459e-06
+        }
+      ],
+      "path": [
+        "F",
+        "O",
+        "N",
+        "D",
+        "E",
+        "R",
+        "E"
+      ],
+      "cycle": [
+        "E",
+        "R"
+      ],
+      "entry_step": 4
+    },
+    "G": {
+      "total": 44752229042,
+      "strongest": "E",
+      "outgoing": [
+        {
+          "letter": "E",
+          "count": 10861045622,
+          "probability": 0.24269284132879507
+        },
+        {
+          "letter": "H",
+          "count": 6414827751,
+          "probability": 0.14334096621153058
+        },
+        {
+          "letter": "R",
+          "count": 5548472398,
+          "probability": 0.12398203434275318
+        },
+        {
+          "letter": "I",
+          "count": 4275639800,
+          "probability": 0.09554026450810549
+        },
+        {
+          "letter": "A",
+          "count": 4175274057,
+          "probability": 0.09329756631969108
+        },
+        {
+          "letter": "O",
+          "count": 3725558729,
+          "probability": 0.0832485623342596
+        },
+        {
+          "letter": "U",
+          "count": 2418410978,
+          "probability": 0.054040011632276896
+        },
+        {
+          "letter": "N",
+          "count": 1850801359,
+          "probability": 0.04135662957174762
+        },
+        {
+          "letter": "L",
+          "count": 1709752272,
+          "probability": 0.03820485165991165
+        },
+        {
+          "letter": "S",
+          "count": 1443474876,
+          "probability": 0.03225481516563784
+        },
+        {
+          "letter": "Y",
+          "count": 731420025,
+          "probability": 0.01634376746493592
+        },
+        {
+          "letter": "G",
+          "count": 697999944,
+          "probability": 0.015596987210289046
+        },
+        {
+          "letter": "T",
+          "count": 434302509,
+          "probability": 0.00970460060419352
+        },
+        {
+          "letter": "M",
+          "count": 277966576,
+          "probability": 0.006211234210012828
+        },
+        {
+          "letter": "D",
+          "count": 89087728,
+          "probability": 0.0019906880597252733
+        },
+        {
+          "letter": "F",
+          "count": 33962536,
+          "probability": 0.0007589015503144242
+        },
+        {
+          "letter": "W",
+          "count": 18260884,
+          "probability": 0.00040804412184390073
+        },
+        {
+          "letter": "B",
+          "count": 13944852,
+          "probability": 0.0003116012832994921
+        },
+        {
+          "letter": "P",
+          "count": 11612944,
+          "probability": 0.00025949420282733276
+        },
+        {
+          "letter": "K",
+          "count": 7338894,
+          "probability": 0.00016398946280670048
+        },
+        {
+          "letter": "C",
+          "count": 6455066,
+          "probability": 0.0001442401001733772
+        },
+        {
+          "letter": "Z",
+          "count": 3431194,
+          "probability": 7.667090720285289e-05
+        },
+        {
+          "letter": "V",
+          "count": 1192366,
+          "probability": 2.664372312898568e-05
+        },
+        {
+          "letter": "J",
+          "count": 1093028,
+          "probability": 2.442399012067516e-05
+        },
+        {
+          "letter": "X",
+          "count": 557030,
+          "probability": 1.2446977769023012e-05
+        },
+        {
+          "letter": "Q",
+          "count": 345624,
+          "probability": 7.723056647650592e-06
+        }
+      ],
+      "path": [
+        "G",
+        "E",
+        "R",
+        "E"
+      ],
+      "cycle": [
+        "E",
+        "R"
+      ],
+      "entry_step": 1
+    },
+    "H": {
+      "total": 159902640250,
+      "strongest": "E",
+      "outgoing": [
+        {
+          "letter": "E",
+          "count": 86697336727,
+          "probability": 0.5421882752620778
+        },
+        {
+          "letter": "A",
+          "count": 26103411208,
+          "probability": 0.16324565477585978
+        },
+        {
+          "letter": "I",
+          "count": 21520845924,
+          "probability": 0.1345871831156334
+        },
+        {
+          "letter": "O",
+          "count": 13672603513,
+          "probability": 0.085505802103227
+        },
+        {
+          "letter": "T",
+          "count": 3670802795,
+          "probability": 0.02295648645488829
+        },
+        {
+          "letter": "R",
+          "count": 2379584978,
+          "probability": 0.014881461458545242
+        },
+        {
+          "letter": "U",
+          "count": 2077887429,
+          "probability": 0.012994703688140008
+        },
+        {
+          "letter": "Y",
+          "count": 1412343465,
+          "probability": 0.008832521231618625
+        },
+        {
+          "letter": "N",
+          "count": 726288117,
+          "probability": 0.004542064570444139
+        },
+        {
+          "letter": "S",
+          "count": 414044112,
+          "probability": 0.0025893513162300644
+        },
+        {
+          "letter": "M",
+          "count": 359316447,
+          "probability": 0.0022470951476362506
+        },
+        {
+          "letter": "L",
+          "count": 355049620,
+          "probability": 0.0022204112417712253
+        },
+        {
+          "letter": "W",
+          "count": 134615178,
+          "probability": 0.0008418571312489632
+        },
+        {
+          "letter": "B",
+          "count": 123778334,
+          "probability": 0.0007740856173886722
+        },
+        {
+          "letter": "D",
+          "count": 80544316,
+          "probability": 0.0005037084808235366
+        },
+        {
+          "letter": "F",
+          "count": 63249924,
+          "probability": 0.00039555271821098024
+        },
+        {
+          "letter": "C",
+          "count": 34631551,
+          "probability": 0.00021657898172197315
+        },
+        {
+          "letter": "P",
+          "count": 16696129,
+          "probability": 0.00010441434221408986
+        },
+        {
+          "letter": "H",
+          "count": 14730425,
+          "probability": 9.212121186347954e-05
+        },
+        {
+          "letter": "Q",
+          "count": 11925353,
+          "probability": 7.457883735600169e-05
+        },
+        {
+          "letter": "Z",
+          "count": 10729982,
+          "probability": 6.71032197043413e-05
+        },
+        {
+          "letter": "G",
+          "count": 7789748,
+          "probability": 4.871556834722121e-05
+        },
+        {
+          "letter": "K",
+          "count": 6595610,
+          "probability": 4.124766163765704e-05
+        },
+        {
+          "letter": "V",
+          "count": 6292998,
+          "probability": 3.935518506862178e-05
+        },
+        {
+          "letter": "J",
+          "count": 1282370,
+          "probability": 8.019692470337431e-06
+        },
+        {
+          "letter": "X",
+          "count": 263997,
+          "probability": 1.6509858723236436e-06
+        }
+      ],
+      "path": [
+        "H",
+        "E",
+        "R",
+        "E"
+      ],
+      "cycle": [
+        "E",
+        "R"
+      ],
+      "entry_step": 1
+    },
+    "I": {
+      "total": 264137445721,
+      "strongest": "N",
+      "outgoing": [
+        {
+          "letter": "N",
+          "count": 68595215308,
+          "probability": 0.25969515651504765
+        },
+        {
+          "letter": "S",
+          "count": 31817918249,
+          "probability": 0.12045970294801843
+        },
+        {
+          "letter": "T",
+          "count": 31672532308,
+          "probability": 0.11990928518879784
+        },
+        {
+          "letter": "O",
+          "count": 23542263265,
+          "probability": 0.08912883669613034
+        },
+        {
+          "letter": "C",
+          "count": 19701195496,
+          "probability": 0.07458690850221118
+        },
+        {
+          "letter": "L",
+          "count": 12167821320,
+          "probability": 0.046066248906080826
+        },
+        {
+          "letter": "E",
+          "count": 10845731320,
+          "probability": 0.041060938143
+        },
+        {
+          "letter": "M",
+          "count": 8959759181,
+          "probability": 0.03392082162581336
+        },
+        {
+          "letter": "R",
+          "count": 8886799024,
+          "probability": 0.03364460120276488
+        },
+        {
+          "letter": "D",
+          "count": 8332214014,
+          "probability": 0.031544993521293654
+        },
+        {
+          "letter": "V",
+          "count": 8116349309,
+          "probability": 0.030727749663987596
+        },
+        {
+          "letter": "A",
+          "count": 8072199471,
+          "probability": 0.030560602450613563
+        },
+        {
+          "letter": "G",
+          "count": 7189051323,
+          "probability": 0.027217085042132067
+        },
+        {
+          "letter": "F",
+          "count": 5731148470,
+          "probability": 0.021697599347779074
+        },
+        {
+          "letter": "B",
+          "count": 2780268452,
+          "probability": 0.010525839849820874
+        },
+        {
+          "letter": "P",
+          "count": 2515455253,
+          "probability": 0.009523281510252037
+        },
+        {
+          "letter": "Z",
+          "count": 1814164135,
+          "probability": 0.006868258039097736
+        },
+        {
+          "letter": "K",
+          "count": 1209994695,
+          "probability": 0.004580928280339619
+        },
+        {
+          "letter": "I",
+          "count": 642384029,
+          "probability": 0.0024320066670082434
+        },
+        {
+          "letter": "X",
+          "count": 621227893,
+          "probability": 0.0023519114879916848
+        },
+        {
+          "letter": "U",
+          "count": 490874936,
+          "probability": 0.001858407219241817
+        },
+        {
+          "letter": "Q",
+          "count": 318727904,
+          "probability": 0.0012066744384916258
+        },
+        {
+          "letter": "H",
+          "count": 58966344,
+          "probability": 0.00022324113810915047
+        },
+        {
+          "letter": "J",
+          "count": 31324465,
+          "probability": 0.0001185915344736355
+        },
+        {
+          "letter": "W",
+          "count": 17611969,
+          "probability": 6.667728974180725e-05
+        },
+        {
+          "letter": "Y",
+          "count": 6247588,
+          "probability": 2.3652791761298126e-05
+        }
+      ],
+      "path": [
+        "I",
+        "N",
+        "D",
+        "E",
+        "R",
+        "E"
+      ],
+      "cycle": [
+        "E",
+        "R"
+      ],
+      "entry_step": 3
+    },
+    "J": {
+      "total": 5496578273,
+      "strongest": "U",
+      "outgoing": [
+        {
+          "letter": "U",
+          "count": 1655210582,
+          "probability": 0.3011347241484102
+        },
+        {
+          "letter": "O",
+          "count": 1516687319,
+          "probability": 0.2759329975250586
+        },
+        {
+          "letter": "E",
+          "count": 1463052212,
+          "probability": 0.26617508917988625
+        },
+        {
+          "letter": "A",
+          "count": 729206855,
+          "probability": 0.13266560008468745
+        },
+        {
+          "letter": "I",
+          "count": 77899882,
+          "probability": 0.01417243203515461
+        },
+        {
+          "letter": "R",
+          "count": 6846578,
+          "probability": 0.001245607296021126
+        },
+        {
+          "letter": "P",
+          "count": 6129447,
+          "probability": 0.0011151386727464147
+        },
+        {
+          "letter": "N",
+          "count": 4150888,
+          "probability": 0.0007551767288368787
+        },
+        {
+          "letter": "M",
+          "count": 3659540,
+          "probability": 0.0006657851154373983
+        },
+        {
+          "letter": "H",
+          "count": 3541869,
+          "probability": 0.0006443770695303624
+        },
+        {
+          "letter": "C",
+          "count": 3447571,
+          "probability": 0.0006272213054683448
+        },
+        {
+          "letter": "S",
+          "count": 3329038,
+          "probability": 0.0006056564347228027
+        },
+        {
+          "letter": "L",
+          "count": 3192327,
+          "probability": 0.0005807844155847246
+        },
+        {
+          "letter": "J",
+          "count": 2979950,
+          "probability": 0.0005421463776178632
+        },
+        {
+          "letter": "T",
+          "count": 2917850,
+          "probability": 0.0005308484397161973
+        },
+        {
+          "letter": "D",
+          "count": 2615147,
+          "probability": 0.0004757772690777436
+        },
+        {
+          "letter": "F",
+          "count": 2421784,
+          "probability": 0.00044059847412637764
+        },
+        {
+          "letter": "B",
+          "count": 2126115,
+          "probability": 0.0003868070087246441
+        },
+        {
+          "letter": "K",
+          "count": 1740133,
+          "probability": 0.0003165847757590916
+        },
+        {
+          "letter": "V",
+          "count": 1719726,
+          "probability": 0.00031287210234911904
+        },
+        {
+          "letter": "W",
+          "count": 1165914,
+          "probability": 0.0002121163280303204
+        },
+        {
+          "letter": "Y",
+          "count": 1120221,
+          "probability": 0.00020380333806992073
+        },
+        {
+          "letter": "G",
+          "count": 1034900,
+          "probability": 0.00018828077189104734
+        },
+        {
+          "letter": "Z",
+          "count": 220675,
+          "probability": 4.0147704451692794e-05
+        },
+        {
+          "letter": "X",
+          "count": 161750,
+          "probability": 2.942739864081255e-05
+        },
+        {
+          "letter": "Q",
+          "count": 0,
+          "probability": 0.0
+        }
+      ],
+      "path": [
+        "J",
+        "U",
+        "R",
+        "E",
+        "R"
+      ],
+      "cycle": [
+        "R",
+        "E"
+      ],
+      "entry_step": 2
+    },
+    "K": {
+      "total": 13295161369,
+      "strongest": "E",
+      "outgoing": [
+        {
+          "letter": "E",
+          "count": 6027536039,
+          "probability": 0.4533631350315354
+        },
+        {
+          "letter": "I",
+          "count": 2759841743,
+          "probability": 0.20758241787384807
+        },
+        {
+          "letter": "N",
+          "count": 1450401608,
+          "probability": 0.10909244105768176
+        },
+        {
+          "letter": "S",
+          "count": 1339590722,
+          "probability": 0.10075776328097007
+        },
+        {
+          "letter": "A",
+          "count": 478095427,
+          "probability": 0.03596010711947907
+        },
+        {
+          "letter": "L",
+          "count": 298033281,
+          "probability": 0.022416672707329215
+        },
+        {
+          "letter": "O",
+          "count": 171324962,
+          "probability": 0.012886264201311178
+        },
+        {
+          "letter": "Y",
+          "count": 167761726,
+          "probability": 0.012618254216241848
+        },
+        {
+          "letter": "H",
+          "count": 89811517,
+          "probability": 0.006755203228251994
+        },
+        {
+          "letter": "U",
+          "count": 85313841,
+          "probability": 0.0064169090266872715
+        },
+        {
+          "letter": "R",
+          "count": 76743394,
+          "probability": 0.0057722799949567125
+        },
+        {
+          "letter": "G",
+          "count": 72267691,
+          "probability": 0.005435638499921091
+        },
+        {
+          "letter": "W",
+          "count": 61416538,
+          "probability": 0.0046194654051513375
+        },
+        {
+          "letter": "M",
+          "count": 50449220,
+          "probability": 0.003794554921133278
+        },
+        {
+          "letter": "F",
+          "count": 44759608,
+          "probability": 0.003366608855486694
+        },
+        {
+          "letter": "T",
+          "count": 29132180,
+          "probability": 0.002191186642377037
+        },
+        {
+          "letter": "B",
+          "count": 25406204,
+          "probability": 0.0019109361138886977
+        },
+        {
+          "letter": "P",
+          "count": 20492678,
+          "probability": 0.0015413636157724472
+        },
+        {
+          "letter": "D",
+          "count": 18894758,
+          "probability": 0.0014211755296221107
+        },
+        {
+          "letter": "K",
+          "count": 12782664,
+          "probability": 0.0009614523393303839
+        },
+        {
+          "letter": "C",
+          "count": 6326022,
+          "probability": 0.0004758138562161592
+        },
+        {
+          "letter": "V",
+          "count": 4414960,
+          "probability": 0.00033207269001595224
+        },
+        {
+          "letter": "J",
+          "count": 3471162,
+          "probability": 0.0002610846084270645
+        },
+        {
+          "letter": "X",
+          "count": 555422,
+          "probability": 4.1776251117573026e-05
+        },
+        {
+          "letter": "Q",
+          "count": 187242,
+          "probability": 1.4083469527236244e-05
+        },
+        {
+          "letter": "Z",
+          "count": 150760,
+          "probability": 1.133946372035193e-05
+        }
+      ],
+      "path": [
+        "K",
+        "E",
+        "R",
+        "E"
+      ],
+      "cycle": [
+        "E",
+        "R"
+      ],
+      "entry_step": 1
+    },
+    "L": {
+      "total": 119227774548,
+      "strongest": "E",
+      "outgoing": [
+        {
+          "letter": "E",
+          "count": 23382173640,
+          "probability": 0.1961134788319525
+        },
+        {
+          "letter": "I",
+          "count": 17604626629,
+          "probability": 0.1476554158268931
+        },
+        {
+          "letter": "L",
+          "count": 16257360474,
+          "probability": 0.1363554803872896
+        },
+        {
+          "letter": "A",
+          "count": 14874551789,
+          "probability": 0.12475743882153603
+        },
+        {
+          "letter": "Y",
+          "count": 11983948242,
+          "probability": 0.10051305819832587
+        },
+        {
+          "letter": "O",
+          "count": 10908830081,
+          "probability": 0.09149571165239023
+        },
+        {
+          "letter": "D",
+          "count": 7122648226,
+          "probability": 0.05973984042730318
+        },
+        {
+          "letter": "S",
+          "count": 3990203351,
+          "probability": 0.03346706223551611
+        },
+        {
+          "letter": "U",
+          "count": 3811884104,
+          "probability": 0.03197144388923716
+        },
+        {
+          "letter": "T",
+          "count": 3486149365,
+          "probability": 0.029239406490779617
+        },
+        {
+          "letter": "F",
+          "count": 1507867867,
+          "probability": 0.012646951372835918
+        },
+        {
+          "letter": "V",
+          "count": 984229060,
+          "probability": 0.008255031713300649
+        },
+        {
+          "letter": "M",
+          "count": 649112313,
+          "probability": 0.005444304529383574
+        },
+        {
+          "letter": "K",
+          "count": 555883002,
+          "probability": 0.004662361636014657
+        },
+        {
+          "letter": "P",
+          "count": 536595562,
+          "probability": 0.004500591947088399
+        },
+        {
+          "letter": "W",
+          "count": 356374125,
+          "probability": 0.0029890193484784625
+        },
+        {
+          "letter": "C",
+          "count": 333338045,
+          "probability": 0.002795808663406706
+        },
+        {
+          "letter": "R",
+          "count": 283411884,
+          "probability": 0.00237706260201897
+        },
+        {
+          "letter": "B",
+          "count": 188643782,
+          "probability": 0.0015822133954538735
+        },
+        {
+          "letter": "G",
+          "count": 171657388,
+          "probability": 0.0014397432867531408
+        },
+        {
+          "letter": "N",
+          "count": 165509578,
+          "probability": 0.0013881797142273034
+        },
+        {
+          "letter": "H",
+          "count": 45643026,
+          "probability": 0.00038282209135443135
+        },
+        {
+          "letter": "Z",
+          "count": 11767790,
+          "probability": 9.870007256792667e-05
+        },
+        {
+          "letter": "X",
+          "count": 8612462,
+          "probability": 7.223536657167666e-05
+        },
+        {
+          "letter": "Q",
+          "count": 3582930,
+          "probability": 3.0051135430340063e-05
+        },
+        {
+          "letter": "J",
+          "count": 3169833,
+          "probability": 2.6586363890603816e-05
+        }
+      ],
+      "path": [
+        "L",
+        "E",
+        "R",
+        "E"
+      ],
+      "cycle": [
+        "E",
+        "R"
+      ],
+      "entry_step": 1
+    },
+    "M": {
+      "total": 77191787274,
+      "strongest": "E",
+      "outgoing": [
+        {
+          "letter": "E",
+          "count": 22360109325,
+          "probability": 0.2896695375847504
+        },
+        {
+          "letter": "A",
+          "count": 15938689768,
+          "probability": 0.20648167804981662
+        },
+        {
+          "letter": "O",
+          "count": 9498813191,
+          "probability": 0.1230547125082492
+        },
+        {
+          "letter": "I",
+          "count": 8957825538,
+          "probability": 0.11604635485642144
+        },
+        {
+          "letter": "P",
+          "count": 6743935008,
+          "probability": 0.0873659652944908
+        },
+        {
+          "letter": "U",
+          "count": 3231856188,
+          "probability": 0.04186787613205796
+        },
+        {
+          "letter": "M",
+          "count": 2708822249,
+          "probability": 0.035092104285456734
+        },
+        {
+          "letter": "S",
+          "count": 2617582287,
+          "probability": 0.03391011374964838
+        },
+        {
+          "letter": "B",
+          "count": 2544901434,
+          "probability": 0.03296855175754147
+        },
+        {
+          "letter": "Y",
+          "count": 1753447198,
+          "probability": 0.022715463133091647
+        },
+        {
+          "letter": "N",
+          "count": 247850339,
+          "probability": 0.0032108381960406014
+        },
+        {
+          "letter": "L",
+          "count": 129888836,
+          "probability": 0.0016826768829557805
+        },
+        {
+          "letter": "C",
+          "count": 121591374,
+          "probability": 0.001575185370023876
+        },
+        {
+          "letter": "F",
+          "count": 107664447,
+          "probability": 0.0013947655677129774
+        },
+        {
+          "letter": "R",
+          "count": 87580303,
+          "probability": 0.0011345805828944589
+        },
+        {
+          "letter": "T",
+          "count": 38538709,
+          "probability": 0.000499259187550652
+        },
+        {
+          "letter": "G",
+          "count": 34537023,
+          "probability": 0.0004474183617151831
+        },
+        {
+          "letter": "D",
+          "count": 18929019,
+          "probability": 0.000245220633806671
+        },
+        {
+          "letter": "W",
+          "count": 16465357,
+          "probability": 0.00021330451828449783
+        },
+        {
+          "letter": "H",
+          "count": 15033898,
+          "probability": 0.00019476033048225285
+        },
+        {
+          "letter": "V",
+          "count": 8172535,
+          "probability": 0.00010587311537418827
+        },
+        {
+          "letter": "K",
+          "count": 3956883,
+          "probability": 5.126041434893386e-05
+        },
+        {
+          "letter": "J",
+          "count": 2923325,
+          "probability": 3.7870932948130407e-05
+        },
+        {
+          "letter": "X",
+          "count": 994334,
+          "probability": 1.288134444238882e-05
+        },
+        {
+          "letter": "Z",
+          "count": 970282,
+          "probability": 1.2569756890793143e-05
+        },
+        {
+          "letter": "Q",
+          "count": 708424,
+          "probability": 9.177453003975383e-06
+        }
+      ],
+      "path": [
+        "M",
+        "E",
+        "R",
+        "E"
+      ],
+      "cycle": [
+        "E",
+        "R"
+      ],
+      "entry_step": 1
+    },
+    "N": {
+      "total": 188518688012,
+      "strongest": "D",
+      "outgoing": [
+        {
+          "letter": "D",
+          "count": 38129777631,
+          "probability": 0.2022599352514743
+        },
+        {
+          "letter": "T",
+          "count": 29359771944,
+          "probability": 0.15573931822680162
+        },
+        {
+          "letter": "G",
+          "count": 26871805511,
+          "probability": 0.14254186571301355
+        },
+        {
+          "letter": "E",
+          "count": 19504235770,
+          "probability": 0.10346048965054581
+        },
+        {
+          "letter": "S",
+          "count": 14350320288,
+          "probability": 0.07612147336335452
+        },
+        {
+          "letter": "O",
+          "count": 13099447521,
+          "probability": 0.0694862013901039
+        },
+        {
+          "letter": "C",
+          "count": 11722631112,
+          "probability": 0.06218285961789531
+        },
+        {
+          "letter": "A",
+          "count": 9790855551,
+          "probability": 0.05193572931282426
+        },
+        {
+          "letter": "I",
+          "count": 9564648232,
+          "probability": 0.05073580944607025
+        },
+        {
+          "letter": "Y",
+          "count": 2760941827,
+          "probability": 0.014645454284215337
+        },
+        {
+          "letter": "U",
+          "count": 2217508482,
+          "probability": 0.011762804554733833
+        },
+        {
+          "letter": "N",
+          "count": 2051719074,
+          "probability": 0.010883372336377598
+        },
+        {
+          "letter": "F",
+          "count": 1894270041,
+          "probability": 0.010048181753097189
+        },
+        {
+          "letter": "L",
+          "count": 1798491132,
+          "probability": 0.009540121199472376
+        },
+        {
+          "letter": "V",
+          "count": 1466426243,
+          "probability": 0.007778678381777491
+        },
+        {
+          "letter": "K",
+          "count": 1455100124,
+          "probability": 0.00771859882616718
+        },
+        {
+          "letter": "M",
+          "count": 782441941,
+          "probability": 0.0041504741479539385
+        },
+        {
+          "letter": "J",
+          "count": 312598990,
+          "probability": 0.001658185685973487
+        },
+        {
+          "letter": "H",
+          "count": 306883963,
+          "probability": 0.0016278702458425
+        },
+        {
+          "letter": "R",
+          "count": 258048421,
+          "probability": 0.0013688214347405926
+        },
+        {
+          "letter": "P",
+          "count": 170186564,
+          "probability": 0.0009027569934560913
+        },
+        {
+          "letter": "Q",
+          "count": 167770304,
+          "probability": 0.0008899399087125023
+        },
+        {
+          "letter": "W",
+          "count": 163456000,
+          "probability": 0.0008670546231978622
+        },
+        {
+          "letter": "Z",
+          "count": 123192934,
+          "probability": 0.0006534786301512891
+        },
+        {
+          "letter": "B",
+          "count": 122258836,
+          "probability": 0.0006485236943311303
+        },
+        {
+          "letter": "X",
+          "count": 73899576,
+          "probability": 0.0003920013277160935
+        }
+      ],
+      "path": [
+        "N",
+        "D",
+        "E",
+        "R",
+        "E"
+      ],
+      "cycle": [
+        "E",
+        "R"
+      ],
+      "entry_step": 2
+    },
+    "O": {
+      "total": 241206426841,
+      "strongest": "N",
+      "outgoing": [
+        {
+          "letter": "N",
+          "count": 49570981965,
+          "probability": 0.20551269140799686
+        },
+        {
+          "letter": "R",
+          "count": 35994097756,
+          "probability": 0.149225284862442
+        },
+        {
+          "letter": "F",
+          "count": 33130341561,
+          "probability": 0.13735264849654719
+        },
+        {
+          "letter": "U",
+          "count": 24531132241,
+          "probability": 0.10170181848915075
+        },
+        {
+          "letter": "M",
+          "count": 15402602484,
+          "probability": 0.0638565177790772
+        },
+        {
+          "letter": "T",
+          "count": 12465822481,
+          "probability": 0.05168113737374544
+        },
+        {
+          "letter": "L",
+          "count": 10305660447,
+          "probability": 0.04272548033636497
+        },
+        {
+          "letter": "W",
+          "count": 9318366591,
+          "probability": 0.03863233129000555
+        },
+        {
+          "letter": "S",
+          "count": 8176085241,
+          "probability": 0.03389663098151843
+        },
+        {
+          "letter": "P",
+          "count": 6313536754,
+          "probability": 0.026174828078531248
+        },
+        {
+          "letter": "O",
+          "count": 5928601045,
+          "probability": 0.0245789514095661
+        },
+        {
+          "letter": "D",
+          "count": 5511014957,
+          "probability": 0.02284771193361604
+        },
+        {
+          "letter": "V",
+          "count": 5021440160,
+          "probability": 0.02081801975910893
+        },
+        {
+          "letter": "C",
+          "count": 4692062395,
+          "probability": 0.019452476687501132
+        },
+        {
+          "letter": "B",
+          "count": 2725791138,
+          "probability": 0.011300657174432606
+        },
+        {
+          "letter": "G",
+          "count": 2651165734,
+          "probability": 0.010991273195832433
+        },
+        {
+          "letter": "I",
+          "count": 2474275212,
+          "probability": 0.010257915779462248
+        },
+        {
+          "letter": "K",
+          "count": 1813376076,
+          "probability": 0.007517942617654018
+        },
+        {
+          "letter": "A",
+          "count": 1620913259,
+          "probability": 0.006720025167772516
+        },
+        {
+          "letter": "E",
+          "count": 1089254517,
+          "probability": 0.004515860258226128
+        },
+        {
+          "letter": "Y",
+          "count": 1020190223,
+          "probability": 0.004229531676917114
+        },
+        {
+          "letter": "H",
+          "count": 602121281,
+          "probability": 0.0024962903720509495
+        },
+        {
+          "letter": "X",
+          "count": 523764012,
+          "probability": 0.002171434728583157
+        },
+        {
+          "letter": "J",
+          "count": 196696657,
+          "probability": 0.0008154702160140193
+        },
+        {
+          "letter": "Z",
+          "count": 97904996,
+          "probability": 0.0004058971283735223
+        },
+        {
+          "letter": "Q",
+          "count": 29227658,
+          "probability": 0.00012117279950946944
+        }
+      ],
+      "path": [
+        "O",
+        "N",
+        "D",
+        "E",
+        "R",
+        "E"
+      ],
+      "cycle": [
+        "E",
+        "R"
+      ],
+      "entry_step": 3
+    },
+    "P": {
+      "total": 72084698434,
+      "strongest": "E",
+      "outgoing": [
+        {
+          "letter": "E",
+          "count": 13477683504,
+          "probability": 0.18697010318132948
+        },
+        {
+          "letter": "R",
+          "count": 13378480175,
+          "probability": 0.18559389808988655
+        },
+        {
+          "letter": "O",
+          "count": 10189505383,
+          "probability": 0.14135462316360253
+        },
+        {
+          "letter": "A",
+          "count": 9123652775,
+          "probability": 0.1265685086184209
+        },
+        {
+          "letter": "L",
+          "count": 7415349106,
+          "probability": 0.10286994698034863
+        },
+        {
+          "letter": "P",
+          "count": 3850125519,
+          "probability": 0.05341113443826272
+        },
+        {
+          "letter": "I",
+          "count": 3470838749,
+          "probability": 0.048149452302666755
+        },
+        {
+          "letter": "T",
+          "count": 2982699529,
+          "probability": 0.04137770697245725
+        },
+        {
+          "letter": "U",
+          "count": 2947681332,
+          "probability": 0.04089191459542369
+        },
+        {
+          "letter": "H",
+          "count": 2661480326,
+          "probability": 0.03692157120469643
+        },
+        {
+          "letter": "S",
+          "count": 1538723474,
+          "probability": 0.021346048571027027
+        },
+        {
+          "letter": "M",
+          "count": 449910017,
+          "probability": 0.006241408048782127
+        },
+        {
+          "letter": "Y",
+          "count": 331698156,
+          "probability": 0.004601505773152389
+        },
+        {
+          "letter": "F",
+          "count": 41022263,
+          "probability": 0.0005690842008246668
+        },
+        {
+          "letter": "B",
+          "count": 36901495,
+          "probability": 0.00051191855971745
+        },
+        {
+          "letter": "W",
+          "count": 34037460,
+          "probability": 0.0004721870346889825
+        },
+        {
+          "letter": "D",
+          "count": 33798376,
+          "probability": 0.0004688703252458695
+        },
+        {
+          "letter": "N",
+          "count": 33536129,
+          "probability": 0.00046523228547186516
+        },
+        {
+          "letter": "C",
+          "count": 33156666,
+          "probability": 0.00045996815857331913
+        },
+        {
+          "letter": "K",
+          "count": 23099462,
+          "probability": 0.0003204488955606803
+        },
+        {
+          "letter": "G",
+          "count": 13354952,
+          "probability": 0.00018526750184337187
+        },
+        {
+          "letter": "Z",
+          "count": 6382200,
+          "probability": 8.85375140445857e-05
+        },
+        {
+          "letter": "V",
+          "count": 6222096,
+          "probability": 8.631646015273111e-05
+        },
+        {
+          "letter": "J",
+          "count": 2810773,
+          "probability": 3.89926442235659e-05
+        },
+        {
+          "letter": "X",
+          "count": 1473468,
+          "probability": 2.0440787462669237e-05
+        },
+        {
+          "letter": "Q",
+          "count": 1075049,
+          "probability": 1.4913692133765444e-05
+        }
+      ],
+      "path": [
+        "P",
+        "E",
+        "R",
+        "E"
+      ],
+      "cycle": [
+        "E",
+        "R"
+      ],
+      "entry_step": 1
+    },
+    "Q": {
+      "total": 4199576492,
+      "strongest": "U",
+      "outgoing": [
+        {
+          "letter": "U",
+          "count": 4160167957,
+          "probability": 0.9906160692452985
+        },
+        {
+          "letter": "I",
+          "count": 8954617,
+          "probability": 0.0021322666742844506
+        },
+        {
+          "letter": "L",
+          "count": 6708919,
+          "probability": 0.0015975227532538535
+        },
+        {
+          "letter": "S",
+          "count": 4448602,
+          "probability": 0.001059297766923494
+        },
+        {
+          "letter": "A",
+          "count": 4298294,
+          "probability": 0.0010235065388588711
+        },
+        {
+          "letter": "N",
+          "count": 1859810,
+          "probability": 0.0004428565603086055
+        },
+        {
+          "letter": "R",
+          "count": 1744325,
+          "probability": 0.0004153573588486503
+        },
+        {
+          "letter": "Q",
+          "count": 1712219,
+          "probability": 0.0004077123022432615
+        },
+        {
+          "letter": "T",
+          "count": 1385505,
+          "probability": 0.00032991540995605707
+        },
+        {
+          "letter": "O",
+          "count": 1324363,
+          "probability": 0.00031535632283942217
+        },
+        {
+          "letter": "C",
+          "count": 1127399,
+          "probability": 0.00026845540309782266
+        },
+        {
+          "letter": "B",
+          "count": 1083443,
+          "probability": 0.0002579886333928931
+        },
+        {
+          "letter": "M",
+          "count": 989868,
+          "probability": 0.00023570662467647702
+        },
+        {
+          "letter": "F",
+          "count": 947879,
+          "probability": 0.00022570823553414633
+        },
+        {
+          "letter": "V",
+          "count": 635514,
+          "probability": 0.00015132811634949975
+        },
+        {
+          "letter": "E",
+          "count": 572443,
+          "probability": 0.0001363096972017244
+        },
+        {
+          "letter": "D",
+          "count": 519921,
+          "probability": 0.00012380319801066266
+        },
+        {
+          "letter": "P",
+          "count": 272180,
+          "probability": 6.481129716734303e-05
+        },
+        {
+          "letter": "H",
+          "count": 263509,
+          "probability": 6.274656516007567e-05
+        },
+        {
+          "letter": "J",
+          "count": 236928,
+          "probability": 5.641711740489474e-05
+        },
+        {
+          "letter": "W",
+          "count": 163292,
+          "probability": 3.8882968392423317e-05
+        },
+        {
+          "letter": "X",
+          "count": 159505,
+          "probability": 3.798121079681479e-05
+        },
+        {
+          "letter": "G",
+          "count": 0,
+          "probability": 0.0
+        },
+        {
+          "letter": "K",
+          "count": 0,
+          "probability": 0.0
+        },
+        {
+          "letter": "Y",
+          "count": 0,
+          "probability": 0.0
+        },
+        {
+          "letter": "Z",
+          "count": 0,
+          "probability": 0.0
+        }
+      ],
+      "path": [
+        "Q",
+        "U",
+        "R",
+        "E",
+        "R"
+      ],
+      "cycle": [
+        "R",
+        "E"
+      ],
+      "entry_step": 2
+    },
+    "R": {
+      "total": 179885727875,
+      "strongest": "E",
+      "outgoing": [
+        {
+          "letter": "E",
+          "count": 52285662239,
+          "probability": 0.29066042568609196
+        },
+        {
+          "letter": "I",
+          "count": 20516398905,
+          "probability": 0.11405239952808569
+        },
+        {
+          "letter": "O",
+          "count": 20491179118,
+          "probability": 0.1139122005956972
+        },
+        {
+          "letter": "A",
+          "count": 19332539912,
+          "probability": 0.10747122709720419
+        },
+        {
+          "letter": "S",
+          "count": 11180732354,
+          "probability": 0.062154638314437766
+        },
+        {
+          "letter": "T",
+          "count": 10198055461,
+          "probability": 0.05669185422028857
+        },
+        {
+          "letter": "Y",
+          "count": 6985436186,
+          "probability": 0.03883263151846087
+        },
+        {
+          "letter": "D",
+          "count": 5338083783,
+          "probability": 0.02967485995725774
+        },
+        {
+          "letter": "M",
+          "count": 4938158020,
+          "probability": 0.027451638761644585
+        },
+        {
+          "letter": "N",
+          "count": 4521640992,
+          "probability": 0.025136185318392925
+        },
+        {
+          "letter": "U",
+          "count": 3618438291,
+          "probability": 0.02011520499010572
+        },
+        {
+          "letter": "C",
+          "count": 3422694015,
+          "probability": 0.019027045977646324
+        },
+        {
+          "letter": "R",
+          "count": 3404547067,
+          "probability": 0.018926165556423524
+        },
+        {
+          "letter": "G",
+          "count": 2813274913,
+          "probability": 0.015639233563626037
+        },
+        {
+          "letter": "K",
+          "count": 2736041446,
+          "probability": 0.015209886177858623
+        },
+        {
+          "letter": "L",
+          "count": 2432373251,
+          "probability": 0.013521768957069353
+        },
+        {
+          "letter": "V",
+          "count": 1953555667,
+          "probability": 0.010859981445317872
+        },
+        {
+          "letter": "P",
+          "count": 1173542093,
+          "probability": 0.006523819909801169
+        },
+        {
+          "letter": "F",
+          "count": 909634941,
+          "probability": 0.005056737695344525
+        },
+        {
+          "letter": "B",
+          "count": 753194669,
+          "probability": 0.004187072970699399
+        },
+        {
+          "letter": "H",
+          "count": 426095630,
+          "probability": 0.002368701703206203
+        },
+        {
+          "letter": "W",
+          "count": 359714599,
+          "probability": 0.001999683928510218
+        },
+        {
+          "letter": "X",
+          "count": 32990613,
+          "probability": 0.0001833976124160595
+        },
+        {
+          "letter": "Q",
+          "count": 28152573,
+          "probability": 0.00015650253820893905
+        },
+        {
+          "letter": "Z",
+          "count": 17993128,
+          "probability": 0.00010002532281217533
+        },
+        {
+          "letter": "J",
+          "count": 15598009,
+          "probability": 8.671065339235156e-05
+        }
+      ],
+      "path": [
+        "R",
+        "E",
+        "R"
+      ],
+      "cycle": [
+        "R",
+        "E"
+      ],
+      "entry_step": 0
+    },
+    "S": {
+      "total": 136105274802,
+      "strongest": "T",
+      "outgoing": [
+        {
+          "letter": "T",
+          "count": 29704461829,
+          "probability": 0.218246220598083
+        },
+        {
+          "letter": "E",
+          "count": 26282488562,
+          "probability": 0.19310411444548797
+        },
+        {
+          "letter": "I",
+          "count": 15509759748,
+          "probability": 0.11395414153171447
+        },
+        {
+          "letter": "S",
+          "count": 11421755201,
+          "probability": 0.0839185345139332
+        },
+        {
+          "letter": "O",
+          "count": 11214705934,
+          "probability": 0.08239729099636045
+        },
+        {
+          "letter": "H",
+          "count": 8888705287,
+          "probability": 0.06530757386097563
+        },
+        {
+          "letter": "U",
+          "count": 8774129154,
+          "probability": 0.06446575393028829
+        },
+        {
+          "letter": "A",
+          "count": 6147356936,
+          "probability": 0.04516619172139291
+        },
+        {
+          "letter": "P",
+          "count": 5392724233,
+          "probability": 0.039621713712749924
+        },
+        {
+          "letter": "C",
+          "count": 4363410770,
+          "probability": 0.03205908644134255
+        },
+        {
+          "letter": "M",
+          "count": 1838392669,
+          "probability": 0.013507137557118291
+        },
+        {
+          "letter": "Y",
+          "count": 1602829285,
+          "probability": 0.0117763935845376
+        },
+        {
+          "letter": "L",
+          "count": 1575646777,
+          "probability": 0.01157667679883959
+        },
+        {
+          "letter": "K",
+          "count": 1112771273,
+          "probability": 0.008175812984609237
+        },
+        {
+          "letter": "W",
+          "count": 663415953,
+          "probability": 0.004874285393899013
+        },
+        {
+          "letter": "F",
+          "count": 483979931,
+          "probability": 0.0035559233960922735
+        },
+        {
+          "letter": "N",
+          "count": 258702825,
+          "probability": 0.001900755318824708
+        },
+        {
+          "letter": "B",
+          "count": 223212317,
+          "probability": 0.0016399975484030248
+        },
+        {
+          "letter": "Q",
+          "count": 209894196,
+          "probability": 0.0015421459330312135
+        },
+        {
+          "letter": "R",
+          "count": 168896339,
+          "probability": 0.0012409242716397509
+        },
+        {
+          "letter": "D",
+          "count": 148275222,
+          "probability": 0.0010894156910208242
+        },
+        {
+          "letter": "G",
+          "count": 69588685,
+          "probability": 0.0005112857315870716
+        },
+        {
+          "letter": "V",
+          "count": 35005005,
+          "probability": 0.00025719065665106476
+        },
+        {
+          "letter": "J",
+          "count": 7621847,
+          "probability": 5.599964447438154e-05
+        },
+        {
+          "letter": "Z",
+          "count": 7041052,
+          "probability": 5.173239619289564e-05
+        },
+        {
+          "letter": "X",
+          "count": 503772,
+          "probability": 3.7013407506275233e-06
+        }
+      ],
+      "path": [
+        "S",
+        "T",
+        "H",
+        "E",
+        "R",
+        "E"
+      ],
+      "cycle": [
+        "E",
+        "R"
+      ],
+      "entry_step": 3
+    },
+    "T": {
+      "total": 263807337660,
+      "strongest": "H",
+      "outgoing": [
+        {
+          "letter": "H",
+          "count": 100272945963,
+          "probability": 0.380099154376948
+        },
+        {
+          "letter": "I",
+          "count": 37856196209,
+          "probability": 0.1434994058345329
+        },
+        {
+          "letter": "E",
+          "count": 33973261529,
+          "probability": 0.1287805783961377
+        },
+        {
+          "letter": "O",
+          "count": 29360205581,
+          "probability": 0.11129412032822227
+        },
+        {
+          "letter": "A",
+          "count": 14941000711,
+          "probability": 0.05663603159611978
+        },
+        {
+          "letter": "R",
+          "count": 12006693396,
+          "probability": 0.04551311385991264
+        },
+        {
+          "letter": "S",
+          "count": 9516029773,
+          "probability": 0.03607189192464556
+        },
+        {
+          "letter": "U",
+          "count": 7187510085,
+          "probability": 0.027245300107093313
+        },
+        {
+          "letter": "Y",
+          "count": 6408447994,
+          "probability": 0.024292152185165266
+        },
+        {
+          "letter": "T",
+          "count": 4812693687,
+          "probability": 0.01824321389120227
+        },
+        {
+          "letter": "L",
+          "count": 2775935006,
+          "probability": 0.010522584514224841
+        },
+        {
+          "letter": "W",
+          "count": 2322619238,
+          "probability": 0.008804225305489556
+        },
+        {
+          "letter": "M",
+          "count": 746621025,
+          "probability": 0.002830175353053521
+        },
+        {
+          "letter": "C",
+          "count": 736955048,
+          "probability": 0.002793535064402954
+        },
+        {
+          "letter": "N",
+          "count": 282266629,
+          "probability": 0.0010699726228380754
+        },
+        {
+          "letter": "F",
+          "count": 159626603,
+          "probability": 0.0006050878054261321
+        },
+        {
+          "letter": "P",
+          "count": 121089391,
+          "probability": 0.0004590069103993701
+        },
+        {
+          "letter": "Z",
+          "count": 108527540,
+          "probability": 0.00041138939107096556
+        },
+        {
+          "letter": "B",
+          "count": 71746167,
+          "probability": 0.00027196425860022075
+        },
+        {
+          "letter": "G",
+          "count": 55522877,
+          "probability": 0.00021046752335433124
+        },
+        {
+          "letter": "D",
+          "count": 36539510,
+          "probability": 0.00013850831566744677
+        },
+        {
+          "letter": "V",
+          "count": 32805751,
+          "probability": 0.00012435496029409418
+        },
+        {
+          "letter": "K",
+          "count": 13081991,
+          "probability": 4.9589185486797656e-05
+        },
+        {
+          "letter": "X",
+          "count": 3328898,
+          "probability": 1.2618670995006015e-05
+        },
+        {
+          "letter": "J",
+          "count": 3169658,
+          "probability": 1.2015048664359429e-05
+        },
+        {
+          "letter": "Q",
+          "count": 2517400,
+          "probability": 9.54257005256038e-06
+        }
+      ],
+      "path": [
+        "T",
+        "H",
+        "E",
+        "R",
+        "E"
+      ],
+      "cycle": [
+        "E",
+        "R"
+      ],
+      "entry_step": 2
+    },
+    "U": {
+      "total": 94383229346,
+      "strongest": "R",
+      "outgoing": [
+        {
+          "letter": "R",
+          "count": 15303657594,
+          "probability": 0.16214382258418217
+        },
+        {
+          "letter": "S",
+          "count": 12808517567,
+          "probability": 0.1357075579608024
+        },
+        {
+          "letter": "T",
+          "count": 11423899818,
+          "probability": 0.12103739082841786
+        },
+        {
+          "letter": "N",
+          "count": 11121118166,
+          "probability": 0.11782938815571813
+        },
+        {
+          "letter": "L",
+          "count": 9751225781,
+          "probability": 0.1033152377659481
+        },
+        {
+          "letter": "C",
+          "count": 5291161134,
+          "probability": 0.056060395164093224
+        },
+        {
+          "letter": "E",
+          "count": 4158448570,
+          "probability": 0.04405918931588493
+        },
+        {
+          "letter": "M",
+          "count": 3901923211,
+          "probability": 0.04134127681408228
+        },
+        {
+          "letter": "A",
+          "count": 3844138094,
+          "probability": 0.040729037569881756
+        },
+        {
+          "letter": "P",
+          "count": 3835093459,
+          "probability": 0.04063320873394689
+        },
+        {
+          "letter": "G",
+          "count": 3606562400,
+          "probability": 0.03821189871326275
+        },
+        {
+          "letter": "I",
+          "count": 2852182384,
+          "probability": 0.030219165033484593
+        },
+        {
+          "letter": "D",
+          "count": 2577213760,
+          "probability": 0.02730584424646224
+        },
+        {
+          "letter": "B",
+          "count": 2497666762,
+          "probability": 0.026463035639984193
+        },
+        {
+          "letter": "F",
+          "count": 522547858,
+          "probability": 0.005536448176448688
+        },
+        {
+          "letter": "O",
+          "count": 300484143,
+          "probability": 0.0031836603290872102
+        },
+        {
+          "letter": "K",
+          "count": 129819900,
+          "probability": 0.0013754551618920827
+        },
+        {
+          "letter": "Y",
+          "count": 128782521,
+          "probability": 0.0013644640249370515
+        },
+        {
+          "letter": "X",
+          "count": 110947766,
+          "probability": 0.0011755029656092394
+        },
+        {
+          "letter": "V",
+          "count": 82252351,
+          "probability": 0.0008714720991212396
+        },
+        {
+          "letter": "Z",
+          "count": 53873803,
+          "probability": 0.000570798471013359
+        },
+        {
+          "letter": "H",
+          "count": 30097154,
+          "probability": 0.00031888243503161646
+        },
+        {
+          "letter": "U",
+          "count": 22006895,
+          "probability": 0.00023316531074948498
+        },
+        {
+          "letter": "J",
+          "count": 14548024,
+          "probability": 0.00015413780711685885
+        },
+        {
+          "letter": "W",
+          "count": 7824504,
+          "probability": 8.290142278683967e-05
+        },
+        {
+          "letter": "Q",
+          "count": 7235727,
+          "probability": 7.666327005483684e-05
+        }
+      ],
+      "path": [
+        "U",
+        "R",
+        "E",
+        "R"
+      ],
+      "cycle": [
+        "R",
+        "E"
+      ],
+      "entry_step": 1
+    },
+    "V": {
+      "total": 37124853560,
+      "strongest": "E",
+      "outgoing": [
+        {
+          "letter": "E",
+          "count": 23270129573,
+          "probability": 0.6268073094319837
+        },
+        {
+          "letter": "I",
+          "count": 7600241898,
+          "probability": 0.20472112800975045
+        },
+        {
+          "letter": "A",
+          "count": 3946966167,
+          "probability": 0.10631600635463893
+        },
+        {
+          "letter": "O",
+          "count": 2004982879,
+          "probability": 0.054006485864236765
+        },
+        {
+          "letter": "Y",
+          "count": 138085211,
+          "probability": 0.0037194816345021025
+        },
+        {
+          "letter": "U",
+          "count": 62384927,
+          "probability": 0.0016804087024660038
+        },
+        {
+          "letter": "R",
+          "count": 24701238,
+          "probability": 0.0006653558366251506
+        },
+        {
+          "letter": "S",
+          "count": 16263248,
+          "probability": 0.000438069014163675
+        },
+        {
+          "letter": "L",
+          "count": 11621019,
+          "probability": 0.00031302531554012683
+        },
+        {
+          "letter": "D",
+          "count": 8430332,
+          "probability": 0.0002270805455535378
+        },
+        {
+          "letter": "C",
+          "count": 6570845,
+          "probability": 0.0001769931560640478
+        },
+        {
+          "letter": "T",
+          "count": 6181932,
+          "probability": 0.0001665173436983114
+        },
+        {
+          "letter": "P",
+          "count": 5510046,
+          "probability": 0.00014841933291655522
+        },
+        {
+          "letter": "N",
+          "count": 4317772,
+          "probability": 0.00011630408165844359
+        },
+        {
+          "letter": "M",
+          "count": 3178223,
+          "probability": 8.560903802255968e-05
+        },
+        {
+          "letter": "G",
+          "count": 2960268,
+          "probability": 7.973817311402211e-05
+        },
+        {
+          "letter": "H",
+          "count": 2691078,
+          "probability": 7.248723542170385e-05
+        },
+        {
+          "letter": "V",
+          "count": 2622571,
+          "probability": 7.06419217455359e-05
+        },
+        {
+          "letter": "B",
+          "count": 2496014,
+          "probability": 6.72329655379252e-05
+        },
+        {
+          "letter": "F",
+          "count": 1550317,
+          "probability": 4.1759545192398596e-05
+        },
+        {
+          "letter": "W",
+          "count": 742188,
+          "probability": 1.999167481699287e-05
+        },
+        {
+          "letter": "J",
+          "count": 724370,
+          "probability": 1.9511726795886116e-05
+        },
+        {
+          "letter": "Z",
+          "count": 501189,
+          "probability": 1.3500093655318919e-05
+        },
+        {
+          "letter": "X",
+          "count": 449854,
+          "probability": 1.2117327258219628e-05
+        },
+        {
+          "letter": "K",
+          "count": 337545,
+          "probability": 9.092157076241945e-06
+        },
+        {
+          "letter": "Q",
+          "count": 212856,
+          "probability": 5.733517565422553e-06
+        }
+      ],
+      "path": [
+        "V",
+        "E",
+        "R",
+        "E"
+      ],
+      "cycle": [
+        "E",
+        "R"
+      ],
+      "entry_step": 1
+    },
+    "W": {
+      "total": 53605001884,
+      "strongest": "A",
+      "outgoing": [
+        {
+          "letter": "A",
+          "count": 10865206430,
+          "probability": 0.20269016039794305
+        },
+        {
+          "letter": "H",
+          "count": 10680697684,
+          "probability": 0.19924815425084372
+        },
+        {
+          "letter": "I",
+          "count": 10557401491,
+          "probability": 0.19694806678387916
+        },
+        {
+          "letter": "E",
+          "count": 10176141608,
+          "probability": 0.1898356729847886
+        },
+        {
+          "letter": "O",
+          "count": 6252724050,
+          "probability": 0.1166444143315348
+        },
+        {
+          "letter": "N",
+          "count": 2227183930,
+          "probability": 0.04154806178012222
+        },
+        {
+          "letter": "S",
+          "count": 989253674,
+          "probability": 0.0184545031103762
+        },
+        {
+          "letter": "R",
+          "count": 867361010,
+          "probability": 0.01618059844260335
+        },
+        {
+          "letter": "L",
+          "count": 429185823,
+          "probability": 0.008006451038445038
+        },
+        {
+          "letter": "T",
+          "count": 184446342,
+          "probability": 0.0034408420020045458
+        },
+        {
+          "letter": "D",
+          "count": 99767462,
+          "probability": 0.001861159565219203
+        },
+        {
+          "letter": "Y",
+          "count": 68368953,
+          "probability": 0.00127542114722706
+        },
+        {
+          "letter": "F",
+          "count": 45330551,
+          "probability": 0.0008456403209926992
+        },
+        {
+          "letter": "M",
+          "count": 30732232,
+          "probability": 0.0005733090368414471
+        },
+        {
+          "letter": "K",
+          "count": 30095733,
+          "probability": 0.000561435163552955
+        },
+        {
+          "letter": "B",
+          "count": 29929113,
+          "probability": 0.0005583268715252714
+        },
+        {
+          "letter": "P",
+          "count": 20982546,
+          "probability": 0.0003914288828010071
+        },
+        {
+          "letter": "U",
+          "count": 19601657,
+          "probability": 0.0003656684322559588
+        },
+        {
+          "letter": "C",
+          "count": 19008254,
+          "probability": 0.0003545985137941685
+        },
+        {
+          "letter": "W",
+          "count": 7377619,
+          "probability": 0.00013762930213051758
+        },
+        {
+          "letter": "G",
+          "count": 2751783,
+          "probability": 5.133444460938171e-05
+        },
+        {
+          "letter": "J",
+          "count": 914179,
+          "probability": 1.7053986901786937e-05
+        },
+        {
+          "letter": "V",
+          "count": 389123,
+          "probability": 7.2590800545451576e-06
+        },
+        {
+          "letter": "X",
+          "count": 150637,
+          "probability": 2.81012955331995e-06
+        },
+        {
+          "letter": "Q",
+          "count": 0,
+          "probability": 0.0
+        },
+        {
+          "letter": "Z",
+          "count": 0,
+          "probability": 0.0
+        }
+      ],
+      "path": [
+        "W",
+        "A",
+        "N",
+        "D",
+        "E",
+        "R",
+        "E"
+      ],
+      "cycle": [
+        "E",
+        "R"
+      ],
+      "entry_step": 4
+    },
+    "X": {
+      "total": 7141081688,
+      "strongest": "P",
+      "outgoing": [
+        {
+          "letter": "P",
+          "count": 1885334638,
+          "probability": 0.2640124732319124
+        },
+        {
+          "letter": "T",
+          "count": 1315669490,
+          "probability": 0.18423952385405062
+        },
+        {
+          "letter": "I",
+          "count": 1111463633,
+          "probability": 0.15564359596498148
+        },
+        {
+          "letter": "A",
+          "count": 834649781,
+          "probability": 0.11688002146825463
+        },
+        {
+          "letter": "C",
+          "count": 746076293,
+          "probability": 0.10447665012062805
+        },
+        {
+          "letter": "E",
+          "count": 614533122,
+          "probability": 0.08605602748287733
+        },
+        {
+          "letter": "U",
+          "count": 134528161,
+          "probability": 0.01883862513799044
+        },
+        {
+          "letter": "H",
+          "count": 117618666,
+          "probability": 0.01647070725960865
+        },
+        {
+          "letter": "X",
+          "count": 79068246,
+          "probability": 0.011072306613277884
+        },
+        {
+          "letter": "O",
+          "count": 76097183,
+          "probability": 0.010656254377803162
+        },
+        {
+          "letter": "Y",
+          "count": 72645837,
+          "probability": 0.010172945804845693
+        },
+        {
+          "letter": "V",
+          "count": 55076715,
+          "probability": 0.007712657186452843
+        },
+        {
+          "letter": "F",
+          "count": 52374239,
+          "probability": 0.007334216479838145
+        },
+        {
+          "letter": "L",
+          "count": 16728256,
+          "probability": 0.0023425381098931353
+        },
+        {
+          "letter": "Q",
+          "count": 8225536,
+          "probability": 0.0011518613508962286
+        },
+        {
+          "letter": "M",
+          "count": 6569222,
+          "probability": 0.0009199197386355399
+        },
+        {
+          "letter": "W",
+          "count": 6292525,
+          "probability": 0.0008811725274861468
+        },
+        {
+          "letter": "B",
+          "count": 2164724,
+          "probability": 0.00030313670877587644
+        },
+        {
+          "letter": "S",
+          "count": 1804740,
+          "probability": 0.0002527264186086426
+        },
+        {
+          "letter": "N",
+          "count": 1613611,
+          "probability": 0.00022596170587315092
+        },
+        {
+          "letter": "R",
+          "count": 907409,
+          "probability": 0.0001270688446996519
+        },
+        {
+          "letter": "G",
+          "count": 542548,
+          "probability": 7.597560477591333e-05
+        },
+        {
+          "letter": "J",
+          "count": 511074,
+          "probability": 7.156814924254652e-05
+        },
+        {
+          "letter": "K",
+          "count": 281255,
+          "probability": 3.938548980228386e-05
+        },
+        {
+          "letter": "D",
+          "count": 168263,
+          "probability": 2.3562676825662436e-05
+        },
+        {
+          "letter": "Z",
+          "count": 136521,
+          "probability": 1.9117691963867644e-05
+        }
+      ],
+      "path": [
+        "X",
+        "P",
+        "E",
+        "R",
+        "E"
+      ],
+      "cycle": [
+        "E",
+        "R"
+      ],
+      "entry_step": 2
+    },
+    "Y": {
+      "total": 14684354222,
+      "strongest": "O",
+      "outgoing": [
+        {
+          "letter": "O",
+          "count": 4226720021,
+          "probability": 0.28783833167600636
+        },
+        {
+          "letter": "S",
+          "count": 2730343336,
+          "probability": 0.18593554028473502
+        },
+        {
+          "letter": "E",
+          "count": 2612941418,
+          "probability": 0.17794050582662388
+        },
+        {
+          "letter": "I",
+          "count": 812619095,
+          "probability": 0.05533911009736741
+        },
+        {
+          "letter": "P",
+          "count": 702499946,
+          "probability": 0.04784002996519379
+        },
+        {
+          "letter": "M",
+          "count": 667551857,
+          "probability": 0.045460075867679514
+        },
+        {
+          "letter": "T",
+          "count": 470429861,
+          "probability": 0.032036128650125124
+        },
+        {
+          "letter": "A",
+          "count": 444542870,
+          "probability": 0.030273232535754886
+        },
+        {
+          "letter": "L",
+          "count": 416082307,
+          "probability": 0.028335076960798747
+        },
+        {
+          "letter": "C",
+          "count": 380670476,
+          "probability": 0.0259235421759087
+        },
+        {
+          "letter": "N",
+          "count": 372595315,
+          "probability": 0.025373626198813715
+        },
+        {
+          "letter": "R",
+          "count": 219696469,
+          "probability": 0.01496126187632087
+        },
+        {
+          "letter": "D",
+          "count": 192245315,
+          "probability": 0.013091846743384832
+        },
+        {
+          "letter": "B",
+          "count": 121220723,
+          "probability": 0.008255093902487583
+        },
+        {
+          "letter": "W",
+          "count": 95070267,
+          "probability": 0.006474255902759849
+        },
+        {
+          "letter": "G",
+          "count": 73102462,
+          "probability": 0.0049782551479504895
+        },
+        {
+          "letter": "Z",
+          "count": 51097953,
+          "probability": 0.0034797548620453048
+        },
+        {
+          "letter": "U",
+          "count": 37436235,
+          "probability": 0.0025493960738098573
+        },
+        {
+          "letter": "F",
+          "count": 21246637,
+          "probability": 0.0014468894361161918
+        },
+        {
+          "letter": "H",
+          "count": 14682887,
+          "probability": 0.000999900082633678
+        },
+        {
+          "letter": "K",
+          "count": 9292584,
+          "probability": 0.0006328221084504972
+        },
+        {
+          "letter": "V",
+          "count": 5115763,
+          "probability": 0.00034838188473658573
+        },
+        {
+          "letter": "X",
+          "count": 4211192,
+          "probability": 0.0002867808782282588
+        },
+        {
+          "letter": "Y",
+          "count": 1993017,
+          "probability": 0.00013572384388644586
+        },
+        {
+          "letter": "J",
+          "count": 561334,
+          "probability": 3.822667251917781e-05
+        },
+        {
+          "letter": "Q",
+          "count": 384882,
+          "probability": 2.621034566323471e-05
+        }
+      ],
+      "path": [
+        "Y",
+        "O",
+        "N",
+        "D",
+        "E",
+        "R",
+        "E"
+      ],
+      "cycle": [
+        "E",
+        "R"
+      ],
+      "entry_step": 4
+    },
+    "Z": {
+      "total": 2963623433,
+      "strongest": "E",
+      "outgoing": [
+        {
+          "letter": "E",
+          "count": 1402290616,
+          "probability": 0.47316760975280087
+        },
+        {
+          "letter": "A",
+          "count": 702199296,
+          "probability": 0.23693944655079935
+        },
+        {
+          "letter": "I",
+          "count": 341671190,
+          "probability": 0.11528832786091688
+        },
+        {
+          "letter": "O",
+          "count": 202480511,
+          "probability": 0.06832194291129429
+        },
+        {
+          "letter": "Z",
+          "count": 75012595,
+          "probability": 0.025311108747735428
+        },
+        {
+          "letter": "Y",
+          "count": 66473188,
+          "probability": 0.022429701175871355
+        },
+        {
+          "letter": "U",
+          "count": 60692846,
+          "probability": 0.02047927051871168
+        },
+        {
+          "letter": "L",
+          "count": 35456851,
+          "probability": 0.011964020329029434
+        },
+        {
+          "letter": "H",
+          "count": 18782710,
+          "probability": 0.0063377518853624205
+        },
+        {
+          "letter": "S",
+          "count": 8395904,
+          "probability": 0.00283298610292774
+        },
+        {
+          "letter": "T",
+          "count": 6627349,
+          "probability": 0.0022362318121136276
+        },
+        {
+          "letter": "W",
+          "count": 6279286,
+          "probability": 0.002118786729137055
+        },
+        {
+          "letter": "B",
+          "count": 5858211,
+          "probability": 0.001976705587750696
+        },
+        {
+          "letter": "R",
+          "count": 5320518,
+          "probability": 0.0017952746427754406
+        },
+        {
+          "letter": "G",
+          "count": 4726653,
+          "probability": 0.001594889872771498
+        },
+        {
+          "letter": "M",
+          "count": 4713608,
+          "probability": 0.0015904881664498569
+        },
+        {
+          "letter": "V",
+          "count": 4618705,
+          "probability": 0.0015584655420694267
+        },
+        {
+          "letter": "N",
+          "count": 4300522,
+          "probability": 0.0014511027116716688
+        },
+        {
+          "letter": "C",
+          "count": 2100797,
+          "probability": 0.0007088609762656037
+        },
+        {
+          "letter": "D",
+          "count": 1415016,
+          "probability": 0.0004774614697143272
+        },
+        {
+          "letter": "P",
+          "count": 1361846,
+          "probability": 0.00045952059389051266
+        },
+        {
+          "letter": "Q",
+          "count": 913036,
+          "probability": 0.00030808097608938024
+        },
+        {
+          "letter": "K",
+          "count": 906537,
+          "probability": 0.00030588805241100954
+        },
+        {
+          "letter": "F",
+          "count": 608389,
+          "probability": 0.00020528552758274806
+        },
+        {
+          "letter": "J",
+          "count": 309029,
+          "probability": 0.00010427404391494431
+        },
+        {
+          "letter": "X",
+          "count": 108224,
+          "probability": 3.65174599427592e-05
+        }
+      ],
+      "path": [
+        "Z",
+        "E",
+        "R",
+        "E"
+      ],
+      "cycle": [
+        "E",
+        "R"
+      ],
+      "entry_step": 1
+    }
+  },
+  "frames": [
+    {
+      "step": 0,
+      "positions": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D",
+        "E": "E",
+        "F": "F",
+        "G": "G",
+        "H": "H",
+        "I": "I",
+        "J": "J",
+        "K": "K",
+        "L": "L",
+        "M": "M",
+        "N": "N",
+        "O": "O",
+        "P": "P",
+        "Q": "Q",
+        "R": "R",
+        "S": "S",
+        "T": "T",
+        "U": "U",
+        "V": "V",
+        "W": "W",
+        "X": "X",
+        "Y": "Y",
+        "Z": "Z"
+      },
+      "in_loop": 2
+    },
+    {
+      "step": 1,
+      "positions": {
+        "A": "N",
+        "B": "E",
+        "C": "O",
+        "D": "E",
+        "E": "R",
+        "F": "O",
+        "G": "E",
+        "H": "E",
+        "I": "N",
+        "J": "U",
+        "K": "E",
+        "L": "E",
+        "M": "E",
+        "N": "D",
+        "O": "N",
+        "P": "E",
+        "Q": "U",
+        "R": "E",
+        "S": "T",
+        "T": "H",
+        "U": "R",
+        "V": "E",
+        "W": "A",
+        "X": "P",
+        "Y": "O",
+        "Z": "E"
+      },
+      "in_loop": 13
+    },
+    {
+      "step": 2,
+      "positions": {
+        "A": "D",
+        "B": "R",
+        "C": "N",
+        "D": "R",
+        "E": "E",
+        "F": "N",
+        "G": "R",
+        "H": "R",
+        "I": "D",
+        "J": "R",
+        "K": "R",
+        "L": "R",
+        "M": "R",
+        "N": "E",
+        "O": "D",
+        "P": "R",
+        "Q": "R",
+        "R": "R",
+        "S": "H",
+        "T": "E",
+        "U": "E",
+        "V": "R",
+        "W": "N",
+        "X": "E",
+        "Y": "N",
+        "Z": "R"
+      },
+      "in_loop": 18
+    },
+    {
+      "step": 3,
+      "positions": {
+        "A": "E",
+        "B": "E",
+        "C": "D",
+        "D": "E",
+        "E": "R",
+        "F": "D",
+        "G": "E",
+        "H": "E",
+        "I": "E",
+        "J": "E",
+        "K": "E",
+        "L": "E",
+        "M": "E",
+        "N": "R",
+        "O": "E",
+        "P": "E",
+        "Q": "E",
+        "R": "E",
+        "S": "E",
+        "T": "R",
+        "U": "R",
+        "V": "E",
+        "W": "D",
+        "X": "R",
+        "Y": "D",
+        "Z": "E"
+      },
+      "in_loop": 22
+    },
+    {
+      "step": 4,
+      "positions": {
+        "A": "R",
+        "B": "R",
+        "C": "E",
+        "D": "R",
+        "E": "E",
+        "F": "E",
+        "G": "R",
+        "H": "R",
+        "I": "R",
+        "J": "R",
+        "K": "R",
+        "L": "R",
+        "M": "R",
+        "N": "E",
+        "O": "R",
+        "P": "R",
+        "Q": "R",
+        "R": "R",
+        "S": "R",
+        "T": "E",
+        "U": "E",
+        "V": "R",
+        "W": "E",
+        "X": "E",
+        "Y": "E",
+        "Z": "R"
+      },
+      "in_loop": 26
+    }
+  ]
+}

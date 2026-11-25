@@ -1,0 +1,3 @@
+scenario,n_a,n_b,probability,expected_conversions_a_under_model,expected_conversions_b_under_model
+Plentiful counts,500,500,0.3,150.0,150.0
+Sparse counts,20,100,0.02,0.4,2.0

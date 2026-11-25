@@ -1,10 +1,10 @@
-import {sum,rank,share,gini,validateMain,validateHistory,validateSplits} from './musiclab-data.js';
+import {share,validateMain,validateSplits} from './musiclab-data.js';
 const $=s=>document.querySelector(s);
 const f=(n,d=2)=>n===null?'—':Number(n).toLocaleString('en-US',{minimumFractionDigits:d,maximumFractionDigits:d});
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const pct=n=>n===null?'—':f(n*100)+'%';
 const base='data/musiclab-v1/';
-let data,history,splits,songIndex=0,revealed=false,worldIndex=0,day=0,splitIndex=0,timer=null;
+let data,splits,songIndex=0,revealed=false,splitIndex=0;
 async function json(name){const r=await fetch(base+name);if(!r.ok)throw new Error(`Could not load ${name}`);return r.json();}
 try{
  data=validateMain(await json('v1.json'));
@@ -12,7 +12,6 @@ try{
  songIndex=data.song_ids.indexOf(data.example.song_id);
  $('#song-select').innerHTML=data.songs.map(s=>`<option value="${s.song_id}">${esc(s.title)} — ${esc(s.artist)}</option>`).join('');
  $('#song-select').value=data.song_ids[songIndex];
- $('#world-select').innerHTML=data.worlds.map(w=>`<option value="${w.world}">${w.world===9?'Independent group':`Social world ${w.world}`}</option>`).join('');
  $('#music-content').hidden=false;$('#music-loading').hidden=true;
  renderSong();renderResults();renderSplit();
 }catch(e){$('#music-loading').textContent='The prepared Music Lab data could not be loaded or validated. Refresh to try again. Methods and downloadable results are still available below.';console.error(e);}
@@ -24,23 +23,8 @@ function renderSong(){const s=data.songs[songIndex];$('#selected-title').textCon
  const c=data.worlds[8];$('#appeal').innerHTML=`Without popularity information: <b>#${c.ranks[songIndex]}</b> with <b>${pct(c.shares[songIndex])}</b> of downloads in the full independent group. An appeal benchmark, not objective quality.`;
  $('#song-table').innerHTML=data.worlds.map(w=>`<tr><td>${w.world===9?'Independent (full group)':'Social world '+w.world}</td><td>${revealed||w.world===9?w.ranks[songIndex]:'Not revealed'}</td><td>${revealed||w.world===9?pct(w.shares[songIndex]):'—'}</td><td>${revealed||w.world===9?w.counts[songIndex]:'—'}</td></tr>`).join('');
 }
-$('#song-select').onchange=()=>{songIndex=data.song_ids.indexOf($('#song-select').value);renderSong();renderSplit();if(history)renderHistory();};
+$('#song-select').onchange=()=>{songIndex=data.song_ids.indexOf($('#song-select').value);renderSong();renderSplit();};
 $('#reveal').onclick=()=>{revealed=true;renderSong();};
-function stop(){clearInterval(timer);timer=null;$('#history-play').textContent='Play history';}
-$('#history-load').onclick=async()=>{const b=$('#history-load');b.disabled=true;$('#history-status').textContent='Loading and checking the recorded daily totals…';try{history=validateHistory(await json('history.json'),data);b.hidden=true;$('#history-play').hidden=false;$('#history-restart').hidden=false;$('#history-view').hidden=false;renderHistory();}catch(e){$('#history-status').textContent='The daily history could not load or validate. Try again; the final song outcomes above remain available.';console.error(e);}finally{b.disabled=false;}};
-$('#world-select').onchange=()=>{worldIndex=Number($('#world-select').value)-1;if(history)renderHistory();};
-$('#history-day').oninput=()=>{stop();day=Number($('#history-day').value);renderHistory();};
-$('#history-restart').onclick=()=>{stop();day=0;renderHistory();};
-$('#history-play').onclick=()=>{if(timer){stop();return;}if(day===68)day=0;if(matchMedia('(prefers-reduced-motion: reduce)').matches){day=Math.min(day+1,68);renderHistory();$('#history-status').textContent+=' Reduced motion: advanced one day. Use the slider to explore.';return;}$('#history-play').textContent='Pause history';renderHistory();timer=setInterval(()=>{day++;renderHistory();if(day===68)stop();},320);};
-document.addEventListener('visibilitychange',()=>{if(document.hidden)stop();});
-function renderHistory(){const counts=history.worlds[worldIndex].counts[day],total=sum(counts),s=data.songs[songIndex];$('#history-day').value=day;$('#history-day').setAttribute('aria-valuetext',day?history.dates[day]:'Before first download');
- $('#history-date').textContent=day?new Date(history.dates[day]+'T12:00:00').toLocaleDateString('en-US',{day:'numeric',month:'short',year:'numeric'}):'Before the first download';$('#history-total').textContent=f(total,0)+' retained downloads';
- $('#history-status').textContent=`${worldIndex===8?'Independent group (counts hidden from listeners)':'Social world '+(worldIndex+1)} · following “${s.title}” · daily retained downloads, not original screen counters.`;
- const order=counts.map((n,i)=>i).sort((a,b)=>counts[b]-counts[a]||data.song_ids[a].localeCompare(data.song_ids[b]));
- $('#leaderboard').innerHTML=total?order.slice(0,5).map(i=>`<div class="leader-row ${i===songIndex?'selected':''}"><span class="leader-rank">${rank(counts,i)}</span><div class="leader-song"><strong>${esc(data.songs[i].title)}</strong><small>${esc(data.songs[i].artist)}</small></div><span class="leader-count">${pct(share(counts,i))}<br><small>${counts[i]} downloads</small></span></div>`).join(''):'<div class="empty-history">No downloads yet.<br>No defined ranks, shares or leading song.</div>';
- $('#history-song').innerHTML=`<div class="eyebrow">YOUR SELECTED SONG</div><h3>${esc(s.title)}</h3><p>${esc(s.artist)}</p><dl><div><dt>Rank</dt><dd>${total?'#'+rank(counts,songIndex):'—'}</dd></div><div><dt>Share</dt><dd>${pct(share(counts,songIndex))}</dd></div><div><dt>Downloads</dt><dd>${counts[songIndex]}</dd></div><div><dt>World Gini</dt><dd>${f(gini(counts),3)}</dd></div></dl>`;
- $('#history-table').innerHTML=order.map(i=>`<tr><td>${esc(data.songs[i].title)} <span class="small">· ${esc(data.songs[i].artist)}</span></td><td>${rank(counts,i)??'—'}</td><td>${pct(share(counts,i))}</td><td>${counts[i]}</td></tr>`).join('');
-}
 function renderSplit(){const s=splits.splits[splitIndex],a=share(s.counts_a,songIndex),b=share(s.counts_b,songIndex),max=Math.max(a,b,.01);$('#split-title').textContent=`Split ${s.split} of 12 saved examples`;
  $('#split-song').innerHTML=`<div class="split-song-name">Your song: <strong>${esc(data.songs[songIndex].title)}</strong> · share within each half</div>${[['Half A',a],['Half B',b]].map(([label,value])=>`<div class="split-bar-row"><span>${label}</span><div class="split-bar-track"><i style="width:${value/max*100}%"></i></div><b>${pct(value)}</b></div>`).join('')}<p class="small">This song differs by ${f(Math.abs(a-b)*100,3)} percentage points between halves.</p>`;
  $('#split-metric').innerHTML=`Across all 48 songs: <strong>${f(s.u*100,3)} pp</strong> average difference`;

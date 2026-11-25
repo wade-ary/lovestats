@@ -24,8 +24,8 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 3,Swiss (7 rounds),Argentina,2,1966.13,38.34999999999991,112
 3,Swiss (9 rounds),Japan,17,1684.61,319.8700000000001,144
 4,Knockout (random),Croatia,15,1714.22,290.26,31
-4,Knockout (seeded),Brazil,6,1800.91,203.56999999999994,31
-4,World Cup (seeded groups),Brazil,6,1800.91,203.56999999999994,63
+4,Knockout (seeded),Brazil,6,1800.91,203.5699999999999,31
+4,World Cup (seeded groups),Brazil,6,1800.91,203.5699999999999,63
 4,League,Spain,1,2004.48,0.0,992
 4,League + best-of-seven,Spain,1,2004.48,0.0,1074
 4,Swiss (5 rounds),France,3,1950.82,53.66000000000008,80
@@ -92,7 +92,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 12,World Cup (seeded groups),England,4,1938.9,65.57999999999993,63
 12,League,England,4,1938.9,65.57999999999993,992
 12,League + best-of-seven,Argentina,2,1966.13,38.34999999999991,1074
-12,Swiss (5 rounds),Brazil,6,1800.91,203.56999999999994,80
+12,Swiss (5 rounds),Brazil,6,1800.91,203.5699999999999,80
 12,Swiss (7 rounds),Argentina,2,1966.13,38.34999999999991,112
 12,Swiss (9 rounds),Argentina,2,1966.13,38.34999999999991,144
 13,Knockout (random),Spain,1,2004.48,0.0,31
@@ -123,7 +123,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 16,Knockout (seeded),England,4,1938.9,65.57999999999993,31
 16,World Cup (seeded groups),England,4,1938.9,65.57999999999993,63
 16,League,England,4,1938.9,65.57999999999993,992
-16,League + best-of-seven,Brazil,6,1800.91,203.56999999999994,1080
+16,League + best-of-seven,Brazil,6,1800.91,203.5699999999999,1080
 16,Swiss (5 rounds),Spain,1,2004.48,0.0,80
 16,Swiss (7 rounds),England,4,1938.9,65.57999999999993,112
 16,Swiss (9 rounds),Switzerland,12,1726.15,278.3299999999999,144
@@ -152,7 +152,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 19,Swiss (7 rounds),Spain,1,2004.48,0.0,112
 19,Swiss (9 rounds),USA,16,1713.56,290.9200000000001,144
 20,Knockout (random),Spain,1,2004.48,0.0,31
-20,Knockout (seeded),Brazil,6,1800.91,203.56999999999994,31
+20,Knockout (seeded),Brazil,6,1800.91,203.5699999999999,31
 20,World Cup (seeded groups),Spain,1,2004.48,0.0,63
 20,League,Spain,1,2004.48,0.0,992
 20,League + best-of-seven,Spain,1,2004.48,0.0,1075
@@ -185,7 +185,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 23,Swiss (9 rounds),Spain,1,2004.48,0.0,144
 24,Knockout (random),England,4,1938.9,65.57999999999993,31
 24,Knockout (seeded),France,3,1950.82,53.66000000000008,31
-24,World Cup (seeded groups),Brazil,6,1800.91,203.56999999999994,63
+24,World Cup (seeded groups),Brazil,6,1800.91,203.5699999999999,63
 24,League,Spain,1,2004.48,0.0,992
 24,League + best-of-seven,Spain,1,2004.48,0.0,1072
 24,Swiss (5 rounds),Spain,1,2004.48,0.0,80
@@ -204,7 +204,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 26,World Cup (seeded groups),Spain,1,2004.48,0.0,63
 26,League,Argentina,2,1966.13,38.34999999999991,992
 26,League + best-of-seven,Argentina,2,1966.13,38.34999999999991,1078
-26,Swiss (5 rounds),Brazil,6,1800.91,203.56999999999994,80
+26,Swiss (5 rounds),Brazil,6,1800.91,203.5699999999999,80
 26,Swiss (7 rounds),France,3,1950.82,53.66000000000008,112
 26,Swiss (9 rounds),England,4,1938.9,65.57999999999993,144
 27,Knockout (random),Argentina,2,1966.13,38.34999999999991,31
@@ -255,7 +255,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 32,Swiss (5 rounds),Spain,1,2004.48,0.0,80
 32,Swiss (7 rounds),Argentina,2,1966.13,38.34999999999991,112
 32,Swiss (9 rounds),Spain,1,2004.48,0.0,144
-33,Knockout (random),Brazil,6,1800.91,203.56999999999994,31
+33,Knockout (random),Brazil,6,1800.91,203.5699999999999,31
 33,Knockout (seeded),England,4,1938.9,65.57999999999993,31
 33,World Cup (seeded groups),Portugal,5,1801.28,203.20000000000005,63
 33,League,Spain,1,2004.48,0.0,992
@@ -312,7 +312,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 39,Swiss (7 rounds),Japan,17,1684.61,319.8700000000001,112
 39,Swiss (9 rounds),Spain,1,2004.48,0.0,144
 40,Knockout (random),France,3,1950.82,53.66000000000008,31
-40,Knockout (seeded),Korea Republic,30,1560.02,444.46000000000004,31
+40,Knockout (seeded),Korea Republic,30,1560.02,444.46,31
 40,World Cup (seeded groups),England,4,1938.9,65.57999999999993,63
 40,League,Spain,1,2004.48,0.0,992
 40,League + best-of-seven,Spain,1,2004.48,0.0,1075
@@ -333,11 +333,11 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 42,League,Spain,1,2004.48,0.0,992
 42,League + best-of-seven,Argentina,2,1966.13,38.34999999999991,1084
 42,Swiss (5 rounds),France,3,1950.82,53.66000000000008,80
-42,Swiss (7 rounds),Brazil,6,1800.91,203.56999999999994,112
+42,Swiss (7 rounds),Brazil,6,1800.91,203.5699999999999,112
 42,Swiss (9 rounds),Spain,1,2004.48,0.0,144
 43,Knockout (random),Switzerland,12,1726.15,278.3299999999999,31
 43,Knockout (seeded),France,3,1950.82,53.66000000000008,31
-43,World Cup (seeded groups),Brazil,6,1800.91,203.56999999999994,63
+43,World Cup (seeded groups),Brazil,6,1800.91,203.5699999999999,63
 43,League,Argentina,2,1966.13,38.34999999999991,992
 43,League + best-of-seven,France,3,1950.82,53.66000000000008,1070
 43,Swiss (5 rounds),Colombia,10,1735.9,268.5799999999999,80
@@ -372,7 +372,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 47,World Cup (seeded groups),Germany,11,1730.22,274.26,63
 47,League,France,3,1950.82,53.66000000000008,992
 47,League + best-of-seven,Spain,1,2004.48,0.0,1080
-47,Swiss (5 rounds),Brazil,6,1800.91,203.56999999999994,80
+47,Swiss (5 rounds),Brazil,6,1800.91,203.5699999999999,80
 47,Swiss (7 rounds),Portugal,5,1801.28,203.20000000000005,112
 47,Swiss (9 rounds),Spain,1,2004.48,0.0,144
 48,Knockout (random),Spain,1,2004.48,0.0,31
@@ -383,7 +383,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 48,Swiss (5 rounds),Argentina,2,1966.13,38.34999999999991,80
 48,Swiss (7 rounds),Colombia,10,1735.9,268.5799999999999,112
 48,Swiss (9 rounds),Argentina,2,1966.13,38.34999999999991,144
-49,Knockout (random),Côte d'Ivoire,28,1565.93,438.54999999999995,31
+49,Knockout (random),Côte d'Ivoire,28,1565.93,438.5499999999999,31
 49,Knockout (seeded),Spain,1,2004.48,0.0,31
 49,World Cup (seeded groups),Norway,19,1650.89,353.5899999999999,63
 49,League,Spain,1,2004.48,0.0,992
@@ -393,7 +393,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 49,Swiss (9 rounds),England,4,1938.9,65.57999999999993,144
 50,Knockout (random),Argentina,2,1966.13,38.34999999999991,31
 50,Knockout (seeded),Mexico,13,1723.64,280.8399999999999,31
-50,World Cup (seeded groups),Brazil,6,1800.91,203.56999999999994,63
+50,World Cup (seeded groups),Brazil,6,1800.91,203.5699999999999,63
 50,League,Spain,1,2004.48,0.0,992
 50,League + best-of-seven,Spain,1,2004.48,0.0,1071
 50,Swiss (5 rounds),Portugal,5,1801.28,203.20000000000005,80
@@ -445,14 +445,14 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 56,League,France,3,1950.82,53.66000000000008,992
 56,League + best-of-seven,France,3,1950.82,53.66000000000008,1074
 56,Swiss (5 rounds),Mexico,13,1723.64,280.8399999999999,80
-56,Swiss (7 rounds),Brazil,6,1800.91,203.56999999999994,112
+56,Swiss (7 rounds),Brazil,6,1800.91,203.5699999999999,112
 56,Swiss (9 rounds),Argentina,2,1966.13,38.34999999999991,144
 57,Knockout (random),Argentina,2,1966.13,38.34999999999991,31
 57,Knockout (seeded),England,4,1938.9,65.57999999999993,31
 57,World Cup (seeded groups),Argentina,2,1966.13,38.34999999999991,63
 57,League,Spain,1,2004.48,0.0,992
 57,League + best-of-seven,France,3,1950.82,53.66000000000008,1076
-57,Swiss (5 rounds),Brazil,6,1800.91,203.56999999999994,80
+57,Swiss (5 rounds),Brazil,6,1800.91,203.5699999999999,80
 57,Swiss (7 rounds),Portugal,5,1801.28,203.20000000000005,112
 57,Swiss (9 rounds),Spain,1,2004.48,0.0,144
 58,Knockout (random),England,4,1938.9,65.57999999999993,31
@@ -462,8 +462,8 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 58,League + best-of-seven,Spain,1,2004.48,0.0,1070
 58,Swiss (5 rounds),Spain,1,2004.48,0.0,80
 58,Swiss (7 rounds),Argentina,2,1966.13,38.34999999999991,112
-58,Swiss (9 rounds),Brazil,6,1800.91,203.56999999999994,144
-59,Knockout (random),Korea Republic,30,1560.02,444.46000000000004,31
+58,Swiss (9 rounds),Brazil,6,1800.91,203.5699999999999,144
+59,Knockout (random),Korea Republic,30,1560.02,444.46,31
 59,Knockout (seeded),Spain,1,2004.48,0.0,31
 59,World Cup (seeded groups),France,3,1950.82,53.66000000000008,63
 59,League,Argentina,2,1966.13,38.34999999999991,992
@@ -503,7 +503,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 63,Swiss (5 rounds),Spain,1,2004.48,0.0,80
 63,Swiss (7 rounds),Spain,1,2004.48,0.0,112
 63,Swiss (9 rounds),France,3,1950.82,53.66000000000008,144
-64,Knockout (random),Brazil,6,1800.91,203.56999999999994,31
+64,Knockout (random),Brazil,6,1800.91,203.5699999999999,31
 64,Knockout (seeded),Argentina,2,1966.13,38.34999999999991,31
 64,World Cup (seeded groups),England,4,1938.9,65.57999999999993,63
 64,League,Argentina,2,1966.13,38.34999999999991,992
@@ -533,7 +533,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 67,League,England,4,1938.9,65.57999999999993,992
 67,League + best-of-seven,Spain,1,2004.48,0.0,1076
 67,Swiss (5 rounds),Uruguay,20,1644.48,360.0,80
-67,Swiss (7 rounds),Brazil,6,1800.91,203.56999999999994,112
+67,Swiss (7 rounds),Brazil,6,1800.91,203.5699999999999,112
 67,Swiss (9 rounds),USA,16,1713.56,290.9200000000001,144
 68,Knockout (random),Italy,14,1717.2,287.28,31
 68,Knockout (seeded),Spain,1,2004.48,0.0,31
@@ -597,10 +597,10 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 75,League,Spain,1,2004.48,0.0,992
 75,League + best-of-seven,Spain,1,2004.48,0.0,1069
 75,Swiss (5 rounds),Portugal,5,1801.28,203.20000000000005,80
-75,Swiss (7 rounds),Brazil,6,1800.91,203.56999999999994,112
+75,Swiss (7 rounds),Brazil,6,1800.91,203.5699999999999,112
 75,Swiss (9 rounds),Portugal,5,1801.28,203.20000000000005,144
 76,Knockout (random),Belgium,8,1790.37,214.11000000000013,31
-76,Knockout (seeded),Brazil,6,1800.91,203.56999999999994,31
+76,Knockout (seeded),Brazil,6,1800.91,203.5699999999999,31
 76,World Cup (seeded groups),England,4,1938.9,65.57999999999993,63
 76,League,Argentina,2,1966.13,38.34999999999991,992
 76,League + best-of-seven,Argentina,2,1966.13,38.34999999999991,1078
@@ -617,7 +617,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 77,Swiss (9 rounds),England,4,1938.9,65.57999999999993,144
 78,Knockout (random),England,4,1938.9,65.57999999999993,31
 78,Knockout (seeded),Morocco,7,1791.35,213.1300000000001,31
-78,World Cup (seeded groups),Brazil,6,1800.91,203.56999999999994,63
+78,World Cup (seeded groups),Brazil,6,1800.91,203.5699999999999,63
 78,League,Argentina,2,1966.13,38.34999999999991,992
 78,League + best-of-seven,England,4,1938.9,65.57999999999993,1072
 78,Swiss (5 rounds),Spain,1,2004.48,0.0,80
@@ -677,14 +677,14 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 85,League,Spain,1,2004.48,0.0,992
 85,League + best-of-seven,Spain,1,2004.48,0.0,1076
 85,Swiss (5 rounds),Spain,1,2004.48,0.0,80
-85,Swiss (7 rounds),Côte d'Ivoire,28,1565.93,438.54999999999995,112
+85,Swiss (7 rounds),Côte d'Ivoire,28,1565.93,438.5499999999999,112
 85,Swiss (9 rounds),England,4,1938.9,65.57999999999993,144
 86,Knockout (random),England,4,1938.9,65.57999999999993,31
 86,Knockout (seeded),Belgium,8,1790.37,214.11000000000013,31
 86,World Cup (seeded groups),Spain,1,2004.48,0.0,63
 86,League,Spain,1,2004.48,0.0,992
 86,League + best-of-seven,Spain,1,2004.48,0.0,1074
-86,Swiss (5 rounds),Brazil,6,1800.91,203.56999999999994,80
+86,Swiss (5 rounds),Brazil,6,1800.91,203.5699999999999,80
 86,Swiss (7 rounds),England,4,1938.9,65.57999999999993,112
 86,Swiss (9 rounds),Argentina,2,1966.13,38.34999999999991,144
 87,Knockout (random),Portugal,5,1801.28,203.20000000000005,31
@@ -752,7 +752,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 94,Swiss (7 rounds),France,3,1950.82,53.66000000000008,112
 94,Swiss (9 rounds),England,4,1938.9,65.57999999999993,144
 95,Knockout (random),France,3,1950.82,53.66000000000008,31
-95,Knockout (seeded),Brazil,6,1800.91,203.56999999999994,31
+95,Knockout (seeded),Brazil,6,1800.91,203.5699999999999,31
 95,World Cup (seeded groups),France,3,1950.82,53.66000000000008,63
 95,League,Spain,1,2004.48,0.0,992
 95,League + best-of-seven,Netherlands,9,1774.06,230.42000000000007,1074
@@ -782,7 +782,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 98,League + best-of-seven,Portugal,5,1801.28,203.20000000000005,1086
 98,Swiss (5 rounds),Colombia,10,1735.9,268.5799999999999,80
 98,Swiss (7 rounds),Belgium,8,1790.37,214.11000000000013,112
-98,Swiss (9 rounds),Brazil,6,1800.91,203.56999999999994,144
+98,Swiss (9 rounds),Brazil,6,1800.91,203.5699999999999,144
 99,Knockout (random),England,4,1938.9,65.57999999999993,31
 99,Knockout (seeded),Spain,1,2004.48,0.0,31
 99,World Cup (seeded groups),Switzerland,12,1726.15,278.3299999999999,63
@@ -801,7 +801,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 100,Swiss (9 rounds),Belgium,8,1790.37,214.11000000000013,144
 101,Knockout (random),Norway,19,1650.89,353.5899999999999,31
 101,Knockout (seeded),Spain,1,2004.48,0.0,31
-101,World Cup (seeded groups),Brazil,6,1800.91,203.56999999999994,63
+101,World Cup (seeded groups),Brazil,6,1800.91,203.5699999999999,63
 101,League,France,3,1950.82,53.66000000000008,992
 101,League + best-of-seven,England,4,1938.9,65.57999999999993,1072
 101,Swiss (5 rounds),France,3,1950.82,53.66000000000008,80
@@ -849,11 +849,11 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 106,Swiss (9 rounds),USA,16,1713.56,290.9200000000001,144
 107,Knockout (random),Spain,1,2004.48,0.0,31
 107,Knockout (seeded),France,3,1950.82,53.66000000000008,31
-107,World Cup (seeded groups),Brazil,6,1800.91,203.56999999999994,63
+107,World Cup (seeded groups),Brazil,6,1800.91,203.5699999999999,63
 107,League,France,3,1950.82,53.66000000000008,992
 107,League + best-of-seven,Spain,1,2004.48,0.0,1074
 107,Swiss (5 rounds),Spain,1,2004.48,0.0,80
-107,Swiss (7 rounds),Brazil,6,1800.91,203.56999999999994,112
+107,Swiss (7 rounds),Brazil,6,1800.91,203.5699999999999,112
 107,Swiss (9 rounds),Ecuador,24,1593.34,411.1400000000001,144
 108,Knockout (random),Croatia,15,1714.22,290.26,31
 108,Knockout (seeded),Spain,1,2004.48,0.0,31
@@ -887,14 +887,14 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 111,Swiss (5 rounds),Morocco,7,1791.35,213.1300000000001,80
 111,Swiss (7 rounds),Argentina,2,1966.13,38.34999999999991,112
 111,Swiss (9 rounds),France,3,1950.82,53.66000000000008,144
-112,Knockout (random),Algeria,32,1557.94,446.53999999999996,31
+112,Knockout (random),Algeria,32,1557.94,446.54,31
 112,Knockout (seeded),Colombia,10,1735.9,268.5799999999999,31
 112,World Cup (seeded groups),Germany,11,1730.22,274.26,63
 112,League,Spain,1,2004.48,0.0,992
 112,League + best-of-seven,France,3,1950.82,53.66000000000008,1073
 112,Swiss (5 rounds),Mexico,13,1723.64,280.8399999999999,80
 112,Swiss (7 rounds),Spain,1,2004.48,0.0,112
-112,Swiss (9 rounds),Brazil,6,1800.91,203.56999999999994,144
+112,Swiss (9 rounds),Brazil,6,1800.91,203.5699999999999,144
 113,Knockout (random),Ecuador,24,1593.34,411.1400000000001,31
 113,Knockout (seeded),Portugal,5,1801.28,203.20000000000005,31
 113,World Cup (seeded groups),Spain,1,2004.48,0.0,63
@@ -911,7 +911,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 114,Swiss (5 rounds),Spain,1,2004.48,0.0,80
 114,Swiss (7 rounds),Belgium,8,1790.37,214.11000000000013,112
 114,Swiss (9 rounds),France,3,1950.82,53.66000000000008,144
-115,Knockout (random),Brazil,6,1800.91,203.56999999999994,31
+115,Knockout (random),Brazil,6,1800.91,203.5699999999999,31
 115,Knockout (seeded),Spain,1,2004.48,0.0,31
 115,World Cup (seeded groups),Argentina,2,1966.13,38.34999999999991,63
 115,League,France,3,1950.82,53.66000000000008,992
@@ -926,15 +926,15 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 116,League + best-of-seven,England,4,1938.9,65.57999999999993,1083
 116,Swiss (5 rounds),Spain,1,2004.48,0.0,80
 116,Swiss (7 rounds),Croatia,15,1714.22,290.26,112
-116,Swiss (9 rounds),Brazil,6,1800.91,203.56999999999994,144
+116,Swiss (9 rounds),Brazil,6,1800.91,203.5699999999999,144
 117,Knockout (random),Spain,1,2004.48,0.0,31
-117,Knockout (seeded),Brazil,6,1800.91,203.56999999999994,31
+117,Knockout (seeded),Brazil,6,1800.91,203.5699999999999,31
 117,World Cup (seeded groups),Spain,1,2004.48,0.0,63
 117,League,England,4,1938.9,65.57999999999993,992
 117,League + best-of-seven,France,3,1950.82,53.66000000000008,1074
 117,Swiss (5 rounds),Norway,19,1650.89,353.5899999999999,80
 117,Swiss (7 rounds),Portugal,5,1801.28,203.20000000000005,112
-117,Swiss (9 rounds),Brazil,6,1800.91,203.56999999999994,144
+117,Swiss (9 rounds),Brazil,6,1800.91,203.5699999999999,144
 118,Knockout (random),Egypt,26,1580.49,423.99,31
 118,Knockout (seeded),England,4,1938.9,65.57999999999993,31
 118,World Cup (seeded groups),Argentina,2,1966.13,38.34999999999991,63
@@ -979,8 +979,8 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 123,Knockout (seeded),England,4,1938.9,65.57999999999993,31
 123,World Cup (seeded groups),Argentina,2,1966.13,38.34999999999991,63
 123,League,Spain,1,2004.48,0.0,992
-123,League + best-of-seven,Brazil,6,1800.91,203.56999999999994,1079
-123,Swiss (5 rounds),Nigeria,29,1564.18,440.29999999999995,80
+123,League + best-of-seven,Brazil,6,1800.91,203.5699999999999,1079
+123,Swiss (5 rounds),Nigeria,29,1564.18,440.2999999999999,80
 123,Swiss (7 rounds),Spain,1,2004.48,0.0,112
 123,Swiss (9 rounds),France,3,1950.82,53.66000000000008,144
 124,Knockout (random),Ecuador,24,1593.34,411.1400000000001,31
@@ -997,7 +997,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 125,League,Argentina,2,1966.13,38.34999999999991,992
 125,League + best-of-seven,Argentina,2,1966.13,38.34999999999991,1073
 125,Swiss (5 rounds),France,3,1950.82,53.66000000000008,80
-125,Swiss (7 rounds),Brazil,6,1800.91,203.56999999999994,112
+125,Swiss (7 rounds),Brazil,6,1800.91,203.5699999999999,112
 125,Swiss (9 rounds),England,4,1938.9,65.57999999999993,144
 126,Knockout (random),Netherlands,9,1774.06,230.42000000000007,31
 126,Knockout (seeded),Morocco,7,1791.35,213.1300000000001,31
@@ -1080,11 +1080,11 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 135,Swiss (7 rounds),Portugal,5,1801.28,203.20000000000005,112
 135,Swiss (9 rounds),Argentina,2,1966.13,38.34999999999991,144
 136,Knockout (random),Spain,1,2004.48,0.0,31
-136,Knockout (seeded),Brazil,6,1800.91,203.56999999999994,31
+136,Knockout (seeded),Brazil,6,1800.91,203.5699999999999,31
 136,World Cup (seeded groups),Spain,1,2004.48,0.0,63
 136,League,Spain,1,2004.48,0.0,992
 136,League + best-of-seven,England,4,1938.9,65.57999999999993,1076
-136,Swiss (5 rounds),Algeria,32,1557.94,446.53999999999996,80
+136,Swiss (5 rounds),Algeria,32,1557.94,446.54,80
 136,Swiss (7 rounds),Switzerland,12,1726.15,278.3299999999999,112
 136,Swiss (9 rounds),Morocco,7,1791.35,213.1300000000001,144
 137,Knockout (random),USA,16,1713.56,290.9200000000001,31
@@ -1176,13 +1176,13 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 147,Swiss (7 rounds),Croatia,15,1714.22,290.26,112
 147,Swiss (9 rounds),Morocco,7,1791.35,213.1300000000001,144
 148,Knockout (random),Argentina,2,1966.13,38.34999999999991,31
-148,Knockout (seeded),Brazil,6,1800.91,203.56999999999994,31
+148,Knockout (seeded),Brazil,6,1800.91,203.5699999999999,31
 148,World Cup (seeded groups),Italy,14,1717.2,287.28,63
 148,League,France,3,1950.82,53.66000000000008,992
 148,League + best-of-seven,England,4,1938.9,65.57999999999993,1078
 148,Swiss (5 rounds),Argentina,2,1966.13,38.34999999999991,80
 148,Swiss (7 rounds),England,4,1938.9,65.57999999999993,112
-148,Swiss (9 rounds),Brazil,6,1800.91,203.56999999999994,144
+148,Swiss (9 rounds),Brazil,6,1800.91,203.5699999999999,144
 149,Knockout (random),Argentina,2,1966.13,38.34999999999991,31
 149,Knockout (seeded),Spain,1,2004.48,0.0,31
 149,World Cup (seeded groups),France,3,1950.82,53.66000000000008,63
@@ -1216,7 +1216,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 152,Swiss (7 rounds),Morocco,7,1791.35,213.1300000000001,112
 152,Swiss (9 rounds),Portugal,5,1801.28,203.20000000000005,144
 153,Knockout (random),France,3,1950.82,53.66000000000008,31
-153,Knockout (seeded),Brazil,6,1800.91,203.56999999999994,31
+153,Knockout (seeded),Brazil,6,1800.91,203.5699999999999,31
 153,World Cup (seeded groups),Argentina,2,1966.13,38.34999999999991,63
 153,League,Argentina,2,1966.13,38.34999999999991,992
 153,League + best-of-seven,Spain,1,2004.48,0.0,1069
@@ -1240,7 +1240,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 155,Swiss (7 rounds),Japan,17,1684.61,319.8700000000001,112
 155,Swiss (9 rounds),England,4,1938.9,65.57999999999993,144
 156,Knockout (random),France,3,1950.82,53.66000000000008,31
-156,Knockout (seeded),Korea Republic,30,1560.02,444.46000000000004,31
+156,Knockout (seeded),Korea Republic,30,1560.02,444.46,31
 156,World Cup (seeded groups),Morocco,7,1791.35,213.1300000000001,63
 156,League,Argentina,2,1966.13,38.34999999999991,992
 156,League + best-of-seven,France,3,1950.82,53.66000000000008,1080
@@ -1308,26 +1308,26 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 164,World Cup (seeded groups),Spain,1,2004.48,0.0,63
 164,League,England,4,1938.9,65.57999999999993,992
 164,League + best-of-seven,Spain,1,2004.48,0.0,1068
-164,Swiss (5 rounds),Côte d'Ivoire,28,1565.93,438.54999999999995,80
+164,Swiss (5 rounds),Côte d'Ivoire,28,1565.93,438.5499999999999,80
 164,Swiss (7 rounds),Spain,1,2004.48,0.0,112
 164,Swiss (9 rounds),France,3,1950.82,53.66000000000008,144
 165,Knockout (random),England,4,1938.9,65.57999999999993,31
-165,Knockout (seeded),Brazil,6,1800.91,203.56999999999994,31
+165,Knockout (seeded),Brazil,6,1800.91,203.5699999999999,31
 165,World Cup (seeded groups),Australia,27,1576.9,427.5799999999999,63
 165,League,Argentina,2,1966.13,38.34999999999991,992
 165,League + best-of-seven,Spain,1,2004.48,0.0,1075
-165,Swiss (5 rounds),Brazil,6,1800.91,203.56999999999994,80
+165,Swiss (5 rounds),Brazil,6,1800.91,203.5699999999999,80
 165,Swiss (7 rounds),Argentina,2,1966.13,38.34999999999991,112
 165,Swiss (9 rounds),England,4,1938.9,65.57999999999993,144
 166,Knockout (random),England,4,1938.9,65.57999999999993,31
-166,Knockout (seeded),Côte d'Ivoire,28,1565.93,438.54999999999995,31
+166,Knockout (seeded),Côte d'Ivoire,28,1565.93,438.5499999999999,31
 166,World Cup (seeded groups),Spain,1,2004.48,0.0,63
 166,League,France,3,1950.82,53.66000000000008,992
 166,League + best-of-seven,Spain,1,2004.48,0.0,1073
 166,Swiss (5 rounds),Spain,1,2004.48,0.0,80
 166,Swiss (7 rounds),Spain,1,2004.48,0.0,112
 166,Swiss (9 rounds),Croatia,15,1714.22,290.26,144
-167,Knockout (random),Brazil,6,1800.91,203.56999999999994,31
+167,Knockout (random),Brazil,6,1800.91,203.5699999999999,31
 167,Knockout (seeded),Mexico,13,1723.64,280.8399999999999,31
 167,World Cup (seeded groups),Spain,1,2004.48,0.0,63
 167,League,Argentina,2,1966.13,38.34999999999991,992
@@ -1361,13 +1361,13 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 170,Swiss (9 rounds),Ecuador,24,1593.34,411.1400000000001,144
 171,Knockout (random),Senegal,18,1680.44,324.03999999999996,31
 171,Knockout (seeded),England,4,1938.9,65.57999999999993,31
-171,World Cup (seeded groups),Algeria,32,1557.94,446.53999999999996,63
+171,World Cup (seeded groups),Algeria,32,1557.94,446.54,63
 171,League,Spain,1,2004.48,0.0,992
-171,League + best-of-seven,Brazil,6,1800.91,203.56999999999994,1071
-171,Swiss (5 rounds),Côte d'Ivoire,28,1565.93,438.54999999999995,80
+171,League + best-of-seven,Brazil,6,1800.91,203.5699999999999,1071
+171,Swiss (5 rounds),Côte d'Ivoire,28,1565.93,438.5499999999999,80
 171,Swiss (7 rounds),Mexico,13,1723.64,280.8399999999999,112
 171,Swiss (9 rounds),France,3,1950.82,53.66000000000008,144
-172,Knockout (random),Brazil,6,1800.91,203.56999999999994,31
+172,Knockout (random),Brazil,6,1800.91,203.5699999999999,31
 172,Knockout (seeded),Argentina,2,1966.13,38.34999999999991,31
 172,World Cup (seeded groups),France,3,1950.82,53.66000000000008,63
 172,League,Spain,1,2004.48,0.0,992
@@ -1407,7 +1407,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 176,Swiss (5 rounds),Portugal,5,1801.28,203.20000000000005,80
 176,Swiss (7 rounds),Argentina,2,1966.13,38.34999999999991,112
 176,Swiss (9 rounds),France,3,1950.82,53.66000000000008,144
-177,Knockout (random),Brazil,6,1800.91,203.56999999999994,31
+177,Knockout (random),Brazil,6,1800.91,203.5699999999999,31
 177,Knockout (seeded),England,4,1938.9,65.57999999999993,31
 177,World Cup (seeded groups),Mexico,13,1723.64,280.8399999999999,63
 177,League,Spain,1,2004.48,0.0,992
@@ -1425,7 +1425,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 178,Swiss (9 rounds),Netherlands,9,1774.06,230.42000000000007,144
 179,Knockout (random),England,4,1938.9,65.57999999999993,31
 179,Knockout (seeded),Morocco,7,1791.35,213.1300000000001,31
-179,World Cup (seeded groups),Brazil,6,1800.91,203.56999999999994,63
+179,World Cup (seeded groups),Brazil,6,1800.91,203.5699999999999,63
 179,League,Spain,1,2004.48,0.0,992
 179,League + best-of-seven,England,4,1938.9,65.57999999999993,1072
 179,Swiss (5 rounds),France,3,1950.82,53.66000000000008,80
@@ -1436,7 +1436,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 180,World Cup (seeded groups),France,3,1950.82,53.66000000000008,63
 180,League,Spain,1,2004.48,0.0,992
 180,League + best-of-seven,Spain,1,2004.48,0.0,1072
-180,Swiss (5 rounds),Brazil,6,1800.91,203.56999999999994,80
+180,Swiss (5 rounds),Brazil,6,1800.91,203.5699999999999,80
 180,Swiss (7 rounds),France,3,1950.82,53.66000000000008,112
 180,Swiss (9 rounds),France,3,1950.82,53.66000000000008,144
 181,Knockout (random),Spain,1,2004.48,0.0,31
@@ -1449,7 +1449,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 181,Swiss (9 rounds),France,3,1950.82,53.66000000000008,144
 182,Knockout (random),Spain,1,2004.48,0.0,31
 182,Knockout (seeded),Spain,1,2004.48,0.0,31
-182,World Cup (seeded groups),Côte d'Ivoire,28,1565.93,438.54999999999995,63
+182,World Cup (seeded groups),Côte d'Ivoire,28,1565.93,438.5499999999999,63
 182,League,France,3,1950.82,53.66000000000008,992
 182,League + best-of-seven,Argentina,2,1966.13,38.34999999999991,1070
 182,Swiss (5 rounds),France,3,1950.82,53.66000000000008,80
@@ -1522,7 +1522,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 191,Knockout (random),Argentina,2,1966.13,38.34999999999991,31
 191,Knockout (seeded),Spain,1,2004.48,0.0,31
 191,World Cup (seeded groups),France,3,1950.82,53.66000000000008,63
-191,League,Brazil,6,1800.91,203.56999999999994,992
+191,League,Brazil,6,1800.91,203.5699999999999,992
 191,League + best-of-seven,Argentina,2,1966.13,38.34999999999991,1073
 191,Swiss (5 rounds),Argentina,2,1966.13,38.34999999999991,80
 191,Swiss (7 rounds),England,4,1938.9,65.57999999999993,112
@@ -1541,11 +1541,11 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 193,League,Argentina,2,1966.13,38.34999999999991,992
 193,League + best-of-seven,Argentina,2,1966.13,38.34999999999991,1079
 193,Swiss (5 rounds),Argentina,2,1966.13,38.34999999999991,80
-193,Swiss (7 rounds),Korea Republic,30,1560.02,444.46000000000004,112
+193,Swiss (7 rounds),Korea Republic,30,1560.02,444.46,112
 193,Swiss (9 rounds),France,3,1950.82,53.66000000000008,144
 194,Knockout (random),Portugal,5,1801.28,203.20000000000005,31
 194,Knockout (seeded),Spain,1,2004.48,0.0,31
-194,World Cup (seeded groups),Brazil,6,1800.91,203.56999999999994,63
+194,World Cup (seeded groups),Brazil,6,1800.91,203.5699999999999,63
 194,League,Argentina,2,1966.13,38.34999999999991,992
 194,League + best-of-seven,Spain,1,2004.48,0.0,1079
 194,Swiss (5 rounds),Belgium,8,1790.37,214.11000000000013,80
@@ -1556,7 +1556,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 195,World Cup (seeded groups),Germany,11,1730.22,274.26,63
 195,League,Spain,1,2004.48,0.0,992
 195,League + best-of-seven,Spain,1,2004.48,0.0,1073
-195,Swiss (5 rounds),Brazil,6,1800.91,203.56999999999994,80
+195,Swiss (5 rounds),Brazil,6,1800.91,203.5699999999999,80
 195,Swiss (7 rounds),Colombia,10,1735.9,268.5799999999999,112
 195,Swiss (9 rounds),Argentina,2,1966.13,38.34999999999991,144
 196,Knockout (random),Germany,11,1730.22,274.26,31
@@ -1565,10 +1565,10 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 196,League,France,3,1950.82,53.66000000000008,992
 196,League + best-of-seven,England,4,1938.9,65.57999999999993,1070
 196,Swiss (5 rounds),Belgium,8,1790.37,214.11000000000013,80
-196,Swiss (7 rounds),Brazil,6,1800.91,203.56999999999994,112
+196,Swiss (7 rounds),Brazil,6,1800.91,203.5699999999999,112
 196,Swiss (9 rounds),Spain,1,2004.48,0.0,144
 197,Knockout (random),England,4,1938.9,65.57999999999993,31
-197,Knockout (seeded),Brazil,6,1800.91,203.56999999999994,31
+197,Knockout (seeded),Brazil,6,1800.91,203.5699999999999,31
 197,World Cup (seeded groups),England,4,1938.9,65.57999999999993,63
 197,League,Spain,1,2004.48,0.0,992
 197,League + best-of-seven,Spain,1,2004.48,0.0,1071
@@ -1710,13 +1710,13 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 214,League + best-of-seven,Argentina,2,1966.13,38.34999999999991,1071
 214,Swiss (5 rounds),Spain,1,2004.48,0.0,80
 214,Swiss (7 rounds),France,3,1950.82,53.66000000000008,112
-214,Swiss (9 rounds),Nigeria,29,1564.18,440.29999999999995,144
+214,Swiss (9 rounds),Nigeria,29,1564.18,440.2999999999999,144
 215,Knockout (random),Belgium,8,1790.37,214.11000000000013,31
 215,Knockout (seeded),Spain,1,2004.48,0.0,31
 215,World Cup (seeded groups),Spain,1,2004.48,0.0,63
 215,League,France,3,1950.82,53.66000000000008,992
 215,League + best-of-seven,Argentina,2,1966.13,38.34999999999991,1079
-215,Swiss (5 rounds),Brazil,6,1800.91,203.56999999999994,80
+215,Swiss (5 rounds),Brazil,6,1800.91,203.5699999999999,80
 215,Swiss (7 rounds),Morocco,7,1791.35,213.1300000000001,112
 215,Swiss (9 rounds),France,3,1950.82,53.66000000000008,144
 216,Knockout (random),Spain,1,2004.48,0.0,31
@@ -1740,7 +1740,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 218,World Cup (seeded groups),England,4,1938.9,65.57999999999993,63
 218,League,Spain,1,2004.48,0.0,992
 218,League + best-of-seven,Spain,1,2004.48,0.0,1071
-218,Swiss (5 rounds),Côte d'Ivoire,28,1565.93,438.54999999999995,80
+218,Swiss (5 rounds),Côte d'Ivoire,28,1565.93,438.5499999999999,80
 218,Swiss (7 rounds),England,4,1938.9,65.57999999999993,112
 218,Swiss (9 rounds),Morocco,7,1791.35,213.1300000000001,144
 219,Knockout (random),Argentina,2,1966.13,38.34999999999991,31
@@ -1750,7 +1750,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 219,League + best-of-seven,Argentina,2,1966.13,38.34999999999991,1078
 219,Swiss (5 rounds),Belgium,8,1790.37,214.11000000000013,80
 219,Swiss (7 rounds),Spain,1,2004.48,0.0,112
-219,Swiss (9 rounds),Brazil,6,1800.91,203.56999999999994,144
+219,Swiss (9 rounds),Brazil,6,1800.91,203.5699999999999,144
 220,Knockout (random),France,3,1950.82,53.66000000000008,31
 220,Knockout (seeded),Argentina,2,1966.13,38.34999999999991,31
 220,World Cup (seeded groups),Spain,1,2004.48,0.0,63
@@ -1759,7 +1759,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 220,Swiss (5 rounds),England,4,1938.9,65.57999999999993,80
 220,Swiss (7 rounds),France,3,1950.82,53.66000000000008,112
 220,Swiss (9 rounds),Spain,1,2004.48,0.0,144
-221,Knockout (random),Brazil,6,1800.91,203.56999999999994,31
+221,Knockout (random),Brazil,6,1800.91,203.5699999999999,31
 221,Knockout (seeded),Netherlands,9,1774.06,230.42000000000007,31
 221,World Cup (seeded groups),Uruguay,20,1644.48,360.0,63
 221,League,Spain,1,2004.48,0.0,992
@@ -1790,7 +1790,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 224,League + best-of-seven,England,4,1938.9,65.57999999999993,1077
 224,Swiss (5 rounds),Argentina,2,1966.13,38.34999999999991,80
 224,Swiss (7 rounds),Spain,1,2004.48,0.0,112
-224,Swiss (9 rounds),Brazil,6,1800.91,203.56999999999994,144
+224,Swiss (9 rounds),Brazil,6,1800.91,203.5699999999999,144
 225,Knockout (random),Argentina,2,1966.13,38.34999999999991,31
 225,Knockout (seeded),Spain,1,2004.48,0.0,31
 225,World Cup (seeded groups),Spain,1,2004.48,0.0,63
@@ -1817,7 +1817,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 227,Swiss (9 rounds),Germany,11,1730.22,274.26,144
 228,Knockout (random),Portugal,5,1801.28,203.20000000000005,31
 228,Knockout (seeded),France,3,1950.82,53.66000000000008,31
-228,World Cup (seeded groups),Brazil,6,1800.91,203.56999999999994,63
+228,World Cup (seeded groups),Brazil,6,1800.91,203.5699999999999,63
 228,League,Argentina,2,1966.13,38.34999999999991,992
 228,League + best-of-seven,Argentina,2,1966.13,38.34999999999991,1072
 228,Swiss (5 rounds),France,3,1950.82,53.66000000000008,80
@@ -1825,7 +1825,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 228,Swiss (9 rounds),Spain,1,2004.48,0.0,144
 229,Knockout (random),Argentina,2,1966.13,38.34999999999991,31
 229,Knockout (seeded),Spain,1,2004.48,0.0,31
-229,World Cup (seeded groups),Brazil,6,1800.91,203.56999999999994,63
+229,World Cup (seeded groups),Brazil,6,1800.91,203.5699999999999,63
 229,League,France,3,1950.82,53.66000000000008,992
 229,League + best-of-seven,Argentina,2,1966.13,38.34999999999991,1079
 229,Swiss (5 rounds),Spain,1,2004.48,0.0,80
@@ -1852,7 +1852,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 232,World Cup (seeded groups),Switzerland,12,1726.15,278.3299999999999,63
 232,League,Spain,1,2004.48,0.0,992
 232,League + best-of-seven,France,3,1950.82,53.66000000000008,1070
-232,Swiss (5 rounds),Brazil,6,1800.91,203.56999999999994,80
+232,Swiss (5 rounds),Brazil,6,1800.91,203.5699999999999,80
 232,Swiss (7 rounds),Germany,11,1730.22,274.26,112
 232,Swiss (9 rounds),Portugal,5,1801.28,203.20000000000005,144
 233,Knockout (random),England,4,1938.9,65.57999999999993,31
@@ -1893,7 +1893,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 237,League,England,4,1938.9,65.57999999999993,992
 237,League + best-of-seven,Argentina,2,1966.13,38.34999999999991,1073
 237,Swiss (5 rounds),Spain,1,2004.48,0.0,80
-237,Swiss (7 rounds),Algeria,32,1557.94,446.53999999999996,112
+237,Swiss (7 rounds),Algeria,32,1557.94,446.54,112
 237,Swiss (9 rounds),Senegal,18,1680.44,324.03999999999996,144
 238,Knockout (random),Colombia,10,1735.9,268.5799999999999,31
 238,Knockout (seeded),Spain,1,2004.48,0.0,31
@@ -1924,7 +1924,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 241,World Cup (seeded groups),Spain,1,2004.48,0.0,63
 241,League,Spain,1,2004.48,0.0,992
 241,League + best-of-seven,France,3,1950.82,53.66000000000008,1080
-241,Swiss (5 rounds),Brazil,6,1800.91,203.56999999999994,80
+241,Swiss (5 rounds),Brazil,6,1800.91,203.5699999999999,80
 241,Swiss (7 rounds),Japan,17,1684.61,319.8700000000001,112
 241,Swiss (9 rounds),France,3,1950.82,53.66000000000008,144
 242,Knockout (random),Mexico,13,1723.64,280.8399999999999,31
@@ -1996,7 +1996,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 250,World Cup (seeded groups),Spain,1,2004.48,0.0,63
 250,League,France,3,1950.82,53.66000000000008,992
 250,League + best-of-seven,Spain,1,2004.48,0.0,1071
-250,Swiss (5 rounds),Algeria,32,1557.94,446.53999999999996,80
+250,Swiss (5 rounds),Algeria,32,1557.94,446.54,80
 250,Swiss (7 rounds),Morocco,7,1791.35,213.1300000000001,112
 250,Swiss (9 rounds),England,4,1938.9,65.57999999999993,144
 251,Knockout (random),Spain,1,2004.48,0.0,31
@@ -2076,7 +2076,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 260,World Cup (seeded groups),Spain,1,2004.48,0.0,63
 260,League,Argentina,2,1966.13,38.34999999999991,992
 260,League + best-of-seven,England,4,1938.9,65.57999999999993,1070
-260,Swiss (5 rounds),Brazil,6,1800.91,203.56999999999994,80
+260,Swiss (5 rounds),Brazil,6,1800.91,203.5699999999999,80
 260,Swiss (7 rounds),Argentina,2,1966.13,38.34999999999991,112
 260,Swiss (9 rounds),Switzerland,12,1726.15,278.3299999999999,144
 261,Knockout (random),Portugal,5,1801.28,203.20000000000005,31
@@ -2092,7 +2092,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 262,World Cup (seeded groups),England,4,1938.9,65.57999999999993,63
 262,League,France,3,1950.82,53.66000000000008,992
 262,League + best-of-seven,France,3,1950.82,53.66000000000008,1073
-262,Swiss (5 rounds),Korea Republic,30,1560.02,444.46000000000004,80
+262,Swiss (5 rounds),Korea Republic,30,1560.02,444.46,80
 262,Swiss (7 rounds),Argentina,2,1966.13,38.34999999999991,112
 262,Swiss (9 rounds),France,3,1950.82,53.66000000000008,144
 263,Knockout (random),Spain,1,2004.48,0.0,31
@@ -2147,7 +2147,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 269,Knockout (seeded),Argentina,2,1966.13,38.34999999999991,31
 269,World Cup (seeded groups),Portugal,5,1801.28,203.20000000000005,63
 269,League,Spain,1,2004.48,0.0,992
-269,League + best-of-seven,Brazil,6,1800.91,203.56999999999994,1075
+269,League + best-of-seven,Brazil,6,1800.91,203.5699999999999,1075
 269,Swiss (5 rounds),Spain,1,2004.48,0.0,80
 269,Swiss (7 rounds),France,3,1950.82,53.66000000000008,112
 269,Swiss (9 rounds),Spain,1,2004.48,0.0,144
@@ -2189,7 +2189,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 274,League,England,4,1938.9,65.57999999999993,992
 274,League + best-of-seven,England,4,1938.9,65.57999999999993,1077
 274,Swiss (5 rounds),England,4,1938.9,65.57999999999993,80
-274,Swiss (7 rounds),Brazil,6,1800.91,203.56999999999994,112
+274,Swiss (7 rounds),Brazil,6,1800.91,203.5699999999999,112
 274,Swiss (9 rounds),Netherlands,9,1774.06,230.42000000000007,144
 275,Knockout (random),England,4,1938.9,65.57999999999993,31
 275,Knockout (seeded),Spain,1,2004.48,0.0,31
@@ -2255,7 +2255,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 282,Swiss (5 rounds),Senegal,18,1680.44,324.03999999999996,80
 282,Swiss (7 rounds),England,4,1938.9,65.57999999999993,112
 282,Swiss (9 rounds),Argentina,2,1966.13,38.34999999999991,144
-283,Knockout (random),Brazil,6,1800.91,203.56999999999994,31
+283,Knockout (random),Brazil,6,1800.91,203.5699999999999,31
 283,Knockout (seeded),Spain,1,2004.48,0.0,31
 283,World Cup (seeded groups),Canada,25,1586.12,418.3600000000001,63
 283,League,England,4,1938.9,65.57999999999993,992
@@ -2301,7 +2301,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 288,League,Argentina,2,1966.13,38.34999999999991,992
 288,League + best-of-seven,France,3,1950.82,53.66000000000008,1077
 288,Swiss (5 rounds),Argentina,2,1966.13,38.34999999999991,80
-288,Swiss (7 rounds),Côte d'Ivoire,28,1565.93,438.54999999999995,112
+288,Swiss (7 rounds),Côte d'Ivoire,28,1565.93,438.5499999999999,112
 288,Swiss (9 rounds),Argentina,2,1966.13,38.34999999999991,144
 289,Knockout (random),Spain,1,2004.48,0.0,31
 289,Knockout (seeded),Portugal,5,1801.28,203.20000000000005,31
@@ -2328,7 +2328,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 291,Swiss (7 rounds),Spain,1,2004.48,0.0,112
 291,Swiss (9 rounds),Argentina,2,1966.13,38.34999999999991,144
 292,Knockout (random),Spain,1,2004.48,0.0,31
-292,Knockout (seeded),Brazil,6,1800.91,203.56999999999994,31
+292,Knockout (seeded),Brazil,6,1800.91,203.5699999999999,31
 292,World Cup (seeded groups),Argentina,2,1966.13,38.34999999999991,63
 292,League,Argentina,2,1966.13,38.34999999999991,992
 292,League + best-of-seven,Argentina,2,1966.13,38.34999999999991,1071
@@ -2373,7 +2373,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 297,League,Spain,1,2004.48,0.0,992
 297,League + best-of-seven,Spain,1,2004.48,0.0,1069
 297,Swiss (5 rounds),England,4,1938.9,65.57999999999993,80
-297,Swiss (7 rounds),Brazil,6,1800.91,203.56999999999994,112
+297,Swiss (7 rounds),Brazil,6,1800.91,203.5699999999999,112
 297,Swiss (9 rounds),Argentina,2,1966.13,38.34999999999991,144
 298,Knockout (random),Portugal,5,1801.28,203.20000000000005,31
 298,Knockout (seeded),Netherlands,9,1774.06,230.42000000000007,31
@@ -2417,11 +2417,11 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 302,Swiss (9 rounds),Argentina,2,1966.13,38.34999999999991,144
 303,Knockout (random),England,4,1938.9,65.57999999999993,31
 303,Knockout (seeded),France,3,1950.82,53.66000000000008,31
-303,World Cup (seeded groups),Brazil,6,1800.91,203.56999999999994,63
+303,World Cup (seeded groups),Brazil,6,1800.91,203.5699999999999,63
 303,League,Argentina,2,1966.13,38.34999999999991,992
 303,League + best-of-seven,France,3,1950.82,53.66000000000008,1072
-303,Swiss (5 rounds),Côte d'Ivoire,28,1565.93,438.54999999999995,80
-303,Swiss (7 rounds),Brazil,6,1800.91,203.56999999999994,112
+303,Swiss (5 rounds),Côte d'Ivoire,28,1565.93,438.5499999999999,80
+303,Swiss (7 rounds),Brazil,6,1800.91,203.5699999999999,112
 303,Swiss (9 rounds),Netherlands,9,1774.06,230.42000000000007,144
 304,Knockout (random),Denmark,21,1622.41,382.06999999999994,31
 304,Knockout (seeded),France,3,1950.82,53.66000000000008,31
@@ -2452,7 +2452,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 307,World Cup (seeded groups),Netherlands,9,1774.06,230.42000000000007,63
 307,League,Spain,1,2004.48,0.0,992
 307,League + best-of-seven,Argentina,2,1966.13,38.34999999999991,1080
-307,Swiss (5 rounds),Brazil,6,1800.91,203.56999999999994,80
+307,Swiss (5 rounds),Brazil,6,1800.91,203.5699999999999,80
 307,Swiss (7 rounds),Spain,1,2004.48,0.0,112
 307,Swiss (9 rounds),Netherlands,9,1774.06,230.42000000000007,144
 308,Knockout (random),Spain,1,2004.48,0.0,31
@@ -2478,8 +2478,8 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 310,League + best-of-seven,France,3,1950.82,53.66000000000008,1075
 310,Swiss (5 rounds),Spain,1,2004.48,0.0,80
 310,Swiss (7 rounds),France,3,1950.82,53.66000000000008,112
-310,Swiss (9 rounds),Brazil,6,1800.91,203.56999999999994,144
-311,Knockout (random),Brazil,6,1800.91,203.56999999999994,31
+310,Swiss (9 rounds),Brazil,6,1800.91,203.5699999999999,144
+311,Knockout (random),Brazil,6,1800.91,203.5699999999999,31
 311,Knockout (seeded),France,3,1950.82,53.66000000000008,31
 311,World Cup (seeded groups),France,3,1950.82,53.66000000000008,63
 311,League,Spain,1,2004.48,0.0,992
@@ -2493,7 +2493,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 312,League,Spain,1,2004.48,0.0,992
 312,League + best-of-seven,Spain,1,2004.48,0.0,1071
 312,Swiss (5 rounds),Spain,1,2004.48,0.0,80
-312,Swiss (7 rounds),Brazil,6,1800.91,203.56999999999994,112
+312,Swiss (7 rounds),Brazil,6,1800.91,203.5699999999999,112
 312,Swiss (9 rounds),Mexico,13,1723.64,280.8399999999999,144
 313,Knockout (random),Senegal,18,1680.44,324.03999999999996,31
 313,Knockout (seeded),Argentina,2,1966.13,38.34999999999991,31
@@ -2504,7 +2504,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 313,Swiss (7 rounds),Senegal,18,1680.44,324.03999999999996,112
 313,Swiss (9 rounds),Spain,1,2004.48,0.0,144
 314,Knockout (random),Argentina,2,1966.13,38.34999999999991,31
-314,Knockout (seeded),Brazil,6,1800.91,203.56999999999994,31
+314,Knockout (seeded),Brazil,6,1800.91,203.5699999999999,31
 314,World Cup (seeded groups),Argentina,2,1966.13,38.34999999999991,63
 314,League,Spain,1,2004.48,0.0,992
 314,League + best-of-seven,Spain,1,2004.48,0.0,1078
@@ -2526,7 +2526,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 316,League + best-of-seven,France,3,1950.82,53.66000000000008,1078
 316,Swiss (5 rounds),Argentina,2,1966.13,38.34999999999991,80
 316,Swiss (7 rounds),Italy,14,1717.2,287.28,112
-316,Swiss (9 rounds),Brazil,6,1800.91,203.56999999999994,144
+316,Swiss (9 rounds),Brazil,6,1800.91,203.5699999999999,144
 317,Knockout (random),Germany,11,1730.22,274.26,31
 317,Knockout (seeded),Spain,1,2004.48,0.0,31
 317,World Cup (seeded groups),France,3,1950.82,53.66000000000008,63
@@ -2538,7 +2538,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 318,Knockout (random),England,4,1938.9,65.57999999999993,31
 318,Knockout (seeded),Italy,14,1717.2,287.28,31
 318,World Cup (seeded groups),England,4,1938.9,65.57999999999993,63
-318,League,Brazil,6,1800.91,203.56999999999994,992
+318,League,Brazil,6,1800.91,203.5699999999999,992
 318,League + best-of-seven,Argentina,2,1966.13,38.34999999999991,1076
 318,Swiss (5 rounds),England,4,1938.9,65.57999999999993,80
 318,Swiss (7 rounds),USA,16,1713.56,290.9200000000001,112
@@ -2553,7 +2553,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 319,Swiss (9 rounds),England,4,1938.9,65.57999999999993,144
 320,Knockout (random),Senegal,18,1680.44,324.03999999999996,31
 320,Knockout (seeded),Argentina,2,1966.13,38.34999999999991,31
-320,World Cup (seeded groups),Brazil,6,1800.91,203.56999999999994,63
+320,World Cup (seeded groups),Brazil,6,1800.91,203.5699999999999,63
 320,League,Spain,1,2004.48,0.0,992
 320,League + best-of-seven,England,4,1938.9,65.57999999999993,1071
 320,Swiss (5 rounds),England,4,1938.9,65.57999999999993,80
@@ -2563,7 +2563,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 321,Knockout (seeded),Japan,17,1684.61,319.8700000000001,31
 321,World Cup (seeded groups),France,3,1950.82,53.66000000000008,63
 321,League,Spain,1,2004.48,0.0,992
-321,League + best-of-seven,Brazil,6,1800.91,203.56999999999994,1069
+321,League + best-of-seven,Brazil,6,1800.91,203.5699999999999,1069
 321,Swiss (5 rounds),Spain,1,2004.48,0.0,80
 321,Swiss (7 rounds),England,4,1938.9,65.57999999999993,112
 321,Swiss (9 rounds),Morocco,7,1791.35,213.1300000000001,144
@@ -2637,7 +2637,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 330,League,Spain,1,2004.48,0.0,992
 330,League + best-of-seven,Argentina,2,1966.13,38.34999999999991,1077
 330,Swiss (5 rounds),France,3,1950.82,53.66000000000008,80
-330,Swiss (7 rounds),Brazil,6,1800.91,203.56999999999994,112
+330,Swiss (7 rounds),Brazil,6,1800.91,203.5699999999999,112
 330,Swiss (9 rounds),England,4,1938.9,65.57999999999993,144
 331,Knockout (random),Argentina,2,1966.13,38.34999999999991,31
 331,Knockout (seeded),England,4,1938.9,65.57999999999993,31
@@ -2673,7 +2673,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 334,Swiss (9 rounds),Portugal,5,1801.28,203.20000000000005,144
 335,Knockout (random),France,3,1950.82,53.66000000000008,31
 335,Knockout (seeded),Germany,11,1730.22,274.26,31
-335,World Cup (seeded groups),Brazil,6,1800.91,203.56999999999994,63
+335,World Cup (seeded groups),Brazil,6,1800.91,203.5699999999999,63
 335,League,Spain,1,2004.48,0.0,992
 335,League + best-of-seven,France,3,1950.82,53.66000000000008,1079
 335,Swiss (5 rounds),Argentina,2,1966.13,38.34999999999991,80
@@ -2691,7 +2691,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 337,Knockout (seeded),France,3,1950.82,53.66000000000008,31
 337,World Cup (seeded groups),England,4,1938.9,65.57999999999993,63
 337,League,Argentina,2,1966.13,38.34999999999991,992
-337,League + best-of-seven,Brazil,6,1800.91,203.56999999999994,1079
+337,League + best-of-seven,Brazil,6,1800.91,203.5699999999999,1079
 337,Swiss (5 rounds),Germany,11,1730.22,274.26,80
 337,Swiss (7 rounds),England,4,1938.9,65.57999999999993,112
 337,Swiss (9 rounds),Colombia,10,1735.9,268.5799999999999,144
@@ -2702,7 +2702,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 338,League + best-of-seven,France,3,1950.82,53.66000000000008,1076
 338,Swiss (5 rounds),Italy,14,1717.2,287.28,80
 338,Swiss (7 rounds),Japan,17,1684.61,319.8700000000001,112
-338,Swiss (9 rounds),Brazil,6,1800.91,203.56999999999994,144
+338,Swiss (9 rounds),Brazil,6,1800.91,203.5699999999999,144
 339,Knockout (random),Spain,1,2004.48,0.0,31
 339,Knockout (seeded),Belgium,8,1790.37,214.11000000000013,31
 339,World Cup (seeded groups),Spain,1,2004.48,0.0,63
@@ -2716,11 +2716,11 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 340,World Cup (seeded groups),Germany,11,1730.22,274.26,63
 340,League,Argentina,2,1966.13,38.34999999999991,992
 340,League + best-of-seven,Spain,1,2004.48,0.0,1075
-340,Swiss (5 rounds),Brazil,6,1800.91,203.56999999999994,80
+340,Swiss (5 rounds),Brazil,6,1800.91,203.5699999999999,80
 340,Swiss (7 rounds),Morocco,7,1791.35,213.1300000000001,112
 340,Swiss (9 rounds),Argentina,2,1966.13,38.34999999999991,144
 341,Knockout (random),Croatia,15,1714.22,290.26,31
-341,Knockout (seeded),Brazil,6,1800.91,203.56999999999994,31
+341,Knockout (seeded),Brazil,6,1800.91,203.5699999999999,31
 341,World Cup (seeded groups),England,4,1938.9,65.57999999999993,63
 341,League,England,4,1938.9,65.57999999999993,992
 341,League + best-of-seven,Spain,1,2004.48,0.0,1072
@@ -2801,7 +2801,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 350,Swiss (9 rounds),England,4,1938.9,65.57999999999993,144
 351,Knockout (random),England,4,1938.9,65.57999999999993,31
 351,Knockout (seeded),Portugal,5,1801.28,203.20000000000005,31
-351,World Cup (seeded groups),Brazil,6,1800.91,203.56999999999994,63
+351,World Cup (seeded groups),Brazil,6,1800.91,203.5699999999999,63
 351,League,Spain,1,2004.48,0.0,992
 351,League + best-of-seven,France,3,1950.82,53.66000000000008,1070
 351,Swiss (5 rounds),Spain,1,2004.48,0.0,80
@@ -2811,7 +2811,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 352,Knockout (seeded),Argentina,2,1966.13,38.34999999999991,31
 352,World Cup (seeded groups),France,3,1950.82,53.66000000000008,63
 352,League,Argentina,2,1966.13,38.34999999999991,992
-352,League + best-of-seven,Brazil,6,1800.91,203.56999999999994,1071
+352,League + best-of-seven,Brazil,6,1800.91,203.5699999999999,1071
 352,Swiss (5 rounds),France,3,1950.82,53.66000000000008,80
 352,Swiss (7 rounds),Morocco,7,1791.35,213.1300000000001,112
 352,Swiss (9 rounds),Switzerland,12,1726.15,278.3299999999999,144
@@ -2829,7 +2829,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 354,League,France,3,1950.82,53.66000000000008,992
 354,League + best-of-seven,France,3,1950.82,53.66000000000008,1071
 354,Swiss (5 rounds),Spain,1,2004.48,0.0,80
-354,Swiss (7 rounds),Brazil,6,1800.91,203.56999999999994,112
+354,Swiss (7 rounds),Brazil,6,1800.91,203.5699999999999,112
 354,Swiss (9 rounds),Portugal,5,1801.28,203.20000000000005,144
 355,Knockout (random),Belgium,8,1790.37,214.11000000000013,31
 355,Knockout (seeded),Spain,1,2004.48,0.0,31
@@ -2871,9 +2871,9 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 359,Swiss (5 rounds),Spain,1,2004.48,0.0,80
 359,Swiss (7 rounds),Mexico,13,1723.64,280.8399999999999,112
 359,Swiss (9 rounds),Spain,1,2004.48,0.0,144
-360,Knockout (random),Algeria,32,1557.94,446.53999999999996,31
+360,Knockout (random),Algeria,32,1557.94,446.54,31
 360,Knockout (seeded),Australia,27,1576.9,427.5799999999999,31
-360,World Cup (seeded groups),Brazil,6,1800.91,203.56999999999994,63
+360,World Cup (seeded groups),Brazil,6,1800.91,203.5699999999999,63
 360,League,Spain,1,2004.48,0.0,992
 360,League + best-of-seven,France,3,1950.82,53.66000000000008,1075
 360,Swiss (5 rounds),Netherlands,9,1774.06,230.42000000000007,80
@@ -2932,10 +2932,10 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 367,World Cup (seeded groups),Spain,1,2004.48,0.0,63
 367,League,Argentina,2,1966.13,38.34999999999991,992
 367,League + best-of-seven,England,4,1938.9,65.57999999999993,1074
-367,Swiss (5 rounds),Brazil,6,1800.91,203.56999999999994,80
+367,Swiss (5 rounds),Brazil,6,1800.91,203.5699999999999,80
 367,Swiss (7 rounds),Switzerland,12,1726.15,278.3299999999999,112
 367,Swiss (9 rounds),Spain,1,2004.48,0.0,144
-368,Knockout (random),Brazil,6,1800.91,203.56999999999994,31
+368,Knockout (random),Brazil,6,1800.91,203.5699999999999,31
 368,Knockout (seeded),England,4,1938.9,65.57999999999993,31
 368,World Cup (seeded groups),Colombia,10,1735.9,268.5799999999999,63
 368,League,Argentina,2,1966.13,38.34999999999991,992
@@ -2948,7 +2948,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 369,World Cup (seeded groups),France,3,1950.82,53.66000000000008,63
 369,League,Spain,1,2004.48,0.0,992
 369,League + best-of-seven,France,3,1950.82,53.66000000000008,1073
-369,Swiss (5 rounds),Brazil,6,1800.91,203.56999999999994,80
+369,Swiss (5 rounds),Brazil,6,1800.91,203.5699999999999,80
 369,Swiss (7 rounds),Argentina,2,1966.13,38.34999999999991,112
 369,Swiss (9 rounds),France,3,1950.82,53.66000000000008,144
 370,Knockout (random),Colombia,10,1735.9,268.5799999999999,31
@@ -2965,7 +2965,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 371,League,Spain,1,2004.48,0.0,992
 371,League + best-of-seven,Spain,1,2004.48,0.0,1074
 371,Swiss (5 rounds),France,3,1950.82,53.66000000000008,80
-371,Swiss (7 rounds),Brazil,6,1800.91,203.56999999999994,112
+371,Swiss (7 rounds),Brazil,6,1800.91,203.5699999999999,112
 371,Swiss (9 rounds),Argentina,2,1966.13,38.34999999999991,144
 372,Knockout (random),France,3,1950.82,53.66000000000008,31
 372,Knockout (seeded),Argentina,2,1966.13,38.34999999999991,31
@@ -3006,7 +3006,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 376,League + best-of-seven,France,3,1950.82,53.66000000000008,1078
 376,Swiss (5 rounds),Italy,14,1717.2,287.28,80
 376,Swiss (7 rounds),France,3,1950.82,53.66000000000008,112
-376,Swiss (9 rounds),Brazil,6,1800.91,203.56999999999994,144
+376,Swiss (9 rounds),Brazil,6,1800.91,203.5699999999999,144
 377,Knockout (random),Norway,19,1650.89,353.5899999999999,31
 377,Knockout (seeded),USA,16,1713.56,290.9200000000001,31
 377,World Cup (seeded groups),Spain,1,2004.48,0.0,63
@@ -3118,7 +3118,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 390,League + best-of-seven,Spain,1,2004.48,0.0,1085
 390,Swiss (5 rounds),Spain,1,2004.48,0.0,80
 390,Swiss (7 rounds),Spain,1,2004.48,0.0,112
-390,Swiss (9 rounds),Brazil,6,1800.91,203.56999999999994,144
+390,Swiss (9 rounds),Brazil,6,1800.91,203.5699999999999,144
 391,Knockout (random),Japan,17,1684.61,319.8700000000001,31
 391,Knockout (seeded),France,3,1950.82,53.66000000000008,31
 391,World Cup (seeded groups),Croatia,15,1714.22,290.26,63
@@ -3173,7 +3173,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 397,League,Argentina,2,1966.13,38.34999999999991,992
 397,League + best-of-seven,Spain,1,2004.48,0.0,1080
 397,Swiss (5 rounds),Portugal,5,1801.28,203.20000000000005,80
-397,Swiss (7 rounds),Brazil,6,1800.91,203.56999999999994,112
+397,Swiss (7 rounds),Brazil,6,1800.91,203.5699999999999,112
 397,Swiss (9 rounds),England,4,1938.9,65.57999999999993,144
 398,Knockout (random),Colombia,10,1735.9,268.5799999999999,31
 398,Knockout (seeded),Portugal,5,1801.28,203.20000000000005,31
@@ -3225,7 +3225,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 403,Swiss (9 rounds),France,3,1950.82,53.66000000000008,144
 404,Knockout (random),Italy,14,1717.2,287.28,31
 404,Knockout (seeded),Spain,1,2004.48,0.0,31
-404,World Cup (seeded groups),Brazil,6,1800.91,203.56999999999994,63
+404,World Cup (seeded groups),Brazil,6,1800.91,203.5699999999999,63
 404,League,Spain,1,2004.48,0.0,992
 404,League + best-of-seven,Spain,1,2004.48,0.0,1075
 404,Swiss (5 rounds),Argentina,2,1966.13,38.34999999999991,80
@@ -3271,22 +3271,22 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 409,Swiss (5 rounds),Spain,1,2004.48,0.0,80
 409,Swiss (7 rounds),France,3,1950.82,53.66000000000008,112
 409,Swiss (9 rounds),France,3,1950.82,53.66000000000008,144
-410,Knockout (random),Brazil,6,1800.91,203.56999999999994,31
-410,Knockout (seeded),Nigeria,29,1564.18,440.29999999999995,31
+410,Knockout (random),Brazil,6,1800.91,203.5699999999999,31
+410,Knockout (seeded),Nigeria,29,1564.18,440.2999999999999,31
 410,World Cup (seeded groups),France,3,1950.82,53.66000000000008,63
 410,League,Spain,1,2004.48,0.0,992
 410,League + best-of-seven,Spain,1,2004.48,0.0,1066
 410,Swiss (5 rounds),Italy,14,1717.2,287.28,80
-410,Swiss (7 rounds),Brazil,6,1800.91,203.56999999999994,112
+410,Swiss (7 rounds),Brazil,6,1800.91,203.5699999999999,112
 410,Swiss (9 rounds),England,4,1938.9,65.57999999999993,144
 411,Knockout (random),Spain,1,2004.48,0.0,31
 411,Knockout (seeded),Spain,1,2004.48,0.0,31
 411,World Cup (seeded groups),Croatia,15,1714.22,290.26,63
 411,League,Spain,1,2004.48,0.0,992
 411,League + best-of-seven,Spain,1,2004.48,0.0,1079
-411,Swiss (5 rounds),Brazil,6,1800.91,203.56999999999994,80
+411,Swiss (5 rounds),Brazil,6,1800.91,203.5699999999999,80
 411,Swiss (7 rounds),Portugal,5,1801.28,203.20000000000005,112
-411,Swiss (9 rounds),Brazil,6,1800.91,203.56999999999994,144
+411,Swiss (9 rounds),Brazil,6,1800.91,203.5699999999999,144
 412,Knockout (random),France,3,1950.82,53.66000000000008,31
 412,Knockout (seeded),Spain,1,2004.48,0.0,31
 412,World Cup (seeded groups),Morocco,7,1791.35,213.1300000000001,63
@@ -3295,7 +3295,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 412,Swiss (5 rounds),Spain,1,2004.48,0.0,80
 412,Swiss (7 rounds),Argentina,2,1966.13,38.34999999999991,112
 412,Swiss (9 rounds),Argentina,2,1966.13,38.34999999999991,144
-413,Knockout (random),Brazil,6,1800.91,203.56999999999994,31
+413,Knockout (random),Brazil,6,1800.91,203.5699999999999,31
 413,Knockout (seeded),Argentina,2,1966.13,38.34999999999991,31
 413,World Cup (seeded groups),Switzerland,12,1726.15,278.3299999999999,63
 413,League,England,4,1938.9,65.57999999999993,992
@@ -3350,7 +3350,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 419,League + best-of-seven,France,3,1950.82,53.66000000000008,1074
 419,Swiss (5 rounds),Switzerland,12,1726.15,278.3299999999999,80
 419,Swiss (7 rounds),Belgium,8,1790.37,214.11000000000013,112
-419,Swiss (9 rounds),Brazil,6,1800.91,203.56999999999994,144
+419,Swiss (9 rounds),Brazil,6,1800.91,203.5699999999999,144
 420,Knockout (random),Colombia,10,1735.9,268.5799999999999,31
 420,Knockout (seeded),France,3,1950.82,53.66000000000008,31
 420,World Cup (seeded groups),Portugal,5,1801.28,203.20000000000005,63
@@ -3358,7 +3358,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 420,League + best-of-seven,France,3,1950.82,53.66000000000008,1080
 420,Swiss (5 rounds),Spain,1,2004.48,0.0,80
 420,Swiss (7 rounds),Switzerland,12,1726.15,278.3299999999999,112
-420,Swiss (9 rounds),Brazil,6,1800.91,203.56999999999994,144
+420,Swiss (9 rounds),Brazil,6,1800.91,203.5699999999999,144
 421,Knockout (random),Croatia,15,1714.22,290.26,31
 421,Knockout (seeded),Argentina,2,1966.13,38.34999999999991,31
 421,World Cup (seeded groups),Paraguay,31,1559.89,444.5899999999999,63
@@ -3384,7 +3384,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 423,Swiss (7 rounds),Austria,22,1602.21,402.27,112
 423,Swiss (9 rounds),Croatia,15,1714.22,290.26,144
 424,Knockout (random),Croatia,15,1714.22,290.26,31
-424,Knockout (seeded),Brazil,6,1800.91,203.56999999999994,31
+424,Knockout (seeded),Brazil,6,1800.91,203.5699999999999,31
 424,World Cup (seeded groups),Italy,14,1717.2,287.28,63
 424,League,Spain,1,2004.48,0.0,992
 424,League + best-of-seven,Spain,1,2004.48,0.0,1074
@@ -3392,7 +3392,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 424,Swiss (7 rounds),Spain,1,2004.48,0.0,112
 424,Swiss (9 rounds),Spain,1,2004.48,0.0,144
 425,Knockout (random),Japan,17,1684.61,319.8700000000001,31
-425,Knockout (seeded),Korea Republic,30,1560.02,444.46000000000004,31
+425,Knockout (seeded),Korea Republic,30,1560.02,444.46,31
 425,World Cup (seeded groups),Portugal,5,1801.28,203.20000000000005,63
 425,League,Argentina,2,1966.13,38.34999999999991,992
 425,League + best-of-seven,England,4,1938.9,65.57999999999993,1074
@@ -3408,7 +3408,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 426,Swiss (7 rounds),Spain,1,2004.48,0.0,112
 426,Swiss (9 rounds),USA,16,1713.56,290.9200000000001,144
 427,Knockout (random),Argentina,2,1966.13,38.34999999999991,31
-427,Knockout (seeded),Brazil,6,1800.91,203.56999999999994,31
+427,Knockout (seeded),Brazil,6,1800.91,203.5699999999999,31
 427,World Cup (seeded groups),Argentina,2,1966.13,38.34999999999991,63
 427,League,Spain,1,2004.48,0.0,992
 427,League + best-of-seven,France,3,1950.82,53.66000000000008,1080
@@ -3428,7 +3428,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 429,World Cup (seeded groups),France,3,1950.82,53.66000000000008,63
 429,League,Spain,1,2004.48,0.0,992
 429,League + best-of-seven,Spain,1,2004.48,0.0,1075
-429,Swiss (5 rounds),Brazil,6,1800.91,203.56999999999994,80
+429,Swiss (5 rounds),Brazil,6,1800.91,203.5699999999999,80
 429,Swiss (7 rounds),France,3,1950.82,53.66000000000008,112
 429,Swiss (9 rounds),Germany,11,1730.22,274.26,144
 430,Knockout (random),Spain,1,2004.48,0.0,31
@@ -3471,7 +3471,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 434,Swiss (5 rounds),Morocco,7,1791.35,213.1300000000001,80
 434,Swiss (7 rounds),Argentina,2,1966.13,38.34999999999991,112
 434,Swiss (9 rounds),France,3,1950.82,53.66000000000008,144
-435,Knockout (random),Brazil,6,1800.91,203.56999999999994,31
+435,Knockout (random),Brazil,6,1800.91,203.5699999999999,31
 435,Knockout (seeded),England,4,1938.9,65.57999999999993,31
 435,World Cup (seeded groups),Spain,1,2004.48,0.0,63
 435,League,France,3,1950.82,53.66000000000008,992
@@ -3512,7 +3512,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 439,Swiss (7 rounds),Spain,1,2004.48,0.0,112
 439,Swiss (9 rounds),Portugal,5,1801.28,203.20000000000005,144
 440,Knockout (random),Argentina,2,1966.13,38.34999999999991,31
-440,Knockout (seeded),Nigeria,29,1564.18,440.29999999999995,31
+440,Knockout (seeded),Nigeria,29,1564.18,440.2999999999999,31
 440,World Cup (seeded groups),France,3,1950.82,53.66000000000008,63
 440,League,Argentina,2,1966.13,38.34999999999991,992
 440,League + best-of-seven,Belgium,8,1790.37,214.11000000000013,1076
@@ -3526,7 +3526,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 441,League + best-of-seven,France,3,1950.82,53.66000000000008,1079
 441,Swiss (5 rounds),Spain,1,2004.48,0.0,80
 441,Swiss (7 rounds),France,3,1950.82,53.66000000000008,112
-441,Swiss (9 rounds),Brazil,6,1800.91,203.56999999999994,144
+441,Swiss (9 rounds),Brazil,6,1800.91,203.5699999999999,144
 442,Knockout (random),Uruguay,20,1644.48,360.0,31
 442,Knockout (seeded),Spain,1,2004.48,0.0,31
 442,World Cup (seeded groups),Argentina,2,1966.13,38.34999999999991,63
@@ -3549,13 +3549,13 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 444,League,Spain,1,2004.48,0.0,992
 444,League + best-of-seven,Argentina,2,1966.13,38.34999999999991,1076
 444,Swiss (5 rounds),England,4,1938.9,65.57999999999993,80
-444,Swiss (7 rounds),Brazil,6,1800.91,203.56999999999994,112
-444,Swiss (9 rounds),Brazil,6,1800.91,203.56999999999994,144
+444,Swiss (7 rounds),Brazil,6,1800.91,203.5699999999999,112
+444,Swiss (9 rounds),Brazil,6,1800.91,203.5699999999999,144
 445,Knockout (random),France,3,1950.82,53.66000000000008,31
 445,Knockout (seeded),Argentina,2,1966.13,38.34999999999991,31
 445,World Cup (seeded groups),Argentina,2,1966.13,38.34999999999991,63
 445,League,France,3,1950.82,53.66000000000008,992
-445,League + best-of-seven,Brazil,6,1800.91,203.56999999999994,1077
+445,League + best-of-seven,Brazil,6,1800.91,203.5699999999999,1077
 445,Swiss (5 rounds),France,3,1950.82,53.66000000000008,80
 445,Swiss (7 rounds),England,4,1938.9,65.57999999999993,112
 445,Swiss (9 rounds),France,3,1950.82,53.66000000000008,144
@@ -3565,7 +3565,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 446,League,Argentina,2,1966.13,38.34999999999991,992
 446,League + best-of-seven,Argentina,2,1966.13,38.34999999999991,1074
 446,Swiss (5 rounds),Colombia,10,1735.9,268.5799999999999,80
-446,Swiss (7 rounds),Brazil,6,1800.91,203.56999999999994,112
+446,Swiss (7 rounds),Brazil,6,1800.91,203.5699999999999,112
 446,Swiss (9 rounds),Argentina,2,1966.13,38.34999999999991,144
 447,Knockout (random),Colombia,10,1735.9,268.5799999999999,31
 447,Knockout (seeded),Italy,14,1717.2,287.28,31
@@ -3593,14 +3593,14 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 449,Swiss (9 rounds),Norway,19,1650.89,353.5899999999999,144
 450,Knockout (random),Switzerland,12,1726.15,278.3299999999999,31
 450,Knockout (seeded),France,3,1950.82,53.66000000000008,31
-450,World Cup (seeded groups),Brazil,6,1800.91,203.56999999999994,63
+450,World Cup (seeded groups),Brazil,6,1800.91,203.5699999999999,63
 450,League,Spain,1,2004.48,0.0,992
 450,League + best-of-seven,Spain,1,2004.48,0.0,1073
 450,Swiss (5 rounds),France,3,1950.82,53.66000000000008,80
 450,Swiss (7 rounds),Spain,1,2004.48,0.0,112
 450,Swiss (9 rounds),France,3,1950.82,53.66000000000008,144
 451,Knockout (random),Argentina,2,1966.13,38.34999999999991,31
-451,Knockout (seeded),Brazil,6,1800.91,203.56999999999994,31
+451,Knockout (seeded),Brazil,6,1800.91,203.5699999999999,31
 451,World Cup (seeded groups),Germany,11,1730.22,274.26,63
 451,League,Argentina,2,1966.13,38.34999999999991,992
 451,League + best-of-seven,England,4,1938.9,65.57999999999993,1079
@@ -3608,7 +3608,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 451,Swiss (7 rounds),Morocco,7,1791.35,213.1300000000001,112
 451,Swiss (9 rounds),Spain,1,2004.48,0.0,144
 452,Knockout (random),Switzerland,12,1726.15,278.3299999999999,31
-452,Knockout (seeded),Brazil,6,1800.91,203.56999999999994,31
+452,Knockout (seeded),Brazil,6,1800.91,203.5699999999999,31
 452,World Cup (seeded groups),Argentina,2,1966.13,38.34999999999991,63
 452,League,France,3,1950.82,53.66000000000008,992
 452,League + best-of-seven,France,3,1950.82,53.66000000000008,1080
@@ -3629,7 +3629,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 454,League,Argentina,2,1966.13,38.34999999999991,992
 454,League + best-of-seven,Argentina,2,1966.13,38.34999999999991,1075
 454,Swiss (5 rounds),Argentina,2,1966.13,38.34999999999991,80
-454,Swiss (7 rounds),Nigeria,29,1564.18,440.29999999999995,112
+454,Swiss (7 rounds),Nigeria,29,1564.18,440.2999999999999,112
 454,Swiss (9 rounds),Spain,1,2004.48,0.0,144
 455,Knockout (random),Argentina,2,1966.13,38.34999999999991,31
 455,Knockout (seeded),Belgium,8,1790.37,214.11000000000013,31
@@ -3665,7 +3665,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 458,Swiss (9 rounds),England,4,1938.9,65.57999999999993,144
 459,Knockout (random),USA,16,1713.56,290.9200000000001,31
 459,Knockout (seeded),Portugal,5,1801.28,203.20000000000005,31
-459,World Cup (seeded groups),Brazil,6,1800.91,203.56999999999994,63
+459,World Cup (seeded groups),Brazil,6,1800.91,203.5699999999999,63
 459,League,Spain,1,2004.48,0.0,992
 459,League + best-of-seven,Spain,1,2004.48,0.0,1076
 459,Swiss (5 rounds),Norway,19,1650.89,353.5899999999999,80
@@ -3720,7 +3720,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 465,Swiss (7 rounds),England,4,1938.9,65.57999999999993,112
 465,Swiss (9 rounds),Argentina,2,1966.13,38.34999999999991,144
 466,Knockout (random),England,4,1938.9,65.57999999999993,31
-466,Knockout (seeded),Brazil,6,1800.91,203.56999999999994,31
+466,Knockout (seeded),Brazil,6,1800.91,203.5699999999999,31
 466,World Cup (seeded groups),England,4,1938.9,65.57999999999993,63
 466,League,Spain,1,2004.48,0.0,992
 466,League + best-of-seven,Spain,1,2004.48,0.0,1075
@@ -3733,7 +3733,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 467,League,Argentina,2,1966.13,38.34999999999991,992
 467,League + best-of-seven,Argentina,2,1966.13,38.34999999999991,1077
 467,Swiss (5 rounds),Canada,25,1586.12,418.3600000000001,80
-467,Swiss (7 rounds),Brazil,6,1800.91,203.56999999999994,112
+467,Swiss (7 rounds),Brazil,6,1800.91,203.5699999999999,112
 467,Swiss (9 rounds),Spain,1,2004.48,0.0,144
 468,Knockout (random),France,3,1950.82,53.66000000000008,31
 468,Knockout (seeded),Italy,14,1717.2,287.28,31
@@ -3792,15 +3792,15 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 474,Swiss (7 rounds),France,3,1950.82,53.66000000000008,112
 474,Swiss (9 rounds),Spain,1,2004.48,0.0,144
 475,Knockout (random),Spain,1,2004.48,0.0,31
-475,Knockout (seeded),Brazil,6,1800.91,203.56999999999994,31
+475,Knockout (seeded),Brazil,6,1800.91,203.5699999999999,31
 475,World Cup (seeded groups),Spain,1,2004.48,0.0,63
 475,League,Spain,1,2004.48,0.0,992
 475,League + best-of-seven,Argentina,2,1966.13,38.34999999999991,1075
 475,Swiss (5 rounds),France,3,1950.82,53.66000000000008,80
 475,Swiss (7 rounds),France,3,1950.82,53.66000000000008,112
 475,Swiss (9 rounds),France,3,1950.82,53.66000000000008,144
-476,Knockout (random),Brazil,6,1800.91,203.56999999999994,31
-476,Knockout (seeded),Brazil,6,1800.91,203.56999999999994,31
+476,Knockout (random),Brazil,6,1800.91,203.5699999999999,31
+476,Knockout (seeded),Brazil,6,1800.91,203.5699999999999,31
 476,World Cup (seeded groups),Argentina,2,1966.13,38.34999999999991,63
 476,League,France,3,1950.82,53.66000000000008,992
 476,League + best-of-seven,France,3,1950.82,53.66000000000008,1079
@@ -3851,7 +3851,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 482,Knockout (seeded),France,3,1950.82,53.66000000000008,31
 482,World Cup (seeded groups),Morocco,7,1791.35,213.1300000000001,63
 482,League,France,3,1950.82,53.66000000000008,992
-482,League + best-of-seven,Brazil,6,1800.91,203.56999999999994,1075
+482,League + best-of-seven,Brazil,6,1800.91,203.5699999999999,1075
 482,Swiss (5 rounds),Spain,1,2004.48,0.0,80
 482,Swiss (7 rounds),England,4,1938.9,65.57999999999993,112
 482,Swiss (9 rounds),Argentina,2,1966.13,38.34999999999991,144
@@ -3864,7 +3864,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 483,Swiss (7 rounds),Argentina,2,1966.13,38.34999999999991,112
 483,Swiss (9 rounds),Spain,1,2004.48,0.0,144
 484,Knockout (random),Norway,19,1650.89,353.5899999999999,31
-484,Knockout (seeded),Brazil,6,1800.91,203.56999999999994,31
+484,Knockout (seeded),Brazil,6,1800.91,203.5699999999999,31
 484,World Cup (seeded groups),Argentina,2,1966.13,38.34999999999991,63
 484,League,Spain,1,2004.48,0.0,992
 484,League + best-of-seven,France,3,1950.82,53.66000000000008,1072
@@ -3889,7 +3889,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 486,Swiss (9 rounds),Spain,1,2004.48,0.0,144
 487,Knockout (random),France,3,1950.82,53.66000000000008,31
 487,Knockout (seeded),France,3,1950.82,53.66000000000008,31
-487,World Cup (seeded groups),Brazil,6,1800.91,203.56999999999994,63
+487,World Cup (seeded groups),Brazil,6,1800.91,203.5699999999999,63
 487,League,France,3,1950.82,53.66000000000008,992
 487,League + best-of-seven,England,4,1938.9,65.57999999999993,1071
 487,Swiss (5 rounds),Argentina,2,1966.13,38.34999999999991,80
@@ -3959,8 +3959,8 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 495,Swiss (5 rounds),Argentina,2,1966.13,38.34999999999991,80
 495,Swiss (7 rounds),France,3,1950.82,53.66000000000008,112
 495,Swiss (9 rounds),Netherlands,9,1774.06,230.42000000000007,144
-496,Knockout (random),Algeria,32,1557.94,446.53999999999996,31
-496,Knockout (seeded),Brazil,6,1800.91,203.56999999999994,31
+496,Knockout (random),Algeria,32,1557.94,446.54,31
+496,Knockout (seeded),Brazil,6,1800.91,203.5699999999999,31
 496,World Cup (seeded groups),Netherlands,9,1774.06,230.42000000000007,63
 496,League,Spain,1,2004.48,0.0,992
 496,League + best-of-seven,England,4,1938.9,65.57999999999993,1081
@@ -3974,7 +3974,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 497,League + best-of-seven,France,3,1950.82,53.66000000000008,1070
 497,Swiss (5 rounds),Spain,1,2004.48,0.0,80
 497,Swiss (7 rounds),Argentina,2,1966.13,38.34999999999991,112
-497,Swiss (9 rounds),Brazil,6,1800.91,203.56999999999994,144
+497,Swiss (9 rounds),Brazil,6,1800.91,203.5699999999999,144
 498,Knockout (random),IR Iran,23,1597.59,406.8900000000001,31
 498,Knockout (seeded),Argentina,2,1966.13,38.34999999999991,31
 498,World Cup (seeded groups),Belgium,8,1790.37,214.11000000000013,63
@@ -4059,7 +4059,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 508,Knockout (seeded),Portugal,5,1801.28,203.20000000000005,31
 508,World Cup (seeded groups),England,4,1938.9,65.57999999999993,63
 508,League,England,4,1938.9,65.57999999999993,992
-508,League + best-of-seven,Brazil,6,1800.91,203.56999999999994,1084
+508,League + best-of-seven,Brazil,6,1800.91,203.5699999999999,1084
 508,Swiss (5 rounds),France,3,1950.82,53.66000000000008,80
 508,Swiss (7 rounds),France,3,1950.82,53.66000000000008,112
 508,Swiss (9 rounds),Spain,1,2004.48,0.0,144
@@ -4088,11 +4088,11 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 511,Swiss (7 rounds),Switzerland,12,1726.15,278.3299999999999,112
 511,Swiss (9 rounds),USA,16,1713.56,290.9200000000001,144
 512,Knockout (random),France,3,1950.82,53.66000000000008,31
-512,Knockout (seeded),Brazil,6,1800.91,203.56999999999994,31
+512,Knockout (seeded),Brazil,6,1800.91,203.5699999999999,31
 512,World Cup (seeded groups),Spain,1,2004.48,0.0,63
 512,League,France,3,1950.82,53.66000000000008,992
 512,League + best-of-seven,England,4,1938.9,65.57999999999993,1079
-512,Swiss (5 rounds),Algeria,32,1557.94,446.53999999999996,80
+512,Swiss (5 rounds),Algeria,32,1557.94,446.54,80
 512,Swiss (7 rounds),Spain,1,2004.48,0.0,112
 512,Swiss (9 rounds),England,4,1938.9,65.57999999999993,144
 513,Knockout (random),France,3,1950.82,53.66000000000008,31
@@ -4135,14 +4135,14 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 517,Swiss (5 rounds),Spain,1,2004.48,0.0,80
 517,Swiss (7 rounds),Spain,1,2004.48,0.0,112
 517,Swiss (9 rounds),Mexico,13,1723.64,280.8399999999999,144
-518,Knockout (random),Brazil,6,1800.91,203.56999999999994,31
+518,Knockout (random),Brazil,6,1800.91,203.5699999999999,31
 518,Knockout (seeded),Netherlands,9,1774.06,230.42000000000007,31
 518,World Cup (seeded groups),Portugal,5,1801.28,203.20000000000005,63
 518,League,Spain,1,2004.48,0.0,992
 518,League + best-of-seven,Spain,1,2004.48,0.0,1076
 518,Swiss (5 rounds),Portugal,5,1801.28,203.20000000000005,80
 518,Swiss (7 rounds),Switzerland,12,1726.15,278.3299999999999,112
-518,Swiss (9 rounds),Brazil,6,1800.91,203.56999999999994,144
+518,Swiss (9 rounds),Brazil,6,1800.91,203.5699999999999,144
 519,Knockout (random),Argentina,2,1966.13,38.34999999999991,31
 519,Knockout (seeded),Argentina,2,1966.13,38.34999999999991,31
 519,World Cup (seeded groups),France,3,1950.82,53.66000000000008,63
@@ -4184,7 +4184,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 523,Swiss (7 rounds),Morocco,7,1791.35,213.1300000000001,112
 523,Swiss (9 rounds),Argentina,2,1966.13,38.34999999999991,144
 524,Knockout (random),England,4,1938.9,65.57999999999993,31
-524,Knockout (seeded),Nigeria,29,1564.18,440.29999999999995,31
+524,Knockout (seeded),Nigeria,29,1564.18,440.2999999999999,31
 524,World Cup (seeded groups),Spain,1,2004.48,0.0,63
 524,League,England,4,1938.9,65.57999999999993,992
 524,League + best-of-seven,France,3,1950.82,53.66000000000008,1071
@@ -4209,7 +4209,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 526,Swiss (9 rounds),Switzerland,12,1726.15,278.3299999999999,144
 527,Knockout (random),Colombia,10,1735.9,268.5799999999999,31
 527,Knockout (seeded),England,4,1938.9,65.57999999999993,31
-527,World Cup (seeded groups),Brazil,6,1800.91,203.56999999999994,63
+527,World Cup (seeded groups),Brazil,6,1800.91,203.5699999999999,63
 527,League,France,3,1950.82,53.66000000000008,992
 527,League + best-of-seven,Argentina,2,1966.13,38.34999999999991,1071
 527,Swiss (5 rounds),France,3,1950.82,53.66000000000008,80
@@ -4252,7 +4252,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 532,World Cup (seeded groups),Spain,1,2004.48,0.0,63
 532,League,Spain,1,2004.48,0.0,992
 532,League + best-of-seven,Argentina,2,1966.13,38.34999999999991,1080
-532,Swiss (5 rounds),Korea Republic,30,1560.02,444.46000000000004,80
+532,Swiss (5 rounds),Korea Republic,30,1560.02,444.46,80
 532,Swiss (7 rounds),Mexico,13,1723.64,280.8399999999999,112
 532,Swiss (9 rounds),Netherlands,9,1774.06,230.42000000000007,144
 533,Knockout (random),Spain,1,2004.48,0.0,31
@@ -4263,20 +4263,20 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 533,Swiss (5 rounds),France,3,1950.82,53.66000000000008,80
 533,Swiss (7 rounds),Spain,1,2004.48,0.0,112
 533,Swiss (9 rounds),Morocco,7,1791.35,213.1300000000001,144
-534,Knockout (random),Brazil,6,1800.91,203.56999999999994,31
+534,Knockout (random),Brazil,6,1800.91,203.5699999999999,31
 534,Knockout (seeded),Spain,1,2004.48,0.0,31
 534,World Cup (seeded groups),Spain,1,2004.48,0.0,63
 534,League,Argentina,2,1966.13,38.34999999999991,992
 534,League + best-of-seven,Spain,1,2004.48,0.0,1075
 534,Swiss (5 rounds),Mexico,13,1723.64,280.8399999999999,80
-534,Swiss (7 rounds),Brazil,6,1800.91,203.56999999999994,112
+534,Swiss (7 rounds),Brazil,6,1800.91,203.5699999999999,112
 534,Swiss (9 rounds),Argentina,2,1966.13,38.34999999999991,144
 535,Knockout (random),Argentina,2,1966.13,38.34999999999991,31
 535,Knockout (seeded),Spain,1,2004.48,0.0,31
 535,World Cup (seeded groups),France,3,1950.82,53.66000000000008,63
 535,League,England,4,1938.9,65.57999999999993,992
 535,League + best-of-seven,Argentina,2,1966.13,38.34999999999991,1072
-535,Swiss (5 rounds),Brazil,6,1800.91,203.56999999999994,80
+535,Swiss (5 rounds),Brazil,6,1800.91,203.5699999999999,80
 535,Swiss (7 rounds),France,3,1950.82,53.66000000000008,112
 535,Swiss (9 rounds),England,4,1938.9,65.57999999999993,144
 536,Knockout (random),Germany,11,1730.22,274.26,31
@@ -4304,7 +4304,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 538,Swiss (7 rounds),Argentina,2,1966.13,38.34999999999991,112
 538,Swiss (9 rounds),England,4,1938.9,65.57999999999993,144
 539,Knockout (random),Argentina,2,1966.13,38.34999999999991,31
-539,Knockout (seeded),Brazil,6,1800.91,203.56999999999994,31
+539,Knockout (seeded),Brazil,6,1800.91,203.5699999999999,31
 539,World Cup (seeded groups),Argentina,2,1966.13,38.34999999999991,63
 539,League,England,4,1938.9,65.57999999999993,992
 539,League + best-of-seven,France,3,1950.82,53.66000000000008,1075
@@ -4374,7 +4374,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 547,League + best-of-seven,Argentina,2,1966.13,38.34999999999991,1073
 547,Swiss (5 rounds),Belgium,8,1790.37,214.11000000000013,80
 547,Swiss (7 rounds),Spain,1,2004.48,0.0,112
-547,Swiss (9 rounds),Brazil,6,1800.91,203.56999999999994,144
+547,Swiss (9 rounds),Brazil,6,1800.91,203.5699999999999,144
 548,Knockout (random),England,4,1938.9,65.57999999999993,31
 548,Knockout (seeded),Spain,1,2004.48,0.0,31
 548,World Cup (seeded groups),Portugal,5,1801.28,203.20000000000005,63
@@ -4383,9 +4383,9 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 548,Swiss (5 rounds),Spain,1,2004.48,0.0,80
 548,Swiss (7 rounds),England,4,1938.9,65.57999999999993,112
 548,Swiss (9 rounds),IR Iran,23,1597.59,406.8900000000001,144
-549,Knockout (random),Brazil,6,1800.91,203.56999999999994,31
+549,Knockout (random),Brazil,6,1800.91,203.5699999999999,31
 549,Knockout (seeded),England,4,1938.9,65.57999999999993,31
-549,World Cup (seeded groups),Brazil,6,1800.91,203.56999999999994,63
+549,World Cup (seeded groups),Brazil,6,1800.91,203.5699999999999,63
 549,League,England,4,1938.9,65.57999999999993,992
 549,League + best-of-seven,Argentina,2,1966.13,38.34999999999991,1082
 549,Swiss (5 rounds),England,4,1938.9,65.57999999999993,80
@@ -4397,10 +4397,10 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 550,League,Spain,1,2004.48,0.0,992
 550,League + best-of-seven,Spain,1,2004.48,0.0,1068
 550,Swiss (5 rounds),Colombia,10,1735.9,268.5799999999999,80
-550,Swiss (7 rounds),Côte d'Ivoire,28,1565.93,438.54999999999995,112
+550,Swiss (7 rounds),Côte d'Ivoire,28,1565.93,438.5499999999999,112
 550,Swiss (9 rounds),Argentina,2,1966.13,38.34999999999991,144
 551,Knockout (random),Senegal,18,1680.44,324.03999999999996,31
-551,Knockout (seeded),Korea Republic,30,1560.02,444.46000000000004,31
+551,Knockout (seeded),Korea Republic,30,1560.02,444.46,31
 551,World Cup (seeded groups),England,4,1938.9,65.57999999999993,63
 551,League,Argentina,2,1966.13,38.34999999999991,992
 551,League + best-of-seven,France,3,1950.82,53.66000000000008,1074
@@ -4408,7 +4408,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 551,Swiss (7 rounds),Argentina,2,1966.13,38.34999999999991,112
 551,Swiss (9 rounds),Spain,1,2004.48,0.0,144
 552,Knockout (random),England,4,1938.9,65.57999999999993,31
-552,Knockout (seeded),Brazil,6,1800.91,203.56999999999994,31
+552,Knockout (seeded),Brazil,6,1800.91,203.5699999999999,31
 552,World Cup (seeded groups),England,4,1938.9,65.57999999999993,63
 552,League,Spain,1,2004.48,0.0,992
 552,League + best-of-seven,England,4,1938.9,65.57999999999993,1071
@@ -4425,7 +4425,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 553,Swiss (9 rounds),Morocco,7,1791.35,213.1300000000001,144
 554,Knockout (random),Argentina,2,1966.13,38.34999999999991,31
 554,Knockout (seeded),Spain,1,2004.48,0.0,31
-554,World Cup (seeded groups),Algeria,32,1557.94,446.53999999999996,63
+554,World Cup (seeded groups),Algeria,32,1557.94,446.54,63
 554,League,Spain,1,2004.48,0.0,992
 554,League + best-of-seven,Argentina,2,1966.13,38.34999999999991,1070
 554,Swiss (5 rounds),France,3,1950.82,53.66000000000008,80
@@ -4445,7 +4445,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 556,League,Spain,1,2004.48,0.0,992
 556,League + best-of-seven,Spain,1,2004.48,0.0,1080
 556,Swiss (5 rounds),Spain,1,2004.48,0.0,80
-556,Swiss (7 rounds),Brazil,6,1800.91,203.56999999999994,112
+556,Swiss (7 rounds),Brazil,6,1800.91,203.5699999999999,112
 556,Swiss (9 rounds),Austria,22,1602.21,402.27,144
 557,Knockout (random),France,3,1950.82,53.66000000000008,31
 557,Knockout (seeded),England,4,1938.9,65.57999999999993,31
@@ -4465,7 +4465,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 558,Swiss (9 rounds),Spain,1,2004.48,0.0,144
 559,Knockout (random),Spain,1,2004.48,0.0,31
 559,Knockout (seeded),Argentina,2,1966.13,38.34999999999991,31
-559,World Cup (seeded groups),Brazil,6,1800.91,203.56999999999994,63
+559,World Cup (seeded groups),Brazil,6,1800.91,203.5699999999999,63
 559,League,Spain,1,2004.48,0.0,992
 559,League + best-of-seven,Spain,1,2004.48,0.0,1079
 559,Swiss (5 rounds),Spain,1,2004.48,0.0,80
@@ -4484,10 +4484,10 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 561,World Cup (seeded groups),Portugal,5,1801.28,203.20000000000005,63
 561,League,Argentina,2,1966.13,38.34999999999991,992
 561,League + best-of-seven,Spain,1,2004.48,0.0,1075
-561,Swiss (5 rounds),Brazil,6,1800.91,203.56999999999994,80
+561,Swiss (5 rounds),Brazil,6,1800.91,203.5699999999999,80
 561,Swiss (7 rounds),England,4,1938.9,65.57999999999993,112
 561,Swiss (9 rounds),Argentina,2,1966.13,38.34999999999991,144
-562,Knockout (random),Brazil,6,1800.91,203.56999999999994,31
+562,Knockout (random),Brazil,6,1800.91,203.5699999999999,31
 562,Knockout (seeded),Croatia,15,1714.22,290.26,31
 562,World Cup (seeded groups),France,3,1950.82,53.66000000000008,63
 562,League,Argentina,2,1966.13,38.34999999999991,992
@@ -4519,7 +4519,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 565,Swiss (5 rounds),France,3,1950.82,53.66000000000008,80
 565,Swiss (7 rounds),France,3,1950.82,53.66000000000008,112
 565,Swiss (9 rounds),Argentina,2,1966.13,38.34999999999991,144
-566,Knockout (random),Brazil,6,1800.91,203.56999999999994,31
+566,Knockout (random),Brazil,6,1800.91,203.5699999999999,31
 566,Knockout (seeded),Belgium,8,1790.37,214.11000000000013,31
 566,World Cup (seeded groups),Argentina,2,1966.13,38.34999999999991,63
 566,League,France,3,1950.82,53.66000000000008,992
@@ -4550,7 +4550,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 569,League + best-of-seven,Argentina,2,1966.13,38.34999999999991,1076
 569,Swiss (5 rounds),England,4,1938.9,65.57999999999993,80
 569,Swiss (7 rounds),Spain,1,2004.48,0.0,112
-569,Swiss (9 rounds),Brazil,6,1800.91,203.56999999999994,144
+569,Swiss (9 rounds),Brazil,6,1800.91,203.5699999999999,144
 570,Knockout (random),Portugal,5,1801.28,203.20000000000005,31
 570,Knockout (seeded),England,4,1938.9,65.57999999999993,31
 570,World Cup (seeded groups),France,3,1950.82,53.66000000000008,63
@@ -4629,7 +4629,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 579,League,Argentina,2,1966.13,38.34999999999991,992
 579,League + best-of-seven,France,3,1950.82,53.66000000000008,1073
 579,Swiss (5 rounds),Colombia,10,1735.9,268.5799999999999,80
-579,Swiss (7 rounds),Côte d'Ivoire,28,1565.93,438.54999999999995,112
+579,Swiss (7 rounds),Côte d'Ivoire,28,1565.93,438.5499999999999,112
 579,Swiss (9 rounds),France,3,1950.82,53.66000000000008,144
 580,Knockout (random),France,3,1950.82,53.66000000000008,31
 580,Knockout (seeded),England,4,1938.9,65.57999999999993,31
@@ -4639,7 +4639,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 580,Swiss (5 rounds),Spain,1,2004.48,0.0,80
 580,Swiss (7 rounds),USA,16,1713.56,290.9200000000001,112
 580,Swiss (9 rounds),Spain,1,2004.48,0.0,144
-581,Knockout (random),Brazil,6,1800.91,203.56999999999994,31
+581,Knockout (random),Brazil,6,1800.91,203.5699999999999,31
 581,Knockout (seeded),Spain,1,2004.48,0.0,31
 581,World Cup (seeded groups),France,3,1950.82,53.66000000000008,63
 581,League,Spain,1,2004.48,0.0,992
@@ -4660,11 +4660,11 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 583,World Cup (seeded groups),Morocco,7,1791.35,213.1300000000001,63
 583,League,France,3,1950.82,53.66000000000008,992
 583,League + best-of-seven,Argentina,2,1966.13,38.34999999999991,1087
-583,Swiss (5 rounds),Korea Republic,30,1560.02,444.46000000000004,80
+583,Swiss (5 rounds),Korea Republic,30,1560.02,444.46,80
 583,Swiss (7 rounds),France,3,1950.82,53.66000000000008,112
 583,Swiss (9 rounds),Spain,1,2004.48,0.0,144
 584,Knockout (random),France,3,1950.82,53.66000000000008,31
-584,Knockout (seeded),Brazil,6,1800.91,203.56999999999994,31
+584,Knockout (seeded),Brazil,6,1800.91,203.5699999999999,31
 584,World Cup (seeded groups),Argentina,2,1966.13,38.34999999999991,63
 584,League,Spain,1,2004.48,0.0,992
 584,League + best-of-seven,France,3,1950.82,53.66000000000008,1072
@@ -4718,7 +4718,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 590,League + best-of-seven,Spain,1,2004.48,0.0,1071
 590,Swiss (5 rounds),Argentina,2,1966.13,38.34999999999991,80
 590,Swiss (7 rounds),Uruguay,20,1644.48,360.0,112
-590,Swiss (9 rounds),Brazil,6,1800.91,203.56999999999994,144
+590,Swiss (9 rounds),Brazil,6,1800.91,203.5699999999999,144
 591,Knockout (random),France,3,1950.82,53.66000000000008,31
 591,Knockout (seeded),England,4,1938.9,65.57999999999993,31
 591,World Cup (seeded groups),Argentina,2,1966.13,38.34999999999991,63
@@ -4737,7 +4737,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 592,Swiss (9 rounds),Portugal,5,1801.28,203.20000000000005,144
 593,Knockout (random),Belgium,8,1790.37,214.11000000000013,31
 593,Knockout (seeded),Argentina,2,1966.13,38.34999999999991,31
-593,World Cup (seeded groups),Brazil,6,1800.91,203.56999999999994,63
+593,World Cup (seeded groups),Brazil,6,1800.91,203.5699999999999,63
 593,League,Argentina,2,1966.13,38.34999999999991,992
 593,League + best-of-seven,France,3,1950.82,53.66000000000008,1073
 593,Swiss (5 rounds),France,3,1950.82,53.66000000000008,80
@@ -4796,7 +4796,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 600,World Cup (seeded groups),Spain,1,2004.48,0.0,63
 600,League,Spain,1,2004.48,0.0,992
 600,League + best-of-seven,Argentina,2,1966.13,38.34999999999991,1071
-600,Swiss (5 rounds),Brazil,6,1800.91,203.56999999999994,80
+600,Swiss (5 rounds),Brazil,6,1800.91,203.5699999999999,80
 600,Swiss (7 rounds),Spain,1,2004.48,0.0,112
 600,Swiss (9 rounds),Belgium,8,1790.37,214.11000000000013,144
 601,Knockout (random),Netherlands,9,1774.06,230.42000000000007,31
@@ -4821,11 +4821,11 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 603,League,Spain,1,2004.48,0.0,992
 603,League + best-of-seven,England,4,1938.9,65.57999999999993,1082
 603,Swiss (5 rounds),Italy,14,1717.2,287.28,80
-603,Swiss (7 rounds),Brazil,6,1800.91,203.56999999999994,112
+603,Swiss (7 rounds),Brazil,6,1800.91,203.5699999999999,112
 603,Swiss (9 rounds),Spain,1,2004.48,0.0,144
 604,Knockout (random),Japan,17,1684.61,319.8700000000001,31
 604,Knockout (seeded),Morocco,7,1791.35,213.1300000000001,31
-604,World Cup (seeded groups),Brazil,6,1800.91,203.56999999999994,63
+604,World Cup (seeded groups),Brazil,6,1800.91,203.5699999999999,63
 604,League,Spain,1,2004.48,0.0,992
 604,League + best-of-seven,France,3,1950.82,53.66000000000008,1080
 604,Swiss (5 rounds),Morocco,7,1791.35,213.1300000000001,80
@@ -4859,9 +4859,9 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 608,Knockout (seeded),Senegal,18,1680.44,324.03999999999996,31
 608,World Cup (seeded groups),Morocco,7,1791.35,213.1300000000001,63
 608,League,Spain,1,2004.48,0.0,992
-608,League + best-of-seven,Brazil,6,1800.91,203.56999999999994,1076
+608,League + best-of-seven,Brazil,6,1800.91,203.5699999999999,1076
 608,Swiss (5 rounds),Germany,11,1730.22,274.26,80
-608,Swiss (7 rounds),Brazil,6,1800.91,203.56999999999994,112
+608,Swiss (7 rounds),Brazil,6,1800.91,203.5699999999999,112
 608,Swiss (9 rounds),Spain,1,2004.48,0.0,144
 609,Knockout (random),Japan,17,1684.61,319.8700000000001,31
 609,Knockout (seeded),England,4,1938.9,65.57999999999993,31
@@ -4884,9 +4884,9 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 611,World Cup (seeded groups),Japan,17,1684.61,319.8700000000001,63
 611,League,England,4,1938.9,65.57999999999993,992
 611,League + best-of-seven,Portugal,5,1801.28,203.20000000000005,1073
-611,Swiss (5 rounds),Brazil,6,1800.91,203.56999999999994,80
+611,Swiss (5 rounds),Brazil,6,1800.91,203.5699999999999,80
 611,Swiss (7 rounds),Japan,17,1684.61,319.8700000000001,112
-611,Swiss (9 rounds),Brazil,6,1800.91,203.56999999999994,144
+611,Swiss (9 rounds),Brazil,6,1800.91,203.5699999999999,144
 612,Knockout (random),France,3,1950.82,53.66000000000008,31
 612,Knockout (seeded),Belgium,8,1790.37,214.11000000000013,31
 612,World Cup (seeded groups),Spain,1,2004.48,0.0,63
@@ -4910,7 +4910,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 614,League + best-of-seven,Argentina,2,1966.13,38.34999999999991,1078
 614,Swiss (5 rounds),England,4,1938.9,65.57999999999993,80
 614,Swiss (7 rounds),Germany,11,1730.22,274.26,112
-614,Swiss (9 rounds),Brazil,6,1800.91,203.56999999999994,144
+614,Swiss (9 rounds),Brazil,6,1800.91,203.5699999999999,144
 615,Knockout (random),Spain,1,2004.48,0.0,31
 615,Knockout (seeded),Norway,19,1650.89,353.5899999999999,31
 615,World Cup (seeded groups),Spain,1,2004.48,0.0,63
@@ -4957,11 +4957,11 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 620,League,Spain,1,2004.48,0.0,992
 620,League + best-of-seven,France,3,1950.82,53.66000000000008,1075
 620,Swiss (5 rounds),Argentina,2,1966.13,38.34999999999991,80
-620,Swiss (7 rounds),Côte d'Ivoire,28,1565.93,438.54999999999995,112
+620,Swiss (7 rounds),Côte d'Ivoire,28,1565.93,438.5499999999999,112
 620,Swiss (9 rounds),Argentina,2,1966.13,38.34999999999991,144
 621,Knockout (random),Spain,1,2004.48,0.0,31
 621,Knockout (seeded),France,3,1950.82,53.66000000000008,31
-621,World Cup (seeded groups),Brazil,6,1800.91,203.56999999999994,63
+621,World Cup (seeded groups),Brazil,6,1800.91,203.5699999999999,63
 621,League,France,3,1950.82,53.66000000000008,992
 621,League + best-of-seven,England,4,1938.9,65.57999999999993,1075
 621,Swiss (5 rounds),Spain,1,2004.48,0.0,80
@@ -4969,7 +4969,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 621,Swiss (9 rounds),USA,16,1713.56,290.9200000000001,144
 622,Knockout (random),USA,16,1713.56,290.9200000000001,31
 622,Knockout (seeded),Spain,1,2004.48,0.0,31
-622,World Cup (seeded groups),Brazil,6,1800.91,203.56999999999994,63
+622,World Cup (seeded groups),Brazil,6,1800.91,203.5699999999999,63
 622,League,France,3,1950.82,53.66000000000008,992
 622,League + best-of-seven,Argentina,2,1966.13,38.34999999999991,1074
 622,Swiss (5 rounds),Portugal,5,1801.28,203.20000000000005,80
@@ -5015,7 +5015,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 627,Swiss (5 rounds),Spain,1,2004.48,0.0,80
 627,Swiss (7 rounds),Ecuador,24,1593.34,411.1400000000001,112
 627,Swiss (9 rounds),France,3,1950.82,53.66000000000008,144
-628,Knockout (random),Brazil,6,1800.91,203.56999999999994,31
+628,Knockout (random),Brazil,6,1800.91,203.5699999999999,31
 628,Knockout (seeded),England,4,1938.9,65.57999999999993,31
 628,World Cup (seeded groups),Mexico,13,1723.64,280.8399999999999,63
 628,League,England,4,1938.9,65.57999999999993,992
@@ -5084,13 +5084,13 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 636,World Cup (seeded groups),Croatia,15,1714.22,290.26,63
 636,League,Spain,1,2004.48,0.0,992
 636,League + best-of-seven,England,4,1938.9,65.57999999999993,1073
-636,Swiss (5 rounds),Brazil,6,1800.91,203.56999999999994,80
+636,Swiss (5 rounds),Brazil,6,1800.91,203.5699999999999,80
 636,Swiss (7 rounds),Norway,19,1650.89,353.5899999999999,112
 636,Swiss (9 rounds),Italy,14,1717.2,287.28,144
 637,Knockout (random),Spain,1,2004.48,0.0,31
 637,Knockout (seeded),Portugal,5,1801.28,203.20000000000005,31
 637,World Cup (seeded groups),France,3,1950.82,53.66000000000008,63
-637,League,Brazil,6,1800.91,203.56999999999994,992
+637,League,Brazil,6,1800.91,203.5699999999999,992
 637,League + best-of-seven,England,4,1938.9,65.57999999999993,1074
 637,Swiss (5 rounds),Portugal,5,1801.28,203.20000000000005,80
 637,Swiss (7 rounds),Argentina,2,1966.13,38.34999999999991,112
@@ -5141,7 +5141,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 643,League,Argentina,2,1966.13,38.34999999999991,992
 643,League + best-of-seven,Spain,1,2004.48,0.0,1071
 643,Swiss (5 rounds),Morocco,7,1791.35,213.1300000000001,80
-643,Swiss (7 rounds),Brazil,6,1800.91,203.56999999999994,112
+643,Swiss (7 rounds),Brazil,6,1800.91,203.5699999999999,112
 643,Swiss (9 rounds),England,4,1938.9,65.57999999999993,144
 644,Knockout (random),England,4,1938.9,65.57999999999993,31
 644,Knockout (seeded),France,3,1950.82,53.66000000000008,31
@@ -5158,7 +5158,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 645,League + best-of-seven,Spain,1,2004.48,0.0,1077
 645,Swiss (5 rounds),Switzerland,12,1726.15,278.3299999999999,80
 645,Swiss (7 rounds),Argentina,2,1966.13,38.34999999999991,112
-645,Swiss (9 rounds),Korea Republic,30,1560.02,444.46000000000004,144
+645,Swiss (9 rounds),Korea Republic,30,1560.02,444.46,144
 646,Knockout (random),Argentina,2,1966.13,38.34999999999991,31
 646,Knockout (seeded),France,3,1950.82,53.66000000000008,31
 646,World Cup (seeded groups),Argentina,2,1966.13,38.34999999999991,63
@@ -5173,7 +5173,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 647,League,Spain,1,2004.48,0.0,992
 647,League + best-of-seven,Spain,1,2004.48,0.0,1075
 647,Swiss (5 rounds),Argentina,2,1966.13,38.34999999999991,80
-647,Swiss (7 rounds),Brazil,6,1800.91,203.56999999999994,112
+647,Swiss (7 rounds),Brazil,6,1800.91,203.5699999999999,112
 647,Swiss (9 rounds),Uruguay,20,1644.48,360.0,144
 648,Knockout (random),Germany,11,1730.22,274.26,31
 648,Knockout (seeded),Argentina,2,1966.13,38.34999999999991,31
@@ -5216,7 +5216,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 652,Swiss (7 rounds),Switzerland,12,1726.15,278.3299999999999,112
 652,Swiss (9 rounds),Spain,1,2004.48,0.0,144
 653,Knockout (random),Mexico,13,1723.64,280.8399999999999,31
-653,Knockout (seeded),Brazil,6,1800.91,203.56999999999994,31
+653,Knockout (seeded),Brazil,6,1800.91,203.5699999999999,31
 653,World Cup (seeded groups),Argentina,2,1966.13,38.34999999999991,63
 653,League,Argentina,2,1966.13,38.34999999999991,992
 653,League + best-of-seven,France,3,1950.82,53.66000000000008,1073
@@ -5237,10 +5237,10 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 655,League,Spain,1,2004.48,0.0,992
 655,League + best-of-seven,England,4,1938.9,65.57999999999993,1079
 655,Swiss (5 rounds),Mexico,13,1723.64,280.8399999999999,80
-655,Swiss (7 rounds),Brazil,6,1800.91,203.56999999999994,112
+655,Swiss (7 rounds),Brazil,6,1800.91,203.5699999999999,112
 655,Swiss (9 rounds),Argentina,2,1966.13,38.34999999999991,144
 656,Knockout (random),England,4,1938.9,65.57999999999993,31
-656,Knockout (seeded),Brazil,6,1800.91,203.56999999999994,31
+656,Knockout (seeded),Brazil,6,1800.91,203.5699999999999,31
 656,World Cup (seeded groups),England,4,1938.9,65.57999999999993,63
 656,League,England,4,1938.9,65.57999999999993,992
 656,League + best-of-seven,Spain,1,2004.48,0.0,1074
@@ -5252,7 +5252,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 657,World Cup (seeded groups),IR Iran,23,1597.59,406.8900000000001,63
 657,League,Spain,1,2004.48,0.0,992
 657,League + best-of-seven,Spain,1,2004.48,0.0,1077
-657,Swiss (5 rounds),Brazil,6,1800.91,203.56999999999994,80
+657,Swiss (5 rounds),Brazil,6,1800.91,203.5699999999999,80
 657,Swiss (7 rounds),Paraguay,31,1559.89,444.5899999999999,112
 657,Swiss (9 rounds),Argentina,2,1966.13,38.34999999999991,144
 658,Knockout (random),England,4,1938.9,65.57999999999993,31
@@ -5293,11 +5293,11 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 662,League,Argentina,2,1966.13,38.34999999999991,992
 662,League + best-of-seven,France,3,1950.82,53.66000000000008,1071
 662,Swiss (5 rounds),Belgium,8,1790.37,214.11000000000013,80
-662,Swiss (7 rounds),Korea Republic,30,1560.02,444.46000000000004,112
+662,Swiss (7 rounds),Korea Republic,30,1560.02,444.46,112
 662,Swiss (9 rounds),Spain,1,2004.48,0.0,144
 663,Knockout (random),England,4,1938.9,65.57999999999993,31
 663,Knockout (seeded),Morocco,7,1791.35,213.1300000000001,31
-663,World Cup (seeded groups),Korea Republic,30,1560.02,444.46000000000004,63
+663,World Cup (seeded groups),Korea Republic,30,1560.02,444.46,63
 663,League,Argentina,2,1966.13,38.34999999999991,992
 663,League + best-of-seven,France,3,1950.82,53.66000000000008,1064
 663,Swiss (5 rounds),Spain,1,2004.48,0.0,80
@@ -5311,7 +5311,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 664,Swiss (5 rounds),USA,16,1713.56,290.9200000000001,80
 664,Swiss (7 rounds),Spain,1,2004.48,0.0,112
 664,Swiss (9 rounds),Switzerland,12,1726.15,278.3299999999999,144
-665,Knockout (random),Brazil,6,1800.91,203.56999999999994,31
+665,Knockout (random),Brazil,6,1800.91,203.5699999999999,31
 665,Knockout (seeded),Spain,1,2004.48,0.0,31
 665,World Cup (seeded groups),France,3,1950.82,53.66000000000008,63
 665,League,France,3,1950.82,53.66000000000008,992
@@ -5428,7 +5428,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 679,World Cup (seeded groups),Germany,11,1730.22,274.26,63
 679,League,Spain,1,2004.48,0.0,992
 679,League + best-of-seven,Spain,1,2004.48,0.0,1074
-679,Swiss (5 rounds),Brazil,6,1800.91,203.56999999999994,80
+679,Swiss (5 rounds),Brazil,6,1800.91,203.5699999999999,80
 679,Swiss (7 rounds),England,4,1938.9,65.57999999999993,112
 679,Swiss (9 rounds),Spain,1,2004.48,0.0,144
 680,Knockout (random),Croatia,15,1714.22,290.26,31
@@ -5509,7 +5509,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 689,League,France,3,1950.82,53.66000000000008,992
 689,League + best-of-seven,France,3,1950.82,53.66000000000008,1071
 689,Swiss (5 rounds),Spain,1,2004.48,0.0,80
-689,Swiss (7 rounds),Brazil,6,1800.91,203.56999999999994,112
+689,Swiss (7 rounds),Brazil,6,1800.91,203.5699999999999,112
 689,Swiss (9 rounds),USA,16,1713.56,290.9200000000001,144
 690,Knockout (random),Norway,19,1650.89,353.5899999999999,31
 690,Knockout (seeded),Denmark,21,1622.41,382.06999999999994,31
@@ -5529,7 +5529,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 691,Swiss (9 rounds),Italy,14,1717.2,287.28,144
 692,Knockout (random),Colombia,10,1735.9,268.5799999999999,31
 692,Knockout (seeded),Italy,14,1717.2,287.28,31
-692,World Cup (seeded groups),Brazil,6,1800.91,203.56999999999994,63
+692,World Cup (seeded groups),Brazil,6,1800.91,203.5699999999999,63
 692,League,England,4,1938.9,65.57999999999993,992
 692,League + best-of-seven,Spain,1,2004.48,0.0,1071
 692,Swiss (5 rounds),Argentina,2,1966.13,38.34999999999991,80
@@ -5540,7 +5540,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 693,World Cup (seeded groups),England,4,1938.9,65.57999999999993,63
 693,League,Spain,1,2004.48,0.0,992
 693,League + best-of-seven,Argentina,2,1966.13,38.34999999999991,1079
-693,Swiss (5 rounds),Brazil,6,1800.91,203.56999999999994,80
+693,Swiss (5 rounds),Brazil,6,1800.91,203.5699999999999,80
 693,Swiss (7 rounds),Argentina,2,1966.13,38.34999999999991,112
 693,Swiss (9 rounds),Croatia,15,1714.22,290.26,144
 694,Knockout (random),Portugal,5,1801.28,203.20000000000005,31
@@ -5595,7 +5595,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 700,Knockout (seeded),Colombia,10,1735.9,268.5799999999999,31
 700,World Cup (seeded groups),Portugal,5,1801.28,203.20000000000005,63
 700,League,Argentina,2,1966.13,38.34999999999991,992
-700,League + best-of-seven,Brazil,6,1800.91,203.56999999999994,1074
+700,League + best-of-seven,Brazil,6,1800.91,203.5699999999999,1074
 700,Swiss (5 rounds),Morocco,7,1791.35,213.1300000000001,80
 700,Swiss (7 rounds),Spain,1,2004.48,0.0,112
 700,Swiss (9 rounds),France,3,1950.82,53.66000000000008,144
@@ -5638,7 +5638,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 705,League + best-of-seven,France,3,1950.82,53.66000000000008,1083
 705,Swiss (5 rounds),Germany,11,1730.22,274.26,80
 705,Swiss (7 rounds),Argentina,2,1966.13,38.34999999999991,112
-705,Swiss (9 rounds),Brazil,6,1800.91,203.56999999999994,144
+705,Swiss (9 rounds),Brazil,6,1800.91,203.5699999999999,144
 706,Knockout (random),Senegal,18,1680.44,324.03999999999996,31
 706,Knockout (seeded),Spain,1,2004.48,0.0,31
 706,World Cup (seeded groups),USA,16,1713.56,290.9200000000001,63
@@ -5660,7 +5660,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 708,World Cup (seeded groups),Spain,1,2004.48,0.0,63
 708,League,England,4,1938.9,65.57999999999993,992
 708,League + best-of-seven,England,4,1938.9,65.57999999999993,1076
-708,Swiss (5 rounds),Brazil,6,1800.91,203.56999999999994,80
+708,Swiss (5 rounds),Brazil,6,1800.91,203.5699999999999,80
 708,Swiss (7 rounds),Argentina,2,1966.13,38.34999999999991,112
 708,Swiss (9 rounds),France,3,1950.82,53.66000000000008,144
 709,Knockout (random),Italy,14,1717.2,287.28,31
@@ -5697,7 +5697,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 712,Swiss (9 rounds),Morocco,7,1791.35,213.1300000000001,144
 713,Knockout (random),Italy,14,1717.2,287.28,31
 713,Knockout (seeded),Germany,11,1730.22,274.26,31
-713,World Cup (seeded groups),Brazil,6,1800.91,203.56999999999994,63
+713,World Cup (seeded groups),Brazil,6,1800.91,203.5699999999999,63
 713,League,Argentina,2,1966.13,38.34999999999991,992
 713,League + best-of-seven,England,4,1938.9,65.57999999999993,1075
 713,Swiss (5 rounds),Argentina,2,1966.13,38.34999999999991,80
@@ -5721,7 +5721,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 715,Swiss (9 rounds),England,4,1938.9,65.57999999999993,144
 716,Knockout (random),France,3,1950.82,53.66000000000008,31
 716,Knockout (seeded),Argentina,2,1966.13,38.34999999999991,31
-716,World Cup (seeded groups),Brazil,6,1800.91,203.56999999999994,63
+716,World Cup (seeded groups),Brazil,6,1800.91,203.5699999999999,63
 716,League,Spain,1,2004.48,0.0,992
 716,League + best-of-seven,Argentina,2,1966.13,38.34999999999991,1078
 716,Swiss (5 rounds),Croatia,15,1714.22,290.26,80
@@ -5764,7 +5764,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 721,World Cup (seeded groups),England,4,1938.9,65.57999999999993,63
 721,League,Spain,1,2004.48,0.0,992
 721,League + best-of-seven,Spain,1,2004.48,0.0,1078
-721,Swiss (5 rounds),Brazil,6,1800.91,203.56999999999994,80
+721,Swiss (5 rounds),Brazil,6,1800.91,203.5699999999999,80
 721,Swiss (7 rounds),Spain,1,2004.48,0.0,112
 721,Swiss (9 rounds),France,3,1950.82,53.66000000000008,144
 722,Knockout (random),Argentina,2,1966.13,38.34999999999991,31
@@ -5790,13 +5790,13 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 724,League + best-of-seven,Portugal,5,1801.28,203.20000000000005,1070
 724,Swiss (5 rounds),Mexico,13,1723.64,280.8399999999999,80
 724,Swiss (7 rounds),Argentina,2,1966.13,38.34999999999991,112
-724,Swiss (9 rounds),Brazil,6,1800.91,203.56999999999994,144
+724,Swiss (9 rounds),Brazil,6,1800.91,203.5699999999999,144
 725,Knockout (random),Switzerland,12,1726.15,278.3299999999999,31
 725,Knockout (seeded),Colombia,10,1735.9,268.5799999999999,31
 725,World Cup (seeded groups),Belgium,8,1790.37,214.11000000000013,63
 725,League,Argentina,2,1966.13,38.34999999999991,992
 725,League + best-of-seven,Spain,1,2004.48,0.0,1072
-725,Swiss (5 rounds),Korea Republic,30,1560.02,444.46000000000004,80
+725,Swiss (5 rounds),Korea Republic,30,1560.02,444.46,80
 725,Swiss (7 rounds),France,3,1950.82,53.66000000000008,112
 725,Swiss (9 rounds),England,4,1938.9,65.57999999999993,144
 726,Knockout (random),Spain,1,2004.48,0.0,31
@@ -5833,7 +5833,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 729,Swiss (9 rounds),France,3,1950.82,53.66000000000008,144
 730,Knockout (random),England,4,1938.9,65.57999999999993,31
 730,Knockout (seeded),France,3,1950.82,53.66000000000008,31
-730,World Cup (seeded groups),Brazil,6,1800.91,203.56999999999994,63
+730,World Cup (seeded groups),Brazil,6,1800.91,203.5699999999999,63
 730,League,Portugal,5,1801.28,203.20000000000005,992
 730,League + best-of-seven,Spain,1,2004.48,0.0,1079
 730,Swiss (5 rounds),Germany,11,1730.22,274.26,80
@@ -5841,12 +5841,12 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 730,Swiss (9 rounds),France,3,1950.82,53.66000000000008,144
 731,Knockout (random),Spain,1,2004.48,0.0,31
 731,Knockout (seeded),France,3,1950.82,53.66000000000008,31
-731,World Cup (seeded groups),Brazil,6,1800.91,203.56999999999994,63
+731,World Cup (seeded groups),Brazil,6,1800.91,203.5699999999999,63
 731,League,Argentina,2,1966.13,38.34999999999991,992
 731,League + best-of-seven,Spain,1,2004.48,0.0,1071
 731,Swiss (5 rounds),Argentina,2,1966.13,38.34999999999991,80
 731,Swiss (7 rounds),Argentina,2,1966.13,38.34999999999991,112
-731,Swiss (9 rounds),Brazil,6,1800.91,203.56999999999994,144
+731,Swiss (9 rounds),Brazil,6,1800.91,203.5699999999999,144
 732,Knockout (random),Croatia,15,1714.22,290.26,31
 732,Knockout (seeded),France,3,1950.82,53.66000000000008,31
 732,World Cup (seeded groups),Uruguay,20,1644.48,360.0,63
@@ -5878,7 +5878,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 735,League + best-of-seven,Spain,1,2004.48,0.0,1079
 735,Swiss (5 rounds),Spain,1,2004.48,0.0,80
 735,Swiss (7 rounds),Netherlands,9,1774.06,230.42000000000007,112
-735,Swiss (9 rounds),Brazil,6,1800.91,203.56999999999994,144
+735,Swiss (9 rounds),Brazil,6,1800.91,203.5699999999999,144
 736,Knockout (random),Morocco,7,1791.35,213.1300000000001,31
 736,Knockout (seeded),Italy,14,1717.2,287.28,31
 736,World Cup (seeded groups),France,3,1950.82,53.66000000000008,63
@@ -5936,7 +5936,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 742,Swiss (7 rounds),Argentina,2,1966.13,38.34999999999991,112
 742,Swiss (9 rounds),Portugal,5,1801.28,203.20000000000005,144
 743,Knockout (random),Argentina,2,1966.13,38.34999999999991,31
-743,Knockout (seeded),Brazil,6,1800.91,203.56999999999994,31
+743,Knockout (seeded),Brazil,6,1800.91,203.5699999999999,31
 743,World Cup (seeded groups),Argentina,2,1966.13,38.34999999999991,63
 743,League,Spain,1,2004.48,0.0,992
 743,League + best-of-seven,England,4,1938.9,65.57999999999993,1075
@@ -5975,7 +5975,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 747,Swiss (5 rounds),Spain,1,2004.48,0.0,80
 747,Swiss (7 rounds),Argentina,2,1966.13,38.34999999999991,112
 747,Swiss (9 rounds),Morocco,7,1791.35,213.1300000000001,144
-748,Knockout (random),Côte d'Ivoire,28,1565.93,438.54999999999995,31
+748,Knockout (random),Côte d'Ivoire,28,1565.93,438.5499999999999,31
 748,Knockout (seeded),Portugal,5,1801.28,203.20000000000005,31
 748,World Cup (seeded groups),Morocco,7,1791.35,213.1300000000001,63
 748,League,Spain,1,2004.48,0.0,992
@@ -6079,7 +6079,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 760,Swiss (5 rounds),Portugal,5,1801.28,203.20000000000005,80
 760,Swiss (7 rounds),Spain,1,2004.48,0.0,112
 760,Swiss (9 rounds),France,3,1950.82,53.66000000000008,144
-761,Knockout (random),Brazil,6,1800.91,203.56999999999994,31
+761,Knockout (random),Brazil,6,1800.91,203.5699999999999,31
 761,Knockout (seeded),Argentina,2,1966.13,38.34999999999991,31
 761,World Cup (seeded groups),Portugal,5,1801.28,203.20000000000005,63
 761,League,France,3,1950.82,53.66000000000008,992
@@ -6088,15 +6088,15 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 761,Swiss (7 rounds),Portugal,5,1801.28,203.20000000000005,112
 761,Swiss (9 rounds),Spain,1,2004.48,0.0,144
 762,Knockout (random),Spain,1,2004.48,0.0,31
-762,Knockout (seeded),Brazil,6,1800.91,203.56999999999994,31
+762,Knockout (seeded),Brazil,6,1800.91,203.5699999999999,31
 762,World Cup (seeded groups),Argentina,2,1966.13,38.34999999999991,63
 762,League,Spain,1,2004.48,0.0,992
 762,League + best-of-seven,Spain,1,2004.48,0.0,1067
 762,Swiss (5 rounds),France,3,1950.82,53.66000000000008,80
 762,Swiss (7 rounds),Spain,1,2004.48,0.0,112
-762,Swiss (9 rounds),Brazil,6,1800.91,203.56999999999994,144
+762,Swiss (9 rounds),Brazil,6,1800.91,203.5699999999999,144
 763,Knockout (random),Netherlands,9,1774.06,230.42000000000007,31
-763,Knockout (seeded),Brazil,6,1800.91,203.56999999999994,31
+763,Knockout (seeded),Brazil,6,1800.91,203.5699999999999,31
 763,World Cup (seeded groups),Argentina,2,1966.13,38.34999999999991,63
 763,League,Argentina,2,1966.13,38.34999999999991,992
 763,League + best-of-seven,Spain,1,2004.48,0.0,1077
@@ -6136,10 +6136,10 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 767,Swiss (7 rounds),Spain,1,2004.48,0.0,112
 767,Swiss (9 rounds),Croatia,15,1714.22,290.26,144
 768,Knockout (random),Ecuador,24,1593.34,411.1400000000001,31
-768,Knockout (seeded),Brazil,6,1800.91,203.56999999999994,31
+768,Knockout (seeded),Brazil,6,1800.91,203.5699999999999,31
 768,World Cup (seeded groups),France,3,1950.82,53.66000000000008,63
 768,League,Argentina,2,1966.13,38.34999999999991,992
-768,League + best-of-seven,Brazil,6,1800.91,203.56999999999994,1078
+768,League + best-of-seven,Brazil,6,1800.91,203.5699999999999,1078
 768,Swiss (5 rounds),Spain,1,2004.48,0.0,80
 768,Swiss (7 rounds),Spain,1,2004.48,0.0,112
 768,Swiss (9 rounds),USA,16,1713.56,290.9200000000001,144
@@ -6161,7 +6161,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 770,Swiss (9 rounds),Argentina,2,1966.13,38.34999999999991,144
 771,Knockout (random),France,3,1950.82,53.66000000000008,31
 771,Knockout (seeded),France,3,1950.82,53.66000000000008,31
-771,World Cup (seeded groups),Brazil,6,1800.91,203.56999999999994,63
+771,World Cup (seeded groups),Brazil,6,1800.91,203.5699999999999,63
 771,League,Spain,1,2004.48,0.0,992
 771,League + best-of-seven,Netherlands,9,1774.06,230.42000000000007,1075
 771,Swiss (5 rounds),France,3,1950.82,53.66000000000008,80
@@ -6224,8 +6224,8 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 778,Swiss (7 rounds),Spain,1,2004.48,0.0,112
 778,Swiss (9 rounds),France,3,1950.82,53.66000000000008,144
 779,Knockout (random),Argentina,2,1966.13,38.34999999999991,31
-779,Knockout (seeded),Brazil,6,1800.91,203.56999999999994,31
-779,World Cup (seeded groups),Brazil,6,1800.91,203.56999999999994,63
+779,Knockout (seeded),Brazil,6,1800.91,203.5699999999999,31
+779,World Cup (seeded groups),Brazil,6,1800.91,203.5699999999999,63
 779,League,Argentina,2,1966.13,38.34999999999991,992
 779,League + best-of-seven,Spain,1,2004.48,0.0,1073
 779,Swiss (5 rounds),Spain,1,2004.48,0.0,80
@@ -6249,7 +6249,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 781,Swiss (9 rounds),England,4,1938.9,65.57999999999993,144
 782,Knockout (random),Argentina,2,1966.13,38.34999999999991,31
 782,Knockout (seeded),France,3,1950.82,53.66000000000008,31
-782,World Cup (seeded groups),Brazil,6,1800.91,203.56999999999994,63
+782,World Cup (seeded groups),Brazil,6,1800.91,203.5699999999999,63
 782,League,Spain,1,2004.48,0.0,992
 782,League + best-of-seven,France,3,1950.82,53.66000000000008,1070
 782,Swiss (5 rounds),Belgium,8,1790.37,214.11000000000013,80
@@ -6264,7 +6264,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 783,Swiss (7 rounds),Germany,11,1730.22,274.26,112
 783,Swiss (9 rounds),England,4,1938.9,65.57999999999993,144
 784,Knockout (random),Spain,1,2004.48,0.0,31
-784,Knockout (seeded),Brazil,6,1800.91,203.56999999999994,31
+784,Knockout (seeded),Brazil,6,1800.91,203.5699999999999,31
 784,World Cup (seeded groups),Spain,1,2004.48,0.0,63
 784,League,Argentina,2,1966.13,38.34999999999991,992
 784,League + best-of-seven,Spain,1,2004.48,0.0,1074
@@ -6303,7 +6303,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 788,Swiss (5 rounds),Belgium,8,1790.37,214.11000000000013,80
 788,Swiss (7 rounds),Argentina,2,1966.13,38.34999999999991,112
 788,Swiss (9 rounds),Uruguay,20,1644.48,360.0,144
-789,Knockout (random),Brazil,6,1800.91,203.56999999999994,31
+789,Knockout (random),Brazil,6,1800.91,203.5699999999999,31
 789,Knockout (seeded),England,4,1938.9,65.57999999999993,31
 789,World Cup (seeded groups),France,3,1950.82,53.66000000000008,63
 789,League,Argentina,2,1966.13,38.34999999999991,992
@@ -6340,8 +6340,8 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 793,World Cup (seeded groups),Netherlands,9,1774.06,230.42000000000007,63
 793,League,Spain,1,2004.48,0.0,992
 793,League + best-of-seven,France,3,1950.82,53.66000000000008,1078
-793,Swiss (5 rounds),Brazil,6,1800.91,203.56999999999994,80
-793,Swiss (7 rounds),Brazil,6,1800.91,203.56999999999994,112
+793,Swiss (5 rounds),Brazil,6,1800.91,203.5699999999999,80
+793,Swiss (7 rounds),Brazil,6,1800.91,203.5699999999999,112
 793,Swiss (9 rounds),Spain,1,2004.48,0.0,144
 794,Knockout (random),Colombia,10,1735.9,268.5799999999999,31
 794,Knockout (seeded),England,4,1938.9,65.57999999999993,31
@@ -6361,7 +6361,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 795,Swiss (9 rounds),France,3,1950.82,53.66000000000008,144
 796,Knockout (random),Argentina,2,1966.13,38.34999999999991,31
 796,Knockout (seeded),England,4,1938.9,65.57999999999993,31
-796,World Cup (seeded groups),Brazil,6,1800.91,203.56999999999994,63
+796,World Cup (seeded groups),Brazil,6,1800.91,203.5699999999999,63
 796,League,Spain,1,2004.48,0.0,992
 796,League + best-of-seven,Argentina,2,1966.13,38.34999999999991,1078
 796,Swiss (5 rounds),Spain,1,2004.48,0.0,80
@@ -6415,7 +6415,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 802,Swiss (5 rounds),Norway,19,1650.89,353.5899999999999,80
 802,Swiss (7 rounds),Spain,1,2004.48,0.0,112
 802,Swiss (9 rounds),Portugal,5,1801.28,203.20000000000005,144
-803,Knockout (random),Brazil,6,1800.91,203.56999999999994,31
+803,Knockout (random),Brazil,6,1800.91,203.5699999999999,31
 803,Knockout (seeded),Morocco,7,1791.35,213.1300000000001,31
 803,World Cup (seeded groups),Italy,14,1717.2,287.28,63
 803,League,Spain,1,2004.48,0.0,992
@@ -6448,7 +6448,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 806,Swiss (7 rounds),France,3,1950.82,53.66000000000008,112
 806,Swiss (9 rounds),Mexico,13,1723.64,280.8399999999999,144
 807,Knockout (random),Argentina,2,1966.13,38.34999999999991,31
-807,Knockout (seeded),Brazil,6,1800.91,203.56999999999994,31
+807,Knockout (seeded),Brazil,6,1800.91,203.5699999999999,31
 807,World Cup (seeded groups),France,3,1950.82,53.66000000000008,63
 807,League,Spain,1,2004.48,0.0,992
 807,League + best-of-seven,France,3,1950.82,53.66000000000008,1078
@@ -6456,7 +6456,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 807,Swiss (7 rounds),England,4,1938.9,65.57999999999993,112
 807,Swiss (9 rounds),England,4,1938.9,65.57999999999993,144
 808,Knockout (random),Mexico,13,1723.64,280.8399999999999,31
-808,Knockout (seeded),Brazil,6,1800.91,203.56999999999994,31
+808,Knockout (seeded),Brazil,6,1800.91,203.5699999999999,31
 808,World Cup (seeded groups),Spain,1,2004.48,0.0,63
 808,League,Spain,1,2004.48,0.0,992
 808,League + best-of-seven,Argentina,2,1966.13,38.34999999999991,1077
@@ -6484,7 +6484,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 811,World Cup (seeded groups),France,3,1950.82,53.66000000000008,63
 811,League,Spain,1,2004.48,0.0,992
 811,League + best-of-seven,Spain,1,2004.48,0.0,1072
-811,Swiss (5 rounds),Nigeria,29,1564.18,440.29999999999995,80
+811,Swiss (5 rounds),Nigeria,29,1564.18,440.2999999999999,80
 811,Swiss (7 rounds),France,3,1950.82,53.66000000000008,112
 811,Swiss (9 rounds),Colombia,10,1735.9,268.5799999999999,144
 812,Knockout (random),Ecuador,24,1593.34,411.1400000000001,31
@@ -6500,7 +6500,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 813,World Cup (seeded groups),Argentina,2,1966.13,38.34999999999991,63
 813,League,Spain,1,2004.48,0.0,992
 813,League + best-of-seven,France,3,1950.82,53.66000000000008,1074
-813,Swiss (5 rounds),Nigeria,29,1564.18,440.29999999999995,80
+813,Swiss (5 rounds),Nigeria,29,1564.18,440.2999999999999,80
 813,Swiss (7 rounds),Italy,14,1717.2,287.28,112
 813,Swiss (9 rounds),Argentina,2,1966.13,38.34999999999991,144
 814,Knockout (random),Spain,1,2004.48,0.0,31
@@ -6517,7 +6517,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 815,League,Spain,1,2004.48,0.0,992
 815,League + best-of-seven,Spain,1,2004.48,0.0,1076
 815,Swiss (5 rounds),England,4,1938.9,65.57999999999993,80
-815,Swiss (7 rounds),Brazil,6,1800.91,203.56999999999994,112
+815,Swiss (7 rounds),Brazil,6,1800.91,203.5699999999999,112
 815,Swiss (9 rounds),Argentina,2,1966.13,38.34999999999991,144
 816,Knockout (random),England,4,1938.9,65.57999999999993,31
 816,Knockout (seeded),Argentina,2,1966.13,38.34999999999991,31
@@ -6559,7 +6559,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 820,Swiss (5 rounds),Spain,1,2004.48,0.0,80
 820,Swiss (7 rounds),England,4,1938.9,65.57999999999993,112
 820,Swiss (9 rounds),Spain,1,2004.48,0.0,144
-821,Knockout (random),Nigeria,29,1564.18,440.29999999999995,31
+821,Knockout (random),Nigeria,29,1564.18,440.2999999999999,31
 821,Knockout (seeded),England,4,1938.9,65.57999999999993,31
 821,World Cup (seeded groups),England,4,1938.9,65.57999999999993,63
 821,League,Argentina,2,1966.13,38.34999999999991,992
@@ -6577,7 +6577,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 822,Swiss (9 rounds),France,3,1950.82,53.66000000000008,144
 823,Knockout (random),Belgium,8,1790.37,214.11000000000013,31
 823,Knockout (seeded),Portugal,5,1801.28,203.20000000000005,31
-823,World Cup (seeded groups),Brazil,6,1800.91,203.56999999999994,63
+823,World Cup (seeded groups),Brazil,6,1800.91,203.5699999999999,63
 823,League,Argentina,2,1966.13,38.34999999999991,992
 823,League + best-of-seven,Argentina,2,1966.13,38.34999999999991,1076
 823,Swiss (5 rounds),England,4,1938.9,65.57999999999993,80
@@ -6596,7 +6596,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 825,World Cup (seeded groups),Belgium,8,1790.37,214.11000000000013,63
 825,League,England,4,1938.9,65.57999999999993,992
 825,League + best-of-seven,Spain,1,2004.48,0.0,1070
-825,Swiss (5 rounds),Brazil,6,1800.91,203.56999999999994,80
+825,Swiss (5 rounds),Brazil,6,1800.91,203.5699999999999,80
 825,Swiss (7 rounds),France,3,1950.82,53.66000000000008,112
 825,Swiss (9 rounds),Germany,11,1730.22,274.26,144
 826,Knockout (random),Spain,1,2004.48,0.0,31
@@ -6605,7 +6605,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 826,League,Argentina,2,1966.13,38.34999999999991,992
 826,League + best-of-seven,Spain,1,2004.48,0.0,1071
 826,Swiss (5 rounds),England,4,1938.9,65.57999999999993,80
-826,Swiss (7 rounds),Brazil,6,1800.91,203.56999999999994,112
+826,Swiss (7 rounds),Brazil,6,1800.91,203.5699999999999,112
 826,Swiss (9 rounds),Argentina,2,1966.13,38.34999999999991,144
 827,Knockout (random),England,4,1938.9,65.57999999999993,31
 827,Knockout (seeded),Argentina,2,1966.13,38.34999999999991,31
@@ -6613,11 +6613,11 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 827,League,Argentina,2,1966.13,38.34999999999991,992
 827,League + best-of-seven,England,4,1938.9,65.57999999999993,1080
 827,Swiss (5 rounds),Argentina,2,1966.13,38.34999999999991,80
-827,Swiss (7 rounds),Brazil,6,1800.91,203.56999999999994,112
+827,Swiss (7 rounds),Brazil,6,1800.91,203.5699999999999,112
 827,Swiss (9 rounds),England,4,1938.9,65.57999999999993,144
 828,Knockout (random),Spain,1,2004.48,0.0,31
 828,Knockout (seeded),Japan,17,1684.61,319.8700000000001,31
-828,World Cup (seeded groups),Côte d'Ivoire,28,1565.93,438.54999999999995,63
+828,World Cup (seeded groups),Côte d'Ivoire,28,1565.93,438.5499999999999,63
 828,League,England,4,1938.9,65.57999999999993,992
 828,League + best-of-seven,Argentina,2,1966.13,38.34999999999991,1072
 828,Swiss (5 rounds),Portugal,5,1801.28,203.20000000000005,80
@@ -6657,7 +6657,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 832,Swiss (9 rounds),France,3,1950.82,53.66000000000008,144
 833,Knockout (random),Germany,11,1730.22,274.26,31
 833,Knockout (seeded),Portugal,5,1801.28,203.20000000000005,31
-833,World Cup (seeded groups),Brazil,6,1800.91,203.56999999999994,63
+833,World Cup (seeded groups),Brazil,6,1800.91,203.5699999999999,63
 833,League,Argentina,2,1966.13,38.34999999999991,992
 833,League + best-of-seven,Argentina,2,1966.13,38.34999999999991,1073
 833,Swiss (5 rounds),Spain,1,2004.48,0.0,80
@@ -6687,7 +6687,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 836,Swiss (5 rounds),Argentina,2,1966.13,38.34999999999991,80
 836,Swiss (7 rounds),Spain,1,2004.48,0.0,112
 836,Swiss (9 rounds),France,3,1950.82,53.66000000000008,144
-837,Knockout (random),Brazil,6,1800.91,203.56999999999994,31
+837,Knockout (random),Brazil,6,1800.91,203.5699999999999,31
 837,Knockout (seeded),Morocco,7,1791.35,213.1300000000001,31
 837,World Cup (seeded groups),Colombia,10,1735.9,268.5799999999999,63
 837,League,Argentina,2,1966.13,38.34999999999991,992
@@ -6716,7 +6716,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 840,World Cup (seeded groups),Morocco,7,1791.35,213.1300000000001,63
 840,League,Argentina,2,1966.13,38.34999999999991,992
 840,League + best-of-seven,Spain,1,2004.48,0.0,1077
-840,Swiss (5 rounds),Brazil,6,1800.91,203.56999999999994,80
+840,Swiss (5 rounds),Brazil,6,1800.91,203.5699999999999,80
 840,Swiss (7 rounds),Spain,1,2004.48,0.0,112
 840,Swiss (9 rounds),France,3,1950.82,53.66000000000008,144
 841,Knockout (random),France,3,1950.82,53.66000000000008,31
@@ -6724,7 +6724,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 841,World Cup (seeded groups),Switzerland,12,1726.15,278.3299999999999,63
 841,League,Argentina,2,1966.13,38.34999999999991,992
 841,League + best-of-seven,Argentina,2,1966.13,38.34999999999991,1071
-841,Swiss (5 rounds),Brazil,6,1800.91,203.56999999999994,80
+841,Swiss (5 rounds),Brazil,6,1800.91,203.5699999999999,80
 841,Swiss (7 rounds),France,3,1950.82,53.66000000000008,112
 841,Swiss (9 rounds),France,3,1950.82,53.66000000000008,144
 842,Knockout (random),Argentina,2,1966.13,38.34999999999991,31
@@ -6777,7 +6777,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 847,Swiss (9 rounds),Argentina,2,1966.13,38.34999999999991,144
 848,Knockout (random),England,4,1938.9,65.57999999999993,31
 848,Knockout (seeded),Argentina,2,1966.13,38.34999999999991,31
-848,World Cup (seeded groups),Brazil,6,1800.91,203.56999999999994,63
+848,World Cup (seeded groups),Brazil,6,1800.91,203.5699999999999,63
 848,League,France,3,1950.82,53.66000000000008,992
 848,League + best-of-seven,France,3,1950.82,53.66000000000008,1072
 848,Swiss (5 rounds),Croatia,15,1714.22,290.26,80
@@ -6788,7 +6788,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 849,World Cup (seeded groups),Spain,1,2004.48,0.0,63
 849,League,Spain,1,2004.48,0.0,992
 849,League + best-of-seven,England,4,1938.9,65.57999999999993,1071
-849,Swiss (5 rounds),Brazil,6,1800.91,203.56999999999994,80
+849,Swiss (5 rounds),Brazil,6,1800.91,203.5699999999999,80
 849,Swiss (7 rounds),Spain,1,2004.48,0.0,112
 849,Swiss (9 rounds),Mexico,13,1723.64,280.8399999999999,144
 850,Knockout (random),Argentina,2,1966.13,38.34999999999991,31
@@ -6800,7 +6800,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 850,Swiss (7 rounds),France,3,1950.82,53.66000000000008,112
 850,Swiss (9 rounds),Argentina,2,1966.13,38.34999999999991,144
 851,Knockout (random),England,4,1938.9,65.57999999999993,31
-851,Knockout (seeded),Brazil,6,1800.91,203.56999999999994,31
+851,Knockout (seeded),Brazil,6,1800.91,203.5699999999999,31
 851,World Cup (seeded groups),Argentina,2,1966.13,38.34999999999991,63
 851,League,Argentina,2,1966.13,38.34999999999991,992
 851,League + best-of-seven,England,4,1938.9,65.57999999999993,1075
@@ -6815,7 +6815,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 852,Swiss (5 rounds),Argentina,2,1966.13,38.34999999999991,80
 852,Swiss (7 rounds),Spain,1,2004.48,0.0,112
 852,Swiss (9 rounds),France,3,1950.82,53.66000000000008,144
-853,Knockout (random),Brazil,6,1800.91,203.56999999999994,31
+853,Knockout (random),Brazil,6,1800.91,203.5699999999999,31
 853,Knockout (seeded),Argentina,2,1966.13,38.34999999999991,31
 853,World Cup (seeded groups),USA,16,1713.56,290.9200000000001,63
 853,League,England,4,1938.9,65.57999999999993,992
@@ -6845,7 +6845,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 856,League,Argentina,2,1966.13,38.34999999999991,992
 856,League + best-of-seven,Spain,1,2004.48,0.0,1077
 856,Swiss (5 rounds),Belgium,8,1790.37,214.11000000000013,80
-856,Swiss (7 rounds),Brazil,6,1800.91,203.56999999999994,112
+856,Swiss (7 rounds),Brazil,6,1800.91,203.5699999999999,112
 856,Swiss (9 rounds),Argentina,2,1966.13,38.34999999999991,144
 857,Knockout (random),Spain,1,2004.48,0.0,31
 857,Knockout (seeded),Spain,1,2004.48,0.0,31
@@ -6862,10 +6862,10 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 858,League + best-of-seven,Spain,1,2004.48,0.0,1077
 858,Swiss (5 rounds),Colombia,10,1735.9,268.5799999999999,80
 858,Swiss (7 rounds),England,4,1938.9,65.57999999999993,112
-858,Swiss (9 rounds),Brazil,6,1800.91,203.56999999999994,144
+858,Swiss (9 rounds),Brazil,6,1800.91,203.5699999999999,144
 859,Knockout (random),Portugal,5,1801.28,203.20000000000005,31
 859,Knockout (seeded),Belgium,8,1790.37,214.11000000000013,31
-859,World Cup (seeded groups),Nigeria,29,1564.18,440.29999999999995,63
+859,World Cup (seeded groups),Nigeria,29,1564.18,440.2999999999999,63
 859,League,Argentina,2,1966.13,38.34999999999991,992
 859,League + best-of-seven,Spain,1,2004.48,0.0,1074
 859,Swiss (5 rounds),Spain,1,2004.48,0.0,80
@@ -6913,7 +6913,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 864,Swiss (9 rounds),France,3,1950.82,53.66000000000008,144
 865,Knockout (random),Argentina,2,1966.13,38.34999999999991,31
 865,Knockout (seeded),Colombia,10,1735.9,268.5799999999999,31
-865,World Cup (seeded groups),Korea Republic,30,1560.02,444.46000000000004,63
+865,World Cup (seeded groups),Korea Republic,30,1560.02,444.46,63
 865,League,Spain,1,2004.48,0.0,992
 865,League + best-of-seven,England,4,1938.9,65.57999999999993,1072
 865,Swiss (5 rounds),Colombia,10,1735.9,268.5799999999999,80
@@ -6927,12 +6927,12 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 866,Swiss (5 rounds),Portugal,5,1801.28,203.20000000000005,80
 866,Swiss (7 rounds),Belgium,8,1790.37,214.11000000000013,112
 866,Swiss (9 rounds),Spain,1,2004.48,0.0,144
-867,Knockout (random),Brazil,6,1800.91,203.56999999999994,31
+867,Knockout (random),Brazil,6,1800.91,203.5699999999999,31
 867,Knockout (seeded),England,4,1938.9,65.57999999999993,31
 867,World Cup (seeded groups),France,3,1950.82,53.66000000000008,63
 867,League,France,3,1950.82,53.66000000000008,992
 867,League + best-of-seven,Spain,1,2004.48,0.0,1073
-867,Swiss (5 rounds),Côte d'Ivoire,28,1565.93,438.54999999999995,80
+867,Swiss (5 rounds),Côte d'Ivoire,28,1565.93,438.5499999999999,80
 867,Swiss (7 rounds),Croatia,15,1714.22,290.26,112
 867,Swiss (9 rounds),France,3,1950.82,53.66000000000008,144
 868,Knockout (random),France,3,1950.82,53.66000000000008,31
@@ -6953,7 +6953,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 869,Swiss (9 rounds),Mexico,13,1723.64,280.8399999999999,144
 870,Knockout (random),Spain,1,2004.48,0.0,31
 870,Knockout (seeded),France,3,1950.82,53.66000000000008,31
-870,World Cup (seeded groups),Brazil,6,1800.91,203.56999999999994,63
+870,World Cup (seeded groups),Brazil,6,1800.91,203.5699999999999,63
 870,League,England,4,1938.9,65.57999999999993,992
 870,League + best-of-seven,England,4,1938.9,65.57999999999993,1077
 870,Swiss (5 rounds),France,3,1950.82,53.66000000000008,80
@@ -6981,7 +6981,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 873,League,England,4,1938.9,65.57999999999993,992
 873,League + best-of-seven,Argentina,2,1966.13,38.34999999999991,1073
 873,Swiss (5 rounds),Uruguay,20,1644.48,360.0,80
-873,Swiss (7 rounds),Brazil,6,1800.91,203.56999999999994,112
+873,Swiss (7 rounds),Brazil,6,1800.91,203.5699999999999,112
 873,Swiss (9 rounds),Austria,22,1602.21,402.27,144
 874,Knockout (random),Spain,1,2004.48,0.0,31
 874,Knockout (seeded),Argentina,2,1966.13,38.34999999999991,31
@@ -7001,10 +7001,10 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 875,Swiss (9 rounds),England,4,1938.9,65.57999999999993,144
 876,Knockout (random),Argentina,2,1966.13,38.34999999999991,31
 876,Knockout (seeded),Colombia,10,1735.9,268.5799999999999,31
-876,World Cup (seeded groups),Brazil,6,1800.91,203.56999999999994,63
+876,World Cup (seeded groups),Brazil,6,1800.91,203.5699999999999,63
 876,League,Argentina,2,1966.13,38.34999999999991,992
 876,League + best-of-seven,Spain,1,2004.48,0.0,1079
-876,Swiss (5 rounds),Brazil,6,1800.91,203.56999999999994,80
+876,Swiss (5 rounds),Brazil,6,1800.91,203.5699999999999,80
 876,Swiss (7 rounds),England,4,1938.9,65.57999999999993,112
 876,Swiss (9 rounds),Croatia,15,1714.22,290.26,144
 877,Knockout (random),Portugal,5,1801.28,203.20000000000005,31
@@ -7017,7 +7017,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 877,Swiss (9 rounds),France,3,1950.82,53.66000000000008,144
 878,Knockout (random),France,3,1950.82,53.66000000000008,31
 878,Knockout (seeded),Argentina,2,1966.13,38.34999999999991,31
-878,World Cup (seeded groups),Brazil,6,1800.91,203.56999999999994,63
+878,World Cup (seeded groups),Brazil,6,1800.91,203.5699999999999,63
 878,League,Spain,1,2004.48,0.0,992
 878,League + best-of-seven,France,3,1950.82,53.66000000000008,1075
 878,Swiss (5 rounds),France,3,1950.82,53.66000000000008,80
@@ -7033,7 +7033,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 879,Swiss (9 rounds),France,3,1950.82,53.66000000000008,144
 880,Knockout (random),Argentina,2,1966.13,38.34999999999991,31
 880,Knockout (seeded),France,3,1950.82,53.66000000000008,31
-880,World Cup (seeded groups),Brazil,6,1800.91,203.56999999999994,63
+880,World Cup (seeded groups),Brazil,6,1800.91,203.5699999999999,63
 880,League,Spain,1,2004.48,0.0,992
 880,League + best-of-seven,Spain,1,2004.48,0.0,1079
 880,Swiss (5 rounds),Spain,1,2004.48,0.0,80
@@ -7102,10 +7102,10 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 888,League + best-of-seven,Argentina,2,1966.13,38.34999999999991,1076
 888,Swiss (5 rounds),Ecuador,24,1593.34,411.1400000000001,80
 888,Swiss (7 rounds),Belgium,8,1790.37,214.11000000000013,112
-888,Swiss (9 rounds),Brazil,6,1800.91,203.56999999999994,144
+888,Swiss (9 rounds),Brazil,6,1800.91,203.5699999999999,144
 889,Knockout (random),France,3,1950.82,53.66000000000008,31
 889,Knockout (seeded),Morocco,7,1791.35,213.1300000000001,31
-889,World Cup (seeded groups),Brazil,6,1800.91,203.56999999999994,63
+889,World Cup (seeded groups),Brazil,6,1800.91,203.5699999999999,63
 889,League,Spain,1,2004.48,0.0,992
 889,League + best-of-seven,Spain,1,2004.48,0.0,1080
 889,Swiss (5 rounds),England,4,1938.9,65.57999999999993,80
@@ -7133,9 +7133,9 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 892,League,Spain,1,2004.48,0.0,992
 892,League + best-of-seven,Spain,1,2004.48,0.0,1080
 892,Swiss (5 rounds),Argentina,2,1966.13,38.34999999999991,80
-892,Swiss (7 rounds),Brazil,6,1800.91,203.56999999999994,112
+892,Swiss (7 rounds),Brazil,6,1800.91,203.5699999999999,112
 892,Swiss (9 rounds),Argentina,2,1966.13,38.34999999999991,144
-893,Knockout (random),Brazil,6,1800.91,203.56999999999994,31
+893,Knockout (random),Brazil,6,1800.91,203.5699999999999,31
 893,Knockout (seeded),Spain,1,2004.48,0.0,31
 893,World Cup (seeded groups),Argentina,2,1966.13,38.34999999999991,63
 893,League,Spain,1,2004.48,0.0,992
@@ -7236,7 +7236,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 905,World Cup (seeded groups),France,3,1950.82,53.66000000000008,63
 905,League,England,4,1938.9,65.57999999999993,992
 905,League + best-of-seven,Argentina,2,1966.13,38.34999999999991,1076
-905,Swiss (5 rounds),Algeria,32,1557.94,446.53999999999996,80
+905,Swiss (5 rounds),Algeria,32,1557.94,446.54,80
 905,Swiss (7 rounds),Spain,1,2004.48,0.0,112
 905,Swiss (9 rounds),Spain,1,2004.48,0.0,144
 906,Knockout (random),Spain,1,2004.48,0.0,31
@@ -7248,7 +7248,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 906,Swiss (7 rounds),Belgium,8,1790.37,214.11000000000013,112
 906,Swiss (9 rounds),Spain,1,2004.48,0.0,144
 907,Knockout (random),Spain,1,2004.48,0.0,31
-907,Knockout (seeded),Brazil,6,1800.91,203.56999999999994,31
+907,Knockout (seeded),Brazil,6,1800.91,203.5699999999999,31
 907,World Cup (seeded groups),Spain,1,2004.48,0.0,63
 907,League,Spain,1,2004.48,0.0,992
 907,League + best-of-seven,Argentina,2,1966.13,38.34999999999991,1072
@@ -7312,7 +7312,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 914,Swiss (7 rounds),Spain,1,2004.48,0.0,112
 914,Swiss (9 rounds),Spain,1,2004.48,0.0,144
 915,Knockout (random),Spain,1,2004.48,0.0,31
-915,Knockout (seeded),Brazil,6,1800.91,203.56999999999994,31
+915,Knockout (seeded),Brazil,6,1800.91,203.5699999999999,31
 915,World Cup (seeded groups),IR Iran,23,1597.59,406.8900000000001,63
 915,League,France,3,1950.82,53.66000000000008,992
 915,League + best-of-seven,Spain,1,2004.48,0.0,1075
@@ -7334,7 +7334,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 917,League + best-of-seven,France,3,1950.82,53.66000000000008,1070
 917,Swiss (5 rounds),Germany,11,1730.22,274.26,80
 917,Swiss (7 rounds),USA,16,1713.56,290.9200000000001,112
-917,Swiss (9 rounds),Brazil,6,1800.91,203.56999999999994,144
+917,Swiss (9 rounds),Brazil,6,1800.91,203.5699999999999,144
 918,Knockout (random),France,3,1950.82,53.66000000000008,31
 918,Knockout (seeded),Argentina,2,1966.13,38.34999999999991,31
 918,World Cup (seeded groups),Morocco,7,1791.35,213.1300000000001,63
@@ -7359,7 +7359,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 920,Swiss (5 rounds),Spain,1,2004.48,0.0,80
 920,Swiss (7 rounds),France,3,1950.82,53.66000000000008,112
 920,Swiss (9 rounds),Ecuador,24,1593.34,411.1400000000001,144
-921,Knockout (random),Brazil,6,1800.91,203.56999999999994,31
+921,Knockout (random),Brazil,6,1800.91,203.5699999999999,31
 921,Knockout (seeded),England,4,1938.9,65.57999999999993,31
 921,World Cup (seeded groups),Spain,1,2004.48,0.0,63
 921,League,Spain,1,2004.48,0.0,992
@@ -7428,15 +7428,15 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 929,World Cup (seeded groups),Argentina,2,1966.13,38.34999999999991,63
 929,League,Spain,1,2004.48,0.0,992
 929,League + best-of-seven,Argentina,2,1966.13,38.34999999999991,1077
-929,Swiss (5 rounds),Nigeria,29,1564.18,440.29999999999995,80
+929,Swiss (5 rounds),Nigeria,29,1564.18,440.2999999999999,80
 929,Swiss (7 rounds),France,3,1950.82,53.66000000000008,112
 929,Swiss (9 rounds),Colombia,10,1735.9,268.5799999999999,144
 930,Knockout (random),Japan,17,1684.61,319.8700000000001,31
-930,Knockout (seeded),Brazil,6,1800.91,203.56999999999994,31
+930,Knockout (seeded),Brazil,6,1800.91,203.5699999999999,31
 930,World Cup (seeded groups),USA,16,1713.56,290.9200000000001,63
 930,League,Spain,1,2004.48,0.0,992
 930,League + best-of-seven,Spain,1,2004.48,0.0,1073
-930,Swiss (5 rounds),Korea Republic,30,1560.02,444.46000000000004,80
+930,Swiss (5 rounds),Korea Republic,30,1560.02,444.46,80
 930,Swiss (7 rounds),Spain,1,2004.48,0.0,112
 930,Swiss (9 rounds),England,4,1938.9,65.57999999999993,144
 931,Knockout (random),England,4,1938.9,65.57999999999993,31
@@ -7462,7 +7462,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 933,League + best-of-seven,Spain,1,2004.48,0.0,1078
 933,Swiss (5 rounds),Netherlands,9,1774.06,230.42000000000007,80
 933,Swiss (7 rounds),Spain,1,2004.48,0.0,112
-933,Swiss (9 rounds),Brazil,6,1800.91,203.56999999999994,144
+933,Swiss (9 rounds),Brazil,6,1800.91,203.5699999999999,144
 934,Knockout (random),Netherlands,9,1774.06,230.42000000000007,31
 934,Knockout (seeded),France,3,1950.82,53.66000000000008,31
 934,World Cup (seeded groups),Portugal,5,1801.28,203.20000000000005,63
@@ -7472,7 +7472,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 934,Swiss (7 rounds),Mexico,13,1723.64,280.8399999999999,112
 934,Swiss (9 rounds),Portugal,5,1801.28,203.20000000000005,144
 935,Knockout (random),Germany,11,1730.22,274.26,31
-935,Knockout (seeded),Brazil,6,1800.91,203.56999999999994,31
+935,Knockout (seeded),Brazil,6,1800.91,203.5699999999999,31
 935,World Cup (seeded groups),Spain,1,2004.48,0.0,63
 935,League,Argentina,2,1966.13,38.34999999999991,992
 935,League + best-of-seven,Argentina,2,1966.13,38.34999999999991,1073
@@ -7481,7 +7481,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 935,Swiss (9 rounds),Argentina,2,1966.13,38.34999999999991,144
 936,Knockout (random),Spain,1,2004.48,0.0,31
 936,Knockout (seeded),Spain,1,2004.48,0.0,31
-936,World Cup (seeded groups),Korea Republic,30,1560.02,444.46000000000004,63
+936,World Cup (seeded groups),Korea Republic,30,1560.02,444.46,63
 936,League,Spain,1,2004.48,0.0,992
 936,League + best-of-seven,England,4,1938.9,65.57999999999993,1069
 936,Swiss (5 rounds),France,3,1950.82,53.66000000000008,80
@@ -7510,7 +7510,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 939,League + best-of-seven,England,4,1938.9,65.57999999999993,1075
 939,Swiss (5 rounds),Spain,1,2004.48,0.0,80
 939,Swiss (7 rounds),Spain,1,2004.48,0.0,112
-939,Swiss (9 rounds),Brazil,6,1800.91,203.56999999999994,144
+939,Swiss (9 rounds),Brazil,6,1800.91,203.5699999999999,144
 940,Knockout (random),Belgium,8,1790.37,214.11000000000013,31
 940,Knockout (seeded),Australia,27,1576.9,427.5799999999999,31
 940,World Cup (seeded groups),Belgium,8,1790.37,214.11000000000013,63
@@ -7524,7 +7524,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 941,World Cup (seeded groups),Argentina,2,1966.13,38.34999999999991,63
 941,League,Spain,1,2004.48,0.0,992
 941,League + best-of-seven,Spain,1,2004.48,0.0,1074
-941,Swiss (5 rounds),Korea Republic,30,1560.02,444.46000000000004,80
+941,Swiss (5 rounds),Korea Republic,30,1560.02,444.46,80
 941,Swiss (7 rounds),England,4,1938.9,65.57999999999993,112
 941,Swiss (9 rounds),Mexico,13,1723.64,280.8399999999999,144
 942,Knockout (random),Argentina,2,1966.13,38.34999999999991,31
@@ -7541,8 +7541,8 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 943,League,Argentina,2,1966.13,38.34999999999991,992
 943,League + best-of-seven,England,4,1938.9,65.57999999999993,1070
 943,Swiss (5 rounds),Belgium,8,1790.37,214.11000000000013,80
-943,Swiss (7 rounds),Brazil,6,1800.91,203.56999999999994,112
-943,Swiss (9 rounds),Brazil,6,1800.91,203.56999999999994,144
+943,Swiss (7 rounds),Brazil,6,1800.91,203.5699999999999,112
+943,Swiss (9 rounds),Brazil,6,1800.91,203.5699999999999,144
 944,Knockout (random),England,4,1938.9,65.57999999999993,31
 944,Knockout (seeded),Portugal,5,1801.28,203.20000000000005,31
 944,World Cup (seeded groups),Morocco,7,1791.35,213.1300000000001,63
@@ -7607,7 +7607,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 951,Swiss (5 rounds),IR Iran,23,1597.59,406.8900000000001,80
 951,Swiss (7 rounds),Croatia,15,1714.22,290.26,112
 951,Swiss (9 rounds),Spain,1,2004.48,0.0,144
-952,Knockout (random),Brazil,6,1800.91,203.56999999999994,31
+952,Knockout (random),Brazil,6,1800.91,203.5699999999999,31
 952,Knockout (seeded),France,3,1950.82,53.66000000000008,31
 952,World Cup (seeded groups),France,3,1950.82,53.66000000000008,63
 952,League,Spain,1,2004.48,0.0,992
@@ -7615,7 +7615,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 952,Swiss (5 rounds),Germany,11,1730.22,274.26,80
 952,Swiss (7 rounds),France,3,1950.82,53.66000000000008,112
 952,Swiss (9 rounds),Belgium,8,1790.37,214.11000000000013,144
-953,Knockout (random),Brazil,6,1800.91,203.56999999999994,31
+953,Knockout (random),Brazil,6,1800.91,203.5699999999999,31
 953,Knockout (seeded),Spain,1,2004.48,0.0,31
 953,World Cup (seeded groups),Morocco,7,1791.35,213.1300000000001,63
 953,League,Spain,1,2004.48,0.0,992
@@ -7686,10 +7686,10 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 961,League + best-of-seven,Argentina,2,1966.13,38.34999999999991,1074
 961,Swiss (5 rounds),Spain,1,2004.48,0.0,80
 961,Swiss (7 rounds),France,3,1950.82,53.66000000000008,112
-961,Swiss (9 rounds),Brazil,6,1800.91,203.56999999999994,144
+961,Swiss (9 rounds),Brazil,6,1800.91,203.5699999999999,144
 962,Knockout (random),Morocco,7,1791.35,213.1300000000001,31
 962,Knockout (seeded),Argentina,2,1966.13,38.34999999999991,31
-962,World Cup (seeded groups),Brazil,6,1800.91,203.56999999999994,63
+962,World Cup (seeded groups),Brazil,6,1800.91,203.5699999999999,63
 962,League,Spain,1,2004.48,0.0,992
 962,League + best-of-seven,France,3,1950.82,53.66000000000008,1078
 962,Swiss (5 rounds),England,4,1938.9,65.57999999999993,80
@@ -7712,7 +7712,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 964,Swiss (7 rounds),Argentina,2,1966.13,38.34999999999991,112
 964,Swiss (9 rounds),Spain,1,2004.48,0.0,144
 965,Knockout (random),Argentina,2,1966.13,38.34999999999991,31
-965,Knockout (seeded),Brazil,6,1800.91,203.56999999999994,31
+965,Knockout (seeded),Brazil,6,1800.91,203.5699999999999,31
 965,World Cup (seeded groups),France,3,1950.82,53.66000000000008,63
 965,League,France,3,1950.82,53.66000000000008,992
 965,League + best-of-seven,France,3,1950.82,53.66000000000008,1078
@@ -7728,7 +7728,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 966,Swiss (7 rounds),Netherlands,9,1774.06,230.42000000000007,112
 966,Swiss (9 rounds),France,3,1950.82,53.66000000000008,144
 967,Knockout (random),Argentina,2,1966.13,38.34999999999991,31
-967,Knockout (seeded),Brazil,6,1800.91,203.56999999999994,31
+967,Knockout (seeded),Brazil,6,1800.91,203.5699999999999,31
 967,World Cup (seeded groups),England,4,1938.9,65.57999999999993,63
 967,League,Argentina,2,1966.13,38.34999999999991,992
 967,League + best-of-seven,Argentina,2,1966.13,38.34999999999991,1074
@@ -7740,7 +7740,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 968,World Cup (seeded groups),USA,16,1713.56,290.9200000000001,63
 968,League,Argentina,2,1966.13,38.34999999999991,992
 968,League + best-of-seven,France,3,1950.82,53.66000000000008,1068
-968,Swiss (5 rounds),Brazil,6,1800.91,203.56999999999994,80
+968,Swiss (5 rounds),Brazil,6,1800.91,203.5699999999999,80
 968,Swiss (7 rounds),England,4,1938.9,65.57999999999993,112
 968,Swiss (9 rounds),England,4,1938.9,65.57999999999993,144
 969,Knockout (random),France,3,1950.82,53.66000000000008,31
@@ -7791,7 +7791,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 974,Swiss (5 rounds),Spain,1,2004.48,0.0,80
 974,Swiss (7 rounds),England,4,1938.9,65.57999999999993,112
 974,Swiss (9 rounds),Spain,1,2004.48,0.0,144
-975,Knockout (random),Brazil,6,1800.91,203.56999999999994,31
+975,Knockout (random),Brazil,6,1800.91,203.5699999999999,31
 975,Knockout (seeded),Argentina,2,1966.13,38.34999999999991,31
 975,World Cup (seeded groups),England,4,1938.9,65.57999999999993,63
 975,League,Spain,1,2004.48,0.0,992
@@ -7843,7 +7843,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 981,Knockout (seeded),Netherlands,9,1774.06,230.42000000000007,31
 981,World Cup (seeded groups),England,4,1938.9,65.57999999999993,63
 981,League,Spain,1,2004.48,0.0,992
-981,League + best-of-seven,Brazil,6,1800.91,203.56999999999994,1078
+981,League + best-of-seven,Brazil,6,1800.91,203.5699999999999,1078
 981,Swiss (5 rounds),England,4,1938.9,65.57999999999993,80
 981,Swiss (7 rounds),Argentina,2,1966.13,38.34999999999991,112
 981,Swiss (9 rounds),Spain,1,2004.48,0.0,144
@@ -7863,7 +7863,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 983,Swiss (5 rounds),Japan,17,1684.61,319.8700000000001,80
 983,Swiss (7 rounds),Colombia,10,1735.9,268.5799999999999,112
 983,Swiss (9 rounds),Spain,1,2004.48,0.0,144
-984,Knockout (random),Brazil,6,1800.91,203.56999999999994,31
+984,Knockout (random),Brazil,6,1800.91,203.5699999999999,31
 984,Knockout (seeded),England,4,1938.9,65.57999999999993,31
 984,World Cup (seeded groups),Morocco,7,1791.35,213.1300000000001,63
 984,League,France,3,1950.82,53.66000000000008,992
@@ -7920,7 +7920,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 990,Swiss (7 rounds),Uruguay,20,1644.48,360.0,112
 990,Swiss (9 rounds),England,4,1938.9,65.57999999999993,144
 991,Knockout (random),England,4,1938.9,65.57999999999993,31
-991,Knockout (seeded),Brazil,6,1800.91,203.56999999999994,31
+991,Knockout (seeded),Brazil,6,1800.91,203.5699999999999,31
 991,World Cup (seeded groups),Argentina,2,1966.13,38.34999999999991,63
 991,League,Spain,1,2004.48,0.0,992
 991,League + best-of-seven,Spain,1,2004.48,0.0,1076
@@ -7953,7 +7953,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 994,Swiss (9 rounds),Argentina,2,1966.13,38.34999999999991,144
 995,Knockout (random),Belgium,8,1790.37,214.11000000000013,31
 995,Knockout (seeded),Spain,1,2004.48,0.0,31
-995,World Cup (seeded groups),Brazil,6,1800.91,203.56999999999994,63
+995,World Cup (seeded groups),Brazil,6,1800.91,203.5699999999999,63
 995,League,Spain,1,2004.48,0.0,992
 995,League + best-of-seven,France,3,1950.82,53.66000000000008,1066
 995,Swiss (5 rounds),England,4,1938.9,65.57999999999993,80
@@ -7975,7 +7975,7 @@ simulation,format,champion,champion_rank,champion_rating,rating_gap,matches
 997,Swiss (5 rounds),France,3,1950.82,53.66000000000008,80
 997,Swiss (7 rounds),Spain,1,2004.48,0.0,112
 997,Swiss (9 rounds),Argentina,2,1966.13,38.34999999999991,144
-998,Knockout (random),Brazil,6,1800.91,203.56999999999994,31
+998,Knockout (random),Brazil,6,1800.91,203.5699999999999,31
 998,Knockout (seeded),Spain,1,2004.48,0.0,31
 998,World Cup (seeded groups),Argentina,2,1966.13,38.34999999999991,63
 998,League,Spain,1,2004.48,0.0,992
