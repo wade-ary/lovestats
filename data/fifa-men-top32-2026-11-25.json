@@ -1,0 +1,170 @@
+{
+  "source_url": "https://inside.fifa.com/fifa-rankings/world-ranking/men",
+  "retrieved_date": "2026-11-25",
+  "page_updated_date": "2026-11-25",
+  "category": "men",
+  "source_status": "World ranking window Closed: Rankings approved by FIFA",
+  "provenance_note": "Transcribed from current rendered FIFA table, Points column, ranks 1–32. The 18 November FIFA news article places Morocco fifth; this current table places Portugal fifth, Brazil sixth and Morocco seventh. Preserves the current table as observed, not the historical 18 November release. Cause of difference is unverified.",
+  "teams": [
+    {
+      "rank": 1,
+      "team": "Spain",
+      "rating_points": 2004.48
+    },
+    {
+      "rank": 2,
+      "team": "Argentina",
+      "rating_points": 1966.13
+    },
+    {
+      "rank": 3,
+      "team": "France",
+      "rating_points": 1950.82
+    },
+    {
+      "rank": 4,
+      "team": "England",
+      "rating_points": 1938.9
+    },
+    {
+      "rank": 5,
+      "team": "Portugal",
+      "rating_points": 1801.28
+    },
+    {
+      "rank": 6,
+      "team": "Brazil",
+      "rating_points": 1800.91
+    },
+    {
+      "rank": 7,
+      "team": "Morocco",
+      "rating_points": 1791.35
+    },
+    {
+      "rank": 8,
+      "team": "Belgium",
+      "rating_points": 1790.37
+    },
+    {
+      "rank": 9,
+      "team": "Netherlands",
+      "rating_points": 1774.06
+    },
+    {
+      "rank": 10,
+      "team": "Colombia",
+      "rating_points": 1735.9
+    },
+    {
+      "rank": 11,
+      "team": "Germany",
+      "rating_points": 1730.22
+    },
+    {
+      "rank": 12,
+      "team": "Switzerland",
+      "rating_points": 1726.15
+    },
+    {
+      "rank": 13,
+      "team": "Mexico",
+      "rating_points": 1723.64
+    },
+    {
+      "rank": 14,
+      "team": "Italy",
+      "rating_points": 1717.2
+    },
+    {
+      "rank": 15,
+      "team": "Croatia",
+      "rating_points": 1714.22
+    },
+    {
+      "rank": 16,
+      "team": "USA",
+      "rating_points": 1713.56
+    },
+    {
+      "rank": 17,
+      "team": "Japan",
+      "rating_points": 1684.61
+    },
+    {
+      "rank": 18,
+      "team": "Senegal",
+      "rating_points": 1680.44
+    },
+    {
+      "rank": 19,
+      "team": "Norway",
+      "rating_points": 1650.89
+    },
+    {
+      "rank": 20,
+      "team": "Uruguay",
+      "rating_points": 1644.48
+    },
+    {
+      "rank": 21,
+      "team": "Denmark",
+      "rating_points": 1622.41
+    },
+    {
+      "rank": 22,
+      "team": "Austria",
+      "rating_points": 1602.21
+    },
+    {
+      "rank": 23,
+      "team": "IR Iran",
+      "rating_points": 1597.59
+    },
+    {
+      "rank": 24,
+      "team": "Ecuador",
+      "rating_points": 1593.34
+    },
+    {
+      "rank": 25,
+      "team": "Canada",
+      "rating_points": 1586.12
+    },
+    {
+      "rank": 26,
+      "team": "Egypt",
+      "rating_points": 1580.49
+    },
+    {
+      "rank": 27,
+      "team": "Australia",
+      "rating_points": 1576.9
+    },
+    {
+      "rank": 28,
+      "team": "Côte d'Ivoire",
+      "rating_points": 1565.93
+    },
+    {
+      "rank": 29,
+      "team": "Nigeria",
+      "rating_points": 1564.18
+    },
+    {
+      "rank": 30,
+      "team": "Korea Republic",
+      "rating_points": 1560.02
+    },
+    {
+      "rank": 31,
+      "team": "Paraguay",
+      "rating_points": 1559.89
+    },
+    {
+      "rank": 32,
+      "team": "Algeria",
+      "rating_points": 1557.94
+    }
+  ]
+}
