@@ -1,0 +1,27 @@
+{
+  "seed": 20261126,
+  "simulation_seed": 20261127,
+  "repetitions": 20000,
+  "n_pairs": 30,
+  "alpha": 0.05,
+  "baseline_mean": 60,
+  "noise_sd": 5,
+  "changes": [
+    -3,
+    0
+  ],
+  "scenarios": [
+    [
+      "Similar starting levels",
+      2
+    ],
+    [
+      "Different starting levels",
+      15
+    ]
+  ],
+  "common_random_numbers": true,
+  "python": "3.11.3",
+  "numpy": "1.26.4",
+  "scipy": "1.14.1"
+}

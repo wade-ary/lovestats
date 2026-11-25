@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "seed": 20261125,
+  "n_splits": 1000,
+  "participants": 7149,
+  "songs": 48,
+  "control_split_sizes": [
+    720,
+    721
+  ],
+  "independent_gini_mean": 0.2577812350815642,
+  "social_gini_mean": 0.34022429804386467,
+  "social_gini_range": [
+    0.2837658898305085,
+    0.41752049180327866
+  ],
+  "gini_mean_difference": 0.08244306296230047,
+  "independent_u_mean": 0.00491701254215697,
+  "social_u_mean": 0.008210326459908438,
+  "u_ratio": 1.6697794421949501,
+  "gini_comparison_fraction": 0.01075,
+  "u_comparison_fraction": 0.004071428571428571,
+  "comparison_definition": "Fraction of all social-statistic/control-split pairs where social < control; authors comparison, not a conventional null-randomization p-value.",
+  "data_sha256": "b9e021bc314e86e87dd25de18415621cbaa77284b5b3286c64c74258b96f2613",
+  "source": "https://doi.org/10.1126/science.1121066",
+  "numpy_version": "1.26.4",
+  "pandas_version": "2.3.1"
+}

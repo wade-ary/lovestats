@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "experiment": "musiclab-v1",
+  "python_version": "3.11.3",
+  "numpy_version": "1.26.4",
+  "pandas_version": "2.3.1",
+  "source_archive_sha256": "b9e021bc314e86e87dd25de18415621cbaa77284b5b3286c64c74258b96f2613",
+  "notebook_order": [
+    "01_design_and_data_audit.ipynb",
+    "02_main_outcomes.ipynb",
+    "03_song_outcomes_and_history.ipynb",
+    "04_website_export.ipynb"
+  ],
+  "assets": [
+    {
+      "path": "figures/01_inequality.png",
+      "bytes": 57225,
+      "sha256": "0649b2041ba5fd9cb27944de1cdbd54ea2051049e1d5de39b1da49d1d2b1714f"
+    },
+    {
+      "path": "figures/01_inequality.svg",
+      "bytes": 44424,
+      "sha256": "16395b0e367a9c6196ea0c0dd4db402c4e25693eedbd12fcff5aacf1eab88934"
+    },
+    {
+      "path": "figures/02_unpredictability.png",
+      "bytes": 56236,
+      "sha256": "a131451a5aea16ca5513f9236c58c3adcce1fc7f3565efce236289e2f7d6543d"
+    },
+    {
+      "path": "figures/02_unpredictability.svg",
+      "bytes": 35595,
+      "sha256": "b45b3d26b10c9c8164cb9ecc30239910884f56e0ddcaf200e66d90a2a97a26de"
+    },
+    {
+      "path": "figures/03_song_outcomes.png",
+      "bytes": 260158,
+      "sha256": "5c44a3eb1e47a2b425218a8998c444786602259e047d4e098c041ed7e2891a6b"
+    },
+    {
+      "path": "figures/03_song_outcomes.svg",
+      "bytes": 194710,
+      "sha256": "63dbef86aa67ebaaa5176eea425b4b164c036738bd4c19ec95fc8586ef0cff52"
+    },
+    {
+      "path": "figures/04_ratings_and_downloads.png",
+      "bytes": 119247,
+      "sha256": "b57b64dc3ebadcec62afb3633c1b7f0cdeb49341112347acb74113b616718037"
+    },
+    {
+      "path": "figures/04_ratings_and_downloads.svg",
+      "bytes": 61027,
+      "sha256": "3031a0f24ec8da7cb071be81fe1a5d187c56ff903d56b5e6f5f704acc6a0f640"
+    },
+    {
+      "path": "figures/05_recorded_history.png",
+      "bytes": 134269,
+      "sha256": "e41064f681138f77d6991027e76b94f0078d4450b93bb0e2de164df7b428f843"
+    },
+    {
+      "path": "figures/05_recorded_history.svg",
+      "bytes": 56632,
+      "sha256": "c0e2a2cbd1da00bdce07c488e5b086ce3824f60fc030f302880bee32edd47cea"
+    },
+    {
+      "path": "figures/06_prefix_stability.png",
+      "bytes": 125311,
+      "sha256": "726ffbc045fb39e08937ed29f8c140e8594e9b1333376bece3fd05cbd9046b0e"
+    },
+    {
+      "path": "figures/06_prefix_stability.svg",
+      "bytes": 60120,
+      "sha256": "2c5e3f81180911d829d2b35101c0fb0b0766e3949ef78a4e8b4b6e8bdb048159"
+    },
+    {
+      "path": "figures/v1_comparisons.png",
+      "bytes": 129994,
+      "sha256": "ff55305b0132e42204f978d135e2f06901885cb6295f13afe495a32ebb9a8e18"
+    },
+    {
+      "path": "history.json",
+      "bytes": 75854,
+      "sha256": "b73a9717086db19ad05e49721a9f6bea1aa12de594962c6e2911629ffeb69f6e"
+    },
+    {
+      "path": "song_worlds.csv",
+      "bytes": 27633,
+      "sha256": "29369297cba54dc9079eb73928f1f6d9c9235ab82a791905c90562b213779688"
+    },
+    {
+      "path": "split_examples.json",
+      "bytes": 4631,
+      "sha256": "58679b4c7c7235b2b5c435f9e37d5d194851ff27bf0060c8348ad6f241eece76"
+    },
+    {
+      "path": "v1.json",
+      "bytes": 68632,
+      "sha256": "84a92b25c549d8e34116ef66260392064bf54011e55569317a1ab0caf7edda83"
+    }
+  ]
+}

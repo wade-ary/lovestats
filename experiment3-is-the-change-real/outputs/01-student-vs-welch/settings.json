@@ -1,0 +1,31 @@
+{
+  "seed": 20261125,
+  "simulation_seed": 20261126,
+  "repetitions": 20000,
+  "alpha": 0.05,
+  "population_means": [
+    60,
+    60
+  ],
+  "distribution": "normal",
+  "scenarios": [
+    {
+      "scenario": "1 \u00b7 Equal variability",
+      "n_a": 50,
+      "n_b": 50,
+      "sd_a": 5,
+      "sd_b": 5
+    },
+    {
+      "scenario": "2 \u00b7 Unequal variability",
+      "n_a": 20,
+      "n_b": 100,
+      "sd_a": 15,
+      "sd_b": 5
+    }
+  ],
+  "python": "3.11.3",
+  "numpy": "1.26.4",
+  "scipy": "1.14.1",
+  "pandas": "2.3.1"
+}

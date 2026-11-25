@@ -1,0 +1,4 @@
+scenario,average_sample_mean_difference,average_sample_probability_b_beats_a
+Identical distributions,-0.052804416425001624,0.49989281
+Broad shift,19.714519146800146,0.5939785899999999
+Rare big spenders,19.88347404647547,0.5219872499999999

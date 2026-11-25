@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "participants": 7149,
+  "songs": 48,
+  "total_downloads": 8203,
+  "total_unique_listens": 27365,
+  "anomalies": {
+    "empty_download_event_rows": 3,
+    "downloads_without_recorded_listen": 29,
+    "ratings_without_recorded_listen": 36
+  },
+  "source_sha256": "b9e021bc314e86e87dd25de18415621cbaa77284b5b3286c64c74258b96f2613",
+  "checks_passed": [
+    "participant assignments",
+    "matrix ranges",
+    "per-song totals",
+    "event-user-song reconciliation",
+    "unique listens versus event log",
+    "screen permutations",
+    "song metadata and MP3 IDs"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "seed": 20261126,
+  "n_splits": 10000,
+  "gini_comparison_fraction_720": 0.012225,
+  "gini_comparison_fraction_721": 0.012675,
+  "gini_comparison_monte_carlo_se": 0.0005044357075369505,
+  "u_comparison_fraction": 0.003721428571428571,
+  "u_comparison_monte_carlo_se": 0.00011503811218146988
+}

@@ -1,0 +1,28 @@
+{
+  "n_simulations": 1000,
+  "random_seed": 42,
+  "swiss_rounds": [
+    5,
+    7,
+    9
+  ],
+  "scale": 600.0,
+  "playoff_teams": 16,
+  "snapshot_file": "fifa-men-top32-2026-11-25.json",
+  "snapshot_metadata": {
+    "source_url": "https://inside.fifa.com/fifa-rankings/world-ranking/men",
+    "retrieved_date": "2026-11-25",
+    "page_updated_date": "2026-11-25",
+    "category": "men",
+    "source_status": "World ranking window Closed: Rankings approved by FIFA",
+    "provenance_note": "Transcribed from current rendered FIFA table, Points column, ranks 1–32. The 18 November FIFA news article places Morocco fifth; this current table places Portugal fifth, Brazil sixth and Morocco seventh. Preserves the current table as observed, not the historical 18 November release. Cause of difference is unverified."
+  },
+  "assumptions": "Fixed strengths, independent W/L matches, neutral venues, random standings ties.",
+  "swiss_pairing": "Minimum total absolute wins difference, random tie weights, no rematches; no backtracking.",
+  "paired_comparison": "League and league-plus-playoffs share each simulated league season.",
+  "versions": {
+    "numpy": "2.2.5",
+    "pandas": "2.2.3",
+    "networkx": "3.4.2"
+  }
+}

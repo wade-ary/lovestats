@@ -1,0 +1,966 @@
+[
+  {
+    "format": "Knockout (random)",
+    "simulations": 1000.0,
+    "mean_matches": 31.0,
+    "min_matches": 31.0,
+    "max_matches": 31.0,
+    "mean_rating_gap": 131.9708,
+    "gap_sd": 126.15678387021632,
+    "mean_champion_rank": 6.385,
+    "top_rated_win_rate": 0.198,
+    "gap_mc_se": 3.989427793114756,
+    "gap_ci_low": 124.15152152549507,
+    "gap_ci_high": 139.79007847450492,
+    "champions": [
+      {
+        "team": "Spain",
+        "count": 198
+      },
+      {
+        "team": "Argentina",
+        "count": 147
+      },
+      {
+        "team": "England",
+        "count": 128
+      },
+      {
+        "team": "France",
+        "count": 118
+      },
+      {
+        "team": "Portugal",
+        "count": 42
+      },
+      {
+        "team": "Brazil",
+        "count": 35
+      },
+      {
+        "team": "Belgium",
+        "count": 32
+      },
+      {
+        "team": "Morocco",
+        "count": 32
+      },
+      {
+        "team": "Germany",
+        "count": 30
+      },
+      {
+        "team": "Netherlands",
+        "count": 27
+      },
+      {
+        "team": "Colombia",
+        "count": 25
+      },
+      {
+        "team": "Japan",
+        "count": 22
+      },
+      {
+        "team": "Italy",
+        "count": 20
+      },
+      {
+        "team": "Mexico",
+        "count": 20
+      },
+      {
+        "team": "Croatia",
+        "count": 19
+      },
+      {
+        "team": "Senegal",
+        "count": 17
+      },
+      {
+        "team": "USA",
+        "count": 16
+      },
+      {
+        "team": "Switzerland",
+        "count": 15
+      },
+      {
+        "team": "Norway",
+        "count": 10
+      },
+      {
+        "team": "Ecuador",
+        "count": 6
+      },
+      {
+        "team": "Uruguay",
+        "count": 6
+      },
+      {
+        "team": "Austria",
+        "count": 5
+      },
+      {
+        "team": "Denmark",
+        "count": 5
+      },
+      {
+        "team": "Egypt",
+        "count": 5
+      },
+      {
+        "team": "Paraguay",
+        "count": 5
+      },
+      {
+        "team": "Algeria",
+        "count": 3
+      },
+      {
+        "team": "Canada",
+        "count": 3
+      },
+      {
+        "team": "IR Iran",
+        "count": 3
+      },
+      {
+        "team": "Australia",
+        "count": 2
+      },
+      {
+        "team": "C\u00f4te d'Ivoire",
+        "count": 2
+      },
+      {
+        "team": "Korea Republic",
+        "count": 1
+      },
+      {
+        "team": "Nigeria",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "format": "Knockout (seeded)",
+    "simulations": 1000.0,
+    "mean_matches": 31.0,
+    "min_matches": 31.0,
+    "max_matches": 31.0,
+    "mean_rating_gap": 106.85325999999999,
+    "gap_sd": 111.63947845149282,
+    "mean_champion_rank": 5.049,
+    "top_rated_win_rate": 0.225,
+    "gap_mc_se": 3.5303502870000494,
+    "gap_ci_low": 99.9337734374799,
+    "gap_ci_high": 113.77274656252008,
+    "champions": [
+      {
+        "team": "Spain",
+        "count": 225
+      },
+      {
+        "team": "Argentina",
+        "count": 163
+      },
+      {
+        "team": "France",
+        "count": 145
+      },
+      {
+        "team": "England",
+        "count": 140
+      },
+      {
+        "team": "Brazil",
+        "count": 44
+      },
+      {
+        "team": "Portugal",
+        "count": 43
+      },
+      {
+        "team": "Morocco",
+        "count": 37
+      },
+      {
+        "team": "Netherlands",
+        "count": 29
+      },
+      {
+        "team": "Belgium",
+        "count": 27
+      },
+      {
+        "team": "Colombia",
+        "count": 20
+      },
+      {
+        "team": "Italy",
+        "count": 16
+      },
+      {
+        "team": "Mexico",
+        "count": 16
+      },
+      {
+        "team": "Germany",
+        "count": 15
+      },
+      {
+        "team": "Switzerland",
+        "count": 14
+      },
+      {
+        "team": "Japan",
+        "count": 13
+      },
+      {
+        "team": "USA",
+        "count": 12
+      },
+      {
+        "team": "Croatia",
+        "count": 7
+      },
+      {
+        "team": "Senegal",
+        "count": 6
+      },
+      {
+        "team": "Denmark",
+        "count": 4
+      },
+      {
+        "team": "Korea Republic",
+        "count": 4
+      },
+      {
+        "team": "Australia",
+        "count": 3
+      },
+      {
+        "team": "Austria",
+        "count": 3
+      },
+      {
+        "team": "Nigeria",
+        "count": 3
+      },
+      {
+        "team": "Norway",
+        "count": 3
+      },
+      {
+        "team": "Canada",
+        "count": 2
+      },
+      {
+        "team": "C\u00f4te d'Ivoire",
+        "count": 1
+      },
+      {
+        "team": "Ecuador",
+        "count": 1
+      },
+      {
+        "team": "Egypt",
+        "count": 1
+      },
+      {
+        "team": "IR Iran",
+        "count": 1
+      },
+      {
+        "team": "Paraguay",
+        "count": 1
+      },
+      {
+        "team": "Uruguay",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "format": "World Cup (seeded groups)",
+    "simulations": 1000.0,
+    "mean_matches": 63.0,
+    "min_matches": 63.0,
+    "max_matches": 63.0,
+    "mean_rating_gap": 124.01133999999999,
+    "gap_sd": 121.02722227968857,
+    "mean_champion_rank": 5.882,
+    "top_rated_win_rate": 0.195,
+    "gap_mc_se": 3.8272168128729196,
+    "gap_ci_low": 116.50999504676906,
+    "gap_ci_high": 131.51268495323092,
+    "champions": [
+      {
+        "team": "Spain",
+        "count": 195
+      },
+      {
+        "team": "Argentina",
+        "count": 152
+      },
+      {
+        "team": "France",
+        "count": 141
+      },
+      {
+        "team": "England",
+        "count": 123
+      },
+      {
+        "team": "Portugal",
+        "count": 52
+      },
+      {
+        "team": "Brazil",
+        "count": 46
+      },
+      {
+        "team": "Morocco",
+        "count": 44
+      },
+      {
+        "team": "Belgium",
+        "count": 35
+      },
+      {
+        "team": "Netherlands",
+        "count": 28
+      },
+      {
+        "team": "Switzerland",
+        "count": 20
+      },
+      {
+        "team": "USA",
+        "count": 19
+      },
+      {
+        "team": "Italy",
+        "count": 16
+      },
+      {
+        "team": "Germany",
+        "count": 15
+      },
+      {
+        "team": "Colombia",
+        "count": 14
+      },
+      {
+        "team": "Mexico",
+        "count": 14
+      },
+      {
+        "team": "Croatia",
+        "count": 13
+      },
+      {
+        "team": "Norway",
+        "count": 13
+      },
+      {
+        "team": "Senegal",
+        "count": 8
+      },
+      {
+        "team": "Uruguay",
+        "count": 7
+      },
+      {
+        "team": "Australia",
+        "count": 6
+      },
+      {
+        "team": "Egypt",
+        "count": 6
+      },
+      {
+        "team": "Japan",
+        "count": 6
+      },
+      {
+        "team": "Denmark",
+        "count": 4
+      },
+      {
+        "team": "Ecuador",
+        "count": 4
+      },
+      {
+        "team": "Austria",
+        "count": 3
+      },
+      {
+        "team": "Canada",
+        "count": 3
+      },
+      {
+        "team": "IR Iran",
+        "count": 3
+      },
+      {
+        "team": "Korea Republic",
+        "count": 3
+      },
+      {
+        "team": "Algeria",
+        "count": 2
+      },
+      {
+        "team": "C\u00f4te d'Ivoire",
+        "count": 2
+      },
+      {
+        "team": "Paraguay",
+        "count": 2
+      },
+      {
+        "team": "Nigeria",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "format": "Swiss (5 rounds)",
+    "simulations": 1000.0,
+    "mean_matches": 80.0,
+    "min_matches": 80.0,
+    "max_matches": 80.0,
+    "mean_rating_gap": 135.65014,
+    "gap_sd": 130.24872164620612,
+    "mean_champion_rank": 6.598,
+    "top_rated_win_rate": 0.202,
+    "gap_mc_se": 4.118826227272873,
+    "gap_ci_low": 127.57724059454516,
+    "gap_ci_high": 143.7230394054548,
+    "champions": [
+      {
+        "team": "Spain",
+        "count": 202
+      },
+      {
+        "team": "Argentina",
+        "count": 146
+      },
+      {
+        "team": "England",
+        "count": 122
+      },
+      {
+        "team": "France",
+        "count": 111
+      },
+      {
+        "team": "Portugal",
+        "count": 42
+      },
+      {
+        "team": "Belgium",
+        "count": 38
+      },
+      {
+        "team": "Brazil",
+        "count": 35
+      },
+      {
+        "team": "Colombia",
+        "count": 32
+      },
+      {
+        "team": "Morocco",
+        "count": 32
+      },
+      {
+        "team": "Germany",
+        "count": 24
+      },
+      {
+        "team": "Mexico",
+        "count": 23
+      },
+      {
+        "team": "Netherlands",
+        "count": 23
+      },
+      {
+        "team": "Croatia",
+        "count": 20
+      },
+      {
+        "team": "Switzerland",
+        "count": 19
+      },
+      {
+        "team": "Italy",
+        "count": 18
+      },
+      {
+        "team": "Japan",
+        "count": 14
+      },
+      {
+        "team": "USA",
+        "count": 12
+      },
+      {
+        "team": "Senegal",
+        "count": 11
+      },
+      {
+        "team": "Norway",
+        "count": 10
+      },
+      {
+        "team": "IR Iran",
+        "count": 9
+      },
+      {
+        "team": "Uruguay",
+        "count": 9
+      },
+      {
+        "team": "Ecuador",
+        "count": 7
+      },
+      {
+        "team": "Austria",
+        "count": 6
+      },
+      {
+        "team": "Korea Republic",
+        "count": 6
+      },
+      {
+        "team": "C\u00f4te d'Ivoire",
+        "count": 5
+      },
+      {
+        "team": "Algeria",
+        "count": 4
+      },
+      {
+        "team": "Australia",
+        "count": 4
+      },
+      {
+        "team": "Canada",
+        "count": 4
+      },
+      {
+        "team": "Denmark",
+        "count": 4
+      },
+      {
+        "team": "Egypt",
+        "count": 4
+      },
+      {
+        "team": "Nigeria",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "format": "Swiss (7 rounds)",
+    "simulations": 1000.0,
+    "mean_matches": 112.0,
+    "min_matches": 112.0,
+    "max_matches": 112.0,
+    "mean_rating_gap": 118.06939999999999,
+    "gap_sd": 119.20638713245687,
+    "mean_champion_rank": 5.659,
+    "top_rated_win_rate": 0.214,
+    "gap_mc_se": 3.7696369497835174,
+    "gap_ci_low": 110.68091157842429,
+    "gap_ci_high": 125.45788842157569,
+    "champions": [
+      {
+        "team": "Spain",
+        "count": 214
+      },
+      {
+        "team": "Argentina",
+        "count": 160
+      },
+      {
+        "team": "England",
+        "count": 132
+      },
+      {
+        "team": "France",
+        "count": 132
+      },
+      {
+        "team": "Morocco",
+        "count": 42
+      },
+      {
+        "team": "Brazil",
+        "count": 35
+      },
+      {
+        "team": "Portugal",
+        "count": 35
+      },
+      {
+        "team": "Belgium",
+        "count": 28
+      },
+      {
+        "team": "Colombia",
+        "count": 26
+      },
+      {
+        "team": "Germany",
+        "count": 25
+      },
+      {
+        "team": "Netherlands",
+        "count": 23
+      },
+      {
+        "team": "Mexico",
+        "count": 19
+      },
+      {
+        "team": "Japan",
+        "count": 17
+      },
+      {
+        "team": "Italy",
+        "count": 16
+      },
+      {
+        "team": "Switzerland",
+        "count": 16
+      },
+      {
+        "team": "Croatia",
+        "count": 15
+      },
+      {
+        "team": "USA",
+        "count": 13
+      },
+      {
+        "team": "Senegal",
+        "count": 12
+      },
+      {
+        "team": "Norway",
+        "count": 7
+      },
+      {
+        "team": "Uruguay",
+        "count": 6
+      },
+      {
+        "team": "C\u00f4te d'Ivoire",
+        "count": 5
+      },
+      {
+        "team": "Austria",
+        "count": 3
+      },
+      {
+        "team": "Denmark",
+        "count": 3
+      },
+      {
+        "team": "Egypt",
+        "count": 3
+      },
+      {
+        "team": "IR Iran",
+        "count": 3
+      },
+      {
+        "team": "Australia",
+        "count": 2
+      },
+      {
+        "team": "Korea Republic",
+        "count": 2
+      },
+      {
+        "team": "Paraguay",
+        "count": 2
+      },
+      {
+        "team": "Algeria",
+        "count": 1
+      },
+      {
+        "team": "Canada",
+        "count": 1
+      },
+      {
+        "team": "Ecuador",
+        "count": 1
+      },
+      {
+        "team": "Nigeria",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "format": "Swiss (9 rounds)",
+    "simulations": 1000.0,
+    "mean_matches": 144.0,
+    "min_matches": 144.0,
+    "max_matches": 144.0,
+    "mean_rating_gap": 103.3351,
+    "gap_sd": 109.72126824775543,
+    "mean_champion_rank": 4.934,
+    "top_rated_win_rate": 0.225,
+    "gap_mc_se": 3.4696911542521915,
+    "gap_ci_low": 96.5345053376657,
+    "gap_ci_high": 110.13569466233429,
+    "champions": [
+      {
+        "team": "Spain",
+        "count": 225
+      },
+      {
+        "team": "Argentina",
+        "count": 179
+      },
+      {
+        "team": "France",
+        "count": 151
+      },
+      {
+        "team": "England",
+        "count": 135
+      },
+      {
+        "team": "Portugal",
+        "count": 41
+      },
+      {
+        "team": "Brazil",
+        "count": 37
+      },
+      {
+        "team": "Morocco",
+        "count": 32
+      },
+      {
+        "team": "Netherlands",
+        "count": 28
+      },
+      {
+        "team": "Belgium",
+        "count": 27
+      },
+      {
+        "team": "USA",
+        "count": 18
+      },
+      {
+        "team": "Italy",
+        "count": 17
+      },
+      {
+        "team": "Switzerland",
+        "count": 17
+      },
+      {
+        "team": "Mexico",
+        "count": 15
+      },
+      {
+        "team": "Croatia",
+        "count": 14
+      },
+      {
+        "team": "Germany",
+        "count": 13
+      },
+      {
+        "team": "Colombia",
+        "count": 10
+      },
+      {
+        "team": "Senegal",
+        "count": 10
+      },
+      {
+        "team": "Norway",
+        "count": 7
+      },
+      {
+        "team": "Austria",
+        "count": 5
+      },
+      {
+        "team": "Ecuador",
+        "count": 4
+      },
+      {
+        "team": "IR Iran",
+        "count": 4
+      },
+      {
+        "team": "Japan",
+        "count": 3
+      },
+      {
+        "team": "Australia",
+        "count": 2
+      },
+      {
+        "team": "Uruguay",
+        "count": 2
+      },
+      {
+        "team": "Canada",
+        "count": 1
+      },
+      {
+        "team": "Denmark",
+        "count": 1
+      },
+      {
+        "team": "Korea Republic",
+        "count": 1
+      },
+      {
+        "team": "Nigeria",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "format": "League",
+    "simulations": 1000.0,
+    "mean_matches": 992.0,
+    "min_matches": 992.0,
+    "max_matches": 992.0,
+    "mean_rating_gap": 29.055939999999982,
+    "gap_sd": 30.883068708424172,
+    "mean_champion_rank": 2.023,
+    "top_rated_win_rate": 0.44,
+    "gap_mc_se": 0.9766083825409488,
+    "gap_ci_low": 27.141787570219723,
+    "gap_ci_high": 30.97009242978024,
+    "champions": [
+      {
+        "team": "Spain",
+        "count": 440
+      },
+      {
+        "team": "Argentina",
+        "count": 260
+      },
+      {
+        "team": "France",
+        "count": 156
+      },
+      {
+        "team": "England",
+        "count": 135
+      },
+      {
+        "team": "Brazil",
+        "count": 3
+      },
+      {
+        "team": "Portugal",
+        "count": 3
+      },
+      {
+        "team": "Morocco",
+        "count": 2
+      },
+      {
+        "team": "Belgium",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "format": "League + best-of-seven",
+    "simulations": 1000.0,
+    "mean_matches": 1074.738,
+    "min_matches": 1062.0,
+    "max_matches": 1087.0,
+    "mean_rating_gap": 43.31437999999999,
+    "gap_sd": 51.27239691003826,
+    "mean_champion_rank": 2.508,
+    "top_rated_win_rate": 0.334,
+    "gap_mc_se": 1.6213755533190024,
+    "gap_ci_low": 40.13648391549475,
+    "gap_ci_high": 46.492276084505235,
+    "champions": [
+      {
+        "team": "Spain",
+        "count": 334
+      },
+      {
+        "team": "Argentina",
+        "count": 241
+      },
+      {
+        "team": "France",
+        "count": 226
+      },
+      {
+        "team": "England",
+        "count": 143
+      },
+      {
+        "team": "Brazil",
+        "count": 14
+      },
+      {
+        "team": "Portugal",
+        "count": 11
+      },
+      {
+        "team": "Morocco",
+        "count": 9
+      },
+      {
+        "team": "Belgium",
+        "count": 7
+      },
+      {
+        "team": "Netherlands",
+        "count": 5
+      },
+      {
+        "team": "Mexico",
+        "count": 3
+      },
+      {
+        "team": "Colombia",
+        "count": 2
+      },
+      {
+        "team": "Japan",
+        "count": 2
+      },
+      {
+        "team": "Senegal",
+        "count": 1
+      },
+      {
+        "team": "Switzerland",
+        "count": 1
+      },
+      {
+        "team": "USA",
+        "count": 1
+      }
+    ]
+  }
+]

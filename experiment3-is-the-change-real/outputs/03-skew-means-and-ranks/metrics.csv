@@ -1,0 +1,7 @@
+scenario,test,repetitions,rejections,rejection_pct,mc_low_pct,mc_high_pct
+Identical distributions,Welch (means),20000,862,4.31,4.037211977051176,4.600336277755664
+Identical distributions,Mann–Whitney (ranks),20000,1014,5.07,4.774489300018942,5.382767059982619
+Broad shift,Welch (means),20000,9403,47.015,46.32392347205499,47.707222983199955
+Broad shift,Mann–Whitney (ranks),20000,12763,63.815,63.14642939492604,64.47826464884379
+Rare big spenders,Welch (means),20000,3146,15.73,15.232002054534355,16.241160096751056
+Rare big spenders,Mann–Whitney (ranks),20000,1662,8.309999999999999,7.935403320752771,8.700608645605232

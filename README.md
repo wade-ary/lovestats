@@ -2,6 +2,16 @@
 
 Started 24 November 2026. Updated 25 November: initial data snapshot and pairwise probability notebook completed; tournament comparison notebook implemented with a 1,000-tournament batch per format setting (see below).
 
+## Experiment 3 · Is the change real? — 25 November 2026
+
+[Project and series plan](experiment3-is-the-change-real/README.md) · [First notebook: Student’s vs Welch’s](experiment3-is-the-change-real/01_student_vs_welch.ipynb). Compact test reviews with fair comparisons, starting with simulated equal and unequal variability. The first comparison uses 20,000 repetitions per scenario to measure false positives; multiple-testing corrections are planned as a later layer. The [second notebook](experiment3-is-the-change-real/02_paired_before_after.ipynb) now demonstrates how preserving before/after pairs retains power when starting levels vary, with a null false-alarm check and website presentation brief.
+
+[Third notebook: skew, means and ranks](experiment3-is-the-change-real/03_skew_means_and_ranks.ipynb) compares a broad spending shift with rare large purchases at the same 40% mean lift, highlighting their different rank effects.
+
+[Fourth notebook: ANOVA and multiple comparisons](experiment3-is-the-change-real/04_anova_and_multiple_comparisons.ipynb) demonstrates family-wise false alarms and within-versus-between variation; includes saved curves and a website slider brief.
+
+[Fifth notebook: chi-square and Fisher’s exact](experiment3-is-the-change-real/05_chi_square_and_fisher.ipynb) introduces independent 2×2 tables, expected counts, sparse-count calibration and the exact-test distinction. Paired categorical work remains deferred.
+
 ## Purpose and feel
 
 Build multiple small, interactive projects exploring modelling, statistics, and mathematical decision-making. Each should have a simple, relatable question, useful mathematical depth, and room to connect the concept to other real-world situations. Websites are a possible way to share the experiments.
@@ -81,7 +91,34 @@ These are a menu of future experiments, not a syllabus to implement all at once.
 - Compare results across match budgets; consider expected champion strength or regret alongside strongest-team win rate.
 - Initial top-32 data snapshot selected. Selected formats and match model are implemented in notebook 02. No billing or deployment has been set up.
 
-## Other ideas retained for later
+## Ideas bank
+
+### Selected second project: Music Lab v1
+
+**Current scope:** the original first Music Lab experiment only, as a standalone causal-design story. The four original source experiments remain preserved, but v2–v4 are excluded from the page.
+
+[Experiment README and notebook sequence](experiment2-woulld%20song%20be%20a%20hit%20in%208%20worlds/README.md) · [Website build handoff](experiment2-woulld%20song%20be%20a%20hit%20in%208%20worlds/WEBSITE_HANDOFF.md) · [Inspection record](experiment2-woulld%20song%20be%20a%20hit%20in%208%20worlds/inspection.md).
+
+Four executed notebooks cover design/data checks, main outcomes, song-level comparisons and robustness, observed download history and validated web exports. Ready-to-copy aggregate JSON/CSV and PNG/SVG figures live in the experiment's `web-assets/`. Main inequality/unpredictability directions reproduce; the reported < .01 inequality comparison threshold does not reproduce in our longer run (0.012225), while unpredictability does (0.003721). These are the authors' split-comparison fractions, not conventional null-randomization p-values. Original trajectory reconstruction is explicitly limited. The handoff includes the full interpretation and acceptance criteria; no second website page is built or published yet.
+
+### Causal inference brainstorm — 25 November 2026
+
+After the relaxed first experiment, “Does the best team win?”, Aryaman wants a fun causal-inference project with a catchy, reel-style question. Real data would be welcome; this is brainstorming only, with no second project selected.
+
+**Requested idea: do hotels just above a cutoff get a boost?** Aryaman recalls an example where treatment is assigned by a threshold, perhaps hotels above a score receiving a platform boost. The likely method is **regression discontinuity**: compare observations narrowly below and above the assignment cutoff. The exact example, platform, cutoff, and meaning of “boost” are unknown. Do not treat a hypothetical platform rule as established. Need the assignment score, actual treatment rule, and an outcome such as visibility or bookings; ratings alone are insufficient. A causal interpretation requires other determinants of the outcome to vary smoothly across the cutoff and no precise sorting that undermines comparability. The effect is local to the cutoff.
+
+Assistant-proposed options, not selected:
+
+**Follow-up direction:** Find an existing study with real data, cite it, and present it in a fun way to learn the causal design, assumptions, and outcomes the researchers cared about. Study selection and brainstorming come before building; a public paper alone is insufficient without usable data.
+
+**Promising new candidate — Music Lab:** “Would the same song become a hit in eight parallel worlds?” Salganik, Dodds and Watts (2006), *Experimental Study of Inequality and Unpredictability in an Artificial Cultural Market*, [paper record](https://pubmed.ncbi.nlm.nih.gov/16469928/), [author project page](https://www.princeton.edu/~mjs3/musiclab.shtml). Random assignment to independent choice versus seeing previous downloads, with eight separate social-influence worlds; the 2006 paper reports 14,341 participants. Researchers studied concentration of success and its unpredictability, not merely whether an individual likes a song. The [author's data page](https://www.princeton.edu/~mjs3/data.shtml) describes a public anonymized release of 167 CSVs across four experiments (27,267 participants total; do not confuse this with the 2006 sample). Current [Princeton archive record](https://datacommons.princeton.edu/discovery/catalog/doi-10-34770-y56c-ym90) was located, but browser access hit a connection-verification page; no files downloaded or inspected yet. Proposed display: follow the same song across observed worlds and compare markets with/without popularity information. Learning questions: random assignment, dependence within worlds, isolation between worlds, exclusions/attrition, operational meaning of quality, and generalization beyond this experimental market. This is a randomized experiment, not a cutoff design. Initially a candidate; subsequently selected as the second project, with data supplied locally and v1 reproduced as linked above. Yelp and early-upvote study data remain unverified.
+
+- **Can half a star fill a restaurant?** Displayed rating thresholds and reservation demand; closely related to the hotel idea. [Anderson–Magruder study](https://www.ocf.berkeley.edu/~jmagruder/Anderson%20and%20Magruder.pdf). Public replication-data availability not yet verified.
+- **Do fans help their team win—or influence the referee?** Crowdless football as a natural-experiment setting. [Benz–Lopez data and code](https://github.com/lbenz730/soccer_ha_covid). Pandemic-era changes complicate attributing a before/after difference to fans alone; referee-outcome coverage needs checking.
+- **Can one early like make a comment popular?** Randomized initial votes and social influence. [Original experiment](https://snap.stanford.edu/class/cs224w-readings/muchnik13bias.pdf). Public raw data not verified; a small consenting-participant experiment is another possible route.
+- **Does turning 21 change drinking overnight?** Age-cutoff regression discontinuity, with drinking and harm outcomes kept distinct. [Mixtape chapter](https://mixtape.scunning.com/06-regression_discontinuity); [CausalPy real-study mortality-data example](https://causalpy.readthedocs.io/en/latest/notebooks/rd_pymc_drinking.html). Accessible teaching data, but a less lighthearted topic.
+
+### Other ideas retained for later
 
 These are parked interests, not active assignments:
 
@@ -123,3 +160,7 @@ Swiss pairs all teams each round to minimise total current-win differences, with
 Learning recorded: Aryaman correctly connected the rating formula to relative weights and the scale parameter, distinguished the probability from the Bernoulli outcome draw, and identified increased evidence as the reason to expect a round robin to select more reliably. Unique matchups number 32 × 31 / 2 = 496. The same league season is reused for its playoff extension so their rating-gap difference can be examined as a paired comparison. All format results remain conditional on the simplified W/L model, fixed strengths, neutral venues and specified tie-breaks.
 
 Estimation uncertainty discussion: distinguished the SD of individual tournament rating gaps from the Monte Carlo SE of their mean (SD / sqrt(number of tournaments)). Approximate confidence intervals describe the model-conditional long-run average gap, not individual tournament outcomes or match-model validity. Aryaman confirmed the distinction and selected batches of 1,000 tournaments.
+
+## lovestats local website — 25 November 2026
+
+The [website](website/index.html) presents an experiments gallery and interactive tournament exploration. It includes fresh random/seeded knockout demos and a selectable chart of all eight saved configurations. [Run and refresh instructions](website/README.md). Source notebooks and original data remain unchanged; website copies are prepared with `python3 website/prepare_data.py`. This first pass is local-only; no publication or push.

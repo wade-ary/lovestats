@@ -8,3 +8,6 @@ node_modules/
 .env
 .env.*
 !.env.example
+
+# Optional source audio exceeds GitHub file-size limit; retained locally.
+/experiment2-woulld song be a hit in 8 worlds/musiclab_songs.zip

@@ -1,0 +1,17 @@
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {validateMain,validateHistory,validateSplits,rank,share,gini,sum} from './musiclab-data.js';
+const read=name=>JSON.parse(readFileSync(new URL('./data/musiclab-v1/'+name,import.meta.url)));
+const d=validateMain(read('v1.json')),h=validateHistory(read('history.json'),d),s=validateSplits(read('split_examples.json'),d);
+const gnaw=d.song_ids.indexOf('306121');
+assert.deepEqual(d.worlds.slice(0,8).map(w=>w.ranks[gnaw]),[21,31,19,7,24,22,45,10]);
+assert.equal(d.worlds[8].participants,1441);
+assert.equal(sum(d.worlds.slice(0,8).map(w=>w.participants)),5708);
+assert.equal(d.metrics.independent_gini_mean.toFixed(6),'0.257781');
+assert.equal((d.metrics.independent_u_mean*100).toFixed(3),'0.492');
+assert.equal((d.metrics.social_u_mean*100).toFixed(3),'0.821');
+assert.equal(d.metrics.u_ratio.toFixed(2),'1.67');
+assert.equal(rank([2,2,1],0),1);assert.equal(rank([2,2,1],2),3);
+assert.equal(rank([0,0],0),null);assert.equal(share([0,0],0),null);assert.equal(gini([0,0]),null);
+assert.equal(h.dates.length,69);assert.equal(s.splits.length,12);
+console.log('Music Lab: 48 songs, all 9 world vectors/ranks/shares, 69 history states, 12 split reconciliations and headline metrics verified.');

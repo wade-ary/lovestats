@@ -1,0 +1,272 @@
+[
+  {
+    "groups":2,
+    "comparisons":1,
+    "method":"Uncorrected pairs",
+    "repetitions":20000,
+    "rejections":971,
+    "rate_pct":4.855,
+    "mc_low_pct":4.5657060837,
+    "mc_high_pct":5.1616328518
+  },
+  {
+    "groups":2,
+    "comparisons":1,
+    "method":"Bonferroni pairs",
+    "repetitions":20000,
+    "rejections":971,
+    "rate_pct":4.855,
+    "mc_low_pct":4.5657060837,
+    "mc_high_pct":5.1616328518
+  },
+  {
+    "groups":2,
+    "comparisons":1,
+    "method":"One ANOVA",
+    "repetitions":20000,
+    "rejections":971,
+    "rate_pct":4.855,
+    "mc_low_pct":4.5657060837,
+    "mc_high_pct":5.1616328518
+  },
+  {
+    "groups":3,
+    "comparisons":3,
+    "method":"Uncorrected pairs",
+    "repetitions":20000,
+    "rejections":2395,
+    "rate_pct":11.975,
+    "mc_low_pct":11.5323261623,
+    "mc_high_pct":12.4322781797
+  },
+  {
+    "groups":3,
+    "comparisons":3,
+    "method":"Bonferroni pairs",
+    "repetitions":20000,
+    "rejections":856,
+    "rate_pct":4.28,
+    "mc_low_pct":4.0081542924,
+    "mc_high_pct":4.5694054845
+  },
+  {
+    "groups":3,
+    "comparisons":3,
+    "method":"One ANOVA",
+    "repetitions":20000,
+    "rejections":970,
+    "rate_pct":4.85,
+    "mc_low_pct":4.5608525383,
+    "mc_high_pct":5.1564883176
+  },
+  {
+    "groups":4,
+    "comparisons":6,
+    "method":"Uncorrected pairs",
+    "repetitions":20000,
+    "rejections":4015,
+    "rate_pct":20.075,
+    "mc_low_pct":19.5256306586,
+    "mc_high_pct":20.6358626994
+  },
+  {
+    "groups":4,
+    "comparisons":6,
+    "method":"Bonferroni pairs",
+    "repetitions":20000,
+    "rejections":794,
+    "rate_pct":3.97,
+    "mc_low_pct":3.7081185514,
+    "mc_high_pct":4.249560288
+  },
+  {
+    "groups":4,
+    "comparisons":6,
+    "method":"One ANOVA",
+    "repetitions":20000,
+    "rejections":948,
+    "rate_pct":4.74,
+    "mc_low_pct":4.4540968398,
+    "mc_high_pct":5.043286264
+  },
+  {
+    "groups":5,
+    "comparisons":10,
+    "method":"Uncorrected pairs",
+    "repetitions":20000,
+    "rejections":5636,
+    "rate_pct":28.18,
+    "mc_low_pct":27.560750614,
+    "mc_high_pct":28.8076298395
+  },
+  {
+    "groups":5,
+    "comparisons":10,
+    "method":"Bonferroni pairs",
+    "repetitions":20000,
+    "rejections":767,
+    "rate_pct":3.835,
+    "mc_low_pct":3.5775946094,
+    "mc_high_pct":4.1101360796
+  },
+  {
+    "groups":5,
+    "comparisons":10,
+    "method":"One ANOVA",
+    "repetitions":20000,
+    "rejections":966,
+    "rate_pct":4.83,
+    "mc_low_pct":4.5414392302,
+    "mc_high_pct":5.1359093071
+  },
+  {
+    "groups":6,
+    "comparisons":15,
+    "method":"Uncorrected pairs",
+    "repetitions":20000,
+    "rejections":7339,
+    "rate_pct":36.695,
+    "mc_low_pct":36.0296464644,
+    "mc_high_pct":37.365463615
+  },
+  {
+    "groups":6,
+    "comparisons":15,
+    "method":"Bonferroni pairs",
+    "repetitions":20000,
+    "rejections":767,
+    "rate_pct":3.835,
+    "mc_low_pct":3.5775946094,
+    "mc_high_pct":4.1101360796
+  },
+  {
+    "groups":6,
+    "comparisons":15,
+    "method":"One ANOVA",
+    "repetitions":20000,
+    "rejections":933,
+    "rate_pct":4.665,
+    "mc_low_pct":4.3813337912,
+    "mc_high_pct":4.966078118
+  },
+  {
+    "groups":7,
+    "comparisons":21,
+    "method":"Uncorrected pairs",
+    "repetitions":20000,
+    "rejections":8809,
+    "rate_pct":44.045,
+    "mc_low_pct":43.3581890264,
+    "mc_high_pct":44.7340981231
+  },
+  {
+    "groups":7,
+    "comparisons":21,
+    "method":"Bonferroni pairs",
+    "repetitions":20000,
+    "rejections":769,
+    "rate_pct":3.845,
+    "mc_low_pct":3.5872600521,
+    "mc_high_pct":4.1204667963
+  },
+  {
+    "groups":7,
+    "comparisons":21,
+    "method":"One ANOVA",
+    "repetitions":20000,
+    "rejections":988,
+    "rate_pct":4.94,
+    "mc_low_pct":4.6482295811,
+    "mc_high_pct":5.2490767082
+  },
+  {
+    "groups":8,
+    "comparisons":28,
+    "method":"Uncorrected pairs",
+    "repetitions":20000,
+    "rejections":10172,
+    "rate_pct":50.86,
+    "mc_low_pct":50.1670519554,
+    "mc_high_pct":51.5526177426
+  },
+  {
+    "groups":8,
+    "comparisons":28,
+    "method":"Bonferroni pairs",
+    "repetitions":20000,
+    "rejections":774,
+    "rate_pct":3.87,
+    "mc_low_pct":3.6114257829,
+    "mc_high_pct":4.1462914636
+  },
+  {
+    "groups":8,
+    "comparisons":28,
+    "method":"One ANOVA",
+    "repetitions":20000,
+    "rejections":996,
+    "rate_pct":4.98,
+    "mc_low_pct":4.6870727042,
+    "mc_high_pct":5.2902182222
+  },
+  {
+    "groups":9,
+    "comparisons":36,
+    "method":"Uncorrected pairs",
+    "repetitions":20000,
+    "rejections":11501,
+    "rate_pct":57.505,
+    "mc_low_pct":56.8185217034,
+    "mc_high_pct":58.1885958354
+  },
+  {
+    "groups":9,
+    "comparisons":36,
+    "method":"Bonferroni pairs",
+    "repetitions":20000,
+    "rejections":764,
+    "rate_pct":3.82,
+    "mc_low_pct":3.5630973615,
+    "mc_high_pct":4.0946390886
+  },
+  {
+    "groups":9,
+    "comparisons":36,
+    "method":"One ANOVA",
+    "repetitions":20000,
+    "rejections":992,
+    "rate_pct":4.96,
+    "mc_low_pct":4.6676504667,
+    "mc_high_pct":5.2696481413
+  },
+  {
+    "groups":10,
+    "comparisons":45,
+    "method":"Uncorrected pairs",
+    "repetitions":20000,
+    "rejections":12624,
+    "rate_pct":63.12,
+    "mc_low_pct":62.4488696308,
+    "mc_high_pct":63.7860913431
+  },
+  {
+    "groups":10,
+    "comparisons":45,
+    "method":"Bonferroni pairs",
+    "repetitions":20000,
+    "rejections":747,
+    "rate_pct":3.735,
+    "mc_low_pct":3.4809673445,
+    "mc_high_pct":4.0068017518
+  },
+  {
+    "groups":10,
+    "comparisons":45,
+    "method":"One ANOVA",
+    "repetitions":20000,
+    "rejections":1004,
+    "rate_pct":5.02,
+    "mc_low_pct":4.7259212048,
+    "mc_high_pct":5.3313543588
+  }
+]

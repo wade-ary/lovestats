@@ -1,0 +1,7 @@
+numpy
+pandas
+scipy>=1.11
+matplotlib>=3.9
+nbformat
+nbclient
+ipykernel

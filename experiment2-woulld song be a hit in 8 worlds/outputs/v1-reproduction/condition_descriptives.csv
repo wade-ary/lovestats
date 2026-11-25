@@ -1,0 +1,3 @@
+condition,participants,listens,downloads,zero_download_participants,ratings_recorded,rating_sum,download_and_listen,raw_listen_event_rows,raw_download_event_rows,mean_downloads_per_participant,mean_listens_per_participant,mean_recorded_rating,downloads_divided_by_listens,download_rate_among_recorded_listens
+independent,1441,5394,1578,1038,4950,14706,1564,5776,1578,1.0950728660652325,3.74323386537127,2.9709090909090907,0.2925472747497219,0.2899517982944012
+social,5708,21971,6625,3966,20114,60707,6610,23410,6628,1.1606517168885775,3.849159074982481,3.0181465645818832,0.30153384006189976,0.30085112193345775
